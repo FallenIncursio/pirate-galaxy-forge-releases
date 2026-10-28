@@ -1,14 +1,16 @@
 # Pirate Galaxy Forge
 
-Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.5-preview.1**.
+Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.6-preview.1**.
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.5-preview.1/PirateGalaxyForge-0.1.0-alpha.5-preview.1-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.5-preview.1)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.6-preview.1/PirateGalaxyForge-0.1.0-alpha.6-preview.1-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.6-preview.1)
 
-**Neu:** Komponenten durch langes Halten und Ziehen umordnen, aktive Restzeiten vor der Abklingzeit, optionale Quantensprung-Reichweite und Bauplangruppen nach Teilezahl. Der Starter bietet Forge (64 Bit) sowie den installierten offiziellen Client (32 Bit) an.
+**Neu:** passive Pinganzeige mit drei Netzbalken, ein lokaler Ein-/Aus-Schalter für globale Angriffe auf seltene Mantis, geschützte Anmeldespeicherung und ein abgesicherter Updater. Dazu kommen optionale Mission-/Staffel- und Kryonitanzeigen sowie berechnete Sirius-Reichweitenfenster. Ihre Daten- und Testgrenzen stehen in den Releasehinweisen.
 
-Das Spielpaket kommt beim nächsten Start automatisch. **Für die neue Clientauswahl einmal das neue Setup ausführen**, nachdem das Spiel normal beendet wurde: Der Starter aktualisiert sich noch nicht selbst. Gespeicherte Forge-Anmeldedaten und Einstellungen werden bei Updates übernommen; der feste Spielprozess-Pfad erhält die Zuordnung im Windows-Lautstärkemixer.
+**Bestehende Nutzer: Spiel normal beenden und einmal das neue Setup ausführen.** Der alte Starter versteht das neue Manifestformat nicht. Sein alter Kanal bleibt auf Alpha 5; der neue Starter nutzt `channel-alpha-v2`. Ab Starterrevision 2 können auch Starter und geprüfte Laufzeitpakete automatisch aktualisiert werden. Der Starter bietet weiterhin Forge (64 Bit) und den installierten offiziellen Client (32 Bit) an.
 
-Die neuen Bedienfunktionen sind technisch geprüft. Vollständige Spieltests der Umsortierung und des Quantensprung-Rings stehen noch aus; siehe Releasehinweise. Diese Veröffentlichung ist weiterhin eine experimentelle Alpha.
+Anmeldedaten werden lokal mit Windows DPAPI geschützt; Forge-Einstellungen und der feste Prozesspfad für die Windows-Lautstärke bleiben über Updates erhalten. Die neuen Anzeigen verwenden vorhandene Clientdaten und schicken keine zusätzlichen Spielanfragen.
+
+Installer-, Paket-, native GUI- und automatisierte Funktionstests sind bestanden. Vollständige Live- und Langzeittests dieser Fassung stehen noch aus. **Die Veröffentlichung bleibt eine experimentelle Alpha.**
 
 ## Installation
 
@@ -21,7 +23,7 @@ Windows 10/11 x64 und .NET Framework 4.8 werden benötigt. Forge arbeitet in ein
 
 ## Updates und Einstellungen
 
-Bei jedem Start prüft Forge den signierten Alpha-Updatefeed. Neue Clientversionen werden heruntergeladen, geprüft und erst danach aktiviert. Bei einem fehlgeschlagenen Update bleibt die vorhandene Version erhalten. FPS/VSync werden dauerhaft gespeichert; vorhandene Forge-Spieleinstellungen werden in die neue Version übernommen. Ein späterer Spielabsturz löst keinen automatischen Versionswechsel aus.
+Bei jedem Start prüft der neue Starter den signierten Alpha-Updatefeed `channel-alpha-v2`. Neue Clientversionen werden heruntergeladen, geprüft und erst danach aktiviert. Bei einem fehlgeschlagenen Update bleibt die vorhandene Version erhalten. Die unveränderlichen Programmdateien werden vor dem Start geprüft. Gespeicherte Anmeldedaten werden bei der ersten Verwendung migriert; die Verschlüsselung bindet sie an das Windows-Benutzerkonto. FPS/VSync werden dauerhaft gespeichert; vorhandene Forge-Spieleinstellungen werden in die neue Version übernommen. Ein späterer Spielabsturz löst keinen automatischen Versionswechsel aus.
 
 Der Installer selbst startet das Spiel nicht automatisch. Die Deinstallation entfernt Startanwendung und Verknüpfungen; heruntergeladene Spielkopien und Einstellungen unter `%LOCALAPPDATA%\PirateGalaxyForge` bleiben erhalten.
 
