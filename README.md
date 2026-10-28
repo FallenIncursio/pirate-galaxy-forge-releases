@@ -2,7 +2,9 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Die aktuelle öffentliche Testversion ist **0.1.0-alpha.3**.
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.3/PirateGalaxyForge-0.1.0-alpha.3-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.3)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.3-launcher.1/PirateGalaxyForge-0.1.0-alpha.3-launcher.1-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.3)
+
+**Starterkorrektur `0.1.0-alpha.3-launcher.1`:** Bestehende Forge-Nutzer bitte das neue Setup einmal nach normalem Spielende über die Installation ausführen. Es erhält gespeicherte Anmeldedaten bei künftigen Updates und verwendet einen festen Spielprozess-Pfad für die Windows-Lautstärke. Beim ersten Wechsel den gewünschten Windows-Pegel gegebenenfalls einmal neu einstellen. Der bisherige Starter aktualisiert sich noch nicht selbst; das Spielpaket bleibt Alpha 3.
 
 ## Installation
 
