@@ -1,12 +1,12 @@
 # Pirate Galaxy Forge
 
-Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.6-preview.1**.
+Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.7-preview.5**.
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.6-preview.1/PirateGalaxyForge-0.1.0-alpha.6-preview.1-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.6-preview.1)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.7-preview.5/PirateGalaxyForge-0.1.0-alpha.7-preview.5-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.7-preview.5)
 
-**Neu:** passive Pinganzeige mit drei Netzbalken, ein lokaler Ein-/Aus-Schalter für globale Angriffe auf seltene Mantis, geschützte Anmeldespeicherung und ein abgesicherter Updater. Dazu kommen optionale Mission-/Staffel- und Kryonitanzeigen sowie berechnete Sirius-Reichweitenfenster. Ihre Daten- und Testgrenzen stehen in den Releasehinweisen.
+**Neu:** besser lesbare Cooldown-/Aktivzeit, korrigierter Quantensprung-Kreis, angepasste Ping-/Komfortposition, AltGr-Zeichen im Login und Mantis-Siegmeldungsfilter. Dazu kommen freiwillige Diagnoseaufnahmen und ein Absturzdialog mit optionalem Berichtversand. Schattenflackern und native Speicherabstürze bleiben offen.
 
-**Bestehende Nutzer: Spiel normal beenden und einmal das neue Setup ausführen.** Der alte Starter versteht das neue Manifestformat nicht. Sein alter Kanal bleibt auf Alpha 5; der neue Starter nutzt `channel-alpha-v2`. Ab Starterrevision 2 können auch Starter und geprüfte Laufzeitpakete automatisch aktualisiert werden. Der Starter bietet weiterhin Forge (64 Bit) und den installierten offiziellen Client (32 Bit) an.
+**Bestehende Nutzer ab Starterrevision 2 erhalten das Update beim nächsten Forge-Start automatisch**, einschließlich des Starters (Revision 3). Nur bei einem älteren Starter ist einmal das aktuelle Setup nötig. Der alte Kanal bleibt auf Alpha 5; der aktuelle Starter nutzt `channel-alpha-v2`. Der Starter bietet weiterhin Forge (64 Bit) und den installierten offiziellen Client (32 Bit) an.
 
 Anmeldedaten werden lokal mit Windows DPAPI geschützt; Forge-Einstellungen und der feste Prozesspfad für die Windows-Lautstärke bleiben über Updates erhalten. Die neuen Anzeigen verwenden vorhandene Clientdaten und schicken keine zusätzlichen Spielanfragen.
 
@@ -30,6 +30,10 @@ Der Installer selbst startet das Spiel nicht automatisch. Die Deinstallation ent
 ## Freiwillige Aktivitätszählung
 
 Die Zählung ist standardmäßig **aus**. Bei Zustimmung werden während des Spiels alle zwei Minuten eine zufällige Installationskennung und die Version per HTTPS gesendet. Der Dienst speichert eine HMAC-Kennung, Version und letzte Aktivität, keine Spielkonten, Namen, Hardware- oder Standortdaten. IP-Adressen werden beim Zähler nicht protokolliert. Einträge verfallen nach sieben Tagen. Die Teilnahme lässt sich jederzeit über **Pirate Galaxy Forge - Einstellungen** ausschalten. Gezählt werden teilnehmende Installationen, nicht alle Spieler.
+
+## Freiwillige Fehlerberichte
+
+Nach einem unerwarteten Spielende kann ein Bericht mit Fehlercode, Version, Build-Prüfsumme und eigener Beschreibung gesendet werden. **Erst der Klick auf „Bericht senden“ überträgt Daten an das Forge-Team.** Ein Speicherabbild ist separat und standardmäßig abgewählt; es kann private Speicherinhalte enthalten. Rohlogs werden nicht mitgesendet. Serverberichte sind privat und werden nach 14 Tagen gelöscht. Lokale Diagnoseaufnahmen und der optionale native Rekorder sind in `DIAGNOSE.txt` erklärt.
 
 ## Alpha-Einschränkungen
 
