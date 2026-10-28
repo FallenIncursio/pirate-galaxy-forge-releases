@@ -1,10 +1,10 @@
 # Pirate Galaxy Forge
 
-Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Die aktuelle öffentliche Testversion ist **0.1.0-alpha.3**.
+Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Die aktuelle öffentliche Testversion ist **0.1.0-alpha.4**.
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.3-launcher.1/PirateGalaxyForge-0.1.0-alpha.3-launcher.1-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.3)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.4/PirateGalaxyForge-0.1.0-alpha.4-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.4)
 
-**Starterkorrektur `0.1.0-alpha.3-launcher.1`:** Bestehende Forge-Nutzer bitte das neue Setup einmal nach normalem Spielende über die Installation ausführen. Es erhält gespeicherte Anmeldedaten bei künftigen Updates und verwendet einen festen Spielprozess-Pfad für die Windows-Lautstärke. Beim ersten Wechsel den gewünschten Windows-Pegel gegebenenfalls einmal neu einstellen. Der bisherige Starter aktualisiert sich noch nicht selbst; das Spielpaket bleibt Alpha 3.
+**Startkorrektur Alpha 4:** Behebt den Fehler „payload.json konnte nicht gefunden werden“. Bestehende Nutzer bitte das neue Setup einmal nach normalem Spielende über die vorhandene Installation ausführen, weil sich der bisherige Starter noch nicht selbst aktualisiert. Danach lädt er das Alpha-4-Spielpaket automatisch. Gespeicherte Anmeldedaten werden bei künftigen Updates übernommen. Der feste Spielprozess-Pfad erhält die Windows-Lautstärke; beim ersten Wechsel den Pegel gegebenenfalls einmal neu einstellen.
 
 ## Installation
 
