@@ -1,8 +1,8 @@
 # Pirate Galaxy Forge
 
-Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Die erste öffentliche Version ist **0.1.0-alpha.2**.
+Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Die aktuelle öffentliche Testversion ist **0.1.0-alpha.3**.
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.2/PirateGalaxyForge-0.1.0-alpha.2-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.2)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.3/PirateGalaxyForge-0.1.0-alpha.3-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.3)
 
 ## Installation
 
