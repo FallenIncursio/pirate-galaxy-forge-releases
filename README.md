@@ -1,10 +1,14 @@
 # Pirate Galaxy Forge
 
-Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Die aktuelle öffentliche Testversion ist **0.1.0-alpha.4**.
+Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.5-preview.1**.
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.4/PirateGalaxyForge-0.1.0-alpha.4-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.4)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.5-preview.1/PirateGalaxyForge-0.1.0-alpha.5-preview.1-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.5-preview.1)
 
-**Startkorrektur Alpha 4:** Behebt den Fehler „payload.json konnte nicht gefunden werden“. Bestehende Nutzer bitte das neue Setup einmal nach normalem Spielende über die vorhandene Installation ausführen, weil sich der bisherige Starter noch nicht selbst aktualisiert. Danach lädt er das Alpha-4-Spielpaket automatisch. Gespeicherte Anmeldedaten werden bei künftigen Updates übernommen. Der feste Spielprozess-Pfad erhält die Windows-Lautstärke; beim ersten Wechsel den Pegel gegebenenfalls einmal neu einstellen.
+**Neu:** Komponenten durch langes Halten und Ziehen umordnen, aktive Restzeiten vor der Abklingzeit, optionale Quantensprung-Reichweite und Bauplangruppen nach Teilezahl. Der Starter bietet Forge (64 Bit) sowie den installierten offiziellen Client (32 Bit) an.
+
+Das Spielpaket kommt beim nächsten Start automatisch. **Für die neue Clientauswahl einmal das neue Setup ausführen**, nachdem das Spiel normal beendet wurde: Der Starter aktualisiert sich noch nicht selbst. Gespeicherte Forge-Anmeldedaten und Einstellungen werden bei Updates übernommen; der feste Spielprozess-Pfad erhält die Zuordnung im Windows-Lautstärkemixer.
+
+Die neuen Bedienfunktionen sind technisch geprüft. Vollständige Spieltests der Umsortierung und des Quantensprung-Rings stehen noch aus; siehe Releasehinweise. Diese Veröffentlichung ist weiterhin eine experimentelle Alpha.
 
 ## Installation
 
