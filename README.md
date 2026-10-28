@@ -1,10 +1,10 @@
 # Pirate Galaxy Forge
 
-Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.7-preview.5**.
+Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.7-preview.6**.
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.7-preview.5/PirateGalaxyForge-0.1.0-alpha.7-preview.5-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.7-preview.5)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.7-preview.6/PirateGalaxyForge-0.1.0-alpha.7-preview.6-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.7-preview.6)
 
-**Neu:** besser lesbare Cooldown-/Aktivzeit, korrigierter Quantensprung-Kreis, angepasste Ping-/Komfortposition, AltGr-Zeichen im Login und Mantis-Siegmeldungsfilter. Dazu kommen freiwillige Diagnoseaufnahmen und ein Absturzdialog mit optionalem Berichtversand. Schattenflackern und native Speicherabstürze bleiben offen.
+**Neu:** Ladefix für „Erde in Aufruhr“. Die Oberfläche lädt wieder; Landen und Fliegen wurden im Spiel bestätigt. Alle bisherigen Komfort- und Diagnosefunktionen bleiben enthalten. Schattenflackern und native Heap-Abstürze bleiben offen.
 
 **Bestehende Nutzer ab Starterrevision 2 erhalten das Update beim nächsten Forge-Start automatisch**, einschließlich des Starters (Revision 3). Nur bei einem älteren Starter ist einmal das aktuelle Setup nötig. Der alte Kanal bleibt auf Alpha 5; der aktuelle Starter nutzt `channel-alpha-v2`. Der Starter bietet weiterhin Forge (64 Bit) und den installierten offiziellen Client (32 Bit) an.
 
