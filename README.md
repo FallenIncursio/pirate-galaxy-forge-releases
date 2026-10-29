@@ -1,16 +1,16 @@
 # Pirate Galaxy Forge
 
-Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.7-preview.8**.
+Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.7-preview.9**.
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.7-preview.8/PirateGalaxyForge-0.1.0-alpha.7-preview.8-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.7-preview.8)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.7-preview.9/PirateGalaxyForge-0.1.0-alpha.7-preview.9-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.7-preview.9)
 
-**Neu:** Erweiterte Absturzberichte mit vorhandenen Fehlerstellen, Aufrufstellen und passenden Buildkennungen. Der Dienst kann wiederkehrende Fehler genauer gruppieren und nimmt weiterhin ältere Berichtsformate an. Der Starter wird auf Revision 4 aktualisiert. Spielbibliotheken, Java-Dateien und JVM-Einstellungen entsprechen Preview 7; deren Stabilitätskorrekturen und Komfortfunktionen bleiben enthalten.
+**Neu:** Kompakte Staffel-Erweiterung mit korrekten Spielernamen, größeren Originalsymbolen und gut lesbaren Lebensprozenten. Effekte zeigen eine Restlaufzeit, wenn ein passender aktiver Timer eindeutig bekannt ist; sonst steht „aktiv“. Die Kryonit-Anzeige bietet große Kennzahlen, aufklappbare Details, einen Heute/Farm-Wechsel mit Start/Pause und ein Positionsmenü.
 
-**Bestehende Nutzer ab Starterrevision 2 erhalten das Update beim nächsten Forge-Start automatisch**, einschließlich des Starters (Revision 4). Nur bei einem älteren Starter ist einmal das aktuelle Setup nötig. Der alte Kanal bleibt auf Alpha 5; der aktuelle Starter nutzt `channel-alpha-v2`. Der Starter bietet weiterhin Forge (64 Bit) und den installierten offiziellen Client (32 Bit) an.
+**Bestehende Nutzer ab Starterrevision 2 erhalten das Update beim nächsten Forge-Start automatisch.** Starterrevision 4 bleibt unverändert. Nur bei einem älteren Starter ist einmal das aktuelle Setup nötig. Der alte Kanal bleibt auf Alpha 5; der aktuelle Starter nutzt `channel-alpha-v2`. Der Starter bietet weiterhin Forge (64 Bit) und den installierten offiziellen Client (32 Bit) an.
 
 Anmeldedaten werden lokal mit Windows DPAPI geschützt; Forge-Einstellungen und der feste Prozesspfad für die Windows-Lautstärke bleiben über Updates erhalten. Die neuen Anzeigen verwenden vorhandene Clientdaten und schicken keine zusätzlichen Spielanfragen.
 
-Neuinstallation, Update von Preview 7 mit synthetischen Profilen, Rollback und Installerprüfung in einer separaten Sandbox sind bestanden. Geprüft sind außerdem der Starterwechsel von Revision 3 auf 4, die gepackten Reporter und beide Berichtsformate über HTTPS. Das installierte Paket bestand drei Grafik-/JNI-Teststarts. Ein realer Spielerabsturz wurde für diese Veröffentlichung nicht getestet; vollständige Live- und Langzeittests stehen weiterhin aus. **Die Veröffentlichung bleibt eine experimentelle Alpha.**
+Neuinstallation, Update von Preview 8 mit synthetischen Profilen, Rollback und Installerprüfung in einer separaten Sandbox sind bestanden. Dazu kommen 806 Logik-/Regression-Checks je Java 8 und Java 21, 54 native UI-Checks und drei Grafik-/JNI-Teststarts des Pakets. Der manuell getestete Sandbox-Kandidat wurde positiv bewertet. Öffentliche Downloads und der signierte Updateweg wurden geprüft. Allgemeine Restzeiten fremder Effekte sind weiterhin nicht verfügbar; vollständige Live- und Langzeittests stehen aus. **Die Veröffentlichung bleibt eine experimentelle Alpha.**
 
 ## Installation
 
