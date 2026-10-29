@@ -1,16 +1,16 @@
 # Pirate Galaxy Forge
 
-Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.7-preview.6**.
+Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.7-preview.7**.
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.7-preview.6/PirateGalaxyForge-0.1.0-alpha.7-preview.6-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.7-preview.6)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.7-preview.7/PirateGalaxyForge-0.1.0-alpha.7-preview.7-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.7-preview.7)
 
-**Neu:** Ladefix für „Erde in Aufruhr“. Die Oberfläche lädt wieder; Landen und Fliegen wurden im Spiel bestätigt. Alle bisherigen Komfort- und Diagnosefunktionen bleiben enthalten. Schattenflackern und native Heap-Abstürze bleiben offen.
+**Neu:** Erste Stabilitätskorrekturen für Audioobjekte, Render-Passes und GUI-Listen, korrigierte x64-Zeitmessung und weniger unnötige GUI-Suchen. Die lokale Diagnose erfasst zusätzlich Java-Puffer und native Ressourcenbestände. Ausgeliefert wird der normale Release-Build ohne AddressSanitizer. Der Ladefix für „Erde in Aufruhr“ und bisherige Komfortfunktionen bleiben enthalten. Einzelne Ruckler, Schattenflackern und weitere native Absturzursachen werden weiter untersucht.
 
 **Bestehende Nutzer ab Starterrevision 2 erhalten das Update beim nächsten Forge-Start automatisch**, einschließlich des Starters (Revision 3). Nur bei einem älteren Starter ist einmal das aktuelle Setup nötig. Der alte Kanal bleibt auf Alpha 5; der aktuelle Starter nutzt `channel-alpha-v2`. Der Starter bietet weiterhin Forge (64 Bit) und den installierten offiziellen Client (32 Bit) an.
 
 Anmeldedaten werden lokal mit Windows DPAPI geschützt; Forge-Einstellungen und der feste Prozesspfad für die Windows-Lautstärke bleiben über Updates erhalten. Die neuen Anzeigen verwenden vorhandene Clientdaten und schicken keine zusätzlichen Spielanfragen.
 
-Installer-, Paket-, native GUI- und automatisierte Funktionstests sind bestanden. Vollständige Live- und Langzeittests dieser Fassung stehen noch aus. **Die Veröffentlichung bleibt eine experimentelle Alpha.**
+Neuinstallation, Update von Preview 6 mit synthetischen Profilen, Rollback und Installerprüfung in einer separaten Sandbox sind bestanden. Das installierte Paket bestand drei Grafik-/JNI-Teststarts. Ein kurzer manueller Spieltest mit gleichem Clientinhalt blieb stabil; vollständige Live- und Langzeittests stehen noch aus. **Die Veröffentlichung bleibt eine experimentelle Alpha.**
 
 ## Installation
 
