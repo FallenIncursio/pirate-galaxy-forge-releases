@@ -1,16 +1,16 @@
 # Pirate Galaxy Forge
 
-Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.7-preview.7**.
+Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.7-preview.8**.
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.7-preview.7/PirateGalaxyForge-0.1.0-alpha.7-preview.7-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.7-preview.7)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.7-preview.8/PirateGalaxyForge-0.1.0-alpha.7-preview.8-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.7-preview.8)
 
-**Neu:** Erste Stabilitätskorrekturen für Audioobjekte, Render-Passes und GUI-Listen, korrigierte x64-Zeitmessung und weniger unnötige GUI-Suchen. Die lokale Diagnose erfasst zusätzlich Java-Puffer und native Ressourcenbestände. Ausgeliefert wird der normale Release-Build ohne AddressSanitizer. Der Ladefix für „Erde in Aufruhr“ und bisherige Komfortfunktionen bleiben enthalten. Einzelne Ruckler, Schattenflackern und weitere native Absturzursachen werden weiter untersucht.
+**Neu:** Erweiterte Absturzberichte mit vorhandenen Fehlerstellen, Aufrufstellen und passenden Buildkennungen. Der Dienst kann wiederkehrende Fehler genauer gruppieren und nimmt weiterhin ältere Berichtsformate an. Der Starter wird auf Revision 4 aktualisiert. Spielbibliotheken, Java-Dateien und JVM-Einstellungen entsprechen Preview 7; deren Stabilitätskorrekturen und Komfortfunktionen bleiben enthalten.
 
-**Bestehende Nutzer ab Starterrevision 2 erhalten das Update beim nächsten Forge-Start automatisch**, einschließlich des Starters (Revision 3). Nur bei einem älteren Starter ist einmal das aktuelle Setup nötig. Der alte Kanal bleibt auf Alpha 5; der aktuelle Starter nutzt `channel-alpha-v2`. Der Starter bietet weiterhin Forge (64 Bit) und den installierten offiziellen Client (32 Bit) an.
+**Bestehende Nutzer ab Starterrevision 2 erhalten das Update beim nächsten Forge-Start automatisch**, einschließlich des Starters (Revision 4). Nur bei einem älteren Starter ist einmal das aktuelle Setup nötig. Der alte Kanal bleibt auf Alpha 5; der aktuelle Starter nutzt `channel-alpha-v2`. Der Starter bietet weiterhin Forge (64 Bit) und den installierten offiziellen Client (32 Bit) an.
 
 Anmeldedaten werden lokal mit Windows DPAPI geschützt; Forge-Einstellungen und der feste Prozesspfad für die Windows-Lautstärke bleiben über Updates erhalten. Die neuen Anzeigen verwenden vorhandene Clientdaten und schicken keine zusätzlichen Spielanfragen.
 
-Neuinstallation, Update von Preview 6 mit synthetischen Profilen, Rollback und Installerprüfung in einer separaten Sandbox sind bestanden. Das installierte Paket bestand drei Grafik-/JNI-Teststarts. Ein kurzer manueller Spieltest mit gleichem Clientinhalt blieb stabil; vollständige Live- und Langzeittests stehen noch aus. **Die Veröffentlichung bleibt eine experimentelle Alpha.**
+Neuinstallation, Update von Preview 7 mit synthetischen Profilen, Rollback und Installerprüfung in einer separaten Sandbox sind bestanden. Geprüft sind außerdem der Starterwechsel von Revision 3 auf 4, die gepackten Reporter und beide Berichtsformate über HTTPS. Das installierte Paket bestand drei Grafik-/JNI-Teststarts. Ein realer Spielerabsturz wurde für diese Veröffentlichung nicht getestet; vollständige Live- und Langzeittests stehen weiterhin aus. **Die Veröffentlichung bleibt eine experimentelle Alpha.**
 
 ## Installation
 
@@ -33,7 +33,7 @@ Die Zählung ist standardmäßig **aus**. Bei Zustimmung werden während des Spi
 
 ## Freiwillige Fehlerberichte
 
-Nach einem unerwarteten Spielende kann ein Bericht mit Fehlercode, Version, Build-Prüfsumme und eigener Beschreibung gesendet werden. **Erst der Klick auf „Bericht senden“ überträgt Daten an das Forge-Team.** Ein Speicherabbild ist separat und standardmäßig abgewählt; es kann private Speicherinhalte enthalten. Rohlogs werden nicht mitgesendet. Serverberichte sind privat und werden nach 14 Tagen gelöscht. Lokale Diagnoseaufnahmen und der optionale native Rekorder sind in `DIAGNOSE.txt` erklärt.
+Nach einem unerwarteten Spielende kann ein Bericht mit Fehlercode, Version, Build-Prüfsumme und eigener Beschreibung gesendet werden. Aus einem passenden lokalen Speicherabbild können zusätzlich Bibliotheks- und Buildkennungen sowie relative Fehler-/Aufrufstellen übernommen werden. **Erst der Klick auf „Bericht senden“ überträgt Daten an das Forge-Team.** Das Speicherabbild selbst ist separat und standardmäßig abgewählt; es kann private Speicherinhalte enthalten. Rohlogs, lokale Pfade und absolute Speicheradressen werden nicht als Metadaten mitgesendet. Serverberichte sind privat und werden nach 14 Tagen gelöscht. Lokale Diagnoseaufnahmen und der optionale native Rekorder sind in `DIAGNOSE.txt` erklärt.
 
 ## Alpha-Einschränkungen
 
