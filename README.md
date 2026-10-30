@@ -1,16 +1,16 @@
 # Pirate Galaxy Forge
 
-Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.9**.
+Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.10**.
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.9/PirateGalaxyForge-0.1.0-alpha.9-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.9)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.10/PirateGalaxyForge-0.1.0-alpha.10-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.10)
 
-**Neu in Alpha 9:** Die Staffelanzeige behält passende Icons und verständliche Effektnamen, wenn unterschiedliche Komponentenvarianten zusammentreffen. Bekannte Effekttypen erhalten ihr Grundsymbol auch ohne sichtbare Ausrüstung. Nachgeladene Informationen ergänzen die Anzeige; Tooltips unterscheiden fehlende Effektdaten von einer Zeile ohne gemeldete Effekte. Alle veröffentlichten Verbesserungen aus Alpha 8 bleiben enthalten.
+**Neu in Alpha 10:** Automatische Erkennung der offiziellen Installation, Auflösung übergeordneter Launcher-Ordner und verständliche Pfad-/Versionsprüfung. Wiederinstallation und Starter-Updates behalten den gewählten Forge-Ordner bei. Die Ping-Anzeige oben links wird wieder regelmäßig aktualisiert. Bei älteren Startern außerhalb des Standardordners bitte das neue Setup einmal ausführen; danach funktionieren auch dort weitere Starter-Updates.
 
 **Bestehende Nutzer ab Starterrevision 2 erhalten das Update beim nächsten Forge-Start automatisch.** Starterrevision 4 bleibt unverändert. Nur bei einem älteren Starter ist einmal das aktuelle Setup nötig. Der alte Kanal bleibt auf Alpha 5; der aktuelle Starter nutzt `channel-alpha-v2`. Der Starter bietet weiterhin Forge (64 Bit) und den installierten offiziellen Client (32 Bit) an.
 
 Anmeldedaten werden lokal mit Windows DPAPI geschützt; Forge-Einstellungen und der feste Prozesspfad für die Windows-Lautstärke bleiben über Updates erhalten. Die neuen Anzeigen verwenden vorhandene Clientdaten und schicken keine zusätzlichen Spielanfragen.
 
-Neuinstallation, Update von Alpha 8 mit synthetischen Profilen, Rollback und Installerprüfung in einer separaten Sandbox sind bestanden. Dazu kommen 1.364 Logik-/Regression-Checks je Java 8 und Java 21, 77 native UI-Prüfungen sowie erneut mit den installierten Release-Dateien und drei Grafik-/JNI-Teststarts des Pakets. Öffentliche Downloads und der signierte Updateweg wurden geprüft. Der Ingame-Test dieses Staffel-Fixes und vollständige Langzeittests stehen aus. Laufzeiten erscheinen weiterhin nur bei belegten Timerdaten. **Die Veröffentlichung bleibt eine experimentelle Alpha.**
+Neuinstallation, Update von Alpha 9 mit synthetischen Profilen, Rollback, 32 echte Installerprüfungen in einer separaten Sandbox, 47 Pfad-/Einstellungsprüfungen und drei signierte Starter-Wechsel sind bestanden. Dazu kommen 1.370 Java-Prüfungen je Java 8 und Java 21, 102 native Ping-UI-Prüfungen sowie erneut mit den installierten Release-Dateien und drei Grafik-/JNI-Teststarts. Öffentliche Downloads und der signierte Updateweg wurden geprüft. Kein neuer Ingame-Langzeittest. **Die Veröffentlichung bleibt eine experimentelle Alpha.**
 
 ## Installation
 
