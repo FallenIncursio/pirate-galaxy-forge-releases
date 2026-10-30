@@ -1,16 +1,16 @@
 # Pirate Galaxy Forge
 
-Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.7-preview.10**.
+Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.8**.
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.7-preview.10/PirateGalaxyForge-0.1.0-alpha.7-preview.10-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.7-preview.10)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.8/PirateGalaxyForge-0.1.0-alpha.8-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.8)
 
-**Neu:** Der optionale Quantensprung-Radius erhält eine cyanweiße Mitte mit dunkler Kontur und gleichbleibender Strichbreite beim Zoomen. Er erscheint nur auf Planeten mit Quantensprung im eigenen aktiven Schiff und verschwindet in Orbit, Hangar, Sternkarte und bei Szenenwechseln. Die ursprüngliche Reichweitenberechnung bleibt erhalten. Staffel- und Kryonit-Verbesserungen aus Preview 9 sind weiterhin enthalten.
+**Neu in Alpha 8:** Nach der Zielauswahl in der Zielliste funktionieren die Komponenten-Tasten direkt wieder. Baupläne lassen sich über die belegte Sammel-Taste aufnehmen, ohne zuerst aus der Liste zu klicken oder die Kamera zu bewegen. Chat, Suchfelder und Dialoge behalten ihren Eingabeschutz. Alle veröffentlichten Verbesserungen bis Alpha 7 Preview 10 bleiben enthalten.
 
 **Bestehende Nutzer ab Starterrevision 2 erhalten das Update beim nächsten Forge-Start automatisch.** Starterrevision 4 bleibt unverändert. Nur bei einem älteren Starter ist einmal das aktuelle Setup nötig. Der alte Kanal bleibt auf Alpha 5; der aktuelle Starter nutzt `channel-alpha-v2`. Der Starter bietet weiterhin Forge (64 Bit) und den installierten offiziellen Client (32 Bit) an.
 
 Anmeldedaten werden lokal mit Windows DPAPI geschützt; Forge-Einstellungen und der feste Prozesspfad für die Windows-Lautstärke bleiben über Updates erhalten. Die neuen Anzeigen verwenden vorhandene Clientdaten und schicken keine zusätzlichen Spielanfragen.
 
-Neuinstallation, Update von Preview 9 mit synthetischen Profilen, Rollback und Installerprüfung in einer separaten Sandbox sind bestanden. Dazu kommen 1.272 Logik-/Regression-Checks je Java 8 und Java 21, 52 native Grafikprüfungen, dieselben Prüfungen mit den installierten Release-Dateien und drei Grafik-/JNI-Teststarts des Pakets. Öffentliche Downloads und der signierte Updateweg wurden geprüft. Ein neuer Livevergleich auf Calon/Erebos und vollständige Langzeittests stehen aus. **Die Veröffentlichung bleibt eine experimentelle Alpha.**
+Neuinstallation, Update von Preview 10 mit synthetischen Profilen, Rollback und Installerprüfung in einer separaten Sandbox sind bestanden. Dazu kommen 1.313 Logik-/Regression-Checks je Java 8 und Java 21, 41 native UI-/Eingabeprüfungen mit Gegenprobe ohne Fix sowie erneut mit den installierten Release-Dateien und drei Grafik-/JNI-Teststarts des Pakets. Öffentliche Downloads und der signierte Updateweg wurden geprüft. Der konkrete BP-Spieltest und vollständige Langzeittests stehen aus. Das späte Staffelerscheinen bleibt separat offen. **Die Veröffentlichung bleibt eine experimentelle Alpha.**
 
 ## Installation
 
