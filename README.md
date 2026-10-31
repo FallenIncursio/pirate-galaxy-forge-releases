@@ -1,16 +1,16 @@
 # Pirate Galaxy Forge
 
-Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.11**.
+Inoffizieller 64-Bit-Communityclient für Pirate Galaxy. Aktuelle öffentliche Alpha-Vorschau: **0.1.0-alpha.12**.
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.11/PirateGalaxyForge-0.1.0-alpha.11-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.11)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.12/PirateGalaxyForge-0.1.0-alpha.12-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.12)
 
-**Neu in Alpha 11:** Die Bauplanliste ergänzt das eigene Profil um einen lokalen Prelude-/Hitchhiker-Katalog mit 2.092 Referenzen. Auch noch nicht im Profil aufgeführte Einträge sind suchbar und merkbar. „Fehlend / ungeklärt“, „Nicht im Profil“ und bekannte Teilezahlen bleiben unterscheidbar; mehrdeutige Varianten werden nicht vermischt. Alle bisherigen Alpha-10-Korrekturen sind enthalten.
+**Neu in Alpha 12:** Doppelte Schiffs-Baupläne aus Alpha 11 sind für 59 zusätzlich zugeordnete Schiffe korrigiert, darunter Parsec, RDX, Ancient und ne0n. Katalogreferenz und bestätigter Profilfortschritt erscheinen gemeinsam. Unterschiedliche Sprachfassungen wie Emperor/Imperator und Locust Hybrid/Hybridschrecke werden über geprüfte Spielschlüssel verbunden. Vorhandene Merklisten bleiben erhalten; echte Varianten werden weiterhin getrennt. Alle bisherigen Alpha-11-Korrekturen sind enthalten.
 
-**Bestehende Nutzer ab Starterrevision 2 erhalten das Update beim nächsten Forge-Start automatisch.** Starterrevision 5 bleibt gegenüber Alpha 10 unverändert. Nur bei einem älteren Starter ist einmal das aktuelle Setup nötig. Der alte Kanal bleibt auf Alpha 5; der aktuelle Starter nutzt `channel-alpha-v2`. Der Starter bietet weiterhin Forge (64 Bit) und den installierten offiziellen Client (32 Bit) an.
+**Bestehende Nutzer ab Starterrevision 2 erhalten das Update beim nächsten Forge-Start automatisch.** Starterrevision 5 bleibt gegenüber Alpha 11 unverändert. Nur bei einem älteren Starter ist einmal das aktuelle Setup nötig. Der alte Kanal bleibt auf Alpha 5; der aktuelle Starter nutzt `channel-alpha-v2`. Der Starter bietet weiterhin Forge (64 Bit) und den installierten offiziellen Client (32 Bit) an.
 
 Anmeldedaten werden lokal mit Windows DPAPI geschützt; Forge-Einstellungen und der feste Prozesspfad für die Windows-Lautstärke bleiben über Updates erhalten. Die neuen Anzeigen verwenden vorhandene Clientdaten und schicken keine zusätzlichen Spielanfragen.
 
-Neuinstallation, Update von Alpha 10 mit synthetischen Profilen, Rollback und 17 Installerprüfungen in einer separaten Sandbox sind bestanden. Dazu kommen 3.538 Java-Prüfungen je Java 8 und Java 21, 39 native UI-Prüfungen sowie deren Wiederholung mit den installierten Release-Dateien und drei Grafik-/JNI-Teststarts. Öffentliche Downloads und der signierte Updateweg wurden geprüft. 222 Referenzen haben noch keine gesicherte Spielschlüssel-Zuordnung; weitere 124 teilen mehrdeutige Schlüssel. Diese Einträge bleiben ausdrücklich ungeklärt und können bereits gesammelt sein. Kein neuer Ingame-Langzeittest. **Die Veröffentlichung bleibt eine experimentelle Alpha.**
+Neuinstallation, Update von Alpha 11 mit synthetischen Profilen, Rollback und 17 Installerprüfungen in einer separaten Sandbox sind bestanden. Dazu kommen 3.844 Java-Prüfungen je Java 8 und Java 21, 108 native UI-Prüfungen sowie deren Wiederholung mit den installierten Release-Dateien und drei Grafik-/JNI-Teststarts. Die Dubletten werden mit Alpha 11 reproduziert und mit dem korrigierten Kandidaten geprüft. Öffentliche Downloads und der signierte Updateweg wurden geprüft. Von 2.092 Referenzen haben noch 163 keine gesicherte Spielschlüssel-Zuordnung; weitere 124 teilen mehrdeutige Schlüssel. Diese Einträge bleiben ausdrücklich ungeklärt und können bereits gesammelt sein. Kein neuer Ingame-Test mit einem echten Profil. **Die Veröffentlichung bleibt eine experimentelle Alpha.**
 
 ## Installation
 
