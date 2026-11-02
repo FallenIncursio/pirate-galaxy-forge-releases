@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.20**
+**Aktuelle Alpha: 0.1.0-alpha.21**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.20/PirateGalaxyForge-0.1.0-alpha.20-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.20)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.21/PirateGalaxyForge-0.1.0-alpha.21-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.21)
 
-Alpha 20 ergänzt experimentelle Remnant-Orbitalwarnungen mit Geländefüllung und geschätzter Zeit und korrigiert zufällig verfärbte Texte. Frühere Performance-, UI- und Landekorrekturen bleiben enthalten.
+Alpha 21 korrigiert die Sirius-Reichweitenprognose zwischen unterschiedlichen Planetenbahnen. Sprungfenster erscheinen kompakt mit Datum, Uhrzeit und verbleibenden Stunden.
 
 ## Installation
 
@@ -27,6 +27,7 @@ Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation un
 - **Komponenten:** Anpassbare Tasten und Slot-Reihenfolge, gut lesbare Timer sowie Zielreichweiten-Markierung für Komponenten mit Eigen- und Zielanwendung.
 - **Anzeige:** Einstellbares FPS-Limit, VSync und optionaler Quantensprungring.
 - **Orbitalschläge:** Warnkreise mit transparenter Füllung und Farbverlauf; geschätzte Zeit unter Komfort → Anzeige einstellbar. Zeit und Schadensgrenze sind nicht serverseitig bestätigt.
+- **Sirius:** Reichweitenfenster mit Datum/Uhrzeit und relativem Stundenbereich in der Sternkarte.
 - **Diagnose:** FPS, Bildzeiten, 1%-Lows und Speicheranzeige zur Fehlersuche.
 
 ## Hilfe und Hinweise
