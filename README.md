@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.21**
+**Aktuelle Alpha: 0.1.0-alpha.22**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.21/PirateGalaxyForge-0.1.0-alpha.21-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.21)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.22/PirateGalaxyForge-0.1.0-alpha.22-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.22)
 
-Alpha 21 korrigiert die Sirius-Reichweitenprognose zwischen unterschiedlichen Planetenbahnen. Sprungfenster erscheinen kompakt mit Datum, Uhrzeit und verbleibenden Stunden.
+Alpha 22 erhält die gewählte Position des Kryonit-Widgets beim Gebietswechsel und beim erneuten Einblenden. Die bisherigen Komfort- und Performance-Fixes bleiben enthalten.
 
 ## Installation
 
@@ -23,7 +23,7 @@ Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation un
 
 - **Baupläne:** Suche, Filter, Merkliste und ergänzter Referenzkatalog mit eigenem Remnant-Filter.
 - **Staffel:** Lebenspunkte in Prozent, Effektsymbole, Herkunft und Laufzeiten, soweit bekannt; zusätzliche Effekte als Symbolraster.
-- **Kryonit:** Kompakte Sammelstatistik mit Rate und Bilanz.
+- **Kryonit:** Kompakte Sammelstatistik mit Rate, Bilanz und gespeicherter Fensterposition.
 - **Komponenten:** Anpassbare Tasten und Slot-Reihenfolge, gut lesbare Timer sowie Zielreichweiten-Markierung für Komponenten mit Eigen- und Zielanwendung.
 - **Anzeige:** Einstellbares FPS-Limit, VSync und optionaler Quantensprungring.
 - **Orbitalschläge:** Warnkreise mit transparenter Füllung und Farbverlauf; geschätzte Zeit unter Komfort → Anzeige einstellbar. Zeit und Schadensgrenze sind nicht serverseitig bestätigt.
