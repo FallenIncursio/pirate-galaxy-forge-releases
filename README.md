@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.27**
+**Aktuelle Alpha: 0.1.0-alpha.28**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.27/PirateGalaxyForge-0.1.0-alpha.27-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.27)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.28/PirateGalaxyForge-0.1.0-alpha.28-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.28)
 
-Alpha 27 markiert den Blitzketten-Slot, sobald ein Gegner in direkter Reichweite ist – auch ohne Zielauswahl. Die Markierung ist unter Komfort → Anzeige abschaltbar und standardmäßig aktiviert. Die bisherigen Komfort- und Performance-Fixes bleiben enthalten.
+Alpha 28 verbessert das Nachladen von Musik und Effekten, korrigiert wiederholte UI-Suchmeldungen und ergänzt Audio-Messwerte in der Diagnose. Die bisherigen Komfort- und Performance-Fixes bleiben enthalten.
 
 ## Installation
 
