@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.23**
+**Aktuelle Alpha: 0.1.0-alpha.24**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.23/PirateGalaxyForge-0.1.0-alpha.23-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.23)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.24/PirateGalaxyForge-0.1.0-alpha.24-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.24)
 
-Alpha 23 ergänzt einen eigenen Remnant-Filter in der Zieleliste während der aktiven Jagdmission. Die bisherigen Komfort- und Performance-Fixes bleiben enthalten.
+Alpha 24 korrigiert die Thermoblast-Einordnung und die Gravitonen-Symbole in der Staffelanzeige. Die bisherigen Komfort- und Performance-Fixes bleiben enthalten.
 
 ## Installation
 
