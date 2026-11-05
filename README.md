@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.22**
+**Aktuelle Alpha: 0.1.0-alpha.23**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.22/PirateGalaxyForge-0.1.0-alpha.22-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.22)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.23/PirateGalaxyForge-0.1.0-alpha.23-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.23)
 
-Alpha 22 erhält die gewählte Position des Kryonit-Widgets beim Gebietswechsel und beim erneuten Einblenden. Die bisherigen Komfort- und Performance-Fixes bleiben enthalten.
+Alpha 23 ergänzt einen eigenen Remnant-Filter in der Zieleliste während der aktiven Jagdmission. Die bisherigen Komfort- und Performance-Fixes bleiben enthalten.
 
 ## Installation
 
@@ -22,6 +22,7 @@ Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation un
 ## Komfortfunktionen
 
 - **Baupläne:** Suche, Filter, Merkliste und ergänzter Referenzkatalog mit eigenem Remnant-Filter.
+- **Zieleliste:** Remnants während der aktiven Jagdmission unabhängig von normalen Gegnern filtern.
 - **Staffel:** Lebenspunkte in Prozent, Effektsymbole, Herkunft und Laufzeiten, soweit bekannt; zusätzliche Effekte als Symbolraster.
 - **Kryonit:** Kompakte Sammelstatistik mit Rate, Bilanz und gespeicherter Fensterposition.
 - **Komponenten:** Anpassbare Tasten und Slot-Reihenfolge, gut lesbare Timer sowie Zielreichweiten-Markierung für Komponenten mit Eigen- und Zielanwendung.
