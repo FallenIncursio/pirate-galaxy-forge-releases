@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.25**
+**Aktuelle Alpha: 0.1.0-alpha.26**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.25/PirateGalaxyForge-0.1.0-alpha.25-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.25)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.26/PirateGalaxyForge-0.1.0-alpha.26-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.26)
 
-Alpha 25 ergänzt eine kompakte Remnant-Bossleiste mit Lebenspunkten und Effektsymbolen. Unter Komfort → Anzeige lässt sie sich abschalten; standardmäßig ist sie aktiviert. Die bisherigen Komfort- und Performance-Fixes bleiben enthalten.
+Alpha 26 markiert die größte Energiekugel im nahen Kugelfeld mit vier dezenten Ecken. Die Markierung ist unter Komfort → Anzeige abschaltbar und standardmäßig aktiviert. Die bisherigen Komfort- und Performance-Fixes bleiben enthalten.
 
 ## Installation
 
@@ -26,6 +26,7 @@ Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation un
 - **Remnant-Bossleiste:** Großer HP-Balken, zehn Effektsymbole und weitere über +N; Details zu Wirkung und Quelle per Klick.
 - **Staffel:** Lebenspunkte in Prozent, Effektsymbole, Herkunft und Laufzeiten, soweit bekannt; zusätzliche Effekte als Symbolraster.
 - **Kryonit:** Kompakte Sammelstatistik mit Rate, Bilanz und gespeicherter Fensterposition.
+- **Energiekugeln:** Dezente Markierung der größten Menge im nahen Kugelfeld; unter Komfort → Anzeige einstellbar.
 - **Komponenten:** Anpassbare Tasten und Slot-Reihenfolge, gut lesbare Timer sowie Zielreichweiten-Markierung für Komponenten mit Eigen- und Zielanwendung.
 - **Anzeige:** Einstellbares FPS-Limit, VSync und optionaler Quantensprungring.
 - **Orbitalschläge:** Warnkreise mit transparenter Füllung und Farbverlauf; geschätzte Zeit unter Komfort → Anzeige einstellbar. Zeit und Schadensgrenze sind nicht serverseitig bestätigt.
