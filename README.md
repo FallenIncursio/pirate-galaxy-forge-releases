@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.28**
+**Aktuelle Alpha: 0.1.0-alpha.29**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.28/PirateGalaxyForge-0.1.0-alpha.28-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.28)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.29/PirateGalaxyForge-0.1.0-alpha.29-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.29)
 
-Alpha 28 verbessert das Nachladen von Musik und Effekten, korrigiert wiederholte UI-Suchmeldungen und ergänzt Audio-Messwerte in der Diagnose. Die bisherigen Komfort- und Performance-Fixes bleiben enthalten.
+Alpha 29 zeigt kompakte Restzeit-Schätzungen bis zum nächsten und maximalen Drohnenlevel. Bei fertigen Drohnen entfällt der Zusatzbereich. Die bisherigen Audio-, Komfort- und Performance-Fixes bleiben enthalten.
 
 ## Installation
 
@@ -29,6 +29,7 @@ Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation un
 - **Energiekugeln:** Dezente Markierung der größten Menge im nahen Kugelfeld; unter Komfort → Anzeige einstellbar.
 - **Komponenten:** Anpassbare Tasten und Slot-Reihenfolge, gut lesbare Timer sowie Zielreichweiten-Markierung für Komponenten mit Eigen- und Zielanwendung.
 - **Blitzkette:** Slot-Umrandung bei einem Gegner in direkter Reichweite, auch ohne Anvisieren; unter Komfort → Anzeige einstellbar.
+- **Drohnen:** Geschätzte aktive Levelzeit bis zur nächsten und maximalen Stufe, unter Komfort → Anzeige abschaltbar.
 - **Anzeige:** Einstellbares FPS-Limit, VSync und optionaler Quantensprungring.
 - **Orbitalschläge:** Warnkreise mit transparenter Füllung und Farbverlauf; geschätzte Zeit unter Komfort → Anzeige einstellbar. Zeit und Schadensgrenze sind nicht serverseitig bestätigt.
 - **Sirius:** Reichweitenfenster mit Datum/Uhrzeit und relativem Stundenbereich in der Sternkarte.
