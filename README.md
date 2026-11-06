@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.29**
+**Aktuelle Alpha: 0.1.0-alpha.30**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.29/PirateGalaxyForge-0.1.0-alpha.29-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.29)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.30/PirateGalaxyForge-0.1.0-alpha.30-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.30)
 
-Alpha 29 zeigt kompakte Restzeit-Schätzungen bis zum nächsten und maximalen Drohnenlevel. Bei fertigen Drohnen entfällt der Zusatzbereich. Die bisherigen Audio-, Komfort- und Performance-Fixes bleiben enthalten.
+Alpha 30 behebt hellgrau hängenbleibende Komponenten nach einer abgelehnten Aktivierung und gleicht den verbleibenden Cooldown ab. Die bisherigen Komfort-, Audio- und Performance-Fixes bleiben enthalten.
 
 ## Installation
 
