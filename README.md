@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.30**
+**Aktuelle Alpha: 0.1.0-alpha.31**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.30/PirateGalaxyForge-0.1.0-alpha.30-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.30)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.31/PirateGalaxyForge-0.1.0-alpha.31-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.31)
 
-Alpha 30 behebt hellgrau hängenbleibende Komponenten nach einer abgelehnten Aktivierung und gleicht den verbleibenden Cooldown ab. Die bisherigen Komfort-, Audio- und Performance-Fixes bleiben enthalten.
+Alpha 31 korrigiert Planetenoberflächen und Armenes leere Vorschau in der kleinen Sternkarten-Zielanzeige. Die bisherigen Komfort-, Audio-, Performance- und Komponenten-Fixes bleiben enthalten.
 
 ## Installation
 
