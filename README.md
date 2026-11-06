@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.32**
+**Aktuelle Alpha: 0.1.0-alpha.33**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.32/PirateGalaxyForge-0.1.0-alpha.32-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.32)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.33/PirateGalaxyForge-0.1.0-alpha.33-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.33)
 
-Alpha 32 ergänzt eigene Musik und Sounds samt Lautstärke pro Eintrag, eine globale HUD-Skalierung und die lokale Umbenennung von Lyris zu „Lörres“. Bisherige Fixes bleiben enthalten.
+Alpha 33 ergänzt den Discord-Spielstatus mit Logo, Spielzeit und optionalem Aufenthaltsort. Medal-Aufnahmen funktionieren; die Zuordnung kann noch „Requested“ anzeigen. Bisherige Funktionen und Fixes bleiben enthalten.
 
 ## Installation
 
@@ -34,6 +34,7 @@ Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation un
 - **Anzeige:** Globale HUD-Größe bis 200 % je nach Fenstergröße, FPS-Limit, VSync und optionaler Quantensprungring.
 - **Orbitalschläge:** Warnkreise mit transparenter Füllung und Farbverlauf; geschätzte Zeit unter Komfort → Anzeige einstellbar. Zeit und Schadensgrenze sind nicht serverseitig bestätigt.
 - **Sirius:** Reichweitenfenster mit Datum/Uhrzeit und relativem Stundenbereich in der Sternkarte.
+- **Discord:** Spielstatus als „Pirate Galaxy“, wahlweise mit aktuellem Ort; unter Komfort → Anzeige einstellbar.
 - **Diagnose:** FPS, Bildzeiten, 1%-Lows und Speicheranzeige zur Fehlersuche.
 
 ## Hilfe und Hinweise
@@ -47,4 +48,3 @@ Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation un
 Bibliotheksquellen und Lizenzhinweise stehen beim jeweiligen Release als separate Archive bereit. Der Forge-Entwicklungscode ist privat.
 
 Pirate Galaxy Forge ist kein offizielles Produkt von Splitscreen Studios.
-

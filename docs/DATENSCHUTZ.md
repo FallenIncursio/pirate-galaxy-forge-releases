@@ -27,3 +27,9 @@ Das Speicherabbild selbst ist separat und standardmäßig **abgewählt**. Es kan
 Rohlogs, lokale Pfade und absolute Speicheradressen werden nicht als Metadaten mitgesendet. Die Serverberichte sind privat und werden nach 14 Tagen gelöscht. Diese Frist löscht keine lokalen Kopien auf dem eigenen Rechner.
 
 Lokale Diagnoseaufnahmen werden nicht allein durch das Aufzeichnen an das Forge-Team übertragen. Die mitgelieferte `DIAGNOSE.txt` beschreibt Aufnahmen und den optionalen nativen Rekorder.
+
+## Discord-Spielstatus
+
+Standardmäßig zeigt Forge bei geöffnetem Discord „Pirate Galaxy“ mit Logo und Spielzeit an, sofern Discord deine Aktivitäten teilen darf. Unter **Komfort → Anzeige → Discord und Aufnahme** lässt sich dies ausschalten. Nur bei **Spiel und Ort** wird zusätzlich dein aktuelles Spielgebiet angezeigt. Pilotennamen, Chattexte und Koordinaten werden dafür nicht übertragen.
+
+Die Anbindung verwendet die lokal geöffnete Discord-App; eine zusätzliche Kontoanmeldung in Forge ist nicht nötig. Die Sichtbarkeit steuerst du auch über Discord.

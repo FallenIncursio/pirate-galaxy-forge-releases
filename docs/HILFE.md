@@ -42,6 +42,12 @@ Forge-Spieldaten und Einstellungen liegen standardmäßig unter `%LOCALAPPDATA%\
 
 Die Deinstallation entfernt die Startanwendung und Verknüpfungen. Heruntergeladene Spielkopien und Einstellungen bleiben erhalten.
 
+## Discord und Medal
+
+Den Discord-Spielstatus stellst du unter **Komfort → Anzeige → Discord und Aufnahme** ein. Discord muss geöffnet sein und die Anzeige deiner Aktivitäten erlauben. Für das Overlay den laufenden Client unter **Discord → Registrierte Spiele** hinzufügen und das Overlay einschalten. Veraltete Forge-Einträge gegebenenfalls vorher entfernen.
+
+Medal kann den 64-Bit-Client aufnehmen. Wird er nicht erkannt, das laufende Spiel über **Add New Game** hinzufügen. Die offizielle Kategorie „Pirate Galaxy“ wird noch nicht zuverlässig zugeordnet; „Requested“ kann trotz funktionierender Aufnahme stehen bleiben. Clips und Aufnahmeoptionen verwaltest du in Medal.
+
 ## Grenzen der Alpha
 
 Einzelne Grafik-, Musik- und Performanceprobleme sowie native Abstürze werden weiter untersucht. Hohe FPS unter jeder Last und die Erkennung durch Discord oder Medal sind nicht zugesichert. Den Umfang einzelner Korrekturen beschreiben die [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases).
