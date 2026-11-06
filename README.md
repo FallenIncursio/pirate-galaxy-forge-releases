@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.31**
+**Aktuelle Alpha: 0.1.0-alpha.32**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.31/PirateGalaxyForge-0.1.0-alpha.31-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.31)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.32/PirateGalaxyForge-0.1.0-alpha.32-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.32)
 
-Alpha 31 korrigiert Planetenoberflächen und Armenes leere Vorschau in der kleinen Sternkarten-Zielanzeige. Die bisherigen Komfort-, Audio-, Performance- und Komponenten-Fixes bleiben enthalten.
+Alpha 32 ergänzt eigene Musik und Sounds samt Lautstärke pro Eintrag, eine globale HUD-Skalierung und die lokale Umbenennung von Lyris zu „Lörres“. Bisherige Fixes bleiben enthalten.
 
 ## Installation
 
@@ -30,7 +30,8 @@ Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation un
 - **Komponenten:** Anpassbare Tasten und Slot-Reihenfolge, gut lesbare Timer sowie Zielreichweiten-Markierung für Komponenten mit Eigen- und Zielanwendung.
 - **Blitzkette:** Slot-Umrandung bei einem Gegner in direkter Reichweite, auch ohne Anvisieren; unter Komfort → Anzeige einstellbar.
 - **Drohnen:** Geschätzte aktive Levelzeit bis zur nächsten und maximalen Stufe, unter Komfort → Anzeige abschaltbar.
-- **Anzeige:** Einstellbares FPS-Limit, VSync und optionaler Quantensprungring.
+- **Audio:** Eigene Ogg-Vorbis-/WAV-Dateien, optionale Ausschnitte und Lautstärke pro Sound (0–300 %); Änderungen ohne Neustart übernehmen.
+- **Anzeige:** Globale HUD-Größe bis 200 % je nach Fenstergröße, FPS-Limit, VSync und optionaler Quantensprungring.
 - **Orbitalschläge:** Warnkreise mit transparenter Füllung und Farbverlauf; geschätzte Zeit unter Komfort → Anzeige einstellbar. Zeit und Schadensgrenze sind nicht serverseitig bestätigt.
 - **Sirius:** Reichweitenfenster mit Datum/Uhrzeit und relativem Stundenbereich in der Sternkarte.
 - **Diagnose:** FPS, Bildzeiten, 1%-Lows und Speicheranzeige zur Fehlersuche.
@@ -46,3 +47,4 @@ Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation un
 Bibliotheksquellen und Lizenzhinweise stehen beim jeweiligen Release als separate Archive bereit. Der Forge-Entwicklungscode ist privat.
 
 Pirate Galaxy Forge ist kein offizielles Produkt von Splitscreen Studios.
+
