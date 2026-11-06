@@ -42,6 +42,10 @@ Forge-Spieldaten und Einstellungen liegen standardmäßig unter `%LOCALAPPDATA%\
 
 Die Deinstallation entfernt die Startanwendung und Verknüpfungen. Heruntergeladene Spielkopien und Einstellungen bleiben erhalten.
 
+## Reparaturfelder
+
+Unter **Komfort → Anzeige → Effekte → Reparaturfelder** kannst du die Darstellung einstellen. **Reduziert** dämpft standardmäßig das Leuchten überlappender Felder und erhält ihre Animation. **Original** zeigt die gewohnte Darstellung; **Nur Kontur** ersetzt die große Aura durch eine Außenlinie. **Übernehmen** wirkt sofort und speichert die Auswahl.
+
 ## Discord und Medal
 
 Den Discord-Spielstatus stellst du unter **Komfort → Anzeige → Discord und Aufnahme** ein. Discord muss geöffnet sein und die Anzeige deiner Aktivitäten erlauben. Für das Overlay den laufenden Client unter **Discord → Registrierte Spiele** hinzufügen und das Overlay einschalten. Veraltete Forge-Einträge gegebenenfalls vorher entfernen.

@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.33**
+**Aktuelle Alpha: 0.1.0-alpha.34**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.33/PirateGalaxyForge-0.1.0-alpha.33-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.33)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.34/PirateGalaxyForge-0.1.0-alpha.34-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.34)
 
-Alpha 33 ergänzt den Discord-Spielstatus mit Logo, Spielzeit und optionalem Aufenthaltsort. Medal-Aufnahmen funktionieren; die Zuordnung kann noch „Requested“ anzeigen. Bisherige Funktionen und Fixes bleiben enthalten.
+Alpha 34 reduziert das störende Leuchten überlappender Reparaturfelder. Die originale Animation bleibt erhalten; die Darstellung ist unter Komfort → Anzeige → Effekte einstellbar. Bisherige Funktionen und Fixes bleiben enthalten.
 
 ## Installation
 
@@ -32,6 +32,7 @@ Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation un
 - **Drohnen:** Geschätzte aktive Levelzeit bis zur nächsten und maximalen Stufe, unter Komfort → Anzeige abschaltbar.
 - **Audio:** Eigene Ogg-Vorbis-/WAV-Dateien, optionale Ausschnitte und Lautstärke pro Sound (0–300 %); Änderungen ohne Neustart übernehmen.
 - **Anzeige:** Globale HUD-Größe bis 200 % je nach Fenstergröße, FPS-Limit, VSync und optionaler Quantensprungring.
+- **Reparaturfelder:** Original, Reduziert oder Nur Kontur; standardmäßig gedämpfte Originalanimation ohne zusätzlichen Kreis.
 - **Orbitalschläge:** Warnkreise mit transparenter Füllung und Farbverlauf; geschätzte Zeit unter Komfort → Anzeige einstellbar. Zeit und Schadensgrenze sind nicht serverseitig bestätigt.
 - **Sirius:** Reichweitenfenster mit Datum/Uhrzeit und relativem Stundenbereich in der Sternkarte.
 - **Discord:** Spielstatus als „Pirate Galaxy“, wahlweise mit aktuellem Ort; unter Komfort → Anzeige einstellbar.
