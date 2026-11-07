@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.42**
+**Aktuelle Alpha: 0.1.0-alpha.43**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.42/PirateGalaxyForge-0.1.0-alpha.42-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.42)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.43/PirateGalaxyForge-0.1.0-alpha.43-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.43)
 
-Alpha 42 hält dein anvisiertes Ziel nach einem erkannten Quantensprung ausgewählt, solange es weiterhin verfügbar ist. Die Funktion ist standardmäßig an und unter Anzeige → Komponenten abschaltbar. Bisherige Funktionen und Einstellungen bleiben erhalten.
+Alpha 43 behebt fehlende Texturen in der kleinen Gegnervorschau, auch beim Nachladen und Wechseln der Detailstufe. Bisherige Funktionen und Einstellungen bleiben erhalten.
 
 ## Installation
 
