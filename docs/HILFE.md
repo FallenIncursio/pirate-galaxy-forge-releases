@@ -68,7 +68,7 @@ Im Modus **Vorschau** erscheint die Auswahl sofort an deinem Schiff. Du kannst w
 
 Unter **Forge Komfort → Anzeige → Kampf & Effekte → Orbitalschläge** wählst du **Aus**, **Nur Kontur** oder **Zeit + Füllung**. Mit **Übernehmen** wirkt die Auswahl sofort und bleibt gespeichert. Aus entfernt sämtliche zusätzlichen Forge-Markierungen; die ursprünglichen Spieleffekte bleiben sichtbar.
 
-Die Anzeige erkennt stationäre rote NPC-Warnkörper, auch bei den aufgezeichneten Gazica-Angriffen. Dadurch können Konturen auch außerhalb von Remnant-Kämpfen erscheinen. Nur bekannte Varianten mit auswertbaren Zeitdaten bekommen einen Countdown; unbekannte Varianten erhalten eine Kontur. Die bekannte schnellere Variante behält ihre eigene Warnzeit. Zeiten und Grenzen bleiben Schätzungen; ein Einschlag kann früher erfolgen.
+Die Anzeige erkennt stationäre rote NPC-Warnkörper, auch bei den aufgezeichneten Gazica-Angriffen. Dadurch können Konturen auch außerhalb von Remnant-Kämpfen erscheinen. Nur bekannte Varianten mit auswertbaren Zeitdaten bekommen einen Countdown; unbekannte Varianten erhalten eine Kontur. Je nach bekannter Variante beträgt die geschätzte Vorwarnzeit etwa 5, 6,25 oder 12,25 Sekunden. Countdown und Füllung verwenden dieselbe Zeit. Zeiten und Grenzen bleiben Schätzungen; ein Einschlag kann früher erfolgen.
 
 ## Reparaturfelder
 
