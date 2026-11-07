@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.46**
+**Aktuelle Alpha: 0.1.0-alpha.47**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.46/PirateGalaxyForge-0.1.0-alpha.46-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.46)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.47/PirateGalaxyForge-0.1.0-alpha.47-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.47)
 
-Alpha 46 ergänzt die Bossleiste für das Mutterschiff der Königin. Unter Anzeige → Kampf & Effekte kannst du Remnants, Königin, alle Bossleisten oder keine anzeigen lassen.
+Alpha 47 ergänzt Countdown und Füllung für eine weitere Orbitalschlagvariante mit etwa 6,25 Sekunden Vorwarnzeit. Alle bisherigen Funktionen bleiben erhalten.
 
 ## Installation
 
