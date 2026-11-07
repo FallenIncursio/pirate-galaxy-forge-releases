@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.38**
+**Aktuelle Alpha: 0.1.0-alpha.39**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.38/PirateGalaxyForge-0.1.0-alpha.38-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.38)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.39/PirateGalaxyForge-0.1.0-alpha.39-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.39)
 
-Alpha 38 ergänzt den Tab **Antrieb**: 27 Antriebsspuren direkt am eigenen Schiff ansehen, nach Typ und Farbe filtern und sofort vergleichen. Bisherige Funktionen und Einstellungen bleiben erhalten.
+Alpha 39 begrenzt zusätzliche Orbitalschlag-Markierungen auf erkannte Remnant-Angriffe. Du kannst sie vollständig ausschalten, nur die Kontur oder Zeit mit Füllung anzeigen. Die bekannte schnellere Variante erhält eine korrigierte Zeitschätzung. Bisherige Funktionen und Einstellungen bleiben erhalten.
 
 ## Installation
 
@@ -35,7 +35,7 @@ Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation un
 - **Anzeige:** Fünf Einstellungsgruppen in Forge Komfort, globale HUD-Größe bis 200 % je nach Fenstergröße, FPS-Limit, VSync, kompakte Leistungsanzeige und optionaler Quantensprungring.
 - **Meldungen:** Seltene-Mantis-Sichtungen und Angriffs-/Siegesmeldungen getrennt schalten.
 - **Reparaturfelder:** Original, Reduziert oder Nur Kontur; standardmäßig gedämpfte Originalanimation ohne zusätzlichen Kreis.
-- **Orbitalschläge:** Warnkreise mit transparenter Füllung und Farbverlauf; geschätzte Zeit unter Komfort → Anzeige einstellbar. Zeit und Schadensgrenze sind nicht serverseitig bestätigt.
+- **Remnant-Orbitalschläge:** Aus, Nur Kontur oder Zeit + Füllung unter Komfort → Anzeige → Kampf & Effekte. Andere Orbitalschläge erhalten keine Forge-Markierung. Zeit und Schadensgrenze sind nicht serverseitig bestätigt.
 - **Sirius:** Reichweitenfenster mit Datum/Uhrzeit und relativem Stundenbereich in der Sternkarte.
 - **Discord:** Spielstatus als „Pirate Galaxy“, wahlweise mit aktuellem Ort; unter Komfort → Anzeige einstellbar.
 - **Diagnose:** FPS, Bildzeiten, 1%-Lows und Speicheranzeige zur Fehlersuche.

@@ -48,7 +48,7 @@ Alle Forge-Anzeigeoptionen liegen unter **Forge Komfort → Anzeige**:
 
 - **HUD & Grafik:** Oberflächengröße, FPS-Limit, VSync und Leistungsanzeige.
 - **Komponenten:** Slot-Timer, Quantensprung-Reichweite und Reichweiten-Markierungen.
-- **Kampf & Effekte:** Staffel, Bossleiste, Reparaturfelder und Orbital-Warnzeit.
+- **Kampf & Effekte:** Staffel, Bossleiste, Reparaturfelder und Remnant-Orbitalschläge.
 - **Widgets:** Kryonit, Positionssperre, Energiekugel-Markierung und Drohnen-Levelzeit.
 - **Meldungen & Discord:** Seltene Mantis, Discord-Spielstatus und Uhrzeit im Chat.
 
@@ -61,6 +61,12 @@ Mit **Uhrzeit im Chat** erscheinen Nachrichten mit `[HH:mm]` in deiner lokalen Z
 Unter **Forge Komfort → Antrieb** stehen Uni-, Zwillings- und Tristar-Spuren in je neun Farben sowie der Schiffsstandard. Mit Typ- und Farbfilter grenzt du die Liste ein.
 
 Im Modus **Vorschau** erscheint die Auswahl sofort an deinem Schiff. Du kannst weiterfliegen und mit **Vor/Zurück** die gefilterten Spuren vergleichen. **Normal**, Schließen oder ein Tab-, Schiffs- oder Szenenwechsel beendet die Vorschau. Deine tatsächliche Ausrüstung bleibt erhalten; andere Spieler sehen weiterhin diese. Die Vorschau wird nicht über einen Neustart gespeichert.
+
+## Remnant-Orbitalschläge
+
+Unter **Forge Komfort → Anzeige → Kampf & Effekte → Remnant-Orbitalschläge** wählst du **Aus**, **Nur Kontur** oder **Zeit + Füllung**. Mit **Übernehmen** wirkt die Auswahl sofort und bleibt gespeichert. Aus entfernt sämtliche zusätzlichen Forge-Markierungen; die ursprünglichen Spieleffekte bleiben sichtbar.
+
+Markiert werden nur erkannte Remnant-Angriffe. Für die bekannte schnellere Variante wird eine eigene Schätzung von etwa fünf Sekunden verwendet. Warnzeiten und Grenzen bleiben Schätzungen; ein Einschlag kann früher erfolgen. Bei bekannten Varianten ohne auswertbare Zeitdaten erscheint nur eine Kontur.
 
 ## Reparaturfelder
 
