@@ -87,3 +87,11 @@ Einzelne Grafik-, Musik- und Performanceprobleme sowie native Abstürze werden w
 ## Kritische Lebenspunkte
 
 Unter **Forge Komfort → Anzeige → Kampf & Effekte** stellt der Regler die Warnschwelle von **5 bis 50 %** ein. Standard sind **25 %**. Der vorhandene Warnsound und die roten Bildschirmränder richten sich nach dieser Grenze. **Rote Bildschirmränder** lassen sich unabhängig abschalten. Mit **Übernehmen** speichern; ein Neustart ist nicht nötig.
+
+## Remnant-Trägertabelle
+
+Klicke auf die bekannte Beutekategorie, um mögliche Baupläne mit Icons und deinem Bestand zu sehen. Komponenten sind nach Familie zusammengefasst; Normal, Schnell, Stark und Lang haben getrennte Bestände. Nur tatsächlich vorhandene Varianten werden angezeigt. Große Kategorien haben mehrere Seiten.
+
+Bestände wie 8/6 bleiben erhalten und aktualisieren sich nach Verbrauch. „Nicht im Profil“ steht für einen unbekannten Bestand, nicht automatisch für null Teile. Die Anzeige verändert keine Baupläne und sagt keinen konkreten Drop voraus.
+
+Neue Träger zeigen zunächst die geschätzte Wartezeit bis zur Systemmeldung. Planet und Beute erscheinen erst nach ihrer Bekanntgabe; bekannte Lebenspunkte stehen als Prozentzahl im Balken. Der ursprüngliche Abflugtimer bleibt erhalten.
