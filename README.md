@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.43**
+**Aktuelle Alpha: 0.1.0-alpha.44**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.43/PirateGalaxyForge-0.1.0-alpha.43-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.43)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.44/PirateGalaxyForge-0.1.0-alpha.44-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.44)
 
-Alpha 43 behebt fehlende Texturen in der kleinen Gegnervorschau, auch beim Nachladen und Wechseln der Detailstufe. Bisherige Funktionen und Einstellungen bleiben erhalten.
+Alpha 44 stellt die Orbitalschlag-Warnanzeige wieder her und ergänzt die Gazica-Varianten. Bisherige Funktionen und Einstellungen bleiben erhalten.
 
 ## Installation
 
@@ -37,7 +37,7 @@ Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation un
 - **Meldungen:** Seltene-Mantis-Sichtungen und Angriffs-/Siegesmeldungen getrennt schalten.
 - **Reparaturfelder:** Original, Reduziert oder Nur Kontur; standardmäßig gedämpfte Originalanimation ohne zusätzlichen Kreis.
 - **Kritische Lebenspunkte:** Warnschwelle von 5 bis 50 % und separat abschaltbare rote Bildschirmränder unter Komfort → Anzeige → Kampf & Effekte.
-- **Remnant-Orbitalschläge:** Aus, Nur Kontur oder Zeit + Füllung unter Komfort → Anzeige → Kampf & Effekte. Andere Orbitalschläge erhalten keine Forge-Markierung. Zeit und Schadensgrenze sind nicht serverseitig bestätigt.
+- **Orbitalschläge:** Aus, Nur Kontur oder Zeit + Füllung unter Komfort → Anzeige → Kampf & Effekte. Auch rote NPC-Warnungen außerhalb von Remnant-Kämpfen können Konturen erhalten; unbekannte Varianten bekommen keinen Countdown. Zeiten und Grenzen sind Schätzungen.
 - **Sirius:** Reichweitenfenster mit Datum/Uhrzeit und relativem Stundenbereich in der Sternkarte.
 - **Discord:** Spielstatus als „Pirate Galaxy“, wahlweise mit aktuellem Ort; unter Komfort → Anzeige einstellbar.
 - **Diagnose:** FPS, Bildzeiten, 1%-Lows und Speicheranzeige zur Fehlersuche.
