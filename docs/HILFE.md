@@ -56,6 +56,12 @@ Alle Forge-Anzeigeoptionen liegen unter **Forge Komfort → Anzeige**:
 
 Mit **Uhrzeit im Chat** erscheinen Nachrichten mit `[HH:mm]` in deiner lokalen Zeitzone. Der Schalter gilt für Kommunikationsfenster und kleinen HUD-Chat; **Übernehmen** aktualisiert auch bereits angezeigte Zeilen.
 
+## Antriebsspuren ausprobieren
+
+Unter **Forge Komfort → Antrieb** stehen Uni-, Zwillings- und Tristar-Spuren in je neun Farben sowie der Schiffsstandard. Mit Typ- und Farbfilter grenzt du die Liste ein.
+
+Im Modus **Vorschau** erscheint die Auswahl sofort an deinem Schiff. Du kannst weiterfliegen und mit **Vor/Zurück** die gefilterten Spuren vergleichen. **Normal**, Schließen oder ein Tab-, Schiffs- oder Szenenwechsel beendet die Vorschau. Deine tatsächliche Ausrüstung bleibt erhalten; andere Spieler sehen weiterhin diese. Die Vorschau wird nicht über einen Neustart gespeichert.
+
 ## Reparaturfelder
 
 Unter **Komfort → Anzeige → Kampf & Effekte → Reparaturfelder** kannst du die Darstellung einstellen. **Reduziert** dämpft standardmäßig das Leuchten überlappender Felder und erhält ihre Animation. **Original** zeigt die gewohnte Darstellung; **Nur Kontur** ersetzt die große Aura durch eine Außenlinie. **Übernehmen** wirkt sofort und speichert die Auswahl.

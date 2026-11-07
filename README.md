@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.37**
+**Aktuelle Alpha: 0.1.0-alpha.38**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.37/PirateGalaxyForge-0.1.0-alpha.37-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.37)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.38/PirateGalaxyForge-0.1.0-alpha.38-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.38)
 
-Alpha 37 behebt streifenartig verzogene Gebäudetexturen auf Commerce Central. Bisherige Funktionen und Einstellungen bleiben erhalten. Abrupte Materialwechsel und Schattenflackern werden separat untersucht.
+Alpha 38 ergänzt den Tab **Antrieb**: 27 Antriebsspuren direkt am eigenen Schiff ansehen, nach Typ und Farbe filtern und sofort vergleichen. Bisherige Funktionen und Einstellungen bleiben erhalten.
 
 ## Installation
 
@@ -30,6 +30,7 @@ Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation un
 - **Komponenten:** Anpassbare Tasten und Slot-Reihenfolge, gut lesbare Timer sowie Zielreichweiten-Markierung für Komponenten mit Eigen- und Zielanwendung.
 - **Blitzkette:** Slot-Umrandung bei einem Gegner in direkter Reichweite, auch ohne Anvisieren; unter Komfort → Anzeige einstellbar.
 - **Drohnen:** Geschätzte aktive Levelzeit bis zur nächsten und maximalen Stufe, unter Komfort → Anzeige abschaltbar.
+- **Antrieb:** 27 Antriebsspuren und Schiffsstandard als lokale Live-Vorschau; Normal stellt den ausgerüsteten Antrieb wieder her.
 - **Audio:** Eigene Ogg-Vorbis-/WAV-Dateien, optionale Ausschnitte und Lautstärke pro Sound (0–300 %); Änderungen ohne Neustart übernehmen.
 - **Anzeige:** Fünf Einstellungsgruppen in Forge Komfort, globale HUD-Größe bis 200 % je nach Fenstergröße, FPS-Limit, VSync, kompakte Leistungsanzeige und optionaler Quantensprungring.
 - **Meldungen:** Seltene-Mantis-Sichtungen und Angriffs-/Siegesmeldungen getrennt schalten.
