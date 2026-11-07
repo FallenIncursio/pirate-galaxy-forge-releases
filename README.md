@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.36**
+**Aktuelle Alpha: 0.1.0-alpha.37**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.36/PirateGalaxyForge-0.1.0-alpha.36-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.36)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.37/PirateGalaxyForge-0.1.0-alpha.37-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.37)
 
-Alpha 36 zeigt auf Wunsch die Uhrzeit im Kommunikationsfenster und im kleinen Chat an. Der Schalter liegt unter Forge Komfort → Anzeige → Meldungen & Discord. Bisherige Funktionen und Fixes bleiben enthalten.
+Alpha 37 behebt streifenartig verzogene Gebäudetexturen auf Commerce Central. Bisherige Funktionen und Einstellungen bleiben erhalten. Abrupte Materialwechsel und Schattenflackern werden separat untersucht.
 
 ## Installation
 
