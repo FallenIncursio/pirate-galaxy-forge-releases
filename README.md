@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.44**
+**Aktuelle Alpha: 0.1.0-alpha.45**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.44/PirateGalaxyForge-0.1.0-alpha.44-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.44)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.45/PirateGalaxyForge-0.1.0-alpha.45-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.45)
 
-Alpha 44 stellt die Orbitalschlag-Warnanzeige wieder her und ergänzt die Gazica-Varianten. Bisherige Funktionen und Einstellungen bleiben erhalten.
+Alpha 45 ergänzt Countdown und Füllung für weitere Orbitalschläge. Die bekannten Vorwarnzeiten von etwa 5, 6,25 und 12,25 Sekunden sowie deine Einstellungen bleiben erhalten.
 
 ## Installation
 
