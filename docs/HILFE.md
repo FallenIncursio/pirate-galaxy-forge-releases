@@ -81,3 +81,7 @@ Medal kann den 64-Bit-Client aufnehmen. Wird er nicht erkannt, das laufende Spie
 ## Grenzen der Alpha
 
 Einzelne Grafik-, Musik- und Performanceprobleme sowie native Abstürze werden weiter untersucht. Hohe FPS unter jeder Last und die Erkennung durch Discord oder Medal sind nicht zugesichert. Den Umfang einzelner Korrekturen beschreiben die [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases).
+
+## Kritische Lebenspunkte
+
+Unter **Forge Komfort → Anzeige → Kampf & Effekte** stellt der Regler die Warnschwelle von **5 bis 50 %** ein. Standard sind **25 %**. Der vorhandene Warnsound und die roten Bildschirmränder richten sich nach dieser Grenze. **Rote Bildschirmränder** lassen sich unabhängig abschalten. Mit **Übernehmen** speichern; ein Neustart ist nicht nötig.
