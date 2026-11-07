@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.40**
+**Aktuelle Alpha: 0.1.0-alpha.41**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.40/PirateGalaxyForge-0.1.0-alpha.40-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.40)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.41/PirateGalaxyForge-0.1.0-alpha.41-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.41)
 
-Alpha 40 macht die Warnschwelle für kritische Lebenspunkte einstellbar. Optional warnen weiche rote Bildschirmränder zusätzlich zum bisherigen Ton; die Bildmitte und das HUD bleiben frei. Bisherige Funktionen und Einstellungen bleiben erhalten.
+Alpha 41 behebt einen möglichen Absturz beim Nachladen von Schiffsvorschauen in Profil- und Clanfenstern. Die Warnanzeige für kritische Lebenspunkte wird nach einem Neuaufbau der Oberfläche sauber wiederhergestellt. Bisherige Funktionen und Einstellungen bleiben erhalten.
 
 ## Installation
 
