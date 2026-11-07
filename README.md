@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.48**
+**Aktuelle Alpha: 0.1.0-alpha.49**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.48/PirateGalaxyForge-0.1.0-alpha.48-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.48)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.49/PirateGalaxyForge-0.1.0-alpha.49-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.49)
 
-Alpha 48 ergänzt die Remnant-Trägertabelle um Beutekarten mit Icons, getrennte Bauplanbestände je Variante, verständliche Wartephasen und HP-Prozente. Alle bisherigen Funktionen bleiben erhalten.
+Alpha 49 ergänzt Countdown und Füllung für eine weitere große Orbitalschlagvariante bei Remnant-Kämpfen mit etwa 12,25 Sekunden Vorwarnzeit. Alle bisherigen Funktionen bleiben erhalten.
 
 ## Installation
 
