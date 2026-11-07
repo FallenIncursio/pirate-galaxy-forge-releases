@@ -42,13 +42,25 @@ Forge-Spieldaten und Einstellungen liegen standardmäßig unter `%LOCALAPPDATA%\
 
 Die Deinstallation entfernt die Startanwendung und Verknüpfungen. Heruntergeladene Spielkopien und Einstellungen bleiben erhalten.
 
+## Anzeige einstellen
+
+Alle Forge-Anzeigeoptionen liegen unter **Forge Komfort → Anzeige**:
+
+- **HUD & Grafik:** Oberflächengröße, FPS-Limit, VSync und Leistungsanzeige.
+- **Komponenten:** Slot-Timer, Quantensprung-Reichweite und Reichweiten-Markierungen.
+- **Kampf & Effekte:** Staffel, Bossleiste, Reparaturfelder und Orbital-Warnzeit.
+- **Widgets:** Kryonit, Positionssperre, Energiekugel-Markierung und Drohnen-Levelzeit.
+- **Meldungen & Discord:** Seltene Mantis und Discord-Spielstatus.
+
+**Übernehmen** speichert alle Gruppen. **Verwerfen** oder Schließen verwirft ungespeicherte Auswahlen; beim Seitenwechsel bleiben sie erhalten. VSync wird nach einem Neustart wirksam. Die ursprünglichen Spieleinstellungen enthalten weiterhin Sprache, Auflösung, Grafikqualität und Lautstärke.
+
 ## Reparaturfelder
 
-Unter **Komfort → Anzeige → Effekte → Reparaturfelder** kannst du die Darstellung einstellen. **Reduziert** dämpft standardmäßig das Leuchten überlappender Felder und erhält ihre Animation. **Original** zeigt die gewohnte Darstellung; **Nur Kontur** ersetzt die große Aura durch eine Außenlinie. **Übernehmen** wirkt sofort und speichert die Auswahl.
+Unter **Komfort → Anzeige → Kampf & Effekte → Reparaturfelder** kannst du die Darstellung einstellen. **Reduziert** dämpft standardmäßig das Leuchten überlappender Felder und erhält ihre Animation. **Original** zeigt die gewohnte Darstellung; **Nur Kontur** ersetzt die große Aura durch eine Außenlinie. **Übernehmen** wirkt sofort und speichert die Auswahl.
 
 ## Discord und Medal
 
-Den Discord-Spielstatus stellst du unter **Komfort → Anzeige → Discord und Aufnahme** ein. Discord muss geöffnet sein und die Anzeige deiner Aktivitäten erlauben. Für das Overlay den laufenden Client unter **Discord → Registrierte Spiele** hinzufügen und das Overlay einschalten. Veraltete Forge-Einträge gegebenenfalls vorher entfernen.
+Den Discord-Spielstatus stellst du unter **Komfort → Anzeige → Meldungen & Discord** ein. Discord muss geöffnet sein und die Anzeige deiner Aktivitäten erlauben. Für das Overlay den laufenden Client unter **Discord → Registrierte Spiele** hinzufügen und das Overlay einschalten. Veraltete Forge-Einträge gegebenenfalls vorher entfernen.
 
 Medal kann den 64-Bit-Client aufnehmen. Wird er nicht erkannt, das laufende Spiel über **Add New Game** hinzufügen. Die offizielle Kategorie „Pirate Galaxy“ wird noch nicht zuverlässig zugeordnet; „Requested“ kann trotz funktionierender Aufnahme stehen bleiben. Clips und Aufnahmeoptionen verwaltest du in Medal.
 
