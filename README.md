@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.45**
+**Aktuelle Alpha: 0.1.0-alpha.46**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.45/PirateGalaxyForge-0.1.0-alpha.45-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.45)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.46/PirateGalaxyForge-0.1.0-alpha.46-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.46)
 
-Alpha 45 ergänzt Countdown und Füllung für weitere Orbitalschläge. Die bekannten Vorwarnzeiten von etwa 5, 6,25 und 12,25 Sekunden sowie deine Einstellungen bleiben erhalten.
+Alpha 46 ergänzt die Bossleiste für das Mutterschiff der Königin. Unter Anzeige → Kampf & Effekte kannst du Remnants, Königin, alle Bossleisten oder keine anzeigen lassen.
 
 ## Installation
 
@@ -23,7 +23,7 @@ Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation un
 
 - **Baupläne:** Suche, Filter, Merkliste und ergänzter Referenzkatalog mit eigenem Remnant-Filter.
 - **Zieleliste:** Remnants während der aktiven Jagdmission unabhängig von normalen Gegnern filtern.
-- **Remnant-Bossleiste:** Großer HP-Balken, zehn Effektsymbole und weitere über +N; Details zu Wirkung und Quelle per Klick.
+- **Bossleisten:** Für Remnant-Träger und das Mutterschiff der Königin: großer HP-Balken, zehn Effektsymbole und weitere über +N; Details zu Wirkung und Quelle per Klick.
 - **Staffel:** Lebenspunkte in Prozent, Effektsymbole, Herkunft und Laufzeiten, soweit bekannt; zusätzliche Effekte als Symbolraster.
 - **Kryonit:** Kompakte Sammelstatistik mit Rate, Bilanz und gespeicherter Fensterposition.
 - **Energiekugeln:** Dezente Markierung der größten Menge im nahen Kugelfeld; unter Komfort → Anzeige einstellbar.

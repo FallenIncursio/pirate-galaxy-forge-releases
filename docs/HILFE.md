@@ -48,7 +48,7 @@ Alle Forge-Anzeigeoptionen liegen unter **Forge Komfort → Anzeige**:
 
 - **HUD & Grafik:** Oberflächengröße, FPS-Limit, VSync und Leistungsanzeige.
 - **Komponenten:** Slot-Timer, Quantensprung-Reichweite, Zielhaltung nach Quantensprung und Reichweiten-Markierungen.
-- **Kampf & Effekte:** Staffel, Bossleiste, Reparaturfelder und Orbitalschläge.
+- **Kampf & Effekte:** Staffel, Bossleisten, Reparaturfelder und Orbitalschläge. Bossleisten lassen sich auf Aus, Remnants, Königin oder Alle stellen. Die Königin benötigt keine Remnant-Jagd; eine bisher ausgeschaltete Bossanzeige bleibt ausgeschaltet.
 - **Widgets:** Kryonit, Positionssperre, Energiekugel-Markierung und Drohnen-Levelzeit.
 - **Meldungen & Discord:** Seltene Mantis, Discord-Spielstatus und Uhrzeit im Chat.
 
