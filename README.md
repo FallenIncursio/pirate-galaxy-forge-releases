@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.35**
+**Aktuelle Alpha: 0.1.0-alpha.36**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.35/PirateGalaxyForge-0.1.0-alpha.35-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.35)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.36/PirateGalaxyForge-0.1.0-alpha.36-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.36)
 
-Alpha 35 ordnet die Anzeige-Einstellungen in fünf Gruppen. Die Leistungswerte erscheinen optional oben links; Slot-Timer und Seltene-Mantis-Meldungen sind getrennt schaltbar. Bisherige Funktionen und Fixes bleiben enthalten.
+Alpha 36 zeigt auf Wunsch die Uhrzeit im Kommunikationsfenster und im kleinen Chat an. Der Schalter liegt unter Forge Komfort → Anzeige → Meldungen & Discord. Bisherige Funktionen und Fixes bleiben enthalten.
 
 ## Installation
 

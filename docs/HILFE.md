@@ -50,9 +50,11 @@ Alle Forge-Anzeigeoptionen liegen unter **Forge Komfort → Anzeige**:
 - **Komponenten:** Slot-Timer, Quantensprung-Reichweite und Reichweiten-Markierungen.
 - **Kampf & Effekte:** Staffel, Bossleiste, Reparaturfelder und Orbital-Warnzeit.
 - **Widgets:** Kryonit, Positionssperre, Energiekugel-Markierung und Drohnen-Levelzeit.
-- **Meldungen & Discord:** Seltene Mantis und Discord-Spielstatus.
+- **Meldungen & Discord:** Seltene Mantis, Discord-Spielstatus und Uhrzeit im Chat.
 
 **Übernehmen** speichert alle Gruppen. **Verwerfen** oder Schließen verwirft ungespeicherte Auswahlen; beim Seitenwechsel bleiben sie erhalten. VSync wird nach einem Neustart wirksam. Die ursprünglichen Spieleinstellungen enthalten weiterhin Sprache, Auflösung, Grafikqualität und Lautstärke.
+
+Mit **Uhrzeit im Chat** erscheinen Nachrichten mit `[HH:mm]` in deiner lokalen Zeitzone. Der Schalter gilt für Kommunikationsfenster und kleinen HUD-Chat; **Übernehmen** aktualisiert auch bereits angezeigte Zeilen.
 
 ## Reparaturfelder
 
