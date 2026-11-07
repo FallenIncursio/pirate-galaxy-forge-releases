@@ -47,7 +47,7 @@ Die Deinstallation entfernt die Startanwendung und Verknüpfungen. Heruntergelad
 Alle Forge-Anzeigeoptionen liegen unter **Forge Komfort → Anzeige**:
 
 - **HUD & Grafik:** Oberflächengröße, FPS-Limit, VSync und Leistungsanzeige.
-- **Komponenten:** Slot-Timer, Quantensprung-Reichweite und Reichweiten-Markierungen.
+- **Komponenten:** Slot-Timer, Quantensprung-Reichweite, Zielhaltung nach Quantensprung und Reichweiten-Markierungen.
 - **Kampf & Effekte:** Staffel, Bossleiste, Reparaturfelder und Remnant-Orbitalschläge.
 - **Widgets:** Kryonit, Positionssperre, Energiekugel-Markierung und Drohnen-Levelzeit.
 - **Meldungen & Discord:** Seltene Mantis, Discord-Spielstatus und Uhrzeit im Chat.
@@ -55,6 +55,8 @@ Alle Forge-Anzeigeoptionen liegen unter **Forge Komfort → Anzeige**:
 **Übernehmen** speichert alle Gruppen. **Verwerfen** oder Schließen verwirft ungespeicherte Auswahlen; beim Seitenwechsel bleiben sie erhalten. VSync wird nach einem Neustart wirksam. Die ursprünglichen Spieleinstellungen enthalten weiterhin Sprache, Auflösung, Grafikqualität und Lautstärke.
 
 Mit **Uhrzeit im Chat** erscheinen Nachrichten mit `[HH:mm]` in deiner lokalen Zeitzone. Der Schalter gilt für Kommunikationsfenster und kleinen HUD-Chat; **Übernehmen** aktualisiert auch bereits angezeigte Zeilen.
+
+Mit **Ziel nach Quantensprung behalten** bleibt die bisherige Auswahl nach einem erkannten Sprung erhalten, solange die Einheit weiterhin vorhanden und auswählbar ist. Die Option ist standardmäßig an; bewusste Zielwechsel und Abwahl haben Vorrang.
 
 ## Antriebsspuren ausprobieren
 

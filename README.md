@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.41**
+**Aktuelle Alpha: 0.1.0-alpha.42**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.41/PirateGalaxyForge-0.1.0-alpha.41-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.41)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.42/PirateGalaxyForge-0.1.0-alpha.42-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.42)
 
-Alpha 41 behebt einen möglichen Absturz beim Nachladen von Schiffsvorschauen in Profil- und Clanfenstern. Die Warnanzeige für kritische Lebenspunkte wird nach einem Neuaufbau der Oberfläche sauber wiederhergestellt. Bisherige Funktionen und Einstellungen bleiben erhalten.
+Alpha 42 hält dein anvisiertes Ziel nach einem erkannten Quantensprung ausgewählt, solange es weiterhin verfügbar ist. Die Funktion ist standardmäßig an und unter Anzeige → Komponenten abschaltbar. Bisherige Funktionen und Einstellungen bleiben erhalten.
 
 ## Installation
 
@@ -28,6 +28,7 @@ Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation un
 - **Kryonit:** Kompakte Sammelstatistik mit Rate, Bilanz und gespeicherter Fensterposition.
 - **Energiekugeln:** Dezente Markierung der größten Menge im nahen Kugelfeld; unter Komfort → Anzeige einstellbar.
 - **Komponenten:** Anpassbare Tasten und Slot-Reihenfolge, gut lesbare Timer sowie Zielreichweiten-Markierung für Komponenten mit Eigen- und Zielanwendung.
+- **Quantensprung:** Anvisiertes Ziel nach einem erkannten Sprung behalten; standardmäßig an, unter Anzeige → Komponenten abschaltbar.
 - **Blitzkette:** Slot-Umrandung bei einem Gegner in direkter Reichweite, auch ohne Anvisieren; unter Komfort → Anzeige einstellbar.
 - **Drohnen:** Geschätzte aktive Levelzeit bis zur nächsten und maximalen Stufe, unter Komfort → Anzeige abschaltbar.
 - **Antrieb:** 27 Antriebsspuren und Schiffsstandard als lokale Live-Vorschau; Normal stellt den ausgerüsteten Antrieb wieder her.
