@@ -2,6 +2,8 @@
 
 [Zurück zur Übersicht](../README.md)
 
+[Alle Funktionen im Vergleich](FUNKTIONEN.md) · [Bildergalerie](BILDER.md)
+
 ## Originalinstallation finden
 
 Forge sucht beim ersten Start nach vorhandenen Pirate-Galaxy-Installationen. Auch ein übergeordneter Launcher-Ordner oder dessen Ordner `gamedata` kann ausgewählt werden.

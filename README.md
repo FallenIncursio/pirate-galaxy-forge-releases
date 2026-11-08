@@ -1,12 +1,58 @@
 # Pirate Galaxy Forge
 
-Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
+Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**Aktuelle Alpha: 0.1.0-alpha.53**
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.53/PirateGalaxyForge-0.1.0-alpha.53-Setup.exe)** · **0.1.0-alpha.53** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.53)
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.53/PirateGalaxyForge-0.1.0-alpha.53-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.53)
+[Alle Funktionen im Vergleich](docs/FUNKTIONEN.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
-Alpha 53 behebt Updateprobleme bei vorübergehenden GitHub-Downloadfehlern. Alle bisherigen Spielfunktionen bleiben erhalten.
+**Neu in Alpha 53:** zuverlässigere Updateversuche bei vorübergehenden GitHub-Downloadfehlern.
+
+## Ein Blick ins Spiel
+
+**Bossleisten mit HP-Prozent und aktiven Effekten**
+
+[![Remnant SC-Tyme mit Bossleiste, 40,3 Prozent HP und vier Effektsymbolen](docs/bilder/bossleiste.png)](docs/BILDER.md#bossleiste)
+
+**Mögliche Remnant-Beute direkt mit dem eigenen Bauplanbestand vergleichen**
+
+[![Remnant-Trägertabelle mit Beutekarten und getrennten Beständen für normale, schnelle, starke und lange Varianten](docs/bilder/remnant-beute.png)](docs/BILDER.md#remnant-beute)
+
+**Baupläne durchsuchen, Fortschritt filtern und eine Merkliste führen**
+
+[![Forge-Bauplanübersicht mit Tau-Ceti-Filter, Suchfeld und gesammelten Teilen](docs/bilder/bauplaene.png)](docs/BILDER.md#bauplaene)
+
+[Weitere Bilder: Audio, Antriebsvorschau, HUD-Größe und Komponenten-Timer →](docs/BILDER.md)
+
+## Was ergänzt Forge gegenüber dem Original?
+
+Die Spielwelt, Missionen, Gegenstände, Originalgrafiken und Grundfunktionen stammen aus **Pirate Galaxy**. Forge baut darauf auf. Die folgenden Ergänzungen gelten für **Forge (64 Bit)**; die Starterauswahl **Original (32 Bit)** startet den unveränderten offiziellen Client.
+
+| Bereich | Im Original bereits vorhanden | Zusätzlich in Forge |
+| --- | --- | --- |
+| Baupläne und Ausrüstung | Bauplanprofil, Shop und Komponentenwerte | Suche, Fortschritts-/Systemfilter, Referenzkatalog, Merkliste, Vergleich und Einkaufsplan |
+| Remnant-Träger | Trägertabelle, Bekanntgaben, Statusbalken und Abflugtimer | HP-Prozent, verständliche Wartephase und Beutekarten mit eigenen Variantenbeständen |
+| Staffel und Bosse | Staffel- und Zielanzeigen | Staffel-HP in Prozent, Effektsymbole und zusätzliche Bossleisten für Remnants und Königin |
+| Komponenten und Ziele | Aktivierung, Abklingzeiten und Zielauswahl | Slots umordnen, Tasten belegen, Aktivzeit-Timer, Reichweitenmarkierungen und Zielhaltung nach Quantensprung |
+| Sammeln und Drohnen | Energiekugeln, Kryonit und manuelle Drohnensteuerung | Größte Energiekugel markieren, Kryonitstatistik, optionaler Drohnenwechsel und geschätzte Levelzeiten |
+| Kampfansicht | Reparaturfelder, Orbitalwarnungen und HP-Warnsound | Gedämpfte Reparaturfelder, zusätzliche Orbitalanzeigen, einstellbare HP-Warnschwelle und rote Bildschirmränder |
+| HUD und Chat | Spielfenster, Chat und Statusformatierung | Globale HUD-Skalierung, Chat-Uhrzeit, Status-Farbeditor und schaltbare Meldungen |
+| Musik und Sounds | Originalmusik, Effekte und Lautstärkeregler | Eigene Ogg-Vorbis-/WAV-Dateien, Ausschnitte, Vorschau und Lautstärke pro Sound; ohne Client-Neustart übernehmen |
+| Antriebsspuren | Tatsächlich ausgerüstete Spur | 27 Spuren und Schiffsstandard als lokale Live-Vorschau am eigenen Schiff |
+| Reise und Sirius | Sternkarte und Planeteninformationen | Positionsmerker, berechnete Reichweitenfenster und Reiseerinnerungen |
+| Leistung und Diagnose | Vorhandene Spiel-Engine und Pinganzeige | Einstellbares FPS-Limit/VSync, schaltbarer Ping, Bildzeiten, 1%-Lows und lokale Diagnoseaufnahmen |
+| Discord | Externe Spiel-/Overlay-Erkennung | Integrierter Spielstatus als „Pirate Galaxy“ mit Logo, Sitzungsdauer und optionalem Ort |
+
+**Neu, erweitert oder korrigiert?** Die [ausführliche Funktionsübersicht](docs/FUNKTIONEN.md) kennzeichnet die Herkunft jeder Ergänzung und erklärt ihre Grenzen. Beispielsweise sind farbige Statustexte und der HP-Warnsound Originalfunktionen; Farbeditor und einstellbare Warnschwelle kommen von Forge.
+
+## Technik und Korrekturen
+
+- **64-Bit-Laufzeit:** größerer nutzbarer Adressraum als im 32-Bit-Client.
+- **Weniger Speicherarbeit:** Wiederverwendung kurzlebiger Render-/Kameraobjekte und weniger unnötige UI-Aktualisierungen.
+- **Gezielte Fehlerkorrekturen:** unter anderem Textumbruch, Planeten-/Schiffsvorschauen, Commerce-Central-Gebäudetexturen, Audioverarbeitung und Komponentenstatus.
+- **Eigener Updateweg:** getrennte Spielkopie, signierte Update-Metadaten und geprüfte Downloads.
+
+64 Bit allein garantiert weder höhere FPS noch Absturzfreiheit. Forge bleibt eine **experimentelle Alpha**; unter anderem Schattenflackern und spät erscheinende Gegner sind nicht allgemein behoben. Es werden keine neuen 4K-Texturen mitgeliefert.
 
 ## Installation
 
@@ -17,42 +63,16 @@ Voraussetzungen: **Windows 10/11 (64 Bit), .NET Framework 4.8 oder neuer und ein
 3. Die erkannte Originalinstallation bestätigen. Bei Bedarf den Spielordner oder den übergeordneten Launcher-Ordner auswählen.
 4. Forge lädt und prüft die benötigten Dateien einschließlich Java. Anschließend im Starter **Forge (64 Bit)** wählen.
 
-Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation unverändert. Bestehende Nutzer erhalten Updates beim nächsten Forge-Start; Einstellungen bleiben erhalten. Scheitert bereits die Updateprüfung, Forge schließen und das aktuelle Setup über die vorhandene Installation ausführen.
+Forge lässt die Originalinstallation unverändert. Bestehende Nutzer erhalten Updates beim nächsten Forge-Start; Einstellungen bleiben erhalten. Scheitert bereits die Updateprüfung, Forge schließen und das aktuelle Setup über die vorhandene Installation ausführen.
 
-## Komfortfunktionen
+Im Spiel öffnet **F in der oberen Menüleiste** das Forge-Fenster. Andere Fenster und Spielaktionen außerhalb bleiben bedienbar. Anzeigeoptionen sind dort in fünf Gruppen zusammengefasst.
 
-- **Kryonitdrohne:** Optionaler Wechsel vor dem eigenen Sammeln mit anschließendem Rückwechsel; ausdrücklich gestarteter Sammelmodus für Staffelbeute. Unter Anzeige → Komponenten, standardmäßig aus.
-- **Spielerstatus:** Farbknopf im eigenen Pilotenprofil; markierte Abschnitte oder den ganzen Status einfärben, Vorschau und Rückgängig inklusive.
-- **Baupläne:** Suche, Filter, Merkliste und ergänzter Referenzkatalog mit eigenem Remnant-Filter.
-- **Remnant-Träger:** Beutekategorie anklicken für Icons und eigene Bauplanbestände, getrennt nach Normal, Schnell, Stark und Lang.
-- **Zieleliste:** Remnants während der aktiven Jagdmission unabhängig von normalen Gegnern filtern.
-- **Bossleisten:** Für Remnant-Träger und das Mutterschiff der Königin: großer HP-Balken, zehn Effektsymbole und weitere über +N; Details zu Wirkung und Quelle per Klick.
-- **Staffel:** Lebenspunkte in Prozent, Effektsymbole, Herkunft und Laufzeiten, soweit bekannt; zusätzliche Effekte als Symbolraster.
-- **Kryonit:** Kompakte Sammelstatistik mit Rate, Bilanz und gespeicherter Fensterposition.
-- **Energiekugeln:** Dezente Markierung der größten Menge im nahen Kugelfeld; unter Forge → Anzeige einstellbar.
-- **Komponenten:** Anpassbare Tasten und Slot-Reihenfolge, gut lesbare Timer sowie Zielreichweiten-Markierung für Komponenten mit Eigen- und Zielanwendung.
-- **Quantensprung:** Anvisiertes Ziel nach einem erkannten Sprung behalten; standardmäßig an, unter Anzeige → Komponenten abschaltbar.
-- **Blitzkette:** Slot-Umrandung bei einem Gegner in direkter Reichweite, auch ohne Anvisieren; unter Forge → Anzeige einstellbar.
-- **Drohnen:** Geschätzte aktive Levelzeit bis zur nächsten und maximalen Stufe, unter Forge → Anzeige abschaltbar.
-- **Antrieb:** 27 Antriebsspuren und Schiffsstandard als lokale Live-Vorschau; Normal stellt den ausgerüsteten Antrieb wieder her.
-- **Audio:** Eigene Ogg-Vorbis-/WAV-Dateien, optionale Ausschnitte und Lautstärke pro Sound (0–300 %); Änderungen ohne Neustart übernehmen.
-- **Anzeige:** Fünf Einstellungsgruppen in Forge, globale HUD-Größe bis 200 % je nach Fenstergröße, FPS-Limit, VSync, Leistung und separat schaltbarer Ping unten rechts sowie optionaler Quantensprungring.
-- **Meldungen:** Seltene-Mantis-Sichtungen und Angriffs-/Siegesmeldungen getrennt schalten.
-- **Reparaturfelder:** Original, Reduziert oder Nur Kontur; standardmäßig gedämpfte Originalanimation ohne zusätzlichen Kreis.
-- **Kritische Lebenspunkte:** Warnschwelle von 5 bis 50 % und separat abschaltbare rote Bildschirmränder unter Forge → Anzeige → Kampf & Effekte.
-- **Orbitalschläge:** Aus, Nur Kontur oder Zeit + Füllung unter Forge → Anzeige → Kampf & Effekte. Auch rote NPC-Warnungen außerhalb von Remnant-Kämpfen können Konturen erhalten; unbekannte Varianten bekommen keinen Countdown. Zeiten und Grenzen sind Schätzungen.
-- **Sirius:** Reichweitenfenster mit Datum/Uhrzeit und relativem Stundenbereich in der Sternkarte.
-- **Discord:** Spielstatus als „Pirate Galaxy“, wahlweise mit aktuellem Ort; unter Forge → Anzeige einstellbar.
-- **Diagnose:** FPS, Bildzeiten, 1%-Lows und Speicheranzeige zur Fehlersuche.
-
-## Hilfe und Hinweise
-
-**Forge ist eine experimentelle Alpha.** Grafikfehler, Ruckler und Abstürze sind weiterhin möglich.
+## Hilfe und Projekt
 
 - [Installation, Updates und Fehler melden](docs/HILFE.md)
 - [Lokale Daten, freiwillige Aktivitätszählung und Fehlerberichte](docs/DATENSCHUTZ.md)
 - [Alle Veröffentlichungen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases)
 
-Bibliotheksquellen und Lizenzhinweise stehen beim jeweiligen Release als separate Archive bereit. Der Forge-Entwicklungscode ist privat.
+Bibliotheksquellen und Lizenzhinweise stehen beim jeweiligen Release als separate Archive bereit. Der Forge-Entwicklungscode ist privat. Die Screenshots zeigen Forge; sie sind keine Vergleichsaufnahmen des Originalclients.
 
 Pirate Galaxy Forge ist kein offizielles Produkt von Splitscreen Studios.
