@@ -2,11 +2,11 @@
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.53/PirateGalaxyForge-0.1.0-alpha.53-Setup.exe)** · **0.1.0-alpha.53** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.53)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.54/PirateGalaxyForge-0.1.0-alpha.54-Setup.exe)** · **0.1.0-alpha.54** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.54)
 
 [Alle Funktionen im Vergleich](docs/FUNKTIONEN.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
-**Neu in Alpha 53:** zuverlässigere Updateversuche bei vorübergehenden GitHub-Downloadfehlern.
+Mit Alpha 54 startet Forge direkt in 64 Bit. Forge lädt die benötigten Spielbasisdateien beim ersten Start direkt von Splitscreen.
 
 ## Ein Blick ins Spiel
 
@@ -26,7 +26,7 @@ Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzliche
 
 ## Was ergänzt Forge gegenüber dem Original?
 
-Die Spielwelt, Missionen, Gegenstände, Originalgrafiken und Grundfunktionen stammen aus **Pirate Galaxy**. Forge baut darauf auf. Die folgenden Ergänzungen gelten für **Forge (64 Bit)**; die Starterauswahl **Original (32 Bit)** startet den unveränderten offiziellen Client.
+Die Spielwelt, Missionen, Gegenstände, Originalgrafiken und Grundfunktionen stammen aus **Pirate Galaxy**. Forge baut darauf auf.
 
 | Bereich | Im Original bereits vorhanden | Zusätzlich in Forge |
 | --- | --- | --- |
@@ -56,14 +56,12 @@ Die Spielwelt, Missionen, Gegenstände, Originalgrafiken und Grundfunktionen sta
 
 ## Installation
 
-Voraussetzungen: **Windows 10/11 (64 Bit), .NET Framework 4.8 oder neuer und eine aktuelle offizielle Pirate-Galaxy-Installation**. Derzeit unterstützt Forge den Spielstand **1002132**.
+Voraussetzungen sind **Windows 10/11 (64 Bit), .NET Framework 4.8 oder neuer und Internetzugang**. Forge unterstützt den Spielstand **1002132**.
 
-1. Das offizielle Spiel installieren beziehungsweise aktualisieren.
-2. Den Forge-Installer ausführen und **Pirate Galaxy Forge** starten.
-3. Die erkannte Originalinstallation bestätigen. Bei Bedarf den Spielordner oder den übergeordneten Launcher-Ordner auswählen.
-4. Forge lädt und prüft die benötigten Dateien einschließlich Java. Anschließend im Starter **Forge (64 Bit)** wählen.
+1. Den Forge-Installer ausführen und **Pirate Galaxy Forge** starten.
+2. Forge lädt und prüft die Spielbasis von Splitscreen und Java von Azul. Sobald das Spielfenster erscheint, im Spiel anmelden.
 
-Forge lässt die Originalinstallation unverändert. Bestehende Nutzer erhalten Updates beim nächsten Forge-Start; Einstellungen bleiben erhalten. Scheitert bereits die Updateprüfung, Forge schließen und das aktuelle Setup über die vorhandene Installation ausführen.
+Bei vorhandenen Installationen übernimmt Forge die Einstellungen. Falls der alte Starter vor der Updateprüfung einen Originalordner verlangt oder das Update scheitert, Forge schließen und das aktuelle Setup über die vorhandene Installation ausführen.
 
 Im Spiel öffnet **F in der oberen Menüleiste** das Forge-Fenster. Andere Fenster und Spielaktionen außerhalb bleiben bedienbar. Anzeigeoptionen sind dort in fünf Gruppen zusammengefasst.
 

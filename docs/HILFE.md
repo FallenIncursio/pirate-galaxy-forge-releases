@@ -4,24 +4,15 @@
 
 [Alle Funktionen im Vergleich](FUNKTIONEN.md) · [Bildergalerie](BILDER.md)
 
-## Originalinstallation finden
+## Forge erstmals starten
 
-Forge sucht beim ersten Start nach vorhandenen Pirate-Galaxy-Installationen. Auch ein übergeordneter Launcher-Ordner oder dessen Ordner `gamedata` kann ausgewählt werden.
-
-Typische Speicherorte sind:
-
-- `%APPDATA%\Splitscreen Studios\Game Launcher\gamedata\Pirate Galaxy`
-- `%APPDATA%\Splitscreen Studios\Pirate Galaxy\gamedata\Pirate Galaxy`
-
-Der Spielordner muss `Basic.jar`, `PirateGalaxy.jar` und `core` enthalten. Die unterstützte Version wird beim Einrichten geprüft. Die Auswahl lässt sich später über **Pirate Galaxy Forge - Einstellungen** ändern.
-
-Forge lädt Java direkt vom offiziellen Azul-CDN und richtet es lokal ein. Eine separate Java-Installation ist nicht nötig. Der Starter bietet außerdem die installierte offizielle 32-Bit-Version über deren eigenen Launcher an.
+Forge lädt die Spielbasis für Version **1002132** direkt von Splitscreen und Java x64 direkt von Azul. Der Starter prüft die Downloads und öffnet Forge automatisch. Die Spieldateien und Forge-Einstellungen liegen unter `%LOCALAPPDATA%\PirateGalaxyForge`.
 
 ## Aktualisieren
 
 Beim Start prüft Forge den signierten Updatekanal. Neue Versionen werden vollständig heruntergeladen und geprüft, bevor sie aktiviert werden. Bei einem fehlgeschlagenen Update bleibt die vorhandene Version erhalten. Ein späterer Spielabsturz löst keinen automatischen Versionswechsel aus.
 
-Wenn ein alter Starter bereits bei der Updateprüfung scheitert, das [aktuelle Setup von der Projektübersicht](../README.md) im Browser laden, Forge regulär beenden und das Setup über die vorhandene Installation ausführen. Spieleinstellungen und Daten bleiben erhalten. Das gilt auch für sehr alte Starter, die sich noch nicht selbst aktualisieren können.
+Wenn der alte Starter einen Originalordner verlangt, die Updateprüfung scheitert oder die alte Starterversion keine Selbstaktualisierung unterstützt, Forge regulär beenden und das aktuelle Setup über die vorhandene Installation ausführen. Forge übernimmt die vorhandenen Spieleinstellungen und Daten. [Aktuelles Setup](../README.md)
 
 Seit Alpha 53 versucht der Starter bei vorübergehenden Downloadfehlern zusätzlich einen alternativen GitHub-Zugriff. Die Signatur- und Prüfsummenprüfung bleibt dabei erhalten. Ein erfolgreicher Browserdownload allein schließt eine programmspezifische Blockade nicht aus.
 
