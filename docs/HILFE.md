@@ -21,7 +21,7 @@ Beim Start prüft Forge den signierten Updatekanal. Neue Versionen werden vollst
 
 Wenn ein alter Starter bereits bei der Updateprüfung scheitert, das [aktuelle Setup von der Projektübersicht](../README.md) im Browser laden, Forge regulär beenden und das Setup über die vorhandene Installation ausführen. Spieleinstellungen und Daten bleiben erhalten. Das gilt auch für sehr alte Starter, die sich noch nicht selbst aktualisieren können.
 
-Seit Alpha 18 verwendet der Starter bei bestimmten .NET-Verbindungsfehlern einen zusätzlichen Windows-Downloadweg. Ein erfolgreicher Browserdownload allein schließt eine programmspezifische Blockade nicht aus.
+Seit Alpha 53 versucht der Starter bei vorübergehenden Downloadfehlern zusätzlich einen alternativen GitHub-Zugriff. Die Signatur- und Prüfsummenprüfung bleibt dabei erhalten. Ein erfolgreicher Browserdownload allein schließt eine programmspezifische Blockade nicht aus.
 
 ## Startfehler und Abstürze
 
