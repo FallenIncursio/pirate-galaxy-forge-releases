@@ -2,7 +2,7 @@
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.58/PirateGalaxyForge-0.1.0-alpha.58-Setup.exe)** · **[Linux-Vorschau herunterladen (Wine)](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.54/PirateGalaxyForge-Linux-Wine-Preview-Alpha54.zip)** · **0.1.0-alpha.58** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.58)
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.59/PirateGalaxyForge-0.1.0-alpha.59-Setup.exe)** · **[Linux-Vorschau herunterladen (Wine)](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.59/PirateGalaxyForge-Linux-Wine-Preview-Alpha59.zip)** · **0.1.0-alpha.59** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.59)
 
 [Alle Funktionen im Vergleich](docs/FUNKTIONEN.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
@@ -10,6 +10,8 @@ Mit Alpha 54 startet Forge direkt in 64 Bit. Forge lädt die benötigten Spielba
 
 Alpha 55 ergänzt die Bossleiste für Ancient-Giza, Ancient-Soris und Ancient-Amarna in Sirius.
 Alpha 58 ergänzt die Effekt-Tooltips um Empfänger, beobachtete Wirkzeit und bestätigte eigene Anwendungen.
+
+Alpha 59 bringt die lokale Vorschau des Remnant-Kampfberichts mit Pilot- und Staffelansicht. [Aufnahme und Auswertung](docs/HILFE.md#remnant-kampfbericht-vorschau)
 
 ## Ein Blick ins Spiel
 
@@ -72,7 +74,7 @@ Im Spiel öffnet **F in der oberen Menüleiste** das Forge-Fenster. Andere Fenst
 
 Du brauchst **Linux x86_64, Python 3.9 oder neuer**, eine grafische Sitzung und Internetzugang. Wine muss 32- und 64-Bit-Windows-Programme unterstützen und `winepath` bereitstellen. Installiere auch die Wine-Schriften (unter Ubuntu `fonts-wine`).
 
-Entpacke das [ZIP der Linux-Vorschau](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.54/PirateGalaxyForge-Linux-Wine-Preview-Alpha54.zip) und öffne im entpackten Ordner ein Terminal. Der erste Befehl richtet ein eigenes Wine-Profil für Forge ein, der zweite startet den Client.
+Entpacke das [ZIP der Linux-Vorschau](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.59/PirateGalaxyForge-Linux-Wine-Preview-Alpha59.zip) und öffne im entpackten Ordner ein Terminal. Der erste Befehl richtet ein eigenes Wine-Profil für Forge ein, der zweite startet den Client.
 
 ```sh
 python3 forge_wine.py install
@@ -80,6 +82,8 @@ python3 forge_wine.py launch
 ```
 
 Danach kannst du Forge auch über den Menüeintrag **Pirate Galaxy Forge (Wine Preview)** starten.
+
+Forge bezieht Spielupdates beim Start aus dem signierten Kanal. Für die aktualisierten Linux-Startdateien das neue ZIP entpacken und `python3 forge_wine.py install` erneut mit demselben Profilpfad ausführen. Wenn Wine den gespeicherten Kampfbericht nicht öffnet, `python3 forge_wine.py report` verwenden. Bei einem eigenen Profil für alle Befehle denselben `--root`-Pfad angeben.
 
 ## Hilfe und Projekt
 
