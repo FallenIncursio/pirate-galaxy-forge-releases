@@ -117,6 +117,8 @@ Korrekturen betreffen sowohl übernommene Fehler als auch Probleme der Portierun
 
 Alpha 60 korrigiert einen Fehler in der Schattenprojektion, der auf Hoch und Ultra zu flackernden Bodenschatten führen konnte. Beim Skalieren des HUD behebt die Version einen Absturz, der auftreten konnte, wenn das Renderfenster bereits geschlossen war.
 
+Seit Alpha 61 richtet sich die Projektion der Bodenschatten für gerichtetes Licht nach dem sichtbaren Schattenbereich. Das behebt den erneut beobachteten Projektionssprung bei ungewöhnlich großen Objektbegrenzungen.
+
 **Noch offen:** spät übermittelte Gegner und weitere mögliche Ruckler/Absturzursachen. Ein größerer Adressraum allein garantiert keine höheren FPS. Diagnoseaufnahmen sind Messdaten, keine Bildschirmvideos. Für Linux gibt es eine [Wine-Vorschau](../README.md#linux-vorschau-wine). Ein Grafikmodus über Ultra und neue 4K-Texturen sind nicht enthalten.
 
 [Releasehinweise mit den einzelnen Änderungen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases) · [Fehler melden](HILFE.md#startfehler-und-abstürze)
