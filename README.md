@@ -65,6 +65,19 @@ Bei vorhandenen Installationen übernimmt Forge die Einstellungen. Falls der alt
 
 Im Spiel öffnet **F in der oberen Menüleiste** das Forge-Fenster. Andere Fenster und Spielaktionen außerhalb bleiben bedienbar. Anzeigeoptionen sind dort in fünf Gruppen zusammengefasst.
 
+### Linux-Vorschau (Wine)
+
+Du brauchst **Linux x86_64, Python 3.9 oder neuer**, eine grafische Sitzung und Internetzugang. Wine muss 32- und 64-Bit-Windows-Programme unterstützen und `winepath` bereitstellen. Installiere auch die Wine-Schriften (unter Ubuntu `fonts-wine`).
+
+Entpacke das [ZIP der Linux-Vorschau](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.54/PirateGalaxyForge-Linux-Wine-Preview-Alpha54.zip) und öffne im entpackten Ordner ein Terminal. Der erste Befehl richtet ein eigenes Wine-Profil für Forge ein, der zweite startet den Client.
+
+```sh
+python3 forge_wine.py install
+python3 forge_wine.py launch
+```
+
+Danach kannst du Forge auch über den Menüeintrag **Pirate Galaxy Forge (Wine Preview)** starten.
+
 ## Hilfe und Projekt
 
 - [Installation, Updates und Fehler melden](docs/HILFE.md)
