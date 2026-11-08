@@ -115,6 +115,8 @@ Discord benötigt den geöffneten Desktopclient und erlaubte Aktivitätsanzeige.
 
 Korrekturen betreffen sowohl übernommene Fehler als auch Probleme der Portierung. Beispielsweise ließen sich die fehlerhaften Commerce-Central-Geometrie-LODs mit den gleichen Ressourcen auch im isolierten 32-Bit-Renderer reproduzieren. Andere Korrekturen stammen aus konkreten Forge-Absturz- oder Darstellungsberichten; daraus folgt keine pauschale Aussage über jeden Originalclient.
 
-**Noch offen:** allgemeines Schattenflackern, spät übermittelte Gegner und weitere mögliche Ruckler/Absturzursachen. Ein größerer Adressraum allein garantiert keine höheren FPS. Diagnoseaufnahmen sind Messdaten, keine Bildschirmvideos. Für Linux gibt es eine [Wine-Vorschau](../README.md#linux-vorschau-wine). Ein Grafikmodus über Ultra und neue 4K-Texturen sind nicht enthalten.
+Alpha 60 korrigiert einen Fehler in der Schattenprojektion, der auf Hoch und Ultra zu flackernden Bodenschatten führen konnte. Beim Skalieren des HUD behebt die Version einen Absturz, der auftreten konnte, wenn das Renderfenster bereits geschlossen war.
+
+**Noch offen:** spät übermittelte Gegner und weitere mögliche Ruckler/Absturzursachen. Ein größerer Adressraum allein garantiert keine höheren FPS. Diagnoseaufnahmen sind Messdaten, keine Bildschirmvideos. Für Linux gibt es eine [Wine-Vorschau](../README.md#linux-vorschau-wine). Ein Grafikmodus über Ultra und neue 4K-Texturen sind nicht enthalten.
 
 [Releasehinweise mit den einzelnen Änderungen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases) · [Fehler melden](HILFE.md#startfehler-und-abstürze)
