@@ -58,6 +58,12 @@ Mit **Uhrzeit im Chat** erscheinen Nachrichten mit `[HH:mm]` in deiner lokalen Z
 
 Mit **Ziel nach Quantensprung behalten** bleibt die bisherige Auswahl nach einem erkannten Sprung erhalten, solange die Einheit weiterhin vorhanden und auswählbar ist. Die Option ist standardmäßig an; bewusste Zielwechsel und Abwahl haben Vorrang.
 
+## Spielerstatus einfärben
+
+Im eigenen **Pilotenprofil** rechts neben dem Status auf den unterstrichenen **A-Knopf** klicken. Markiere einen Textabschnitt und wähle eine Farbe. Ohne Markierung gilt die Farbe für den ganzen Status; in einem leeren Feld für die nächste Eingabe. **Standard** stellt die normale Schriftfarbe wieder her.
+
+Die Vorschau aktualisiert sich direkt. **Speichern** oder Enter übernimmt den Entwurf, **Abbrechen** oder Esc verwirft ihn. Strg+Z macht Text- und Farbänderungen rückgängig; Strg+Y stellt sie wieder her. Bereits vorhandene Farben bleiben beim Öffnen erhalten. Beim Schließen oder Wechseln des Profils wird ein ungespeicherter Entwurf verworfen.
+
 ## Antriebsspuren ausprobieren
 
 Unter **Forge Komfort → Antrieb** stehen Uni-, Zwillings- und Tristar-Spuren in je neun Farben sowie der Schiffsstandard. Mit Typ- und Farbfilter grenzt du die Liste ein.

@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.49**
+**Aktuelle Alpha: 0.1.0-alpha.50**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.49/PirateGalaxyForge-0.1.0-alpha.49-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.49)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.50/PirateGalaxyForge-0.1.0-alpha.50-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.50)
 
-Alpha 49 ergänzt Countdown und Füllung für eine weitere große Orbitalschlagvariante bei Remnant-Kämpfen mit etwa 12,25 Sekunden Vorwarnzeit. Alle bisherigen Funktionen bleiben erhalten.
+Alpha 50 ergänzt einen kompakten Farbeditor für den eigenen Spielerstatus, mit direkter Vorschau und Rückgängig. Alle bisherigen Funktionen bleiben erhalten.
 
 ## Installation
 
@@ -21,6 +21,7 @@ Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation un
 
 ## Komfortfunktionen
 
+- **Spielerstatus:** Farbknopf im eigenen Pilotenprofil; markierte Abschnitte oder den ganzen Status einfärben, Vorschau und Rückgängig inklusive.
 - **Baupläne:** Suche, Filter, Merkliste und ergänzter Referenzkatalog mit eigenem Remnant-Filter.
 - **Remnant-Träger:** Beutekategorie anklicken für Icons und eigene Bauplanbestände, getrennt nach Normal, Schnell, Stark und Lang.
 - **Zieleliste:** Remnants während der aktiven Jagdmission unabhängig von normalen Gegnern filtern.
