@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.50**
+**Aktuelle Alpha: 0.1.0-alpha.51**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.50/PirateGalaxyForge-0.1.0-alpha.50-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.50)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.51/PirateGalaxyForge-0.1.0-alpha.51-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.51)
 
-Alpha 50 ergänzt einen kompakten Farbeditor für den eigenen Spielerstatus, mit direkter Vorschau und Rückgängig. Alle bisherigen Funktionen bleiben erhalten.
+Alpha 51 ergänzt einen optionalen Kryonit-Drohnenwechsel beim eigenen Sammeln sowie einen Sammelmodus für Staffelbeute. Alle bisherigen Funktionen bleiben erhalten.
 
 ## Installation
 
@@ -21,6 +21,7 @@ Forge verwendet eine getrennte Spielkopie und lässt die Originalinstallation un
 
 ## Komfortfunktionen
 
+- **Kryonitdrohne:** Optionaler Wechsel vor dem eigenen Sammeln mit anschließendem Rückwechsel; ausdrücklich gestarteter Sammelmodus für Staffelbeute. Unter Anzeige → Komponenten, standardmäßig aus.
 - **Spielerstatus:** Farbknopf im eigenen Pilotenprofil; markierte Abschnitte oder den ganzen Status einfärben, Vorschau und Rückgängig inklusive.
 - **Baupläne:** Suche, Filter, Merkliste und ergänzter Referenzkatalog mit eigenem Remnant-Filter.
 - **Remnant-Träger:** Beutekategorie anklicken für Icons und eigene Bauplanbestände, getrennt nach Normal, Schnell, Stark und Lang.

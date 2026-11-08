@@ -47,7 +47,7 @@ Die Deinstallation entfernt die Startanwendung und Verknüpfungen. Heruntergelad
 Alle Forge-Anzeigeoptionen liegen unter **Forge Komfort → Anzeige**:
 
 - **HUD & Grafik:** Oberflächengröße, FPS-Limit, VSync und Leistungsanzeige.
-- **Komponenten:** Slot-Timer, Quantensprung-Reichweite, Zielhaltung nach Quantensprung und Reichweiten-Markierungen.
+- **Komponenten:** Slot-Timer, Quantensprung-Reichweite, Zielhaltung nach Quantensprung, Reichweiten-Markierungen und Kryonit-Drohnenwechsel.
 - **Kampf & Effekte:** Staffel, Bossleisten, Reparaturfelder und Orbitalschläge. Bossleisten lassen sich auf Aus, Remnants, Königin oder Alle stellen. Die Königin benötigt keine Remnant-Jagd; eine bisher ausgeschaltete Bossanzeige bleibt ausgeschaltet.
 - **Widgets:** Kryonit, Positionssperre, Energiekugel-Markierung und Drohnen-Levelzeit.
 - **Meldungen & Discord:** Seltene Mantis, Discord-Spielstatus und Uhrzeit im Chat.
@@ -101,3 +101,9 @@ Klicke auf die bekannte Beutekategorie, um mögliche Baupläne mit Icons und dei
 Bestände wie 8/6 bleiben erhalten und aktualisieren sich nach Verbrauch. „Nicht im Profil“ steht für einen unbekannten Bestand, nicht automatisch für null Teile. Die Anzeige verändert keine Baupläne und sagt keinen konkreten Drop voraus.
 
 Neue Träger zeigen zunächst die geschätzte Wartezeit bis zur Systemmeldung. Planet und Beute erscheinen erst nach ihrer Bekanntgabe; bekannte Lebenspunkte stehen als Prozentzahl im Balken. Der ursprüngliche Abflugtimer bleibt erhalten.
+
+## Kryonit-Drohnenwechsel
+
+Unter **Forge Komfort → Anzeige → Komponenten** eine **Tauschdrohne** auswählen und **Beim eigenen Sammeln** einschalten. Die Kryonitdrohne muss ausgerüstet und geladen sein. Vor deinem manuellen Sammelauftrag wartet Forge auf den bestätigten Wechsel; nach der Sammelfolge kehrt die vom Helfer geänderte Belegung zurück. Ein freier aktiver Platz wird ohne unnötigen Tausch genutzt.
+
+Für Beute von Mitspielern **Sammelmodus starten** und danach **beenden**. Der Modus bleibt bis dahin aktiv und startet nicht automatisch beim Login. Ein kleines **A** am Drohnensymbol kennzeichnet die Hilfe. Manuelle Drohnenwechsel haben Vorrang. Nach einem unterbrochenen Gebietswechsel oder einer unklaren Serverantwort die Belegung prüfen. Die Hilfe ist standardmäßig aus und kauft oder lädt keine Drohnen.
