@@ -44,15 +44,19 @@ Die Deinstallation entfernt die Startanwendung und Verknüpfungen. Heruntergelad
 
 ## Anzeige einstellen
 
-Alle Forge-Anzeigeoptionen liegen unter **Forge Komfort → Anzeige**:
+Öffne **Forge** über den **F-Knopf** in der oberen Menüleiste. Andere Fenster und Aktionen außerhalb bleiben bedienbar. Der F-Knopf oder das Kreuz schließt Forge.
 
-- **HUD & Grafik:** Oberflächengröße, FPS-Limit, VSync und Leistungsanzeige.
+Alle Forge-Anzeigeoptionen liegen unter **Forge → Anzeige**:
+
+- **HUD & Grafik:** Oberflächengröße, FPS-Limit, VSync, Leistungsanzeige und Ping anzeigen.
 - **Komponenten:** Slot-Timer, Quantensprung-Reichweite, Zielhaltung nach Quantensprung, Reichweiten-Markierungen und Kryonit-Drohnenwechsel.
 - **Kampf & Effekte:** Staffel, Bossleisten, Reparaturfelder und Orbitalschläge. Bossleisten lassen sich auf Aus, Remnants, Königin oder Alle stellen. Die Königin benötigt keine Remnant-Jagd; eine bisher ausgeschaltete Bossanzeige bleibt ausgeschaltet.
 - **Widgets:** Kryonit, Positionssperre, Energiekugel-Markierung und Drohnen-Levelzeit.
 - **Meldungen & Discord:** Seltene Mantis, Discord-Spielstatus und Uhrzeit im Chat.
 
-**Übernehmen** speichert alle Gruppen. **Verwerfen** oder Schließen verwirft ungespeicherte Auswahlen; beim Seitenwechsel bleiben sie erhalten. VSync wird nach einem Neustart wirksam. Die ursprünglichen Spieleinstellungen enthalten weiterhin Sprache, Auflösung, Grafikqualität und Lautstärke.
+**Übernehmen** speichert alle Gruppen und bestätigt dies kurz neben den Aktionen. **Verwerfen** oder Schließen verwirft ungespeicherte Auswahlen; beim Seitenwechsel bleiben sie erhalten. VSync wird nach einem Neustart wirksam. Die ursprünglichen Spieleinstellungen enthalten weiterhin Sprache, Auflösung, Grafikqualität und Lautstärke.
+
+Ping steht unten rechts; die optionale Leistungsanzeige erscheint links daneben. Beide lassen sich unabhängig schalten und halten Abstand zu Minimap und Komponentenleiste.
 
 Mit **Uhrzeit im Chat** erscheinen Nachrichten mit `[HH:mm]` in deiner lokalen Zeitzone. Der Schalter gilt für Kommunikationsfenster und kleinen HUD-Chat; **Übernehmen** aktualisiert auch bereits angezeigte Zeilen.
 
@@ -66,23 +70,23 @@ Die Vorschau aktualisiert sich direkt. **Speichern** oder Enter übernimmt den E
 
 ## Antriebsspuren ausprobieren
 
-Unter **Forge Komfort → Antrieb** stehen Uni-, Zwillings- und Tristar-Spuren in je neun Farben sowie der Schiffsstandard. Mit Typ- und Farbfilter grenzt du die Liste ein.
+Unter **Forge → Antrieb** stehen Uni-, Zwillings- und Tristar-Spuren in je neun Farben sowie der Schiffsstandard. Mit Typ- und Farbfilter grenzt du die Liste ein.
 
 Im Modus **Vorschau** erscheint die Auswahl sofort an deinem Schiff. Du kannst weiterfliegen und mit **Vor/Zurück** die gefilterten Spuren vergleichen. **Normal**, Schließen oder ein Tab-, Schiffs- oder Szenenwechsel beendet die Vorschau. Deine tatsächliche Ausrüstung bleibt erhalten; andere Spieler sehen weiterhin diese. Die Vorschau wird nicht über einen Neustart gespeichert.
 
 ## Orbitalschläge
 
-Unter **Forge Komfort → Anzeige → Kampf & Effekte → Orbitalschläge** wählst du **Aus**, **Nur Kontur** oder **Zeit + Füllung**. Mit **Übernehmen** wirkt die Auswahl sofort und bleibt gespeichert. Aus entfernt sämtliche zusätzlichen Forge-Markierungen; die ursprünglichen Spieleffekte bleiben sichtbar.
+Unter **Forge → Anzeige → Kampf & Effekte → Orbitalschläge** wählst du **Aus**, **Nur Kontur** oder **Zeit + Füllung**. Mit **Übernehmen** wirkt die Auswahl sofort und bleibt gespeichert. Aus entfernt sämtliche zusätzlichen Forge-Markierungen; die ursprünglichen Spieleffekte bleiben sichtbar.
 
 Die Anzeige erkennt stationäre rote NPC-Warnkörper, auch bei den aufgezeichneten Gazica-Angriffen. Dadurch können Konturen auch außerhalb von Remnant-Kämpfen erscheinen. Nur bekannte Varianten mit auswertbaren Zeitdaten bekommen einen Countdown; unbekannte Varianten erhalten eine Kontur. Je nach bekannter Variante beträgt die geschätzte Vorwarnzeit etwa 5, 6,25 oder 12,25 Sekunden. Countdown und Füllung verwenden dieselbe Zeit. Zeiten und Grenzen bleiben Schätzungen; ein Einschlag kann früher erfolgen.
 
 ## Reparaturfelder
 
-Unter **Komfort → Anzeige → Kampf & Effekte → Reparaturfelder** kannst du die Darstellung einstellen. **Reduziert** dämpft standardmäßig das Leuchten überlappender Felder und erhält ihre Animation. **Original** zeigt die gewohnte Darstellung; **Nur Kontur** ersetzt die große Aura durch eine Außenlinie. **Übernehmen** wirkt sofort und speichert die Auswahl.
+Unter **Forge → Anzeige → Kampf & Effekte → Reparaturfelder** kannst du die Darstellung einstellen. **Reduziert** dämpft standardmäßig das Leuchten überlappender Felder und erhält ihre Animation. **Original** zeigt die gewohnte Darstellung; **Nur Kontur** ersetzt die große Aura durch eine Außenlinie. **Übernehmen** wirkt sofort und speichert die Auswahl.
 
 ## Discord und Medal
 
-Den Discord-Spielstatus stellst du unter **Komfort → Anzeige → Meldungen & Discord** ein. Discord muss geöffnet sein und die Anzeige deiner Aktivitäten erlauben. Für das Overlay den laufenden Client unter **Discord → Registrierte Spiele** hinzufügen und das Overlay einschalten. Veraltete Forge-Einträge gegebenenfalls vorher entfernen.
+Den Discord-Spielstatus stellst du unter **Forge → Anzeige → Meldungen & Discord** ein. Discord muss geöffnet sein und die Anzeige deiner Aktivitäten erlauben. Für das Overlay den laufenden Client unter **Discord → Registrierte Spiele** hinzufügen und das Overlay einschalten. Veraltete Forge-Einträge gegebenenfalls vorher entfernen.
 
 Medal kann den 64-Bit-Client aufnehmen. Wird er nicht erkannt, das laufende Spiel über **Add New Game** hinzufügen. Die offizielle Kategorie „Pirate Galaxy“ wird noch nicht zuverlässig zugeordnet; „Requested“ kann trotz funktionierender Aufnahme stehen bleiben. Clips und Aufnahmeoptionen verwaltest du in Medal.
 
@@ -92,7 +96,7 @@ Einzelne Grafik-, Musik- und Performanceprobleme sowie native Abstürze werden w
 
 ## Kritische Lebenspunkte
 
-Unter **Forge Komfort → Anzeige → Kampf & Effekte** stellt der Regler die Warnschwelle von **5 bis 50 %** ein. Standard sind **25 %**. Der vorhandene Warnsound und die roten Bildschirmränder richten sich nach dieser Grenze. **Rote Bildschirmränder** lassen sich unabhängig abschalten. Mit **Übernehmen** speichern; ein Neustart ist nicht nötig.
+Unter **Forge → Anzeige → Kampf & Effekte** stellt der Regler die Warnschwelle von **5 bis 50 %** ein. Standard sind **25 %**. Der vorhandene Warnsound und die roten Bildschirmränder richten sich nach dieser Grenze. **Rote Bildschirmränder** lassen sich unabhängig abschalten. Mit **Übernehmen** speichern; ein Neustart ist nicht nötig.
 
 ## Remnant-Trägertabelle
 
@@ -104,6 +108,6 @@ Neue Träger zeigen zunächst die geschätzte Wartezeit bis zur Systemmeldung. P
 
 ## Kryonit-Drohnenwechsel
 
-Unter **Forge Komfort → Anzeige → Komponenten** eine **Tauschdrohne** auswählen und **Beim eigenen Sammeln** einschalten. Die Kryonitdrohne muss ausgerüstet und geladen sein. Vor deinem manuellen Sammelauftrag wartet Forge auf den bestätigten Wechsel; nach der Sammelfolge kehrt die vom Helfer geänderte Belegung zurück. Ein freier aktiver Platz wird ohne unnötigen Tausch genutzt.
+Unter **Forge → Anzeige → Komponenten** eine **Tauschdrohne** auswählen und **Beim eigenen Sammeln** einschalten. Die Kryonitdrohne muss ausgerüstet und geladen sein. Vor deinem manuellen Sammelauftrag wartet Forge auf den bestätigten Wechsel; nach der Sammelfolge kehrt die vom Helfer geänderte Belegung zurück. Ein freier aktiver Platz wird ohne unnötigen Tausch genutzt.
 
 Für Beute von Mitspielern **Sammelmodus starten** und danach **beenden**. Der Modus bleibt bis dahin aktiv und startet nicht automatisch beim Login. Ein kleines **A** am Drohnensymbol kennzeichnet die Hilfe. Manuelle Drohnenwechsel haben Vorrang. Nach einem unterbrochenen Gebietswechsel oder einer unklaren Serverantwort die Belegung prüfen. Die Hilfe ist standardmäßig aus und kauft oder lädt keine Drohnen.
