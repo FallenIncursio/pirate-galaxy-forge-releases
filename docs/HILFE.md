@@ -16,6 +16,8 @@ Wenn der alte Starter einen Originalordner verlangt, die Updateprüfung scheiter
 
 Seit Alpha 53 versucht der Starter bei vorübergehenden Downloadfehlern zusätzlich einen alternativen GitHub-Zugriff. Die Signatur- und Prüfsummenprüfung bleibt dabei erhalten. Ein erfolgreicher Browserdownload allein schließt eine programmspezifische Blockade nicht aus.
 
+Die Linux-Vorschau nutzt denselben signierten Spielupdate-Kanal. Für ein Update der Linux-Startdateien das neue ZIP entpacken und `python3 forge_wine.py install` erneut mit demselben Profilpfad ausführen. [Linux-Download und Installation](../README.md#linux-vorschau-wine)
+
 ## Startfehler und Abstürze
 
 Für eine Fehlermeldung sind diese Angaben hilfreich:
@@ -98,6 +100,14 @@ Klicke auf die bekannte Beutekategorie, um mögliche Baupläne mit Icons und dei
 Bestände wie 8/6 bleiben erhalten und aktualisieren sich nach Verbrauch. „Nicht im Profil“ steht für einen unbekannten Bestand, nicht automatisch für null Teile. Die Anzeige verändert keine Baupläne und sagt keinen konkreten Drop voraus.
 
 Neue Träger zeigen zunächst die geschätzte Wartezeit bis zur Systemmeldung. Planet und Beute erscheinen erst nach ihrer Bekanntgabe; bekannte Lebenspunkte stehen als Prozentzahl im Balken. Der ursprüngliche Abflugtimer bleibt erhalten.
+
+## Remnant-Kampfbericht (Vorschau)
+
+1. Vor dem Kampf **F → Diagnose → Remnant-Aufnahme starten** wählen.
+2. Nach dem Kampf **Remnant-Bericht öffnen** wählen. Forge beendet die Aufnahme und speichert die lokale Browserdatei.
+3. Im Bericht zwischen **Piloten** und **Staffeln** wechseln. Unter Wine kann `python3 forge_wine.py report` die Datei im Linux-Browser öffnen.
+
+Der Bericht berücksichtigt den beobachteten Kampfausschnitt. Die Schadensanteile beziehen sich auf den erfassten Trägerschaden einschließlich Treffern ohne Pilotenquelle. Heil-LP sind dem Empfänger zugeordnet. Die Zielstichproben zeigen das im Client beobachtete Ziel des Trägers. Für andere Staffeln bleibt die Mitgliedschaft offen, sofern der Client sie nicht belegt.
 
 ## Kryonit-Drohnenwechsel
 
