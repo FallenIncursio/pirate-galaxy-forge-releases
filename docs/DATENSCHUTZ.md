@@ -10,6 +10,8 @@ Bewusst in Forge gespeicherte Anmeldedaten werden lokal mit Windows DPAPI gesch�
 
 Die Bauplanansicht lädt den eigenen Profilstand über die vorhandene Spielabfrage nach. Solange dieser Tab geöffnet ist, erfolgt die nächste Aktualisierung fünf Sekunden nach Abschluss der vorherigen Anfrage. Außerhalb dieses Tabs läuft die automatische Aktualisierung nicht.
 
+Der Remnant-Kampfbericht erfasst erst nach **Remnant-Aufnahme starten** beobachtete Kampfdaten mit lokalen Pilotenkennungen. **Remnant-Bericht öffnen** speichert den letzten Bericht als `remnant-kampfbericht.html` im Forge-Datenordner. Die Auswertung bleibt lokal.
+
 ## Freiwillige Aktivitätszählung
 
 Die Zählung ist standardmäßig **aus**. Bei Zustimmung sendet Forge während des Spiels alle zwei Minuten eine zufällige Installationskennung und die Version per HTTPS.
