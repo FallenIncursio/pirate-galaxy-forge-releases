@@ -2,11 +2,11 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy mit Komfortfunktionen und Performance-Verbesserungen.
 
-**Aktuelle Alpha: 0.1.0-alpha.52**
+**Aktuelle Alpha: 0.1.0-alpha.53**
 
-**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.52/PirateGalaxyForge-0.1.0-alpha.52-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.52)
+**[Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.53/PirateGalaxyForge-0.1.0-alpha.53-Setup.exe)** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.53)
 
-Alpha 52 bringt Forge als F-Knopf in die obere Menüleiste, lässt andere Fenster währenddessen bedienbar und ordnet Ping und Leistung unten rechts an. Alle bisherigen Funktionen bleiben erhalten.
+Alpha 53 behebt Updateprobleme bei vorübergehenden GitHub-Downloadfehlern. Alle bisherigen Spielfunktionen bleiben erhalten.
 
 ## Installation
 
