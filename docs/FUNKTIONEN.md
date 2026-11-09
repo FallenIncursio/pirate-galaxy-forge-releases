@@ -119,6 +119,8 @@ Alpha 60 korrigiert einen Fehler in der Schattenprojektion, der auf Hoch und Ult
 
 Seit Alpha 61 richtet sich die Projektion der Bodenschatten für gerichtetes Licht nach dem sichtbaren Schattenbereich. Das behebt den erneut beobachteten Projektionssprung bei ungewöhnlich großen Objektbegrenzungen.
 
+Seit Alpha 62 läuft die Ladeansicht bei Übergängen zwischen Oberfläche, Orbit und Sternkarte früher an. Für Erebos bereitet Forge die Aufteilung der Szene im Orbit lokal vor. Entfernte Dekoration erscheint nach der ersten spielbaren Ansicht. Wenn die Quelldatei fehlt, sich geändert hat oder die Vorbereitung noch läuft, lädt Forge die Originalszene.
+
 **Noch offen:** spät übermittelte Gegner und weitere mögliche Ruckler/Absturzursachen. Ein größerer Adressraum allein garantiert keine höheren FPS. Diagnoseaufnahmen sind Messdaten, keine Bildschirmvideos. Für Linux gibt es eine [Wine-Vorschau](../README.md#linux-vorschau-wine). Ein Grafikmodus über Ultra und neue 4K-Texturen sind nicht enthalten.
 
 [Releasehinweise mit den einzelnen Änderungen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases) · [Fehler melden](HILFE.md#startfehler-und-abstürze)
