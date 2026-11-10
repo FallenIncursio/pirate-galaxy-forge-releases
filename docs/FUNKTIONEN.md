@@ -40,7 +40,7 @@ Die Trägertabelle, ihre Bekanntgaben, der Lebensbalken und der Abflugtimer stam
 | Zielreichweiten-Markierung | Neu | Slot-Umrandung für passende Komponenten mit Eigen-/Orts- und Zielanwendung, wenn das ausgewählte Ziel in Reichweite ist. |
 | Blitzketten-Markierung | Neu | Die Blitzkette leuchtet bei einem geeigneten bekannten Gegner in direkter Reichweite auf, auch ohne ausgewähltes Ziel. |
 | Quantensprung-Ring | Neu | Optionaler kontrastreicher Reichweitenring auf Planeten mit entsprechend ausgerüstetem Schiff. |
-| Zielhaltung nach Quantensprung | Erweitert | Auswahl nach einem erkannten Sprung behalten, solange die Einheit vorhanden und auswählbar bleibt. Standardmäßig an; manuelle Zielwechsel gehen vor. |
+| Zielhaltung nach Quantensprung | Erweitert | Die Option **Zielhaltung außerhalb von PvP** kann die Auswahl bei NPCs und anderen Zielen ohne feindliche PvP-Beziehung erhalten. Bei feindlichen Spielern greift ab Alpha 63 die Original-Abwahl. Die Einheit muss weiterhin vorhanden und auswählbar sein. |
 | Orbitalschlaganzeige | Erweitert | Zusätzliche Konturen und bei bekannten Varianten geschätzter Countdown mit Füllung/Farbverlauf. Aus, Nur Kontur oder Zeit + Füllung. |
 | Reparaturfelder | Erweitert | Original, Reduziert oder Nur Kontur. Reduziert erhält die Animation und dämpft überlappende Leuchteffekte. |
 | HP-Warnschwelle | Erweitert | Der originale Warnsound bei 25 % richtet sich nach einer einstellbaren Schwelle von 5 bis 50 %. |
@@ -58,14 +58,12 @@ Orbitalzeiten und Grenzen sind **Schätzungen**. Unbekannte Varianten erhalten k
 | --- | --- | --- |
 | Kryonitstatistik | Neu | Kompaktes Widget mit Sammlung, Rate und Bilanz; Tages-/Farmansicht sowie Start, Pause und Zurücksetzen. Verschobene Position bleibt erhalten. |
 | Energiekugel-Markierung | Neu | Dezente Ecken markieren die größte übermittelte Energiemenge im nahen Kugelfeld. |
-| Kryonit-Drohnenwechsel | Neu | Optional vor dem eigenen manuellen Sammelauftrag zur ausgerüsteten, geladenen Kryonitdrohne wechseln und anschließend zurückwechseln. |
-| Sammelmodus für Staffelbeute | Neu | Bewusst startbarer Modus hält die Kryonitdrohne für Beute von Mitspielern aktiv; nach Beenden wird die vom Helfer geänderte Belegung zurückgestellt. |
 | Drohnen-Levelzeiten | Erweitert | Geschätzte aktive Zeit bis zum nächsten und maximalen Level. Bei Maximallevel entfällt der zusätzliche Bereich. |
 | Eigene Positionsmerker | Neu | Aktuelle Positionen benennen, speichern und in einer schematischen Übersicht wiederfinden. |
 | Sirius-Reichweitenfenster | Neu | Vom aktuellen Clanschiff-Planeten berechnete Zeitfenster mit Datum/Uhrzeit und relativem Stundenbereich. |
 | Sirius-Reiseerinnerungen | Neu | Eine ausgewählte Route vormerken; Hinweis vor und bei Beginn des Reichweitenfensters. |
 
-Die Kryonitstatistik erfasst beobachtete Werte während der Nutzung; sie ist keine vollständige Verkauf-/Ausgabenbuchhaltung. Die Energiekugel-Markierung sammelt nichts automatisch. Der Drohnenhelfer ist standardmäßig aus, lädt oder kauft keine Drohnen und respektiert manuelle Wechsel. [Drohnenhelfer einrichten](HILFE.md#kryonit-drohnenwechsel).
+Die Kryonitstatistik erfasst beobachtete Werte während der Nutzung; sie ist keine vollständige Verkauf-/Ausgabenbuchhaltung. Die Energiekugel-Markierung sammelt nichts automatisch. Ab Alpha 63 werden Drohnen beim Kryonit-Sammeln manuell gesteuert.
 
 Positionsmerker sind keine Wegfindung. Bei erneutem Gebietsbesuch werden sie bestätigt. Sirius-Prognosen ersetzen keine Quarc-, Lade- oder Zugangsbedingungen und lösen keine Reise aus.
 
@@ -76,7 +74,7 @@ Positionsmerker sind keine Wegfindung. Bei erneutem Gebietsbesuch werden sie bes
 | Forge-Fenster | Neu | Acht Tabs: Baupläne, Ausrüstung, Reise, Tasten, Anzeige, Diagnose, Audio und Antrieb. F in der oberen Menüleiste öffnet/schließt das Fenster. |
 | Bedienung neben Forge | Erweitert | Andere Spielfenster und Aktionen außerhalb des Forge-Fensters bleiben bedienbar. |
 | Globale HUD-Größe | Erweitert | 100/115/130/150/175/200 %, abhängig von der Fenstergröße; gilt auch für native Spielfenster. |
-| Gebündelte Anzeigeoptionen | Neu | Fünf Gruppen: HUD & Grafik, Komponenten, Kampf & Effekte, Widgets sowie Meldungen & Discord. |
+| Gebündelte Anzeigeoptionen | Neu | Fünf Gruppen für HUD & Grafik, Komponenten, Kampf & Effekte, Widgets sowie Meldungen & Discord. Seit Alpha 63 erklärt ein Tooltip jede Option. |
 | Chat-Uhrzeit | Erweitert | Optional [HH:mm] vor Nachrichten im Kommunikationsfenster und kleinen HUD-Chat; lokale Zeitzone. |
 | Status-Farbeditor | Erweitert | Textabschnitte oder ganzen eigenen Status einfärben, Vorschau, Standardfarbe und Rückgängig. Farbige Statustexte selbst unterstützt bereits das Original. |
 | Meldungsfilter | Erweitert | Seltene-Mantis-Sichtungen und Angriffs-/Siegesmeldungen getrennt schalten. |
@@ -99,7 +97,7 @@ Discord benötigt den geöffneten Desktopclient und erlaubte Aktivitätsanzeige.
 | --- | --- | --- |
 | 64-Bit-Client | Neu | 64-Bit-Laufzeit und native Bibliotheken statt des 32-Bit-Adressraums. Die Grundlage bleibt die vorhandene Spiel-Engine. |
 | FPS-Limit und VSync | Erweitert | Direkt erreichbare Einstellungen in Forge; FPS-Limit nach Übernehmen, VSync nach Neustart. |
-| Ping und Leistungsanzeige | Erweitert | Die vorhandene Pinganzeige sitzt unten rechts und ist abschaltbar. Neu daneben: optional FPS oder FPS/Bildzeit/P99. |
+| Ping und Leistungsanzeige | Erweitert | Der Ping steht unten rechts. Daneben zeigt Forge auf Wunsch FPS oder FPS mit Bildzeit und P99. |
 | Detaildiagnose | Neu | FPS, 1%-Lows, Bildzeiten, Aussetzer, Java-Speicher und GC-Aktivität; manuell gestartete lokale Diagnoseaufnahmen. |
 | Speicherarbeit im Renderpfad | Erweitert | Wiederverwendung kurzlebiger Objekte für Antriebsspuren, Kamera, Matrizen, Szenenwerte, Render-Passes und Zielstrahlen. |
 | UI-Aktualisierung | Erweitert | Weniger wiederholte Abfragen und unnötige Aktualisierungen. |
