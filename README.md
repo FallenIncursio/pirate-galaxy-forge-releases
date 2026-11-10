@@ -2,7 +2,7 @@
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.64/PirateGalaxyForge-0.1.0-alpha.64-Setup.exe)** · **[Linux-Vorschau herunterladen (Wine)](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.64/PirateGalaxyForge-Linux-Wine-Preview-Alpha64.zip)** · **0.1.0-alpha.64** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.64)
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.65/PirateGalaxyForge-0.1.0-alpha.65-Setup.exe)** · **[Linux-Vorschau herunterladen (Wine)](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.65/PirateGalaxyForge-Linux-Wine-Preview-Alpha65.zip)** · **0.1.0-alpha.65** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.65)
 
 [Alle Funktionen im Vergleich](docs/FUNKTIONEN.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
@@ -22,6 +22,8 @@ Alpha 62 verbessert die Übergänge zwischen Oberfläche, Orbit und Sternkarte. 
 Alpha 63 erklärt alle Optionen unter **Forge → Anzeige** per Tooltip. Beim Kryonit-Sammeln wechselst du die Drohne über die manuelle Steuerung. Springt ein feindlicher Spieler per Quantensprung, greift die normale Zielabwahl des Spiels.
 
 Alpha 64 korrigiert die Drohnenanzeige im Hangar. Nach einem Schiff- oder Konfigurationswechsel zeigt die Liste die aktuelle Belegung.
+
+Alpha 65 korrigiert die Scan-Details bei schnellen Zielwechseln. Mit **E** oder dem Scan-Knopf öffnest du die Details zum aktuell ausgewählten Objekt.
 
 ## Ein Blick ins Spiel
 
@@ -84,7 +86,7 @@ Im Spiel öffnet **F in der oberen Menüleiste** das Forge-Fenster. Andere Fenst
 
 Du brauchst **Linux x86_64, Python 3.9 oder neuer**, eine grafische Sitzung und Internetzugang. Wine muss 32- und 64-Bit-Windows-Programme unterstützen und `winepath` bereitstellen. Installiere auch die Wine-Schriften (unter Ubuntu `fonts-wine`).
 
-Entpacke das ZIP der Linux-Vorschau und öffne im entpackten Ordner ein Terminal. Der erste Befehl richtet ein eigenes Wine-Profil für Forge ein. Der zweite startet den Client. [ZIP der Linux-Vorschau](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.64/PirateGalaxyForge-Linux-Wine-Preview-Alpha64.zip)
+Entpacke das ZIP der Linux-Vorschau und öffne im entpackten Ordner ein Terminal. Der erste Befehl richtet ein eigenes Wine-Profil für Forge ein. Der zweite startet den Client. [ZIP der Linux-Vorschau](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.65/PirateGalaxyForge-Linux-Wine-Preview-Alpha65.zip)
 
 ```sh
 python3 forge_wine.py install
