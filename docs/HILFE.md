@@ -41,21 +41,21 @@ Die Deinstallation entfernt die Startanwendung und Verknüpfungen. Heruntergelad
 
 Öffne **Forge** über den **F-Knopf** in der oberen Menüleiste. Andere Fenster und Aktionen außerhalb bleiben bedienbar. Der F-Knopf oder das Kreuz schließt Forge.
 
-Alle Forge-Anzeigeoptionen liegen unter **Forge → Anzeige**:
+Unter **Forge → Anzeige** findest du die folgenden Gruppen. Halte den Mauszeiger kurz über die Beschriftung oder das Bedienelement einer Option, um ihre Erklärung einzublenden.
 
-- **HUD & Grafik:** Oberflächengröße, FPS-Limit, VSync, Leistungsanzeige und Ping anzeigen.
-- **Komponenten:** Slot-Timer, Quantensprung-Reichweite, Zielhaltung nach Quantensprung, Reichweiten-Markierungen und Kryonit-Drohnenwechsel.
+- **HUD & Grafik** – Oberflächengröße, FPS-Limit, VSync und Leistungsanzeige.
+- **Komponenten** – Slot-Timer, Quantensprung-Reichweite, Zielhaltung außerhalb von PvP und Reichweiten-Markierungen.
 - **Kampf & Effekte:** Staffel, Bossleisten, Reparaturfelder und Orbitalschläge. Bossleisten lassen sich auf Aus, Remnants, Königin oder Alle stellen. Die Königin benötigt keine Remnant-Jagd; eine bisher ausgeschaltete Bossanzeige bleibt ausgeschaltet.
 - **Widgets:** Kryonit, Positionssperre, Energiekugel-Markierung und Drohnen-Levelzeit.
 - **Meldungen & Discord:** Seltene Mantis, Discord-Spielstatus und Uhrzeit im Chat.
 
 **Übernehmen** speichert alle Gruppen und bestätigt dies kurz neben den Aktionen. **Verwerfen** oder Schließen verwirft ungespeicherte Auswahlen; beim Seitenwechsel bleiben sie erhalten. VSync wird nach einem Neustart wirksam. Die ursprünglichen Spieleinstellungen enthalten weiterhin Sprache, Auflösung, Grafikqualität und Lautstärke.
 
-Ping steht unten rechts; die optionale Leistungsanzeige erscheint links daneben. Beide lassen sich unabhängig schalten und halten Abstand zu Minimap und Komponentenleiste.
+Der Ping steht unten rechts. Die optionale Leistungsanzeige erscheint links daneben.
 
 Mit **Uhrzeit im Chat** erscheinen Nachrichten mit `[HH:mm]` in deiner lokalen Zeitzone. Der Schalter gilt für Kommunikationsfenster und kleinen HUD-Chat; **Übernehmen** aktualisiert auch bereits angezeigte Zeilen.
 
-Mit **Ziel nach Quantensprung behalten** bleibt die bisherige Auswahl nach einem erkannten Sprung erhalten, solange die Einheit weiterhin vorhanden und auswählbar ist. Die Option ist standardmäßig an; bewusste Zielwechsel und Abwahl haben Vorrang.
+Springt dein anvisiertes Ziel per Quantensprung, kann **Zielhaltung außerhalb von PvP** die Auswahl bei NPCs und nicht feindlichen Spielern erhalten, solange sie auswählbar bleiben. Bei feindlichen Spielern greift ab Alpha 63 die normale Abwahl des Spiels. Die Option ist standardmäßig an. Bewusste Zielwechsel und Abwahl haben Vorrang.
 
 ## Spielerstatus einfärben
 
@@ -109,8 +109,6 @@ Neue Träger zeigen zunächst die geschätzte Wartezeit bis zur Systemmeldung. P
 
 Der Bericht berücksichtigt den beobachteten Kampfausschnitt. Die Schadensanteile beziehen sich auf den erfassten Trägerschaden einschließlich Treffern ohne Pilotenquelle. Heil-LP sind dem Empfänger zugeordnet. Die Zielstichproben zeigen das im Client beobachtete Ziel des Trägers. Für andere Staffeln bleibt die Mitgliedschaft offen, sofern der Client sie nicht belegt.
 
-## Kryonit-Drohnenwechsel
+## Kryonit und Drohnen
 
-Unter **Forge → Anzeige → Komponenten** eine **Tauschdrohne** auswählen und **Beim eigenen Sammeln** einschalten. Die Kryonitdrohne muss ausgerüstet und geladen sein. Vor deinem manuellen Sammelauftrag wartet Forge auf den bestätigten Wechsel; nach der Sammelfolge kehrt die vom Helfer geänderte Belegung zurück. Ein freier aktiver Platz wird ohne unnötigen Tausch genutzt.
-
-Für Beute von Mitspielern **Sammelmodus starten** und danach **beenden**. Der Modus bleibt bis dahin aktiv und startet nicht automatisch beim Login. Ein kleines **A** am Drohnensymbol kennzeichnet die Hilfe. Manuelle Drohnenwechsel haben Vorrang. Nach einem unterbrochenen Gebietswechsel oder einer unklaren Serverantwort die Belegung prüfen. Die Hilfe ist standardmäßig aus und kauft oder lädt keine Drohnen.
+Ab Alpha 63 schaltest du die Kryonitdrohne über die normale Drohnensteuerung des Spiels. Kryonitstatistik und Drohnen-Levelzeiten findest du unter **Forge → Anzeige → Widgets**.
