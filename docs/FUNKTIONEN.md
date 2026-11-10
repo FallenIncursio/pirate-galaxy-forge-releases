@@ -59,6 +59,7 @@ Orbitalzeiten und Grenzen sind **Schätzungen**. Unbekannte Varianten erhalten k
 | Kryonitstatistik | Neu | Kompaktes Widget mit Sammlung, Rate und Bilanz; Tages-/Farmansicht sowie Start, Pause und Zurücksetzen. Verschobene Position bleibt erhalten. |
 | Energiekugel-Markierung | Neu | Dezente Ecken markieren die größte übermittelte Energiemenge im nahen Kugelfeld. |
 | Drohnen-Levelzeiten | Erweitert | Geschätzte aktive Zeit bis zum nächsten und maximalen Level. Bei Maximallevel entfällt der zusätzliche Bereich. |
+| Drohnenslots im Hangar | Korrigiert | Seit Alpha 64 aktualisiert sich die Liste nach einem Schiff- oder Konfigurationswechsel aus der aktuellen Drohnenbelegung. |
 | Eigene Positionsmerker | Neu | Aktuelle Positionen benennen, speichern und in einer schematischen Übersicht wiederfinden. |
 | Sirius-Reichweitenfenster | Neu | Vom aktuellen Clanschiff-Planeten berechnete Zeitfenster mit Datum/Uhrzeit und relativem Stundenbereich. |
 | Sirius-Reiseerinnerungen | Neu | Eine ausgewählte Route vormerken; Hinweis vor und bei Beginn des Reichweitenfensters. |
