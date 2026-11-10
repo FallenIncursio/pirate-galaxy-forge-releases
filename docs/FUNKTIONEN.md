@@ -62,6 +62,7 @@ Orbitalzeiten und Grenzen sind **Schätzungen**. Unbekannte Varianten erhalten k
 | Drohnenslots im Hangar | Korrigiert | Seit Alpha 64 aktualisiert sich die Liste nach einem Schiff- oder Konfigurationswechsel aus der aktuellen Drohnenbelegung. |
 | Scan-Details | Korrigiert | Seit Alpha 65 verwenden die Scan-Details auch bei schnellen Wechseln die Auswahl zum Zeitpunkt des Scan-Befehls. |
 | Missions-, Staffel- und Clan-Dialoge | Korrigiert | Seit Alpha 66 behalten offene Bestätigungen Vorrang. Nach dem Abbrechen stimmen die Darstellung der Schaltflächen und die Statussymbole auf der Missionstafel. |
+| Automatische Pilotenauswahl | Korrigiert | Seit Alpha 67 bleibt die Einstellung bei gespeicherten Logindaten erhalten. Ist der gemerkte Server gerade nicht verfügbar, öffnet Forge die Pilotenauswahl. |
 | Eigene Positionsmerker | Neu | Aktuelle Positionen benennen, speichern und in einer schematischen Übersicht wiederfinden. |
 | Sirius-Reichweitenfenster | Neu | Vom aktuellen Clanschiff-Planeten berechnete Zeitfenster mit Datum/Uhrzeit und relativem Stundenbereich. |
 | Sirius-Reiseerinnerungen | Neu | Eine ausgewählte Route vormerken; Hinweis vor und bei Beginn des Reichweitenfensters. |
