@@ -54,7 +54,7 @@ Ein Reparatur-Dauereffekt mit ausgewählter eigener Datei und 125 % Lautstärke.
 
 ## HUD-Größe und Anzeigeoptionen
 
-Die globale Skalierung gilt für Forge und native Spielfenster. Im folgenden Beispiel sind **130 %** gewählt; oben ist auch der F-Knopf sichtbar. FPS-Limit, VSync, Leistungsanzeige und Ping liegen in derselben Einstellungsgruppe.
+Die globale Skalierung gilt für Forge und native Spielfenster. Im folgenden Beispiel sind **130 %** gewählt. Oben ist auch der F-Knopf sichtbar. FPS-Limit, VSync und Leistungsanzeige liegen in derselben Einstellungsgruppe.
 
 [![Forge-Anzeigegruppe HUD und Grafik mit 130 Prozent Oberflächengröße und dem F-Menüknopf](bilder/hud-130.png)](bilder/hud-130.png)
 
@@ -75,4 +75,4 @@ Die grünen Zahlen zeigen aktive Restzeiten, die weiße Zahl eine verbleibende A
 
 [![Komponentenleiste mit weißer Abklingzeit und grünen Aktivzeit-Timern](bilder/slot-timer.png)](bilder/slot-timer.png)
 
-Weitere Funktionen wie Staffel-Effekte, Chat-Uhrzeit, Sirius-Zeitfenster und Kryonit-Drohnenwechsel sind in der [Funktionsübersicht](FUNKTIONEN.md) beschrieben.
+Weitere Funktionen wie Staffel-Effekte, Chat-Uhrzeit und Sirius-Zeitfenster sind in der [Funktionsübersicht](FUNKTIONEN.md) beschrieben.
