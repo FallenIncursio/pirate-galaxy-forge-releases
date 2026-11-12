@@ -2,7 +2,7 @@
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.69/PirateGalaxyForge-0.1.0-alpha.69-Setup.exe)** · **[Linux-Vorschau herunterladen (Wine)](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.69/PirateGalaxyForge-Linux-Wine-Preview-Alpha69.zip)** · **0.1.0-alpha.69** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.69)
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.70/PirateGalaxyForge-0.1.0-alpha.70-Setup.exe)** · **[Linux-Vorschau herunterladen (Wine)](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.70/PirateGalaxyForge-Linux-Wine-Preview-Alpha70.zip)** · **0.1.0-alpha.70** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.70)
 
 [Alle Funktionen im Vergleich](docs/FUNKTIONEN.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
@@ -30,6 +30,8 @@ Alpha 66 schützt offene Bestätigungen für Missionen, Staffeln und Clans vor k
 Alpha 67 merkt sich **Autom. Pilot wählen** bei gespeicherten Logindaten. Ist der zuletzt gewählte Server gerade nicht erreichbar, öffnet Forge die Pilotenauswahl und behält deine Einstellung für den nächsten Login.
 
 Alpha 69 ergänzt einen Auftritt mit Bossnamen, farbigem Lichtimpuls und abschaltbarer Musik für Remnant-Träger, die Mantis-Königin und die drei Sirius-Bosse. [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.69)
+
+Alpha 70 behebt Java-27-, UI- und Ressourcenfehler sowie die Erkennung des Schneewaffeneffekts. Die Audio-Diagnose bleibt bei Weltwechseln lesbar. D3D9, vorhandene Einstellungen und gespeicherte Anmeldungen bleiben erhalten. [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.70)
 
 ## Ein Blick ins Spiel
 
