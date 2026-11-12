@@ -32,7 +32,7 @@ Die Trägertabelle, ihre Bekanntgaben, der Lebensbalken und der Abflugtimer stam
 
 | Funktion | Herkunft | Ergänzung durch Forge |
 | --- | --- | --- |
-| Bossleisten | Neu | Für Remnant-Träger und das Mutterschiff der Königin: Name, großer HP-Balken mit Prozentwert und bis zu zehn Effektsymbole. Weitere über +N; Details per Klick. |
+| Bossleisten | Neu | Remnant-Träger, die Mantis-Königin und die Sirius-Bosse zeigen Lebenspunkte, Effekte und beim ersten Anzeigen einen kurzen Auftritt mit Namen, passender Farbe und abschaltbarer Musik. |
 | Staffel-HP und Effekte | Erweitert | Prozentwerte in den Lebensbalken, aktive Effekte als Icons, Wirkung/Quelle und verfügbare Laufzeiten. Weitere Effekte als Symbolraster. |
 | Komponenten verschieben | Erweitert | Ausgerüstete Komponenten durch Halten und Ziehen lokal umordnen; die sichtbare Reihenfolge wird gespeichert. |
 | Tastenbelegung | Erweitert | Tasten für die sichtbaren Komponentenpositionen wählen; Chat und Texteingaben behalten Vorrang. |
