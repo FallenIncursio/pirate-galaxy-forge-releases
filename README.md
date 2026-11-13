@@ -2,7 +2,7 @@
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.70/PirateGalaxyForge-0.1.0-alpha.70-Setup.exe)** · **[Linux-Vorschau herunterladen (Wine)](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.70/PirateGalaxyForge-Linux-Wine-Preview-Alpha70.zip)** · **0.1.0-alpha.70** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.70)
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.71/PirateGalaxyForge-0.1.0-alpha.71-Setup.exe)** · **[Linux-Vorschau herunterladen (Wine)](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.71/PirateGalaxyForge-Linux-Wine-Preview-Alpha71.zip)** · **0.1.0-alpha.71** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.71)
 
 [Alle Funktionen im Vergleich](docs/FUNKTIONEN.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
@@ -32,6 +32,8 @@ Alpha 67 merkt sich **Autom. Pilot wählen** bei gespeicherten Logindaten. Ist d
 Alpha 69 ergänzt einen Auftritt mit Bossnamen, farbigem Lichtimpuls und abschaltbarer Musik für Remnant-Träger, die Mantis-Königin und die drei Sirius-Bosse. [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.69)
 
 Alpha 70 behebt Java-27-, UI- und Ressourcenfehler sowie die Erkennung des Schneewaffeneffekts. Die Audio-Diagnose bleibt bei Weltwechseln lesbar. D3D9, vorhandene Einstellungen und gespeicherte Anmeldungen bleiben erhalten. [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.70)
+
+Alpha 71 verwendet **Direct3D 11 als Standard**. Direct3D 9 bleibt als auswählbarer Fallback erhalten. Das Update korrigiert Sternkarten und Radiusanzeigen, Partikeleffekte, Orbitalschlag-Markierungen und reduzierte Reparaturfelder; vorhandene Profile und Einstellungen werden übernommen. [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.71)
 
 ## Ein Blick ins Spiel
 
@@ -86,15 +88,19 @@ Voraussetzungen sind **Windows 10/11 (64 Bit), .NET Framework 4.8 oder neuer und
 1. Den Forge-Installer ausführen und **Pirate Galaxy Forge** starten.
 2. Forge lädt und prüft die Spielbasis von Splitscreen und Java von Azul. Sobald das Spielfenster erscheint, im Spiel anmelden.
 
+Über **Pirate Galaxy Forge – Einstellungen** im Windows-Startmenü kannst du unter **Grafik-Renderer** auf **Direct3D 9 (Kompatibilität)** wechseln. Die Auswahl gilt beim nächsten Spielstart.
+
 Bei vorhandenen Installationen übernimmt Forge die Einstellungen. Falls der alte Starter vor der Updateprüfung einen Originalordner verlangt oder das Update scheitert, Forge schließen und das aktuelle Setup über die vorhandene Installation ausführen.
 
 Im Spiel öffnet **F in der oberen Menüleiste** das Forge-Fenster. Andere Fenster und Spielaktionen außerhalb bleiben bedienbar. Die Anzeigeoptionen sind in fünf Gruppen zusammengefasst. Halte den Mauszeiger kurz über eine Beschriftung oder ein Bedienelement, um den Tooltip zu öffnen.
 
 ### Linux-Vorschau (Wine)
 
+Die D3D11-Spieltests von Alpha 71 erfolgten unter Windows. Ein neuer vollständiger Wine-Spieltest steht noch aus.
+
 Du brauchst **Linux x86_64, Python 3.9 oder neuer**, eine grafische Sitzung und Internetzugang. Wine muss 32- und 64-Bit-Windows-Programme unterstützen und `winepath` bereitstellen. Installiere auch die Wine-Schriften (unter Ubuntu `fonts-wine`).
 
-Entpacke das ZIP der Linux-Vorschau und öffne im entpackten Ordner ein Terminal. Der erste Befehl richtet ein eigenes Wine-Profil für Forge ein. Der zweite startet den Client. [ZIP der Linux-Vorschau](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.69/PirateGalaxyForge-Linux-Wine-Preview-Alpha69.zip)
+Entpacke das ZIP der Linux-Vorschau und öffne im entpackten Ordner ein Terminal. Der erste Befehl richtet ein eigenes Wine-Profil für Forge ein. Der zweite startet den Client. [ZIP der Linux-Vorschau](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.71/PirateGalaxyForge-Linux-Wine-Preview-Alpha71.zip)
 
 ```sh
 python3 forge_wine.py install
