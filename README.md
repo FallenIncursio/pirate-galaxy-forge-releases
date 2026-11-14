@@ -1,10 +1,10 @@
-# Pirate Galaxy Forge
+# Pirate Galaxy Forge Enhanced
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.73/PirateGalaxyForge-0.1.0-alpha.73-Setup.exe)** · **[Linux-Vorschau herunterladen (Wine)](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.73/PirateGalaxyForge-Linux-Wine-Preview-Alpha73.zip)** · **0.1.0-alpha.73** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.73)
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.1/PirateGalaxyForge-0.2.0-alpha.1-Setup.exe)** · **0.2.0-alpha.1** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.1)
 
-[Alle Funktionen im Vergleich](docs/FUNKTIONEN.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
+[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
 Mit Alpha 54 startet Forge direkt in 64 Bit. Forge lädt die benötigten Spielbasisdateien beim ersten Start direkt von Splitscreen.
 
@@ -38,6 +38,16 @@ Alpha 71 verwendet **Direct3D 11 als Standard**. Direct3D 9 bleibt als auswählb
 Alpha 72 ergänzt den optionalen KW-Tracker mit Messung über Szenenwechsel, stabilen Icons und einem Aktualisierungs-Countdown. Dazu kommen transparente Komponentenzeiten, dauerhafte lokale Antriebs- und Drohnenspuren, zusätzliche Statusfarben sowie korrigierte Remnant-Beute. [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.72)
 
 Alpha 73 korrigiert die Sol-Sonne und die Texturfilterung unter D3D11. Die optionale **Kreis-Zeitanzeige** ersetzt die rechteckigen Aktiv-/Abklingflächen: mit kleineren, mittigen Zahlen, schwarzer Kontur und Zehntelsekunden erst in der letzten Sekunde. Der Wechsel zwischen Aktivzeit und Abklingzeit bleibt lesbar; wiederholte Diagnosemeldungen für unbenutzte Ziffern entfallen. **D3D11 bleibt Standard, D3D9 auswählbar; Profile und Einstellungen bleiben erhalten.** [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.73) · [Kreis-Zeitanzeige einstellen](docs/HILFE.md#komponenten-zeitanzeige)
+
+## Core und Enhanced 0.2.0-alpha.1
+
+Enhanced führt den bisherigen Forge mit allen Zusatzfunktionen weiter. **[Forge Core](https://github.com/FallenIncursio/pirate-galaxy-forge-core-releases)** enthält die gemeinsame 64-Bit-Technik, allgemeine Korrekturen und begrenzten Komfort mit ursprünglicher Hilfe. Beide Editionen verwenden dieselbe Core-Implementierung.
+
+Diese Ausgabe ergänzt getrennte Installer und Updatekanäle, geprüfte Profilübernahme sowie den gemeinsamen D3D11-HUD-Texturfix für den FPS-Einbruch bei wiederholten Erebos-/Orbit-Wechseln. Bestehende Forge-Profile werden zu Enhanced übernommen.
+
+[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.1.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md)
+
+Die installierten D3D11-Versionen wurden in der Sandbox geprüft und vom Nutzer bestätigt. D3D9 bleibt wählbar; vollständige D3D9-Spielsitzungen, Wine für diese Pakete und quantitative Langzeitmessungen bleiben offen. 240 FPS ist eine Obergrenze, keine Leistungszusage. Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
 
 ## Ein Blick ins Spiel
 
