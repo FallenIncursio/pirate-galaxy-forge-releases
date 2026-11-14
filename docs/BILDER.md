@@ -71,7 +71,7 @@ Die beiden Aufnahmen haben unterschiedliche Bildausschnitte. Zum Prüfen der Tex
 
 ## Aktivzeit und Abklingzeit im Slot
 
-Die grünen Zahlen zeigen aktive Restzeiten, die weiße Zahl eine verbleibende Abklingzeit. Beide Zahlenanzeigen lassen sich getrennt schalten.
+Die Aufnahme zeigt die klassische Zahlenanzeige: Grün steht für aktive Restzeit, Weiß für Abklingzeit. Beide Anzeigen lassen sich getrennt schalten. Seit Alpha 73 sind zusätzlich **Kreis** und **Kreis + Zahlen** verfügbar; diese neueren Modi sind auf dem historischen Bild nicht dargestellt. [Zeitanzeige einstellen](HILFE.md#komponenten-zeitanzeige)
 
 [![Komponentenleiste mit weißer Abklingzeit und grünen Aktivzeit-Timern](bilder/slot-timer.png)](bilder/slot-timer.png)
 

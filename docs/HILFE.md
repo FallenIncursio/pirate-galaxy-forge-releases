@@ -57,6 +57,22 @@ Mit **Uhrzeit im Chat** erscheinen Nachrichten mit `[HH:mm]` in deiner lokalen Z
 
 Springt dein anvisiertes Ziel per Quantensprung, kann **Zielhaltung außerhalb von PvP** die Auswahl bei NPCs und nicht feindlichen Spielern erhalten, solange sie auswählbar bleiben. Bei feindlichen Spielern greift ab Alpha 63 die normale Abwahl des Spiels. Die Option ist standardmäßig an. Bewusste Zielwechsel und Abwahl haben Vorrang.
 
+## Komponenten-Zeitanzeige
+
+Unter **Forge → Anzeige → Komponenten → Komponenten-Zeitanzeige** wählst du:
+
+- **Zahlen:** die bisherige Zahlenanzeige.
+- **Kreis:** eine radiale Restzeitfläche ohne zusätzliche Zahl.
+- **Kreis + Zahlen:** dieselbe Fläche mit mittigen, schwarz umrandeten Ziffern.
+
+In den Kreismodi ersetzt die radiale Fläche die alten rechteckigen Aktiv-/Abklingflächen. Aktivzeit erscheint grün, Abklingzeit mit hellen Ziffern. Ab einer Sekunde stehen ganze Sekunden; erst darunter erscheinen Zehntelsekunden wie **0.9**. **Kreis-Darstellung → Normal / Kräftig** regelt den Farbkontrast. **Aktive Laufzeit im Slot** und **Abklingzeit im Slot** bleiben getrennt schaltbar. Mit **Übernehmen** speichern; ein Neustart ist nicht nötig. Die Darstellung verändert keine Wirk- oder Abklingzeiten.
+
+## KW-Tracker
+
+Unter **Forge → Anzeige → Widgets** den **KW-Tracker** aktivieren. **KW/h-Zeitraum** wählt die Messung seit Beginn oder über die letzten 15 beziehungsweise 60 Minuten. **KW-Messung zurücksetzen** bestimmt, ob bei Client-/Pilotenwechsel, nur manuell oder bei jedem Szenenwechsel eine neue Messung beginnt. Mit **Übernehmen** speichern.
+
+Das Widget zeigt die letzten drei bestätigten Gutschriften und einen einzelnen Countdown bis zum nächsten Abgleich. **Details** öffnet Kategorien, Tagesverlauf, Pause, neue Messung und CSV-Export. Ein Serverabgleich kann mehrere Aktionen zusammenfassen; die Anzeige ordnet dann keine erfundene Einzelaktion zu.
+
 ## Spielerstatus einfärben
 
 Im eigenen **Pilotenprofil** rechts neben dem Status auf den unterstrichenen **A-Knopf** klicken. Markiere einen Textabschnitt und wähle eine Farbe. Ohne Markierung gilt die Farbe für den ganzen Status; in einem leeren Feld für die nächste Eingabe. **Standard** stellt die normale Schriftfarbe wieder her.
@@ -68,6 +84,8 @@ Die Vorschau aktualisiert sich direkt. **Speichern** oder Enter übernimmt den E
 Unter **Forge → Antrieb** stehen Uni-, Zwillings- und Tristar-Spuren in je neun Farben sowie der Schiffsstandard. Mit Typ- und Farbfilter grenzt du die Liste ein.
 
 Im Modus **Vorschau** erscheint die Auswahl sofort an deinem Schiff. Du kannst weiterfliegen und mit **Vor/Zurück** die gefilterten Spuren vergleichen. **Normal**, Schließen oder ein Tab-, Schiffs- oder Szenenwechsel beendet die Vorschau. Deine tatsächliche Ausrüstung bleibt erhalten; andere Spieler sehen weiterhin diese. Die Vorschau wird nicht über einen Neustart gespeichert.
+
+Mit **Dauerhaft lokal** speicherst du die ausgewählte Spur pro Pilot. Sie bleibt auch nach dem Schließen, Landen und erneuten Anmelden aktiv. **Eigene Drohnen** schaltet die angepasste Drohnenspur separat. **Normal** stellt die ausgerüstete Spur wieder her. Auch die dauerhafte Auswahl bleibt ausschließlich für dich sichtbar.
 
 ## Orbitalschläge
 

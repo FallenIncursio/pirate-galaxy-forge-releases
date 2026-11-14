@@ -2,9 +2,9 @@
 
 [Übersicht und Download](../README.md) · [Bildergalerie](BILDER.md) · [Bedienung und Hilfe](HILFE.md)
 
-Stand: **0.1.0-alpha.53 · 8. November 2026**. Diese Übersicht beschreibt veröffentlichte Funktionen, keine geplanten Experimente.
+Stand: **0.1.0-alpha.73 · 14. November 2026**. Diese Übersicht beschreibt veröffentlichte Funktionen, keine geplanten Experimente.
 
-Die Grundlage bleibt das offizielle Pirate Galaxy: Spielwelt, Missionen, Ausrüstung, Baupläne, Originalsounds/-grafiken und Serverregeln stammen aus dem Spiel. Die Ergänzungen unten sind Änderungen des **Forge-64-Bit-Clients**. Sie gelten nicht für den unveränderten offiziellen **32-Bit-Client**, den der Starter ebenfalls öffnen kann. „64 Bit“ bezeichnet die technische Architektur; die Komfortfunktionen wurden zusätzlich entwickelt.
+Die Grundlage bleibt das offizielle Pirate Galaxy: Spielwelt, Missionen, Ausrüstung, Baupläne, Originalsounds/-grafiken und Serverregeln stammen aus dem Spiel. Die Ergänzungen unten sind Änderungen des **Forge-64-Bit-Clients**. Sie gelten nicht für den unveränderten offiziellen **32-Bit-Client**, dessen Spielfunktionen hier als Vergleich dienen. „64 Bit“ bezeichnet die technische Architektur; die Komfortfunktionen wurden zusätzlich entwickelt.
 
 **Neu** = zusätzliche Forge-Funktion. **Erweitert** = vorhandene Spielfunktion ergänzt. **Korrigiert** = konkreter Fehlerpfad verbessert. Die Einordnung bezieht sich auf die genannte Ergänzung, nicht auf den gesamten Spielbereich.
 
@@ -36,7 +36,7 @@ Die Trägertabelle, ihre Bekanntgaben, der Lebensbalken und der Abflugtimer stam
 | Staffel-HP und Effekte | Erweitert | Prozentwerte in den Lebensbalken, aktive Effekte als Icons, Wirkung/Quelle und verfügbare Laufzeiten. Weitere Effekte als Symbolraster. |
 | Komponenten verschieben | Erweitert | Ausgerüstete Komponenten durch Halten und Ziehen lokal umordnen; die sichtbare Reihenfolge wird gespeichert. |
 | Tastenbelegung | Erweitert | Tasten für die sichtbaren Komponentenpositionen wählen; Chat und Texteingaben behalten Vorrang. |
-| Slot-Timer | Erweitert | Aktive Restzeit in Grün und verbleibende Abklingzeit direkt auf der Komponente. Die Zahlen lassen sich getrennt ein-/ausschalten. |
+| Slot-Timer | Erweitert | Aktive Restzeit in Grün und verbleibende Abklingzeit direkt auf der Komponente. Wahlweise Zahlen, Kreis oder Kreis + Zahlen; die Kreismodi ersetzen die alten rechteckigen Flächen. Mittige Ziffern mit schwarzer Kontur, Zehntelsekunden erst unter einer Sekunde und Normal/Kräftig. Beide Phasen bleiben getrennt schaltbar. |
 | Zielreichweiten-Markierung | Neu | Slot-Umrandung für passende Komponenten mit Eigen-/Orts- und Zielanwendung, wenn das ausgewählte Ziel in Reichweite ist. |
 | Blitzketten-Markierung | Neu | Die Blitzkette leuchtet bei einem geeigneten bekannten Gegner in direkter Reichweite auf, auch ohne ausgewähltes Ziel. |
 | Quantensprung-Ring | Neu | Optionaler kontrastreicher Reichweitenring auf Planeten mit entsprechend ausgerüstetem Schiff. |
@@ -56,6 +56,7 @@ Orbitalzeiten und Grenzen sind **Schätzungen**. Unbekannte Varianten erhalten k
 
 | Funktion | Herkunft | Ergänzung durch Forge |
 | --- | --- | --- |
+| KW-Tracker | Neu | Letzte drei bestätigte Gutschriften, Kategorien, KW/h, Tagesverlauf, Pause und CSV. Messzeitraum und Zurücksetzen einstellbar; Szenenwechsel müssen die Messung nicht zurücksetzen. Ein Countdown zeigt den nächsten Abgleich. |
 | Kryonitstatistik | Neu | Kompaktes Widget mit Sammlung, Rate und Bilanz; Tages-/Farmansicht sowie Start, Pause und Zurücksetzen. Verschobene Position bleibt erhalten. |
 | Energiekugel-Markierung | Neu | Dezente Ecken markieren die größte übermittelte Energiemenge im nahen Kugelfeld. |
 | Drohnen-Levelzeiten | Erweitert | Geschätzte aktive Zeit bis zum nächsten und maximalen Level. Bei Maximallevel entfällt der zusätzliche Bereich. |
@@ -85,11 +86,11 @@ Positionsmerker sind keine Wegfindung. Bei erneutem Gebietsbesuch werden sie bes
 | Eigene Musik und Sounds | Neu | Einzelne Musikstücke, Komponenten- und allgemeine Effekte durch eigene Ogg-Vorbis-/WAV-Dateien ersetzen; Suche, Filter und Original-/Eigenvorschau. |
 | Ausschnitte und Lautstärke | Neu | Start/Länge wählen, optional automatisch kürzen und Lautstärke pro Eintrag von 0–300 % einstellen – auch ohne Ersatzdatei. |
 | Audio live übernehmen | Neu | Änderungen ohne Client-Neustart aktivieren; laufende kurze Effekte enden regulär, folgende Wiedergaben nutzen die neue Zuordnung. |
-| Antriebsvorschau | Neu | Uni-, Zwillings- und Tristar-Spuren in je neun Farben plus Schiffsstandard. Typ-/Farbfilter und direktes Durchschalten im Vorschaumodus. |
+| Antriebsvorschau | Neu | Uni-, Zwillings- und Tristar-Spuren in je neun Farben plus Schiffsstandard. Typ-/Farbfilter, Vorschau und dauerhaft pro Pilot gespeicherte lokale Auswahl, einschließlich separat schaltbarer eigener Drohnen. |
 | Discord-Spielstatus | Neu | „Pirate Galaxy“ mit Original-Logo und Sitzungsdauer; aktueller Ort optional. |
 | Lokaler Planetenname | Erweitert | Lyris heißt in den lokalen Spieltexten „Lörres“, auch in Missions- und Reiseanzeigen. Die Planetenidentität bleibt gleich. |
 
-Eigene Sounds und die Antriebsvorschau gelten lokal. Die Vorschau erwirbt keine Antriebsspur und verändert die tatsächliche Ausrüstung nicht; andere Spieler sehen weiterhin die ausgerüstete Spur. Normal, Schließen oder Gebietswechsel beendet die Vorschau.
+Eigene Sounds und die Antriebsvorschau gelten lokal. Die Vorschau erwirbt keine Antriebsspur und verändert die tatsächliche Ausrüstung nicht; andere Spieler sehen weiterhin die ausgerüstete Spur. Normal, Schließen oder Gebietswechsel beendet die Vorschau. „Dauerhaft lokal“ bleibt nach Schließen, Landung und Login aktiv; „Normal“ stellt die ausgerüstete Spur wieder her.
 
 Discord benötigt den geöffneten Desktopclient und erlaubte Aktivitätsanzeige. **Medal-Aufnahme und Discord-Overlay wurden im Spiel getestet; sie sind Funktionen der jeweiligen Anwendungen.** Medal kann weiterhin „Requested“ statt der offiziellen Spielkategorie anzeigen. [Einrichtung und Grenzen](HILFE.md#discord-und-medal).
 
@@ -100,6 +101,8 @@ Discord benötigt den geöffneten Desktopclient und erlaubte Aktivitätsanzeige.
 | Bereich | Herkunft | Änderung in Forge |
 | --- | --- | --- |
 | 64-Bit-Client | Neu | 64-Bit-Laufzeit und native Bibliotheken statt des 32-Bit-Adressraums. Die Grundlage bleibt die vorhandene Spiel-Engine. |
+| Grafik-Renderer | Erweitert | D3D11 als Standard, D3D9 als auswählbarer Fallback; vorhandene Auswahl und Profile bleiben erhalten. |
+| Sol-Sonne und Texturfilter | Korrigiert | Alpha 73 erhält die ursprüngliche Sonnen-Layerfolge und die klassischen Filtervorgaben unter D3D11. |
 | FPS-Limit und VSync | Erweitert | Direkt erreichbare Einstellungen in Forge; FPS-Limit nach Übernehmen, VSync nach Neustart. |
 | Ping und Leistungsanzeige | Erweitert | Der Ping steht unten rechts. Daneben zeigt Forge auf Wunsch FPS oder FPS mit Bildzeit und P99. |
 | Detaildiagnose | Neu | FPS, 1%-Lows, Bildzeiten, Aussetzer, Java-Speicher und GC-Aktivität; manuell gestartete lokale Diagnoseaufnahmen. |

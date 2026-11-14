@@ -2,7 +2,7 @@
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.72/PirateGalaxyForge-0.1.0-alpha.72-Setup.exe)** · **[Linux-Vorschau herunterladen (Wine)](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.72/PirateGalaxyForge-Linux-Wine-Preview-Alpha72.zip)** · **0.1.0-alpha.72** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.72)
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.73/PirateGalaxyForge-0.1.0-alpha.73-Setup.exe)** · **[Linux-Vorschau herunterladen (Wine)](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.73/PirateGalaxyForge-Linux-Wine-Preview-Alpha73.zip)** · **0.1.0-alpha.73** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.73)
 
 [Alle Funktionen im Vergleich](docs/FUNKTIONEN.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
@@ -37,6 +37,8 @@ Alpha 71 verwendet **Direct3D 11 als Standard**. Direct3D 9 bleibt als auswählb
 
 Alpha 72 ergänzt den optionalen KW-Tracker mit Messung über Szenenwechsel, stabilen Icons und einem Aktualisierungs-Countdown. Dazu kommen transparente Komponentenzeiten, dauerhafte lokale Antriebs- und Drohnenspuren, zusätzliche Statusfarben sowie korrigierte Remnant-Beute. [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.72)
 
+Alpha 73 korrigiert die Sol-Sonne und die Texturfilterung unter D3D11. Die optionale **Kreis-Zeitanzeige** ersetzt die rechteckigen Aktiv-/Abklingflächen: mit kleineren, mittigen Zahlen, schwarzer Kontur und Zehntelsekunden erst in der letzten Sekunde. Der Wechsel zwischen Aktivzeit und Abklingzeit bleibt lesbar; wiederholte Diagnosemeldungen für unbenutzte Ziffern entfallen. **D3D11 bleibt Standard, D3D9 auswählbar; Profile und Einstellungen bleiben erhalten.** [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.73) · [Kreis-Zeitanzeige einstellen](docs/HILFE.md#komponenten-zeitanzeige)
+
 ## Ein Blick ins Spiel
 
 **Bossleisten mit HP-Prozent und aktiven Effekten**
@@ -62,12 +64,13 @@ Die Spielwelt, Missionen, Gegenstände, Originalgrafiken und Grundfunktionen sta
 | Baupläne und Ausrüstung | Bauplanprofil, Shop und Komponentenwerte | Suche, Fortschritts-/Systemfilter, Referenzkatalog, Merkliste, Vergleich und Einkaufsplan |
 | Remnant-Träger | Trägertabelle, Bekanntgaben, Statusbalken und Abflugtimer | HP-Prozent, verständliche Wartephase und Beutekarten mit eigenen Variantenbeständen |
 | Staffel und Bosse | Staffel- und Zielanzeigen | Staffel-HP in Prozent, Effektsymbole und zusätzliche Bossleisten für Remnants und Königin |
-| Komponenten und Ziele | Aktivierung, Abklingzeiten und Zielauswahl | Slots umordnen, Tasten belegen, Aktivzeit-Timer, Reichweitenmarkierungen und Zielhaltung nach Quantensprung außerhalb von PvP |
+| Komponenten und Ziele | Aktivierung, Abklingzeiten und Zielauswahl | Slots umordnen, Tasten belegen, optionale Kreis-Timer für Aktiv- und Abklingzeit, Reichweitenmarkierungen und Zielhaltung nach Quantensprung außerhalb von PvP |
 | Sammeln und Drohnen | Energiekugeln, Kryonit und manuelle Drohnensteuerung | Größte Energiekugel markieren, Kryonitstatistik und geschätzte Drohnen-Levelzeiten |
 | Kampfansicht | Reparaturfelder, Orbitalwarnungen und HP-Warnsound | Gedämpfte Reparaturfelder, zusätzliche Orbitalanzeigen, einstellbare HP-Warnschwelle und rote Bildschirmränder |
 | HUD und Chat | Spielfenster, Chat und Statusformatierung | Globale HUD-Skalierung, Chat-Uhrzeit, Status-Farbeditor und schaltbare Meldungen |
 | Musik und Sounds | Originalmusik, Effekte und Lautstärkeregler | Eigene Ogg-Vorbis-/WAV-Dateien, Ausschnitte, Vorschau und Lautstärke pro Sound; ohne Client-Neustart übernehmen |
-| Antriebsspuren | Tatsächlich ausgerüstete Spur | 27 Spuren und Schiffsstandard als lokale Live-Vorschau am eigenen Schiff |
+| Antriebsspuren | Tatsächlich ausgerüstete Spur | 27 Spuren und Schiffsstandard als lokale Vorschau oder dauerhafte Auswahl, auch für eigene Drohnen |
+| Kriegswertung | Ranglistendaten und KW-Gutschriften | Optionaler KW-Tracker mit letzten Gutschriften, Kategorien, KW/h, Tagesverlauf und CSV-Export |
 | Reise und Sirius | Sternkarte und Planeteninformationen | Positionsmerker, berechnete Reichweitenfenster und Reiseerinnerungen |
 | Leistung und Diagnose | Vorhandene Spiel-Engine und Pinganzeige | Einstellbares FPS-Limit und VSync, Bildzeiten, 1%-Lows und lokale Diagnoseaufnahmen |
 | Discord | Externe Spiel-/Overlay-Erkennung | Integrierter Spielstatus als „Pirate Galaxy“ mit Logo, Sitzungsdauer und optionalem Ort |
@@ -77,6 +80,7 @@ Die Spielwelt, Missionen, Gegenstände, Originalgrafiken und Grundfunktionen sta
 ## Technik und Korrekturen
 
 - **64-Bit-Laufzeit:** größerer nutzbarer Adressraum als im 32-Bit-Client.
+- **Grafik-Renderer:** Direct3D 11 als Standard, Direct3D 9 als wählbarer Fallback. Alpha 73 korrigiert Sonnen-Layer und die Übernahme der Texturfiltervorgaben unter D3D11.
 - **Weniger Speicherarbeit:** Wiederverwendung kurzlebiger Render-/Kameraobjekte und weniger unnötige UI-Aktualisierungen.
 - **Gezielte Fehlerkorrekturen:** unter anderem Textumbruch, Planeten-/Schiffsvorschauen, Commerce-Central-Gebäudetexturen, Audioverarbeitung und Komponentenstatus.
 - **Eigener Updateweg:** getrennte Spielkopie, signierte Update-Metadaten und geprüfte Downloads.
@@ -98,11 +102,11 @@ Im Spiel öffnet **F in der oberen Menüleiste** das Forge-Fenster. Andere Fenst
 
 ### Linux-Vorschau (Wine)
 
-Die D3D11-Spieltests von Alpha 71 erfolgten unter Windows. Ein neuer vollständiger Wine-Spieltest steht noch aus.
+Die Spieltests des aktuellen D3D11-Builds erfolgten unter Windows. Ein neuer vollständiger Wine-Spieltest steht noch aus.
 
 Du brauchst **Linux x86_64, Python 3.9 oder neuer**, eine grafische Sitzung und Internetzugang. Wine muss 32- und 64-Bit-Windows-Programme unterstützen und `winepath` bereitstellen. Installiere auch die Wine-Schriften (unter Ubuntu `fonts-wine`).
 
-Entpacke das ZIP der Linux-Vorschau und öffne im entpackten Ordner ein Terminal. Der erste Befehl richtet ein eigenes Wine-Profil für Forge ein. Der zweite startet den Client. [ZIP der Linux-Vorschau](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.72/PirateGalaxyForge-Linux-Wine-Preview-Alpha72.zip)
+Entpacke das ZIP der Linux-Vorschau und öffne im entpackten Ordner ein Terminal. Der erste Befehl richtet ein eigenes Wine-Profil für Forge ein. Der zweite startet den Client. [ZIP der Linux-Vorschau](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.1.0-alpha.73/PirateGalaxyForge-Linux-Wine-Preview-Alpha73.zip)
 
 ```sh
 python3 forge_wine.py install
