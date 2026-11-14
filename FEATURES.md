@@ -1,7 +1,7 @@
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core und Enhanced **0.2.0-alpha.2**, veröffentlichte Windows/D3D11-Fixausgaben auf
-Basis Alpha 73. Frühere Releasepakete bleiben unverändert.
+Stand: Core und Enhanced **0.2.0-alpha.3**, Windows-Alpha-Ausgaben auf
+Basis von Alpha 73 und dem veröffentlichten alpha.2. Frühere Releasepakete bleiben unverändert.
 Die gemeinsamen Calon-Fixdateien wurden in Enhanced praktisch bestätigt.
 Enhanced enthält sämtliche Core-Funktionen. „Original“ bezeichnet
 die gepinnte offizielle 32-Bit-Spielbasis dieses Projekts, keine Aussage über künftige
@@ -12,6 +12,9 @@ Updates des Herstellers. Eine Splitscreen-Freigabe wird nicht behauptet.
 | Architektur | Windows x64, Java 27 | identisch | Größerer adressierbarer Speicher; keine RAM-Verbrauchsgarantie |
 | Bibliotheken | Modernisierte Laufzeit, Logging, Netzwerk, Archiv-/Bilddecoder | identisch | Gepinnte modernisierte Komponenten aus Alpha 73 |
 | Renderer | D3D11, D3D9 separat startbar | identisch | Port mit Alpha-73-Sonnen-, Filter-, Transparenz- und UI-Korrekturen |
+| Grafikstart | Automatische Geräteprüfung, begrenzter D3D9-Fallback, bestätigte Grafikauswahl | identisch | Neue Forge-Startlogik; keine allgemeine Treiber-Kompatibilitätszusage |
+| Installation/Reparatur | Einfaches Setup, geprüfte Neuaufbereitung derselben Version mit Profilübernahme | identisch | Neue Forge-Verteilung; keine Änderung der offiziellen Installation |
+| Fehlerberichte | Begrenzte lokale Startprotokolle, freiwilliger Versand technischer Metadaten | identisch | Forge-Diagnose; keine automatische Übermittlung von Rohlogs |
 | Speicher/Leistung | Weniger temporäre Objekte, begrenzte Caches, Ressourcenlebensdauer | identisch | Optimierte Pfade; keine pauschale FPS-/Prozentzusage |
 | Laden | Lokale Szenen-/Terrainvorbereitung, insbesondere Erebos, mit Fallback | identisch | Weniger Arbeit im betreffenden Szenenaufbau; kein globales Vorladen aller Planeten |
 | FPS/VSync | Limit 30–240; VSync nach Neustart | identisch | Zusätzliche lokale Optionen; Limit ist keine garantierte Bildrate |

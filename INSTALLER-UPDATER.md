@@ -1,16 +1,18 @@
 # Installation, Updates und Profile
 
-Core und Enhanced 0.2.0-alpha.2 benötigen Windows 10/11 x64 und .NET Framework 4.8.
+Core und Enhanced 0.2.0-alpha.3 benötigen Windows 10/11 x64 und .NET Framework 4.8.
 Die passende Java-27-Laufzeit lädt der Starter bei Bedarf selbst.
 
 ## Installieren
 
 1. Den Windows-Installer der gewünschten Edition von ihrer GitHub-Release-Seite laden.
-2. Setup ausführen und den Installationsordner wählen. Für Core und Enhanced
-   unterschiedliche Ordner verwenden; das Setup verhindert eine Vermischung.
-3. Die installierte Startanwendung öffnen. Sie lädt die geprüfte Spielbasis direkt
+2. Setup ausführen und den vorgeschlagenen Ordner verwenden. Eine abweichende
+   Ordnerwahl ist optional. Core und Enhanced erhalten getrennte Installationen.
+3. Auf der Abschlussseite „jetzt einrichten und starten“ wählen. Der Starter lädt
+   die geprüfte Spielbasis direkt
    von Splitscreen, die Laufzeit von Azul und das signierte Forge-Updatepaket.
-4. Im Spiel anmelden. D3D11 ist der Standardrenderer; D3D9 bleibt wählbar.
+4. Im Spiel anmelden. „Automatisch“ prüft D3D11 und verwendet bei fehlender
+   Unterstützung D3D9. Vorhandene manuelle Grafikeinstellungen bleiben erhalten.
 
 Core behält die ursprüngliche Hilfe. Zusätzliche Core-Optionen stehen in der
 nativen Erweiterung der Spieleinstellungen. Enhanced besitzt den Forge-Dialog.
@@ -44,13 +46,28 @@ Updatesequenz. Der feste native Prozesspfad erhält die Windows-Lautstärkezuord
 Deinstallation entfernt Starter und Verknüpfungen; Spielkopien und Profile bleiben
 erhalten. Die ursprüngliche Spielinstallation wird nicht überschrieben.
 
+## Startprobleme und Reparatur
+
+Die Startereinstellungen enthalten „Automatisch“, D3D11 und D3D9. Bei einem
+erkannten D3D11-Startfehler versucht die automatische Auswahl einmal D3D9.
+Ein allgemeiner Exitcode 1 allein löst keinen Grafikwechsel aus.
+
+„Installation reparieren“ ist in den Startereinstellungen, im Startmenü und im
+Fehlerdialog erreichbar. Die aktuelle signierte Version wird neu vorbereitet;
+Profile, eigene Sounds und geschützte Anmeldedaten bleiben erhalten. Ein Abbruch
+während des Austauschs wird beim nächsten Start berücksichtigt. Zusätzlicher
+freier Speicher für die Reparaturkopie wird benötigt.
+
+Fehlerberichte können nach bewusster Bestätigung gesendet werden. Sie enthalten
+auch Startphase, Grafikdaten und erkennbare Java-Fehlerklassen. Rohe lokale
+Konsolenausgaben und private Fehlermeldungstexte werden nicht automatisch versandt.
+
 ## Prüfstand und Grenzen
 
-Beide Editionen wurden über ihre Installer mit D3D11 in Sandboxie gestartet;
-Kontobildschirm und Serververbindung wurden geprüft und der Nutzer bestätigte die
-Funktion. Installer-, Profil-, Wiederanlauf-, Rollback- und Editionstests sind
-bestanden. Native UI-Probes decken zusätzlich D3D9 ab. Vollständige D3D9-
-Spielsitzungen, Wine und quantitative Langzeitmessungen sind nicht abgenommen.
+Beide Installer wurden mit Upgrade, Profilübernahme, Reparatur, Abbruch und Rollback
+in Sandboxie geprüft. Enhanced alpha.3 wurde mit D3D11 bis zur verbundenen
+Spielsitzung gestartet und vom Nutzer bestätigt. Core alpha.3-Ingame-Abnahme,
+längere D3D9-/D3D11-Sitzungen, weitere Rechnerkonfigurationen und Wine bleiben offen.
 
 Bei Sandboxie kurze Boxwurzeln verwenden. Zu lange umgeleitete Socket-Pfade können
 beim Java-Verbindungsaufbau einen irreführenden Firewall-Dialog auslösen.
