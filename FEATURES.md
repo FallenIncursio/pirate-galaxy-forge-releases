@@ -1,7 +1,8 @@
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core und Enhanced **0.2.0-alpha.1**, Windows/D3D11-Alpha-Ausgaben auf Basis Alpha 73. Beide installierten
-Editionen wurden in der Sandbox vom Nutzer als funktionierend bestätigt.
+Stand: Core und Enhanced **0.2.0-alpha.2**, veröffentlichte Windows/D3D11-Fixausgaben auf
+Basis Alpha 73. Frühere Releasepakete bleiben unverändert.
+Die gemeinsamen Calon-Fixdateien wurden in Enhanced praktisch bestätigt.
 Enhanced enthält sämtliche Core-Funktionen. „Original“ bezeichnet
 die gepinnte offizielle 32-Bit-Spielbasis dieses Projekts, keine Aussage über künftige
 Updates des Herstellers. Eine Splitscreen-Freigabe wird nicht behauptet.
@@ -44,6 +45,13 @@ Updates des Herstellers. Eine Splitscreen-Freigabe wird nicht behauptet.
 
 ## Gemeinsame Fehlerkorrekturen
 
+- Neu in alpha.2: D3D11-Himmelsgradienten auch für Calons Reflexionskamera;
+  neutrales Verhalten bei ungebundenen optionalen Wassertexturen. Die gelbe
+  Darstellung war eine Portierungsregression, kein belegter Fehler des 32-Bit-Clients.
+- Neu in alpha.2: Ressourcenabmeldung vor Freigabe und fortschreitende
+  Shaderbereinigung verhindern den reproduzierten D3D11-Hänger mit veralteten
+  Schiffsmaterialien. Keine Zusage, dass sämtliche Hänger dieselbe Ursache haben.
+
 - Komponentenaktivierung: Nach ausdrücklicher Ablehnung wird der lokale Aktivzustand
   korrigiert und der tatsächliche Cooldown begrenzt abgeglichen. Kein erneutes
   `useItem`, keine Interpretation unbekannter Antworten als Cooldown null.
@@ -72,6 +80,9 @@ Orbital-, Boss-, KW- oder anderen Zusatzfunktionen bleiben Enhanced.
 Die neue Core-Statusanzeige platziert FPS und Ping auch mit Spielleiste und Minimap
 unten rechts. Enhanced erhält die korrekte Mouse-Up-Weiterleitung zum Forge-Dialog;
 das ist eine Korrektur seiner zusätzlichen Oberfläche.
+Neu in alpha.2 sind außerdem vollständige D3D11-Shader für Enhanced-Energiekugel-
+Markierung und Quantensprungkreis. Das korrigiert den Port dieser Zusatzanzeigen;
+der 32-Bit-Originalclient enthält diese Forge-Funktionen nicht.
 
 ## Daten und Anfragen
 

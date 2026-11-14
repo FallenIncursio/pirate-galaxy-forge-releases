@@ -2,7 +2,7 @@
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.1/PirateGalaxyForge-0.2.0-alpha.1-Setup.exe)** · **0.2.0-alpha.1** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.1)
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.2/PirateGalaxyForge-0.2.0-alpha.2-Setup.exe)** · **0.2.0-alpha.2** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.2)
 
 [Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
@@ -39,15 +39,15 @@ Alpha 72 ergänzt den optionalen KW-Tracker mit Messung über Szenenwechsel, sta
 
 Alpha 73 korrigiert die Sol-Sonne und die Texturfilterung unter D3D11. Die optionale **Kreis-Zeitanzeige** ersetzt die rechteckigen Aktiv-/Abklingflächen: mit kleineren, mittigen Zahlen, schwarzer Kontur und Zehntelsekunden erst in der letzten Sekunde. Der Wechsel zwischen Aktivzeit und Abklingzeit bleibt lesbar; wiederholte Diagnosemeldungen für unbenutzte Ziffern entfallen. **D3D11 bleibt Standard, D3D9 auswählbar; Profile und Einstellungen bleiben erhalten.** [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.73) · [Kreis-Zeitanzeige einstellen](docs/HILFE.md#komponenten-zeitanzeige)
 
-## Core und Enhanced 0.2.0-alpha.1
+## Core und Enhanced 0.2.0-alpha.2
 
 Enhanced führt den bisherigen Forge mit allen Zusatzfunktionen weiter. **[Forge Core](https://github.com/FallenIncursio/pirate-galaxy-forge-core-releases)** enthält die gemeinsame 64-Bit-Technik, allgemeine Korrekturen und begrenzten Komfort mit ursprünglicher Hilfe. Beide Editionen verwenden dieselbe Core-Implementierung.
 
-Diese Ausgabe ergänzt getrennte Installer und Updatekanäle, geprüfte Profilübernahme sowie den gemeinsamen D3D11-HUD-Texturfix für den FPS-Einbruch bei wiederholten Erebos-/Orbit-Wechseln. Bestehende Forge-Profile werden zu Enhanced übernommen.
+Diese Fixausgabe korrigiert Calons D3D11-Wasserreflexion und einen Hänger bei der Materialbereinigung. Enhanced korrigiert außerdem die D3D11-Zeichenpfade der Energiekugel-Markierung und des Quantensprungkreises. Getrennte Installer, Updatekanäle, Profilübernahme und der gemeinsame Erebos-HUD-Texturfix bleiben erhalten. Bestehende Forge-Profile werden zu Enhanced übernommen.
 
-[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.1.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md)
+[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.2.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md)
 
-Die installierten D3D11-Versionen wurden in der Sandbox geprüft und vom Nutzer bestätigt. D3D9 bleibt wählbar; vollständige D3D9-Spielsitzungen, Wine für diese Pakete und quantitative Langzeitmessungen bleiben offen. 240 FPS ist eine Obergrenze, keine Leistungszusage. Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
+Installer, Profilübernahme und native Oberflächen dieser Pakete sind geprüft. Der Nutzer bestätigt Calons normale Darstellung und bisher keine weiteren Hänger mit den identischen Fix-DLLs in Enhanced. Testdauer und Wechselzahl wurden nicht erfasst. Core-Ingame-Abnahme und Enhanced-Energiekugel-/Quantensprunganzeigen bleiben gesondert zu prüfen. D3D9 bleibt wählbar; vollständige D3D9-Spielsitzungen, Wine und quantitative Langzeitmessungen bleiben offen. 240 FPS ist eine Obergrenze, keine Leistungszusage. Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
 
 ## Ein Blick ins Spiel
 
