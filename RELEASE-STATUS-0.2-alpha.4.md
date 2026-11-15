@@ -1,10 +1,16 @@
 # Core und Enhanced 0.2.0-alpha.4 — Release- und Prüfstand
 
-**Zur Veröffentlichung freigegeben am 15.11.2026.** Der Nutzer bestätigte den
-Enhanced-D3D11-Test für Clanrangliste und Pilotendivisionswechsel mit „funktioniert“.
-Die exakt geprüften Pakete werden unverändert veröffentlicht. Core verwendet Sequenz 4,
-Enhanced Sequenz 85; Starterrevision bleibt 12. Beide Kanäle werden nach öffentlichem
-Download und Hash-/Signaturprüfung aktiviert. Frühere Releases bleiben unverändert.
+**Veröffentlicht und öffentlich geprüft am 15.11.2026.** Beide Releases und
+Updatekanäle liefern alpha.4: Core Sequenz 4, Enhanced Sequenz 85; Starterrevision 12.
+Alle 14 öffentlichen Dateien wurden erneut heruntergeladen und anhand ihrer
+Prüfsummen geprüft. Release- und Kanalmanifeste sind RSA-verifiziert; die normalen
+Update-URLs und beide README-Installerlinks liefern die erwarteten Dateien.
+Der Nutzer bestätigte zuvor den Enhanced-D3D11-Ranglistentest mit „funktioniert“.
+Frühere Releases und der ältere Enhanced-Kanal bleiben unverändert.
+
+Binärquellencommit: `66385c73ecdb122d073a62742059f506b9eb6f1e`. Die nachfolgende Veröffentlichungserfassung
+ändert keine getesteten Programmdateien. Beleg im Quellrepo:
+`distribution/tests/editions-0.2-alpha.4-publication.json`.
 
 Der erste vollständige Teststart deckte einen Verifikationsfehler im neuen
 Ranglisten-Patch auf. Der unveröffentlichte Kandidat wurde durch einen Neubau mit
@@ -61,14 +67,6 @@ Die Kantenglättung wird nicht zwangsweise eingeschaltet. Zum Bildvergleich dies
 Auflösung, HUD-Skalierung und Grafikoption verwenden; 4x-MSAA benötigt GPU-Leistung.
 Ein Ranking-Timeout stellt keine erfolgreiche Serverantwort dar. Shop-GPU-Tests
 verwenden ein diagnostisches Material und ersetzen nicht die originale Farbabnahme.
-
-## Lokale Bereinigung
-
-10,21 GiB veraltete, inaktive Test-Container/-Caches unter `D:\PGF3J`, `D:\PGF3L`
-und `D:\PGF3M` wurden entfernt. Sandbox-Prozessfreiheit und Pfadgrenzen wurden geprüft;
-Profilreste und Berichte wurden vorab gesichert und gehasht. Originaleingaben,
-veröffentlichte Pakete, aktuelle Spielinstallation und aktive Sandbox bleiben erhalten.
-Dies ist eine lokale Bereinigung, keine automatische Löschfunktion im Client.
 
 Die Hinweise auf lokale Kandidaten in unveränderten Paketbeilagen beschreiben den
 damaligen Teststand. Maßgeblich für den Veröffentlichungsstatus sind die aktuellen
