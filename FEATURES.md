@@ -1,7 +1,7 @@
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core und Enhanced **0.2.0-alpha.3**, Windows-Alpha-Ausgaben auf
-Basis von Alpha 73 und dem veröffentlichten alpha.2. Frühere Releasepakete bleiben unverändert.
+Stand: Core und Enhanced **0.2.0-alpha.4**, Windows-Alpha-Ausgaben auf
+Basis von Alpha 73 und dem veröffentlichten alpha.3. Frühere Releasepakete bleiben unverändert.
 Die gemeinsamen Calon-Fixdateien wurden in Enhanced praktisch bestätigt.
 Enhanced enthält sämtliche Core-Funktionen. „Original“ bezeichnet
 die gepinnte offizielle 32-Bit-Spielbasis dieses Projekts, keine Aussage über künftige
@@ -48,6 +48,20 @@ Updates des Herstellers. Eine Splitscreen-Freigabe wird nicht behauptet.
 
 ## Gemeinsame Fehlerkorrekturen
 
+- Lokaler Kandidat alpha.4: Piloten-/Clan-Rangliste öffnet ihre Oberfläche vor den
+  Abfragen; nur die gewählte Kategorie wird geladen. Zeitüberschreitungen und
+  ungültige Antworten beenden den Ladezustand. Keine zusätzliche Statusfußzeile;
+  originale Fenster-/Listenfläche. Vollständige Live-Server-Abnahme offen.
+- Lokaler Kandidat alpha.4: HUD-Skalierung unter D3D11 behält nach einem Wechsel
+  des Renderfensters die korrekte Fensterzuordnung und Größenbegrenzung.
+- Lokaler Kandidat alpha.4: D3D11 erkennt die angebotenen MSAA-Stufen über `FSAA`;
+  die bestehende Kantenglättungsoption kann damit wieder wirksam sein. Keine
+  erzwungene Profiländerung oder Zusage identischer Darstellung zum 32-Bit-Client.
+- Lokaler Kandidat alpha.4: ursprüngliche Antriebsspur-Shopvorschau bewegt ihre
+  Schiff-/Kameraspuren; alte Auswahlantworten überschreiben keine neuere Vorschau.
+  Artikelwechsel bereinigen alte Präsentationsanimationen einschließlich Zuständen.
+  Diese gemeinsame Shopkorrektur ist von Enhanced-eigenen Antriebsspuren getrennt.
+
 - Neu in alpha.2: D3D11-Himmelsgradienten auch für Calons Reflexionskamera;
   neutrales Verhalten bei ungebundenen optionalen Wassertexturen. Die gelbe
   Darstellung war eine Portierungsregression, kein belegter Fehler des 32-Bit-Clients.
@@ -86,6 +100,8 @@ das ist eine Korrektur seiner zusätzlichen Oberfläche.
 Neu in alpha.2 sind außerdem vollständige D3D11-Shader für Enhanced-Energiekugel-
 Markierung und Quantensprungkreis. Das korrigiert den Port dieser Zusatzanzeigen;
 der 32-Bit-Originalclient enthält diese Forge-Funktionen nicht.
+Alpha.4 ergänzt für Enhanced verspätete Energiekugel-Renderinstanzen, begrenzte
+Wiederholungsversuche und die Bereinigung unvollständiger D3D11-Markermaterialien.
 
 ## Daten und Anfragen
 
@@ -104,3 +120,5 @@ Zusicherung „keine zusätzliche Serverlast“:
 
 Automatischer Kryonit-Drohnenwechsel bleibt in beiden Editionen entfernt.
 Live-Leistungswerte und Wine-Abnahme müssen mit den konkreten Kandidaten erhoben werden.
+
+Alpha.4-Nachkorrektur: Clan-Ranglisten behalten das Java-8-Datenformat fester Array-Listen. Tab-/Divisionswechsel merken die letzte Auswahl vor; alte Antworten überschreiben sie nicht. Der Spiel-JVM-Zugriff auf java.util ist dafür gezielt freigegeben und mit synthetischen Original-Protokollpaketen geprüft.

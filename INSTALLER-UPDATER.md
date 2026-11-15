@@ -1,6 +1,6 @@
 # Installation, Updates und Profile
 
-Core und Enhanced 0.2.0-alpha.3 benötigen Windows 10/11 x64 und .NET Framework 4.8.
+Core und Enhanced 0.2.0-alpha.4 benötigen Windows 10/11 x64 und .NET Framework 4.8.
 Die passende Java-27-Laufzeit lädt der Starter bei Bedarf selbst.
 
 ## Installieren
@@ -64,9 +64,10 @@ Konsolenausgaben und private Fehlermeldungstexte werden nicht automatisch versan
 
 ## Prüfstand und Grenzen
 
-Beide Installer wurden mit Upgrade, Profilübernahme, Reparatur, Abbruch und Rollback
-in Sandboxie geprüft. Enhanced alpha.3 wurde mit D3D11 bis zur verbundenen
-Spielsitzung gestartet und vom Nutzer bestätigt. Core alpha.3-Ingame-Abnahme,
+Beide Installer wurden für diese Paketbytes mit alpha.3-Upgrade, Profilübernahme,
+Reparatur, Abbruch und Rollback in Sandboxie geprüft. Enhanced alpha.4 wurde mit
+D3D11 bis zur verbundenen Spielsitzung gestartet und für den Ranglistentest vom
+Nutzer bestätigt. Eine gesonderte Core-Spielsitzung, vollständige Funktionsabnahme,
 längere D3D9-/D3D11-Sitzungen, weitere Rechnerkonfigurationen und Wine bleiben offen.
 
 Bei Sandboxie kurze Boxwurzeln verwenden. Zu lange umgeleitete Socket-Pfade können
