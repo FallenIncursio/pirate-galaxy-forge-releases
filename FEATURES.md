@@ -1,6 +1,6 @@
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core und Enhanced **0.2.0-alpha.6** (privater Testkandidat), Windows/D3D11-Alpha-Ausgaben auf
+Stand: Core und Enhanced **0.2.0-alpha.6** (Alpha-Ausgabe mit dokumentierten Grenzen), Windows/D3D11-Alpha-Ausgaben auf
 Basis von Alpha 73 und alpha.4. Frühere Releasepakete bleiben unverändert.
 Die gemeinsamen Calon-Fixdateien wurden in Enhanced praktisch bestätigt.
 Enhanced enthält sämtliche Core-Funktionen. „Original“ bezeichnet

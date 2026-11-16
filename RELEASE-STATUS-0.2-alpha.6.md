@@ -1,5 +1,17 @@
 # Core und Enhanced 0.2.0-alpha.6 — Veröffentlichung mit bekanntem Absturz
 
+## Veröffentlichung geprüft
+
+Core und Enhanced **0.2.0-alpha.6** sind veröffentlicht. Alle 14 öffentlichen Downloads,
+beide RSA-Updatekanäle und README-Installerlinks wurden heruntergeladen und geprüft.
+Sequenzen: Core 6 / Enhanced 87. Binärquellencommit: `5d32b3597ce0bc34b0e6ea37478c3f3aa9e241db`.
+Beleg: `distribution/tests/editions-0.2-alpha.6-publication.json`. Frühere Releasepakete bleiben unverändert.
+Der bekannte native Material-/Shader-Absturz ist in dieser Ausgabe noch enthalten
+und öffentlich dokumentiert. Analyse und Fix sind als nächster Schritt beauftragt;
+keine automatische Veröffentlichungsfreigabe für den nachfolgenden Fix.
+
+## Historischer Vorbereitungs- und Diagnosestand
+
 ## Aktueller Befund: nativer Absturz, noch nicht behoben
 
 Am 16.11.2026 ist Enhanced/D3D11 nach 753,7 Sekunden mit einer
