@@ -1,6 +1,6 @@
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core und Enhanced **0.2.0-alpha.5**, Windows/D3D11-Alpha-Ausgaben auf
+Stand: Core und Enhanced **0.2.0-alpha.6** (privater Testkandidat), Windows/D3D11-Alpha-Ausgaben auf
 Basis von Alpha 73 und alpha.4. Frühere Releasepakete bleiben unverändert.
 Die gemeinsamen Calon-Fixdateien wurden in Enhanced praktisch bestätigt.
 Enhanced enthält sämtliche Core-Funktionen. „Original“ bezeichnet
@@ -12,6 +12,7 @@ Updates des Herstellers. Eine Splitscreen-Freigabe wird nicht behauptet.
 | Architektur | Windows x64, Java 27 | identisch | Größerer adressierbarer Speicher; keine RAM-Verbrauchsgarantie |
 | Bibliotheken | Modernisierte Laufzeit, Logging, Netzwerk, Archiv-/Bilddecoder | identisch | Gepinnte modernisierte Komponenten aus Alpha 73 |
 | Renderer | D3D11, D3D9 separat startbar | identisch | Port mit Alpha-73-Sonnen-, Filter-, Transparenz- und UI-Korrekturen |
+| Partikel-/Schiffsmaterialien | D3D11: spätes Laden, Neuerzeugung und Materialidentität beim Klonen korrigiert | identisch | alpha.6 stellt den alten Ladevertrag wieder her; keine Ersatztexturen oder neuen Spielwerte |
 | Terrain/Beleuchtung | D3D11-Material-LOD, alte Shader-COLOR-Semantik und vererbte Texturzuweisungen korrigiert | identisch | Molikars falsche Reflexionstextur behoben; 72 Molikar-Ansichten mit Original32 verglichen, Enhanced-D3D11-Molikar-Test vom Nutzer bestätigt |
 | Grafikstart | Automatische Geräteprüfung, begrenzter D3D9-Fallback, bestätigte Grafikauswahl | identisch | Neue Forge-Startlogik; keine allgemeine Treiber-Kompatibilitätszusage |
 | Installation/Reparatur | Einfaches Setup, geprüfte Neuaufbereitung derselben Version mit Profilübernahme | identisch | Neue Forge-Verteilung; keine Änderung der offiziellen Installation |
@@ -30,7 +31,7 @@ Updates des Herstellers. Eine Splitscreen-Freigabe wird nicht behauptet.
 | Hilfe/Einstellungen | Originale Hilfe; native Einstellungserweiterung | F-/Forge-Einstieg, acht Bereiche | Unterschiedliche Bedienoberfläche |
 | Orbitalschläge | Originaldarstellung | Konturen, Füllung, bekannte Countdown-Varianten | Lokale Zusatzinformation; Schätzwerte sind keine Servergarantie |
 | Bosse | Originaldarstellung | Remnant, Queen, Sirius: HP, Effekte, Quellen, bekannte Zeiten | Zusätzliche Darstellung empfangener Daten |
-| Bossauftritt | Original | Name, Bildschirmränder, optionale Musik | Lokale Präsentation |
+| Bossauftritt | Original | Name, Bildschirmränder, optionale Musik; Remnants nur XC/SC, MN/DL ohne Auftritt | Lokale Präsentation; alpha.6 begrenzt auch den Ersatzimpuls |
 | Staffel | Original | Erweiterte HP-/Effektanzeigen | Zusätzliche Übersicht |
 | Komponententimer | Original | Zahlen, transparente/radiale Anzeigen, letzte Sekunden | Lokale Darstellung vorhandener Zustände |
 | Reichweiten | Original | Ziel-, Blitzketten- und Quantensprung-Anzeigen | Zusätzliche Visualisierung |
