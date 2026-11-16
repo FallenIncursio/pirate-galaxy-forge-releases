@@ -1,8 +1,14 @@
 # Core und Enhanced 0.2.0-alpha.5 — Molikar-Fixrelease
 
-Stand: 16.11.2026. **Nach bestätigtem Enhanced-D3D11-Molikar-Test zur Veröffentlichung freigegeben.**
+Stand: 16.11.2026. **Veröffentlicht und öffentlich geprüft.**
 Core-Sequenz 5, Enhanced-Sequenz 86; Starterrevision 12.
 Die Abnahme umfasst den gemeldeten Molikar-Kamerawechsel, keine Vollabnahme aller Planeten.
+
+Alle 14 öffentlichen Dateien, beide RSA-Release-/Kanalmanifeste, die normalen
+Update-URLs und README-Installerlinks wurden erneut heruntergeladen und geprüft.
+Binärquellencommit: `e1219c97ff4211374fe37daf8c35ed32a1a42229`. Die Veröffentlichungserfassung ändert keine
+Programmbytes. Beleg: `distribution/tests/editions-0.2-alpha.5-publication.json`.
+Frühere Releases und der ältere Enhanced-Kanal bleiben unverändert.
 
 ## Ursache und Änderung
 
