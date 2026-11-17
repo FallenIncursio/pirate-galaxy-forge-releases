@@ -1,6 +1,6 @@
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core und Enhanced **0.2.0-alpha.6** (Alpha-Ausgabe mit dokumentierten Grenzen), Windows/D3D11-Alpha-Ausgaben auf
+Stand: Core und Enhanced **0.2.0-alpha.7** (D3D11-Absturzfix), Windows/D3D11-Alpha-Ausgaben auf
 Basis von Alpha 73 und alpha.4. Frühere Releasepakete bleiben unverändert.
 Die gemeinsamen Calon-Fixdateien wurden in Enhanced praktisch bestätigt.
 Enhanced enthält sämtliche Core-Funktionen. „Original“ bezeichnet
@@ -12,6 +12,7 @@ Updates des Herstellers. Eine Splitscreen-Freigabe wird nicht behauptet.
 | Architektur | Windows x64, Java 27 | identisch | Größerer adressierbarer Speicher; keine RAM-Verbrauchsgarantie |
 | Bibliotheken | Modernisierte Laufzeit, Logging, Netzwerk, Archiv-/Bilddecoder | identisch | Gepinnte modernisierte Komponenten aus Alpha 73 |
 | Renderer | D3D11, D3D9 separat startbar | identisch | Port mit Alpha-73-Sonnen-, Filter-, Transparenz- und UI-Korrekturen |
+| Materialbereinigung | D3D11-Lebensdauerprüfung vor dem Entfernen von Shader-Bindungen | identisch | Behebt einen nachgestellten OGRE-14-Portierungsfehler; keine neue Serverlast oder Spielmechanik |
 | Partikel-/Schiffsmaterialien | D3D11: spätes Laden, Neuerzeugung und Materialidentität beim Klonen korrigiert | identisch | alpha.6 stellt den alten Ladevertrag wieder her; keine Ersatztexturen oder neuen Spielwerte |
 | Terrain/Beleuchtung | D3D11-Material-LOD, alte Shader-COLOR-Semantik und vererbte Texturzuweisungen korrigiert | identisch | Molikars falsche Reflexionstextur behoben; 72 Molikar-Ansichten mit Original32 verglichen, Enhanced-D3D11-Molikar-Test vom Nutzer bestätigt |
 | Grafikstart | Automatische Geräteprüfung, begrenzter D3D9-Fallback, bestätigte Grafikauswahl | identisch | Neue Forge-Startlogik; keine allgemeine Treiber-Kompatibilitätszusage |
@@ -49,6 +50,12 @@ Updates des Herstellers. Eine Splitscreen-Freigabe wird nicht behauptet.
 | Wine | Geerbte Kompatibilitätsarbeit | identisch | Vorschau; diese 0.2-Pakete nicht unter Wine geprüft |
 
 ## Gemeinsame Fehlerkorrekturen
+
+- Neu in alpha.7: Entfernte oder ersetzte Render-Passes werden bei der späteren
+  Shader-Bereinigung nicht mehr über ungültige Zeiger angesprochen. 800 gezielte
+  Zyklen bestanden; fünf Fälle reproduzieren den Absturz in alpha.5 und alpha.6.
+  Enhanced-Nutzer berichtet bisher keine weiteren Abstürze; genaue frühere
+  Ingame-Operation und eine separate Core-Spielsitzung sind nicht nachgewiesen.
 
 - Lokaler Kandidat alpha.4: Piloten-/Clan-Rangliste öffnet ihre Oberfläche vor den
   Abfragen; nur die gewählte Kategorie wird geladen. Zeitüberschreitungen und
