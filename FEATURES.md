@@ -1,6 +1,6 @@
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core und Enhanced **0.2.0-alpha.7** (D3D11-Absturzfix), Windows/D3D11-Alpha-Ausgaben auf
+Stand: Core **0.2.0-alpha.7**, Enhanced **0.2.0-alpha.8** (OTB-Anzeige), Windows/D3D11-Alpha-Ausgaben auf
 Basis von Alpha 73 und alpha.4. Frühere Releasepakete bleiben unverändert.
 Die gemeinsamen Calon-Fixdateien wurden in Enhanced praktisch bestätigt.
 Enhanced enthält sämtliche Core-Funktionen. „Original“ bezeichnet
@@ -29,6 +29,7 @@ Updates des Herstellers. Eine Splitscreen-Freigabe wird nicht behauptet.
 | Zieleliste | Missionsabhängiger Remnant-Filter | identisch | Filter bestehender Einträge, keine Erkennung unbekannter Einheiten |
 | Sirius-Baupläne | Farben nach eigenem bekannten Fortschritt | identisch, zusätzlich Katalog/Planung | Keine erfundenen Besitzstände |
 | Kryonit | Menge am vorhandenen Zieleintrag | zusätzlich Statistik/Export | Keine Sammelautomatik |
+| OTB-Aktivitätsprüfung | nicht enthalten | Kleines passives Widget für die Clientkriterien; unbekannte/veraltete Werte gekennzeichnet | Neue lokale Zusatzanzeige ohne zusätzliche Serverabfragen; aktuelle Servergrenzen und Endauswertung nicht bestätigt |
 | Hilfe/Einstellungen | Originale Hilfe; native Einstellungserweiterung | F-/Forge-Einstieg, acht Bereiche | Unterschiedliche Bedienoberfläche |
 | Orbitalschläge | Originaldarstellung | Konturen, Füllung, bekannte Countdown-Varianten | Lokale Zusatzinformation; Schätzwerte sind keine Servergarantie |
 | Bosse | Originaldarstellung | Remnant, Queen, Sirius: HP, Effekte, Quellen, bekannte Zeiten | Zusätzliche Darstellung empfangener Daten |

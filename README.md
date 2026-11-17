@@ -2,7 +2,7 @@
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.7/PirateGalaxyForge-0.2.0-alpha.7-Setup.exe)** · **0.2.0-alpha.7** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.7)
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.8/PirateGalaxyForge-0.2.0-alpha.8-Setup.exe)** · **0.2.0-alpha.8** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.8)
 
 [Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
@@ -39,15 +39,15 @@ Alpha 72 ergänzt den optionalen KW-Tracker mit Messung über Szenenwechsel, sta
 
 Alpha 73 korrigiert die Sol-Sonne und die Texturfilterung unter D3D11. Die optionale **Kreis-Zeitanzeige** ersetzt die rechteckigen Aktiv-/Abklingflächen: mit kleineren, mittigen Zahlen, schwarzer Kontur und Zehntelsekunden erst in der letzten Sekunde. Der Wechsel zwischen Aktivzeit und Abklingzeit bleibt lesbar; wiederholte Diagnosemeldungen für unbenutzte Ziffern entfallen. **D3D11 bleibt Standard, D3D9 auswählbar; Profile und Einstellungen bleiben erhalten.** [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.73) · [Kreis-Zeitanzeige einstellen](docs/HILFE.md#komponenten-zeitanzeige)
 
-## Core und Enhanced 0.2.0-alpha.7
+## Enhanced 0.2.0-alpha.8 und Core 0.2.0-alpha.7
 
 Enhanced führt den bisherigen Forge mit allen Zusatzfunktionen weiter. **[Forge Core](https://github.com/FallenIncursio/pirate-galaxy-forge-core-releases)** enthält die gemeinsame 64-Bit-Technik, allgemeine Korrekturen und begrenzten Komfort mit ursprünglicher Hilfe. Beide Editionen verwenden dieselbe Core-Implementierung.
 
-Diese Ausgabe behebt einen nachgestellten nativen D3D11-Absturz bei der Material-/Shader-Bereinigung. Vor dem Zugriff auf einen Render-Pass wird dessen Lebensdauer geprüft, sodass bereits freigegebener und wiederverwendeter Speicher nicht mehr dereferenziert wird. Core und Enhanced enthalten denselben Fix. Die Remnant-/Aggrobeacon-Korrekturen aus alpha.6 bleiben erhalten; ebenso D3D9, Einstellungen und Profile. Bestehende Forge-Profile werden zu Enhanced übernommen.
+Enhanced ergänzt eine passive OTB-Aktivitätsprüfung mit kleinem HUD-Widget. Es zeigt den Stand der vorhandenen Clientkriterien für Zeit, Systeme, Flug und Zusatzbedingung; unbekannte oder veraltete Daten bleiben gekennzeichnet. Abschaltbar unter Forge → Anzeige → Widgets. Keine zusätzlichen Serverabfragen oder automatischen Spielaktionen. Core bleibt auf alpha.7; alle bisherigen Grafik-, Stabilitäts- und Komfortkorrekturen bleiben enthalten. Bestehende Forge-Profile werden zu Enhanced übernommen.
 
-[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.7.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md) · [Absturzursache und Fix](ALPHA7-MATERIAL-CLEANUP.md)
+[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.8.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md) · [OTB-Anzeige und Grenzen](ALPHA8-OTB-ACTIVITY.md)
 
-800 gezielte Bereinigungszyklen in acht Szenarien bestanden; fünf Fehlerfälle reproduzieren den Absturz mit alpha.5 und alpha.6. Enhanced wurde mit D3D11 in der Sandbox getestet; der Nutzer berichtet bisher keine weiteren Abstürze. Dauer und Wechselzahl dieser Sitzung sind nicht erfasst. Der genaue frühere Ingame-Auslöser ist nicht vollständig rekonstruiert. Eine gesonderte Core-Spielsitzung, andere Absturzursachen, weitere GPUs/Treiber, Wine und quantitative Langzeitmessungen sind dadurch nicht abgedeckt. Automatische Prüfungen stehen im [Release-Prüfstand](RELEASE-STATUS-0.2-alpha.7.md). Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
+Die Clientlogik wurde mit 461 gezielten Prüfungen sowie nativen D3D9-/D3D11-Oberflächentests geprüft. Enhanced wurde mit D3D11 verbunden im Spiel gestartet; Profil, Anmeldung und Lautstärke wurden übernommen. Ein echtes OTB mit regelmäßig übertragenen Aktivitätswerten und ein Abgleich mit der Endauswertung sind noch nicht bestätigt. Das Widget garantiert weder Belohnung noch Sperrfreiheit. Weitere Prüfungen und Grenzen: [Release-Prüfstand](RELEASE-STATUS-0.2-alpha.8.md). Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
 
 ## Ein Blick ins Spiel
 
