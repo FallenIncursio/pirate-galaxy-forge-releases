@@ -1,5 +1,20 @@
 # Core und Enhanced 0.2.0-alpha.7 — D3D11-Absturzfix
 
+## Veröffentlichung geprüft
+
+Core und Enhanced **0.2.0-alpha.7** sind veröffentlicht. Alle 14 öffentlichen Downloads,
+beide RSA-Updatekanäle und README-Installerlinks wurden heruntergeladen und geprüft.
+Sequenzen: Core 7 / Enhanced 88. Binärquellencommit: `a42fcaa427e15467fecacbd202a282b96ab6c741`.
+Beleg: `distribution/tests/editions-0.2-alpha.7-publication.json`. Frühere Releasepakete bleiben unverändert.
+
+Abschließende Releaseprüfungen: 53 Neuinstallations-/Alpha-73-Prüfungen, 56 Upgrade-/Reparaturprüfungen ausgehend von der vorherigen Ausgabe und 24 Installer-Oberflächenprüfungen bestanden. Beide Editionen wurden mit den unveränderten signierten Releasepaketen geprüft. Editionsprüfung: `.build/editions/alpha7-final-release-tests`.
+
+## Hinweise zum Testablauf
+
+Zwei frühere Installer-Testläufe scheiterten an verweigerten Verzeichnisumbenennungen, einmal beim Laufzeitentpacken und einmal in der vom Test erzeugten Reparatur-Unterbrechung. Die Testüberwachung fragt jetzt nur die bekannte Ergebnisdatei ab, statt während der Installation den gesamten Sandbox-Dateibaum zu durchsuchen. Anschließend bestanden alle 53 Neuinstallations-/Alpha-73-, 56 Upgrade-/Reparatur- und 24 Oberflächenprüfungen mit denselben signierten Paketen. Die genaue Windows-/Sandboxie-Ursache der früheren Zugriffsfehler ist nicht abschließend nachgewiesen. Der ausgelieferte Installer-/Updatercode wurde dafür nicht geändert.
+
+## Historischer Vorbereitungs- und Diagnosestand
+
 Stand: 17.11.2026. Veröffentlichung beider Editionen ausdrücklich beauftragt.
 Zielsequenzen: Core 7 / Enhanced 88; Starterrevision 12. Kanalaktivierung erst
 nach Prüfung der öffentlichen Paketdownloads.
