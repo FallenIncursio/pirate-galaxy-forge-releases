@@ -1,5 +1,18 @@
 # Release-Prüfstand: Enhanced 0.2.0-alpha.8
 
+## Veröffentlichung geprüft
+
+Enhanced **0.2.0-alpha.8** veröffentlicht. Alle 7 öffentlichen Downloads,
+zugehörigen RSA-Updatekanäle und README-Installerlinks wurden heruntergeladen und geprüft.
+Aktualisierte Sequenzen: Enhanced 89. Binärquellencommit: `f833a34ce6494b8dfa56475d5ad5371ba57a2bef`.
+Beleg: `distribution/tests/editions-0.2-alpha.8-publication.json`. Frühere Releasepakete bleiben unverändert.
+Core bleibt unverändert auf 0.2.0-alpha.7, Sequenz 7.
+Live-OTB-Datenfluss und serverseitige Endauswertung bleiben unbestätigt; keine Belohnungs- oder Sperrfreiheitsgarantie.
+
+Abschließende Releaseprüfungen: 53 Neuinstallations-/Alpha-73-Prüfungen, 56 Upgrade-/Reparaturprüfungen und 24 Installer-Oberflächenprüfungen bestanden. Die Belege binden die geprüften Kandidaten über ihre SHA-256-Werte.
+
+## Historischer Vorbereitungs- und Diagnosestand
+
 Stand: 17.11.2026. Veröffentlichung nach dem Enhanced-D3D11-Sandboxstart
 beauftragt. Nur Enhanced erhält alpha.8, Sequenz 89, Starterrevision 12.
 Core bleibt auf alpha.7, Sequenz 7. Frühere Releases bleiben erhalten.
