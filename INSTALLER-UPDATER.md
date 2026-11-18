@@ -1,6 +1,6 @@
 # Installation, Updates und Profile
 
-Core und Enhanced 0.2.0-alpha.5 benötigen Windows 10/11 x64 und .NET Framework 4.8.
+Core und Enhanced 0.2.0-alpha.10 benötigen Windows 10/11 x64 und .NET Framework 4.8.
 Die passende Java-27-Laufzeit lädt der Starter bei Bedarf selbst.
 
 ## Installieren
@@ -64,14 +64,17 @@ Konsolenausgaben und private Fehlermeldungstexte werden nicht automatisch versan
 
 ## Prüfstand und Grenzen
 
-Die Abnahme jeder Ausgabe ist an deren signierte Paketbytes gebunden. Für alpha.9
-werden Neuinstallation, Upgrade von Alpha 73 sowie Core alpha.7/Enhanced alpha.8,
+Die Abnahme jeder Ausgabe ist an deren signierte Paketbytes gebunden. Für alpha.10
+werden Neuinstallation, Upgrade von Alpha 73 sowie Core/Enhanced alpha.9,
 Profilübernahme, Reparatur, Abbruch und Rollback in Sandboxie geprüft. Maßgeblich
-ist der [Release-Prüfstand](RELEASE-STATUS-0.2-alpha.9.md).
-Enhanced alpha.9 wurde mit D3D11 auf Calon getestet und die gemessene Verbesserung
-vom Nutzer für das Update akzeptiert. Einzelne Ruckler bleiben bekannt. Eine
-separate Core-Spielsitzung, vollständige Funktionsabnahme, längere D3D9-/D3D11-
-Sitzungen, weitere Rechnerkonfigurationen und Wine bleiben gesonderte Prüfungen.
+ist der [Release-Prüfstand](RELEASE-STATUS-0.2-alpha.10.md).
+Die Veröffentlichung wurde freigegeben, obwohl ein neuer OTB-Spieltest derzeit
+nicht möglich ist. Auch der Wiederbelebungsdialog mit alpha.10 bleibt noch im
+Spiel zu prüfen. Fehlende Aktivitätsdaten sind keine bestätigte Inaktivität;
+das Widget garantiert weder Belohnung noch Sperrfreiheit.
+Weitere Rechnerkonfigurationen, längere Sitzungen und Wine bleiben gesonderte Prüfungen.
+Die zuvor akzeptierten Calon-Verbesserungen aus alpha.9 bleiben enthalten;
+einzelne Ruckler sind weiterhin bekannt.
 
 Bei Sandboxie kurze Boxwurzeln verwenden. Zu lange umgeleitete Socket-Pfade können
 beim Java-Verbindungsaufbau einen irreführenden Firewall-Dialog auslösen.

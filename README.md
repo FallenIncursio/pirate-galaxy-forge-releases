@@ -2,7 +2,7 @@
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.9/PirateGalaxyForge-0.2.0-alpha.9-Setup.exe)** · **0.2.0-alpha.9** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.9)
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.10/PirateGalaxyForge-0.2.0-alpha.10-Setup.exe)** · **0.2.0-alpha.10** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.10)
 
 [Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
@@ -39,15 +39,15 @@ Alpha 72 ergänzt den optionalen KW-Tracker mit Messung über Szenenwechsel, sta
 
 Alpha 73 korrigiert die Sol-Sonne und die Texturfilterung unter D3D11. Die optionale **Kreis-Zeitanzeige** ersetzt die rechteckigen Aktiv-/Abklingflächen: mit kleineren, mittigen Zahlen, schwarzer Kontur und Zehntelsekunden erst in der letzten Sekunde. Der Wechsel zwischen Aktivzeit und Abklingzeit bleibt lesbar; wiederholte Diagnosemeldungen für unbenutzte Ziffern entfallen. **D3D11 bleibt Standard, D3D9 auswählbar; Profile und Einstellungen bleiben erhalten.** [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.73) · [Kreis-Zeitanzeige einstellen](docs/HILFE.md#komponenten-zeitanzeige)
 
-## Enhanced 0.2.0-alpha.9 und Core 0.2.0-alpha.9
+## Enhanced 0.2.0-alpha.10 und Core 0.2.0-alpha.10
 
 Enhanced führt den bisherigen Forge mit allen Zusatzfunktionen weiter. **[Forge Core](https://github.com/FallenIncursio/pirate-galaxy-forge-core-releases)** enthält die gemeinsame 64-Bit-Technik, allgemeine Korrekturen und begrenzten Komfort mit ursprünglicher Hilfe. Beide Editionen verwenden dieselbe Core-Implementierung.
 
-Diese Ausgabe verringert wiederholte Schrift-, Layout- und Vegetationsarbeit auf Calon: begrenzte Schriftatlanten, vorbereitete manuelle LODs, gestufter Seitenaufbau und weniger D3D11-Readbacks. ZGC, wiederverwendete Werte, zeitliche Wasserupdates, AWT-kompatibler Grafikstart und eine freiwillige lokale 30-Sekunden-Rucklerdiagnose ergänzen die gemeinsamen Verbesserungen. Sichtweite, Pflanzenzahl, Einstellungen und Profile bleiben erhalten. Bestehende Forge-Profile werden zu Enhanced übernommen.
+Core und Enhanced sichern den geerbten Wiederbelebungsdialog gegen fehlende oder verspätete Cooldowns ab. Unbekannte Restzeiten erscheinen als Ellipse. Vorhandene Profile, Einstellungen und die alpha.9-Grafikverbesserungen bleiben erhalten. Das OTB-Widget zeigt fehlende Aktivitätsdaten kompakt ohne Prozentwerte und prüft jeden Zähler getrennt auf Aktualität. Eine abschaltbare lokale Diagnose protokolliert begrenzt Feldzustände und Änderungen; keine Namen, Anmeldedaten, zusätzlichen Serverabfragen oder automatischen Uploads. Bestehende Forge-Profile werden zu Enhanced übernommen.
 
-[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.9.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md) · [Calon-Messung und verbleibende Spitzen](ALPHA9-ATLAS-LOD-LIVE-ANALYSIS.md)
+[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.10.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md) · [OTB-Diagnose und Dialogfix](ALPHA10-OTB-RESURRECTION.md)
 
-Im Enhanced-Calon-Test sank die gemessene Vegetationsspitze von 15,15 auf 2,92 ms und der Zielanzeigenaufbau von 24,26 auf 1,02 ms; unvorbereitete LOD-Lesezugriffe entfielen. Die Strecken waren nicht kontrolliert identisch. Acht Frameabstände über 16,67 ms und ein Maximum von 49,36 ms bleiben bekannt; Timer-/JNI- und Renderausreißer werden weiter untersucht. Der Nutzer hat die Verbesserung für dieses Update akzeptiert. Keine vollständige Rucklerfreiheit, pauschale FPS-Zusage oder neue Original32-Flugvergleichsmessung. Core-Liveprüfung, weitere GPUs, Wine und Langzeittests bleiben gesondert. [Prüfstand](RELEASE-STATUS-0.2-alpha.9.md). Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
+50 Editionssuiten, sechs Negativkontrollen, 481 OTB-Prüfungen und je 16 Cooldown-Prüfungen sowie native D3D9-/D3D11-Oberflächentests bestanden. Die Veröffentlichung wurde freigegeben, obwohl derzeit kein OTB-Spieltest mit diesen Änderungen möglich ist. Auch eine reguläre Wiederbelebung mit alpha.10 wurde noch nicht im Spiel bestätigt. Das Widget garantiert weder Belohnung noch Sperrfreiheit; fehlende Daten bedeuten keine bestätigte Inaktivität. [Prüfstand](RELEASE-STATUS-0.2-alpha.10.md). Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
 
 ## Ein Blick ins Spiel
 

@@ -1,10 +1,14 @@
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core und Enhanced **0.2.0-alpha.9**, Windows/D3D11-Alpha auf Basis Alpha 73.
+Stand: Core und Enhanced **0.2.0-alpha.10**, Alpha-Ausgabe auf Basis Alpha 73; Veröffentlichung mit dokumentierten Testgrenzen.
 Enhanced enthält sämtliche Core-Funktionen. Original bezeichnet die gepinnte
 32-Bit-Spielbasis, keine Aussage über künftige Herstellerupdates oder Freigaben.
 
-alpha.9 ergänzt begrenzte Schriftatlas-/Layoutcaches, ZGC, vorbereitete manuelle
+alpha.10 sichert den ursprünglichen Wiederbelebungsdialog gegen fehlende Cooldowns ab.
+Enhanced erhält eine kompakte Anzeige für fehlende OTB-Daten, getrennte Aktualität
+je Zähler und eine begrenzte lokale Diagnose. [Details](ALPHA10-OTB-RESURRECTION.md).
+
+Der übernommene alpha.9-Stand ergänzt begrenzte Schriftatlas-/Layoutcaches, ZGC, vorbereitete manuelle
 Vegetations-LODs, gestuften Seitenaufbau, weniger D3D11-Readbacks, zeitliche
 Wasserupdates, AWT-kompatiblen Grafikstart und freiwillige lokale Rucklerdiagnose.
 Die Calon-Verbesserung ist gemessen und vom Nutzer für dieses Update akzeptiert;
@@ -33,7 +37,8 @@ Einzelausreißer bleiben. Kein neuer kontrollierter Original32-Flugvergleich.
 | Zieleliste | Missionsabhängiger Remnant-Filter | identisch | Filter bestehender Einträge, keine Erkennung unbekannter Einheiten |
 | Sirius-Baupläne | Farben nach eigenem bekannten Fortschritt | identisch, zusätzlich Katalog/Planung | Keine erfundenen Besitzstände |
 | Kryonit | Menge am vorhandenen Zieleintrag | zusätzlich Statistik/Export | Keine Sammelautomatik |
-| OTB-Aktivitätsprüfung | nicht enthalten | Kleines passives Widget für die Clientkriterien; unbekannte/veraltete Werte gekennzeichnet | Neue lokale Zusatzanzeige ohne zusätzliche Serverabfragen; aktuelle Servergrenzen und Endauswertung nicht bestätigt |
+| OTB-Aktivitätsprüfung | nicht enthalten | Kompakter Hinweis bei Datenlücken; getrennte Aktualität je Zähler; abschaltbares lokales Journal bis 512 KiB | Neue lokale Zusatzanzeige ohne zusätzliche Serverabfragen; aktuelle Servergrenzen und Endauswertung nicht bestätigt |
+| Wiederbelebungsdialog | Fehlende oder späte Cooldowns sicher lesen; unbekannte Restzeit als `…` | identisch | Behebt Nullzugriff im geerbten Originaldialog; keine Änderung serverseitiger Wiederbelebungsregeln |
 | Hilfe/Einstellungen | Originale Hilfe; native Einstellungserweiterung | F-/Forge-Einstieg, acht Bereiche | Unterschiedliche Bedienoberfläche |
 | Orbitalschläge | Originaldarstellung | Konturen, Füllung, bekannte Countdown-Varianten | Lokale Zusatzinformation; Schätzwerte sind keine Servergarantie |
 | Bosse | Originaldarstellung | Remnant, Queen, Sirius: HP, Effekte, Quellen, bekannte Zeiten | Zusätzliche Darstellung empfangener Daten |
