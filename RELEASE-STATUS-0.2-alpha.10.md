@@ -1,4 +1,16 @@
-# Core und Enhanced 0.2.0-alpha.10 — Veröffentlichung beauftragt
+# Core und Enhanced 0.2.0-alpha.10 — veröffentlicht
+
+## Veröffentlichung geprüft
+
+Core und Enhanced **0.2.0-alpha.10** veröffentlicht. Alle 14 öffentlichen Downloads,
+zugehörigen RSA-Updatekanäle und README-Installerlinks wurden heruntergeladen und geprüft.
+Aktualisierte Sequenzen: Core 9, Enhanced 91. Binärquellencommit: `a6a5f561cadcee96c3b01ce4c940230cde3596d8`.
+Beleg: `distribution/tests/editions-0.2-alpha.10-publication.json`. Frühere Releasepakete bleiben unverändert.
+Live-OTB-Datenfluss und serverseitige Endauswertung bleiben unbestätigt; keine Belohnungs- oder Sperrfreiheitsgarantie.
+
+Abschließende Releaseprüfungen: 53 Neuinstallations-/Alpha-73-Prüfungen, 56 Upgrade-/Reparaturprüfungen und 24 Installer-Oberflächenprüfungen bestanden. Die Belege binden die geprüften Kandidaten über ihre SHA-256-Werte.
+
+## Historischer Vorbereitungs- und Diagnosestand
 
 Auftrag: OTB-Widget und lokale Diagnose in Enhanced verbessern; gemeinsamen
 Wiederbelebungsdialog in Core und Enhanced absichern. Laufenden Client erhalten.
