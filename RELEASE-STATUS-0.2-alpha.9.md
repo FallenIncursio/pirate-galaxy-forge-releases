@@ -1,5 +1,16 @@
 # Releasestand: Core und Enhanced 0.2.0-alpha.9
 
+## Veröffentlichung geprüft
+
+Core und Enhanced **0.2.0-alpha.9** veröffentlicht. Alle 14 öffentlichen Downloads,
+zugehörigen RSA-Updatekanäle und README-Installerlinks wurden heruntergeladen und geprüft.
+Aktualisierte Sequenzen: Core 8, Enhanced 90. Binärquellencommit: `f0d1fd36efaf7114e109151fd74ed0f42ff11a84`.
+Beleg: `distribution/tests/editions-0.2-alpha.9-publication.json`. Frühere Releasepakete bleiben unverändert.
+
+Abschließende Releaseprüfungen: 53 Neuinstallations-/Alpha-73-Prüfungen, 56 Upgrade-/Reparaturprüfungen und 24 Installer-Oberflächenprüfungen bestanden. Die Belege binden die geprüften Kandidaten über ihre SHA-256-Werte.
+
+## Historischer Vorbereitungs- und Diagnosestand
+
 Veröffentlichung am 18.11.2026 nach dem Enhanced-Calon-Test vom Nutzer freigegeben.
 Core-Sequenz 8, Enhanced-Sequenz 90, Starterrevision 12. Die Releasepakete werden
 mit den getesteten Spielbytes erstellt; Kanalaktivierung erst nach Downloadprüfung.
