@@ -1,11 +1,15 @@
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core **0.2.0-alpha.7**, Enhanced **0.2.0-alpha.8** (OTB-Anzeige), Windows/D3D11-Alpha-Ausgaben auf
-Basis von Alpha 73 und alpha.4. Frühere Releasepakete bleiben unverändert.
-Die gemeinsamen Calon-Fixdateien wurden in Enhanced praktisch bestätigt.
-Enhanced enthält sämtliche Core-Funktionen. „Original“ bezeichnet
-die gepinnte offizielle 32-Bit-Spielbasis dieses Projekts, keine Aussage über künftige
-Updates des Herstellers. Eine Splitscreen-Freigabe wird nicht behauptet.
+Stand: Core und Enhanced **0.2.0-alpha.9**, Windows/D3D11-Alpha auf Basis Alpha 73.
+Enhanced enthält sämtliche Core-Funktionen. Original bezeichnet die gepinnte
+32-Bit-Spielbasis, keine Aussage über künftige Herstellerupdates oder Freigaben.
+
+alpha.9 ergänzt begrenzte Schriftatlas-/Layoutcaches, ZGC, vorbereitete manuelle
+Vegetations-LODs, gestuften Seitenaufbau, weniger D3D11-Readbacks, zeitliche
+Wasserupdates, AWT-kompatiblen Grafikstart und freiwillige lokale Rucklerdiagnose.
+Die Calon-Verbesserung ist gemessen und vom Nutzer für dieses Update akzeptiert;
+Einzelausreißer bleiben. Kein neuer kontrollierter Original32-Flugvergleich.
+[Livebefund](ALPHA9-ATLAS-LOD-LIVE-ANALYSIS.md) · [Prüfstand](RELEASE-STATUS-0.2-alpha.9.md).
 
 | Bereich | Core | Enhanced | Gegenüber der 32-Bit-Basis |
 |---|---|---|---|

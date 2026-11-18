@@ -64,11 +64,14 @@ Konsolenausgaben und private Fehlermeldungstexte werden nicht automatisch versan
 
 ## Prüfstand und Grenzen
 
-Beide Installer wurden für diese Paketbytes mit alpha.3-Upgrade, Profilübernahme,
-Reparatur, Abbruch und Rollback in Sandboxie geprüft. Enhanced alpha.4 wurde mit
-D3D11 bis zur verbundenen Spielsitzung gestartet und für den Ranglistentest vom
-Nutzer bestätigt. Eine gesonderte Core-Spielsitzung, vollständige Funktionsabnahme,
-längere D3D9-/D3D11-Sitzungen, weitere Rechnerkonfigurationen und Wine bleiben offen.
+Die Abnahme jeder Ausgabe ist an deren signierte Paketbytes gebunden. Für alpha.9
+werden Neuinstallation, Upgrade von Alpha 73 sowie Core alpha.7/Enhanced alpha.8,
+Profilübernahme, Reparatur, Abbruch und Rollback in Sandboxie geprüft. Maßgeblich
+ist der [Release-Prüfstand](RELEASE-STATUS-0.2-alpha.9.md).
+Enhanced alpha.9 wurde mit D3D11 auf Calon getestet und die gemessene Verbesserung
+vom Nutzer für das Update akzeptiert. Einzelne Ruckler bleiben bekannt. Eine
+separate Core-Spielsitzung, vollständige Funktionsabnahme, längere D3D9-/D3D11-
+Sitzungen, weitere Rechnerkonfigurationen und Wine bleiben gesonderte Prüfungen.
 
 Bei Sandboxie kurze Boxwurzeln verwenden. Zu lange umgeleitete Socket-Pfade können
 beim Java-Verbindungsaufbau einen irreführenden Firewall-Dialog auslösen.
