@@ -1,4 +1,16 @@
-# Core und Enhanced 0.2.0-alpha.13 — Veröffentlichung freigegeben
+# Core und Enhanced 0.2.0-alpha.13 — veröffentlicht
+
+## Veröffentlichung geprüft
+
+Core und Enhanced **0.2.0-alpha.13** veröffentlicht. Alle 14 öffentlichen Downloads,
+zugehörigen RSA-Updatekanäle und README-Installerlinks wurden heruntergeladen und geprüft.
+Aktualisierte Sequenzen: Core 12, Enhanced 94. Binärquellencommit: `48b13f03047ab7be0992b82af73a27443fa68928`.
+Beleg: `distribution/tests/editions-0.2-alpha.13-publication.json`. Frühere Releasepakete bleiben unverändert.
+Spielversion 1002133; kamerabhängige Helligkeitswechsel bleiben offen und werden später untersucht.
+
+Abschließende Releaseprüfungen: 53 Neuinstallations-/Alpha-73-Prüfungen, 56 Upgrade-/Reparaturprüfungen und 24 Installer-Oberflächenprüfungen bestanden. Die Belege binden die geprüften Kandidaten über ihre SHA-256-Werte.
+
+## Historischer Vorbereitungs- und Diagnosestand
 
 Stand: 19.11.2026. Spielversion **1002133**. Der Nutzer meldet bisher störungsfreien
 Betrieb von Enhanced/D3D11 und beauftragt beide Releases, Quell-Push und Updatekanäle.
