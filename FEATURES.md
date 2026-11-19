@@ -1,8 +1,12 @@
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core und Enhanced **0.2.0-alpha.11**, Spielversion 1002133 auf Basis Alpha 73 und alpha.10.
+Stand: Core und Enhanced **0.2.0-alpha.12**, Spielversion 1002133 auf Basis Alpha 73 und alpha.11.
 
 **Bekanntes Problem:** Starke kamerabhängige Helligkeitswechsel sind weiterhin gemeldet. Dieses Release behebt sie nicht abschließend; die weitere Analyse folgt separat.
+
+alpha.12 stellt den ursprünglichen Tastaturfokus normaler Spielfenster wieder her,
+für Core/Enhanced und beide Renderer. Textfelder und modale Dialoge behalten ihren
+Eingabeschutz. [Fokuskorrektur und Prüfungen](ALPHA12-WINDOW-FOCUS.md).
 
 Enhanced enthält sämtliche Core-Funktionen. Original bezeichnet die gepinnte
 32-Bit-Spielbasis, keine Aussage über künftige Herstellerupdates oder Freigaben.
