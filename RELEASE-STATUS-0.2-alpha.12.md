@@ -1,4 +1,16 @@
-# Core und Enhanced 0.2.0-alpha.12 — Veröffentlichung freigegeben
+# Core und Enhanced 0.2.0-alpha.12 — veröffentlicht
+
+## Veröffentlichung geprüft
+
+Core und Enhanced **0.2.0-alpha.12** veröffentlicht. Alle 14 öffentlichen Downloads,
+zugehörigen RSA-Updatekanäle und README-Installerlinks wurden heruntergeladen und geprüft.
+Aktualisierte Sequenzen: Core 11, Enhanced 93. Binärquellencommit: `db93fe32b3fd8a9c013b030e343ad8a1b8859503`.
+Beleg: `distribution/tests/editions-0.2-alpha.12-publication.json`. Frühere Releasepakete bleiben unverändert.
+Spielversion 1002133; kamerabhängige Helligkeitswechsel bleiben offen und werden später untersucht.
+
+Abschließende Releaseprüfungen: 53 Neuinstallations-/Alpha-73-Prüfungen, 56 Upgrade-/Reparaturprüfungen und 24 Installer-Oberflächenprüfungen bestanden. Die Belege binden die geprüften Kandidaten über ihre SHA-256-Werte.
+
+## Historischer Vorbereitungs- und Diagnosestand
 
 Stand: 19.11.2026. Spielversion **1002133**. Der Nutzer bestätigt den
 Fokusfix in Enhanced/D3D11 und autorisiert nach Fehlerprüfung die Veröffentlichung
