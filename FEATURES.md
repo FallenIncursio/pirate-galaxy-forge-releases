@@ -1,10 +1,21 @@
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core und Enhanced **0.2.0-alpha.10**, Alpha-Ausgabe auf Basis Alpha 73; Veröffentlichung mit dokumentierten Testgrenzen.
+Stand: Core und Enhanced **0.2.0-alpha.11**, Spielversion 1002133 auf Basis Alpha 73 und alpha.10.
+
+**Bekanntes Problem:** Starke kamerabhängige Helligkeitswechsel sind weiterhin gemeldet. Dieses Release behebt sie nicht abschließend; die weitere Analyse folgt separat.
+
 Enhanced enthält sämtliche Core-Funktionen. Original bezeichnet die gepinnte
 32-Bit-Spielbasis, keine Aussage über künftige Herstellerupdates oder Freigaben.
 
-alpha.10 sichert den ursprünglichen Wiederbelebungsdialog gegen fehlende Cooldowns ab.
+alpha.11 rekonstruiert die ursprüngliche Terrain-Normalenberechnung und ergänzt eine
+begrenzte gemeinsame Grafikdiagnose. [Details](ALPHA11-TERRAIN-NORMALS.md).
+
+Beide Editionen verwenden jetzt die offizielle Spielbasis 1002133, einschließlich
+der neuen Schiffsinformationen und passenden Ressourcen. Die historischen
+Forge-Patches und die alpha.11-Terrain-DLLs bleiben erhalten.
+[Spielbasis und Prüfungen](GAME-BASIS-1002133.md).
+
+Der übernommene alpha.10-Stand sichert den ursprünglichen Wiederbelebungsdialog gegen fehlende Cooldowns ab.
 Enhanced erhält eine kompakte Anzeige für fehlende OTB-Daten, getrennte Aktualität
 je Zähler und eine begrenzte lokale Diagnose. [Details](ALPHA10-OTB-RESURRECTION.md).
 
@@ -22,7 +33,7 @@ Einzelausreißer bleiben. Kein neuer kontrollierter Original32-Flugvergleich.
 | Renderer | D3D11, D3D9 separat startbar | identisch | Port mit Alpha-73-Sonnen-, Filter-, Transparenz- und UI-Korrekturen |
 | Materialbereinigung | D3D11-Lebensdauerprüfung vor dem Entfernen von Shader-Bindungen | identisch | Behebt einen nachgestellten OGRE-14-Portierungsfehler; keine neue Serverlast oder Spielmechanik |
 | Partikel-/Schiffsmaterialien | D3D11: spätes Laden, Neuerzeugung und Materialidentität beim Klonen korrigiert | identisch | alpha.6 stellt den alten Ladevertrag wieder her; keine Ersatztexturen oder neuen Spielwerte |
-| Terrain/Beleuchtung | D3D11-Material-LOD, alte Shader-COLOR-Semantik und vererbte Texturzuweisungen korrigiert | identisch | Molikars falsche Reflexionstextur behoben; 72 Molikar-Ansichten mit Original32 verglichen, Enhanced-D3D11-Molikar-Test vom Nutzer bestätigt |
+| Terrain/Beleuchtung | Originale SplitScreenHeightField-Normalen; bestehende D3D11-LOD-/COLOR-/Texturkorrekturen | identisch | alpha.11: 16.644 Normalen-Komponenten und 216 Ansichten gegen Original32 geprüft; Kamerabhängige Helligkeitsprobleme weiterhin offen. Frühere Molikar-Abnahme gehört zu alpha.5 |
 | Grafikstart | Automatische Geräteprüfung, begrenzter D3D9-Fallback, bestätigte Grafikauswahl | identisch | Neue Forge-Startlogik; keine allgemeine Treiber-Kompatibilitätszusage |
 | Installation/Reparatur | Einfaches Setup, geprüfte Neuaufbereitung derselben Version mit Profilübernahme | identisch | Neue Forge-Verteilung; keine Änderung der offiziellen Installation |
 | Fehlerberichte | Begrenzte lokale Startprotokolle, freiwilliger Versand technischer Metadaten | identisch | Forge-Diagnose; keine automatische Übermittlung von Rohlogs |

@@ -2,7 +2,7 @@
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.10/PirateGalaxyForge-0.2.0-alpha.10-Setup.exe)** · **0.2.0-alpha.10** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.10)
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.11/PirateGalaxyForge-0.2.0-alpha.11-Setup.exe)** · **0.2.0-alpha.11** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.11)
 
 [Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
@@ -39,15 +39,15 @@ Alpha 72 ergänzt den optionalen KW-Tracker mit Messung über Szenenwechsel, sta
 
 Alpha 73 korrigiert die Sol-Sonne und die Texturfilterung unter D3D11. Die optionale **Kreis-Zeitanzeige** ersetzt die rechteckigen Aktiv-/Abklingflächen: mit kleineren, mittigen Zahlen, schwarzer Kontur und Zehntelsekunden erst in der letzten Sekunde. Der Wechsel zwischen Aktivzeit und Abklingzeit bleibt lesbar; wiederholte Diagnosemeldungen für unbenutzte Ziffern entfallen. **D3D11 bleibt Standard, D3D9 auswählbar; Profile und Einstellungen bleiben erhalten.** [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.73) · [Kreis-Zeitanzeige einstellen](docs/HILFE.md#komponenten-zeitanzeige)
 
-## Enhanced 0.2.0-alpha.10 und Core 0.2.0-alpha.10
+## Enhanced 0.2.0-alpha.11 und Core 0.2.0-alpha.11
 
 Enhanced führt den bisherigen Forge mit allen Zusatzfunktionen weiter. **[Forge Core](https://github.com/FallenIncursio/pirate-galaxy-forge-core-releases)** enthält die gemeinsame 64-Bit-Technik, allgemeine Korrekturen und begrenzten Komfort mit ursprünglicher Hilfe. Beide Editionen verwenden dieselbe Core-Implementierung.
 
-Core und Enhanced sichern den geerbten Wiederbelebungsdialog gegen fehlende oder verspätete Cooldowns ab. Unbekannte Restzeiten erscheinen als Ellipse. Vorhandene Profile, Einstellungen und die alpha.9-Grafikverbesserungen bleiben erhalten. Das OTB-Widget zeigt fehlende Aktivitätsdaten kompakt ohne Prozentwerte und prüft jeden Zähler getrennt auf Aktualität. Eine abschaltbare lokale Diagnose protokolliert begrenzt Feldzustände und Änderungen; keine Namen, Anmeldedaten, zusätzlichen Serverabfragen oder automatischen Uploads. Bestehende Forge-Profile werden zu Enhanced übernommen.
+Core und Enhanced verwenden jetzt die offizielle Spielversion 1002133 mit aktualisierten Schiffsinformationen und Ressourcen. Die alpha.11-Normalenberechnung nach dem 32-Bit-Original, die begrenzte Grafikdiagnose und alle bisherigen Forge-Korrekturen bleiben enthalten. Profile und Einstellungen bleiben bei Updates erhalten. Bestehende Forge-Profile werden zu Enhanced übernommen.
 
-[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.10.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md) · [OTB-Diagnose und Dialogfix](ALPHA10-OTB-RESURRECTION.md)
+[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.11.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md) · [Spielversion 1002133](GAME-BASIS-1002133.md) · [Normalenvergleich und Diagnose](ALPHA11-TERRAIN-NORMALS.md)
 
-50 Editionssuiten, sechs Negativkontrollen, 481 OTB-Prüfungen und je 16 Cooldown-Prüfungen sowie native D3D9-/D3D11-Oberflächentests bestanden. Die Veröffentlichung wurde freigegeben, obwohl derzeit kein OTB-Spieltest mit diesen Änderungen möglich ist. Auch eine reguläre Wiederbelebung mit alpha.10 wurde noch nicht im Spiel bestätigt. Das Widget garantiert weder Belohnung noch Sperrfreiheit; fehlende Daten bedeuten keine bestätigte Inaktivität. [Prüfstand](RELEASE-STATUS-0.2-alpha.10.md). Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
+Bekanntes Problem: Starke kamerabhängige Helligkeitswechsel sind weiterhin gemeldet und mit diesem Release nicht abschließend behoben. Die weitere Untersuchung folgt separat. Beide Editionen bestanden 52 Editionssuiten und native D3D9-/D3D11-Prüfungen; Enhanced wurde mit D3D11 auf Spielversion 1002133 angemeldet bis in den Orbit getestet. Eine gesonderte Core-Spielsitzung, weitere GPUs, Wine und Langzeittests bleiben offen. [Prüfstand](RELEASE-STATUS-0.2-alpha.11.md). Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
 
 ## Ein Blick ins Spiel
 
