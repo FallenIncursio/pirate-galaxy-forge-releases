@@ -1,5 +1,17 @@
 # Core und Enhanced 0.2.0-alpha.11 — Veröffentlichung beauftragt
 
+## VerÃ¶ffentlichung geprÃ¼ft
+
+Core und Enhanced **0.2.0-alpha.11** verÃ¶ffentlicht. Alle 14 Ã¶ffentlichen Downloads,
+zugehÃ¶rigen RSA-UpdatekanÃ¤le und README-Installerlinks wurden heruntergeladen und geprÃ¼ft.
+Aktualisierte Sequenzen: Core 10, Enhanced 92. BinÃ¤rquellencommit: `28c444cdeba20a8ed6ea73e3f9a64328417855a3`.
+Beleg: `distribution/tests/editions-0.2-alpha.11-publication.json`. FrÃ¼here Releasepakete bleiben unverÃ¤ndert.
+Spielversion 1002133; kamerabhängige Helligkeitswechsel bleiben offen und werden später untersucht.
+
+AbschlieÃŸende ReleaseprÃ¼fungen: 53 Neuinstallations-/Alpha-73-PrÃ¼fungen, 56 Upgrade-/ReparaturprÃ¼fungen und 24 Installer-OberflÃ¤chenprÃ¼fungen bestanden. Die Belege binden die geprÃ¼ften Kandidaten Ã¼ber ihre SHA-256-Werte.
+
+## Historischer Vorbereitungs- und Diagnosestand
+
 Stand: 19.11.2026. Beide Editionen verwenden die offizielle Spielversion **1002133**.
 Der Nutzer hat Quell-Push, beide Releases und Updatekanäle ausdrücklich freigegeben.
 Das gemeldete Helligkeitsproblem bleibt offen und wird später weiter untersucht.
