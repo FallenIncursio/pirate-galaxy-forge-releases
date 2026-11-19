@@ -1,6 +1,6 @@
 # Installation, Updates und Profile
 
-Core und Enhanced 0.2.0-alpha.10 benötigen Windows 10/11 x64 und .NET Framework 4.8.
+Core und Enhanced 0.2.0-alpha.13 benötigen Windows 10/11 x64 und .NET Framework 4.8.
 Die passende Java-27-Laufzeit lädt der Starter bei Bedarf selbst.
 
 ## Installieren
@@ -41,6 +41,17 @@ Hashes. Ein Paket der anderen Edition wird abgewiesen. Downloads und Vorbereitun
 erfolgen neben der aktiven Version; erst das vollständig geprüfte Paket wird
 aktiviert. Der Wiederanlauf berücksichtigt die aktuellen Profile erneut.
 
+Ab alpha.13 sind neue Updatepakete komprimiert. Passende Java-Dateien und bereits
+geladene Spielressourcen werden geprüft übernommen. Der Starter zeigt den aktuellen
+Schritt, die übertragene Datenmenge und die Geschwindigkeit. Unterstützt die
+Downloadquelle eine sichere Fortsetzung, können bereits geladene Teile weitergenutzt
+werden. Für die erste Einrichtung können zusätzliche Downloads erforderlich sein.
+
+Bei vorhandener Installation lässt sich ein Update vor der Aktivierung über
+„Update später – vorhandene Version starten“ verschieben. Der bisherige Client
+wird vor dem Start weiterhin geprüft. Bei Erstinstallation und Reparatur steht
+diese Möglichkeit nicht zur Verfügung.
+
 Ein Rollback erhält den jüngsten Profilstand und die höchste bereits gesehene
 Updatesequenz. Der feste native Prozesspfad erhält die Windows-Lautstärkezuordnung.
 Deinstallation entfernt Starter und Verknüpfungen; Spielkopien und Profile bleiben
@@ -59,19 +70,22 @@ während des Austauschs wird beim nächsten Start berücksichtigt. Zusätzlicher
 freier Speicher für die Reparaturkopie wird benötigt.
 
 Fehlerberichte können nach bewusster Bestätigung gesendet werden. Sie enthalten
-auch Startphase, Grafikdaten und erkennbare Java-Fehlerklassen. Rohe lokale
-Konsolenausgaben und private Fehlermeldungstexte werden nicht automatisch versandt.
+auch Startphase, Grafikdaten und getrennte Java-Fehlerereignisse. Passende vorhandene
+native Fehlerdateien liefern begrenzte Metadaten wie Fehlercode und Modul. Rohe
+Konsolenausgaben, JVM-Fehlerdateien und Speicherabbilder werden nicht automatisch
+versandt. Ein Java-Ereignis allein belegt keine native Absturzursache.
 
 ## Prüfstand und Grenzen
 
-Die Abnahme jeder Ausgabe ist an deren signierte Paketbytes gebunden. Für alpha.10
-werden Neuinstallation, Upgrade von Alpha 73 sowie Core/Enhanced alpha.9,
-Profilübernahme, Reparatur, Abbruch und Rollback in Sandboxie geprüft. Maßgeblich
-ist der [Release-Prüfstand](RELEASE-STATUS-0.2-alpha.10.md).
-Die Veröffentlichung wurde freigegeben, obwohl ein neuer OTB-Spieltest derzeit
-nicht möglich ist. Auch der Wiederbelebungsdialog mit alpha.10 bleibt noch im
-Spiel zu prüfen. Fehlende Aktivitätsdaten sind keine bestätigte Inaktivität;
-das Widget garantiert weder Belohnung noch Sperrfreiheit.
+Die Abnahme jeder Ausgabe ist an deren signierte Paketbytes gebunden. Für alpha.13
+bestanden Neuinstallation, Upgrade von Alpha 73 sowie Core/Enhanced alpha.12,
+Profilübernahme, Reparatur, Abbruch und Rollback in Sandboxie. Maßgeblich
+ist der [Release-Prüfstand](RELEASE-STATUS-0.2-alpha.13.md).
+Enhanced wurde mit D3D11 im Spiel geprüft; der Nutzer meldet bisher keine Probleme.
+Der konkrete native Sirius-Landeabsturz ist nicht nachweislich behoben und
+kamerabhängige Helligkeitswechsel bleiben offen. OTB-Endauswertung und reale
+Wiederbelebung sind weiterhin separat zu prüfen; das OTB-Widget garantiert weder
+Belohnung noch Sperrfreiheit.
 Weitere Rechnerkonfigurationen, längere Sitzungen und Wine bleiben gesonderte Prüfungen.
 Die zuvor akzeptierten Calon-Verbesserungen aus alpha.9 bleiben enthalten;
 einzelne Ruckler sind weiterhin bekannt.

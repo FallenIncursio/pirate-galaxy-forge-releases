@@ -2,7 +2,7 @@
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.12/PirateGalaxyForge-0.2.0-alpha.12-Setup.exe)** · **0.2.0-alpha.12** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.12)
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.13/PirateGalaxyForge-0.2.0-alpha.13-Setup.exe)** · **0.2.0-alpha.13** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.13)
 
 [Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
@@ -39,15 +39,15 @@ Alpha 72 ergänzt den optionalen KW-Tracker mit Messung über Szenenwechsel, sta
 
 Alpha 73 korrigiert die Sol-Sonne und die Texturfilterung unter D3D11. Die optionale **Kreis-Zeitanzeige** ersetzt die rechteckigen Aktiv-/Abklingflächen: mit kleineren, mittigen Zahlen, schwarzer Kontur und Zehntelsekunden erst in der letzten Sekunde. Der Wechsel zwischen Aktivzeit und Abklingzeit bleibt lesbar; wiederholte Diagnosemeldungen für unbenutzte Ziffern entfallen. **D3D11 bleibt Standard, D3D9 auswählbar; Profile und Einstellungen bleiben erhalten.** [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.73) · [Kreis-Zeitanzeige einstellen](docs/HILFE.md#komponenten-zeitanzeige)
 
-## Enhanced 0.2.0-alpha.12 und Core 0.2.0-alpha.12
+## Enhanced 0.2.0-alpha.13 und Core 0.2.0-alpha.13
 
 Enhanced führt den bisherigen Forge mit allen Zusatzfunktionen weiter. **[Forge Core](https://github.com/FallenIncursio/pirate-galaxy-forge-core-releases)** enthält die gemeinsame 64-Bit-Technik, allgemeine Korrekturen und begrenzten Komfort mit ursprünglicher Hilfe. Beide Editionen verwenden dieselbe Core-Implementierung.
 
-Gewöhnliche Spielfenster und Buttons blockieren Komponententasten nach dem Anklicken nicht mehr. Der gemeinsame Fokusfix entspricht dem geprüften 32-Bit-Verhalten und gilt für Core und Enhanced mit D3D9 und D3D11. Chat, Suchfelder und modale Dialoge behalten ihren Eingabeschutz. Spielversion 1002133, bisherige Forge-Fixes, Profile und Einstellungen bleiben erhalten. Bestehende Forge-Profile werden zu Enhanced übernommen.
+Core und Enhanced sichern Ressourcenanfragen bei fehlendem Dienst, Verbindungswechsel und Abbruch ab. Die Absturzdiagnose trennt Java-Ereignisse und ergänzt vorhandene native Fehlerdaten. Komprimierte Updatepakete sind rund 63 % kleiner als in alpha.12; sichere Downloadfortsetzung, geprüfte Laufzeit- und Cacheübernahme sowie ein verschiebbares Update mit Fortschrittsanzeige verbessern die Einrichtung. Spielversion 1002133, bisherige Fixes, Profile und Einstellungen bleiben erhalten. Bestehende Forge-Profile werden zu Enhanced übernommen.
 
-[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.12.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md) · [Fokusfix und Testfehler](ALPHA12-WINDOW-FOCUS.md)
+[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.13.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md) · [Ressourcen, Diagnose und Updates](ALPHA13-RELIABILITY-UPDATES.md)
 
-56 Editionssuiten und sechs Build-Negativkontrollen bestanden. Vier native Fokusproben prüfen je 2.253 Fälle; beide bisherigen Renderer-DLLs scheitern als Negativkontrolle gezielt am alten Fensterstandard. Der Nutzer bestätigt den Fokusfix in Enhanced/D3D11. Die Sitzungslogs zeigen keine neue Exception oder Absturzspur; bekannte Tracking-, UI- und Szenenmeldungen bleiben dokumentiert. Kamerabhängige Helligkeitswechsel bleiben offen, ebenso eine gesonderte Core-Spielsitzung, andere GPUs, Wine und Langzeittests. [Prüfstand](RELEASE-STATUS-0.2-alpha.12.md). Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
+58 Editionssuiten, sechs Build-Negativkontrollen sowie Diagnose-, Transport-, Installer-, Reparatur- und Profilübernahmeprüfungen bestanden. Der Nutzer bestätigt bisher störungsfreien Betrieb von Enhanced mit D3D11 in der Sandbox. Der konkrete native Sirius-Landeabsturz ist weiterhin nicht nachweislich behoben; die Ressourcenhärtung ist keine Zusage von Absturzfreiheit. Kamerabhängige Helligkeit, eine separate Core-Spielsitzung, andere GPUs, Wine und Langzeittests bleiben offen. Weniger Paketvolumen bedeutet keine entsprechend kürzere gesamte Installation. [Prüfstand](RELEASE-STATUS-0.2-alpha.13.md). Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
 
 ## Ein Blick ins Spiel
 

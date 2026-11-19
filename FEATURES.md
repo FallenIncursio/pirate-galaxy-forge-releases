@@ -1,6 +1,14 @@
+# Gemeinsam neu in alpha.13
+
+Gemeinsam in Core und Enhanced: abgesicherte Ressourcenanfragen, getrennte
+Absturzereignisse und schnellere Updatevorbereitung durch komprimierte Pakete,
+Cache-/Laufzeitübernahme und sichere Downloadfortsetzung. Keine neue
+Gameplay-Funktion; die folgende kumulative Funktionsmatrix bleibt gültig.
+[Details und Originalvergleich](ALPHA13-RELIABILITY-UPDATES.md).
+
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core und Enhanced **0.2.0-alpha.12**, Spielversion 1002133 auf Basis Alpha 73 und alpha.11.
+Stand: Core und Enhanced **0.2.0-alpha.13**, Spielversion 1002133 auf Basis Alpha 73 und alpha.12.
 
 **Bekanntes Problem:** Starke kamerabhängige Helligkeitswechsel sind weiterhin gemeldet. Dieses Release behebt sie nicht abschließend; die weitere Analyse folgt separat.
 
