@@ -1,3 +1,28 @@
+# Gemeinsam neu in alpha.17
+
+Unabhängige Lebens-/Schildbalken, Schutz vor Updates geschlossener Zielanzeigen
+und begrenzte UI-/Audio-Diagnose in beiden Editionen. Der reproduzierte
+Nullzugriff bei den Balken ist auch im unveränderten Code der 32-Bit-Spielbasis 1002133
+enthalten. Die neuen Diagnosezähler sind eine Forge-Erweiterung ohne zusätzliche
+Spielserverabfragen. Materialprüfung mit getrennt dokumentierten offenen
+Befunden. [Details](ALPHA17-TARGET-UI-AUDIO.md).
+
+Die zusätzlich entdeckte Namens-/Symbolregression war dagegen durch die erste
+private alpha.17-Schutzprüfung verursacht. Der Nachfix erhält anfängliche
+Statusmeldungen für alle Schiffsbeschriftungen. Beide Editionen nutzen dieselbe
+Korrektur. Der Nutzer bestätigt den Enhanced-Sandbox-Stand; eine vollständige
+Prüfung aller Namens-/Beziehungszustände ist damit nicht belegt.
+
+## Zusätzlich in Enhanced alpha.17
+
+Lokale OTB-System-/Bewegungserkennung mit abschaltbarer Frühwarnung nach
+60/90/120 Sekunden ohne Signal. Serverwertung bleibt immer unbekannt.
+Passive Anzeige mit Systemzähler seit Messbeginn, beiden Signalaltern und
+Warn-Countdown. Gelbe Vorwarnung, orange Warnanzeige und eine gekennzeichnete
+Fünf-Sekunden-Testvorschau in den Einstellungen. Getrennte lokale Diagnose,
+ohne zusätzliche Serverabfragen.
+[Funktionsweise und Grenzen](ALPHA17-LOCAL-OTB.md).
+
 # Gemeinsam neu in alpha.16
 
 Robuste Cacheübernahme beim Update, sichtbare Versionsauswahl bei Updatefehlern
@@ -25,7 +50,7 @@ Keine neue Gameplay-Funktion; die kumulative Funktionsmatrix bleibt gültig.
 
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core und Enhanced **0.2.0-alpha.16**, Spielversion 1002133 auf Basis Alpha 73 mit bisherigen Forge-Fixes.
+Stand: Core und Enhanced **0.2.0-alpha.17 (privat)**, Spielversion 1002133 auf Basis Alpha 73 mit bisherigen Forge-Fixes.
 
 **Bekanntes Problem:** Starke kamerabhängige Helligkeitswechsel sind weiterhin gemeldet. Dieses Release behebt sie nicht abschließend; die weitere Analyse folgt separat.
 
@@ -77,7 +102,7 @@ Einzelausreißer bleiben. Kein neuer kontrollierter Original32-Flugvergleich.
 | Zieleliste | Missionsabhängiger Remnant-Filter | identisch | Filter bestehender Einträge, keine Erkennung unbekannter Einheiten |
 | Sirius-Baupläne | Farben nach eigenem bekannten Fortschritt | identisch, zusätzlich Katalog/Planung | Keine erfundenen Besitzstände |
 | Kryonit | Menge am vorhandenen Zieleintrag | zusätzlich Statistik/Export | Keine Sammelautomatik |
-| OTB-Aktivitätsprüfung | nicht enthalten | Kompakter Hinweis bei Datenlücken; getrennte Aktualität je Zähler; abschaltbares lokales Journal bis 512 KiB | Neue lokale Zusatzanzeige ohne zusätzliche Serverabfragen; aktuelle Servergrenzen und Endauswertung nicht bestätigt |
+| OTB-Aktivitätsprüfung | nicht enthalten | Systemzähler, beide Signalalter, Warn-Countdown (Aus/60/90/120 s), Vorwarnung und Testvorschau; Diagnose bis 512 KiB | Seit lokalem Messbeginn; Serverwertung immer unbekannt, keine zusätzlichen Serverabfragen und keine Punkte-/Sperrprognose |
 | Wiederbelebungsdialog | Fehlende oder späte Cooldowns sicher lesen; unbekannte Restzeit als `…` | identisch | Behebt Nullzugriff im geerbten Originaldialog; keine Änderung serverseitiger Wiederbelebungsregeln |
 | Hilfe/Einstellungen | Originale Hilfe; native Einstellungserweiterung | F-/Forge-Einstieg, acht Bereiche | Unterschiedliche Bedienoberfläche |
 | Orbitalschläge | Originaldarstellung | Konturen, Füllung, bekannte Countdown-Varianten | Lokale Zusatzinformation; Schätzwerte sind keine Servergarantie |
