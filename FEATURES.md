@@ -1,3 +1,12 @@
+# Gemeinsam neu in alpha.15
+
+Beide Editionen erhalten Live-Logs im Starter, einen Diagnosezugang während des
+Spiels und nach seinem Ende sowie eine freiwillige 30-Sekunden-Aufnahme.
+Blockierte Ressourcenaufträge werden getrennt von fremdem Downloadfortschritt
+erkannt. Export und Versand verwenden dieselben begrenzten technischen Daten.
+Diese Forge-Zusatzdiagnose verändert keine Spielmechanik oder Serverabfrage.
+[Bedienung, Datenschutz und Grenzen](ALPHA15-STARTUP-DIAGNOSTICS.md).
+
 # Gemeinsam neu in alpha.14
 
 Core und Enhanced begrenzen Ressourcen-Downloads und abhängige Warteaufträge.
@@ -8,7 +17,7 @@ Keine neue Gameplay-Funktion; die kumulative Funktionsmatrix bleibt gültig.
 
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core und Enhanced **0.2.0-alpha.14**, Spielversion 1002133 auf Basis Alpha 73 mit bisherigen Forge-Fixes.
+Stand: Core und Enhanced **0.2.0-alpha.15**, Spielversion 1002133 auf Basis Alpha 73 mit bisherigen Forge-Fixes.
 
 **Bekanntes Problem:** Starke kamerabhängige Helligkeitswechsel sind weiterhin gemeldet. Dieses Release behebt sie nicht abschließend; die weitere Analyse folgt separat.
 
@@ -48,7 +57,7 @@ Einzelausreißer bleiben. Kein neuer kontrollierter Original32-Flugvergleich.
 | Terrain/Beleuchtung | Originale SplitScreenHeightField-Normalen; bestehende D3D11-LOD-/COLOR-/Texturkorrekturen | identisch | alpha.11: 16.644 Normalen-Komponenten und 216 Ansichten gegen Original32 geprüft; Kamerabhängige Helligkeitsprobleme weiterhin offen. Frühere Molikar-Abnahme gehört zu alpha.5 |
 | Grafikstart | Automatische Geräteprüfung, begrenzter D3D9-Fallback, bestätigte Grafikauswahl | identisch | Neue Forge-Startlogik; keine allgemeine Treiber-Kompatibilitätszusage |
 | Installation/Reparatur | Einfaches Setup, geprüfte Neuaufbereitung derselben Version mit Profilübernahme | identisch | Neue Forge-Verteilung; keine Änderung der offiziellen Installation |
-| Fehlerberichte | Begrenzte lokale Startprotokolle, freiwilliger Versand technischer Metadaten | identisch | Forge-Diagnose; keine automatische Übermittlung von Rohlogs |
+| Fehlerberichte | Live-Logs, jederzeit erreichbare Startdiagnose, 30-Sekunden-Aufnahme und freiwilliger strukturierter Bericht | identisch | Neue Forge-Diagnose zusätzlich zur 32-Bit-Basis; keine zusätzlichen Spielserverabfragen oder automatische Übermittlung von Rohlogs |
 | Speicher/Leistung | Weniger temporäre Objekte, begrenzte Caches, Ressourcenlebensdauer | identisch | Optimierte Pfade; keine pauschale FPS-/Prozentzusage |
 | Laden | Lokale Szenen-/Terrainvorbereitung, insbesondere Erebos, mit Fallback | identisch | Weniger Arbeit im betreffenden Szenenaufbau; kein globales Vorladen aller Planeten |
 | FPS/VSync | Limit 30–240; VSync nach Neustart | identisch | Zusätzliche lokale Optionen; Limit ist keine garantierte Bildrate |

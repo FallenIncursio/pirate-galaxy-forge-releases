@@ -1,6 +1,6 @@
 # Installation, Updates und Profile
 
-Core und Enhanced 0.2.0-alpha.14 benötigen Windows 10/11 x64 und .NET Framework 4.8.
+Core und Enhanced 0.2.0-alpha.15 benötigen Windows 10/11 x64 und .NET Framework 4.8.
 Die passende Java-27-Laufzeit lädt der Starter bei Bedarf selbst.
 
 ## Installieren
@@ -58,6 +58,24 @@ Deinstallation entfernt Starter und Verknüpfungen; Spielkopien und Profile blei
 erhalten. Die ursprüngliche Spielinstallation wird nicht überschrieben.
 
 ## Ladebildschirm vor der Anmeldung
+
+Ab alpha.15 im Starter **Diagnose** öffnen. Ist das Fenster bereits ausgeblendet,
+Forge erneut öffnen, das Forge-Symbol im Windows-Infobereich doppelklicken oder
+im Startmenü **Forge – Diagnose** wählen. Es wird kein zweiter Client gestartet.
+
+1. Bei weiterhin sichtbarem Ladebildschirm **30 Sekunden aufnehmen** wählen.
+2. Warten, bis die Aufnahme abgeschlossen ist. Das Spiel bleibt geöffnet.
+3. **Diagnose speichern** erstellt eine ZIP-Datei. Alternativ **Bericht senden**
+   öffnen, das sichtbare Problem kurz beschreiben und bewusst auf **Senden** klicken.
+
+Der Tab **Live-Logs** zeigt den technischen Startverlauf. Die Übersicht erklärt,
+welcher Schritt wartet. „Loginbereitschaft gemeldet“ ist kein Beweis dafür, dass
+der Ladebildschirm tatsächlich verschwunden ist. Die Diagnose bleibt verfügbar.
+Nach einem beendeten Spiel zeigt der Startmenüeintrag die letzte gespeicherte
+Sitzung. Ein Bericht enthält keine Rohlogs; JVM-Aufnahmen sind auf technische
+Threadzustände und Methodennamen begrenzt. Weitere Details:
+[Startdiagnose](ALPHA15-STARTUP-DIAGNOSTICS.md).
+
 
 Ab alpha.14 bietet der Starter nach 45 Sekunden ohne Ladefortschritt ein eigenes
 Hilfefenster. Bei einem langsamen Start „Weiter warten“ wählen. Für die Fehlersuche

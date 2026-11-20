@@ -2,7 +2,7 @@
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.14/PirateGalaxyForge-0.2.0-alpha.14-Setup.exe)** · **0.2.0-alpha.14** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.14)
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.15/PirateGalaxyForge-0.2.0-alpha.15-Setup.exe)** · **0.2.0-alpha.15** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.15)
 
 [Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
@@ -39,15 +39,15 @@ Alpha 72 ergänzt den optionalen KW-Tracker mit Messung über Szenenwechsel, sta
 
 Alpha 73 korrigiert die Sol-Sonne und die Texturfilterung unter D3D11. Die optionale **Kreis-Zeitanzeige** ersetzt die rechteckigen Aktiv-/Abklingflächen: mit kleineren, mittigen Zahlen, schwarzer Kontur und Zehntelsekunden erst in der letzten Sekunde. Der Wechsel zwischen Aktivzeit und Abklingzeit bleibt lesbar; wiederholte Diagnosemeldungen für unbenutzte Ziffern entfallen. **D3D11 bleibt Standard, D3D9 auswählbar; Profile und Einstellungen bleiben erhalten.** [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.73) · [Kreis-Zeitanzeige einstellen](docs/HILFE.md#komponenten-zeitanzeige)
 
-## Enhanced 0.2.0-alpha.14 und Core 0.2.0-alpha.14
+## Enhanced 0.2.0-alpha.15 und Core 0.2.0-alpha.15
 
 Enhanced führt den bisherigen Forge mit allen Zusatzfunktionen weiter. **[Forge Core](https://github.com/FallenIncursio/pirate-galaxy-forge-core-releases)** enthält die gemeinsame 64-Bit-Technik, allgemeine Korrekturen und begrenzten Komfort mit ursprünglicher Hilfe. Beide Editionen verwenden dieselbe Core-Implementierung.
 
-Core und Enhanced begrenzen Ressourcen-Downloads und abhängige Warteaufträge. Fehler optionaler lokaler Anmeldedateien verhindern die Anmeldemaske nicht mehr. Der Starter erkennt ausbleibenden Ladefortschritt und bietet nach 45 Sekunden Warten, Diagnoseexport, Neustart und Reparatur an. Er beendet einen langsamen Start nicht automatisch. Profile, Einstellungen und geschützte Anmeldedaten bleiben erhalten; Spielversion 1002133 und bisherige Fixes sind enthalten. Bestehende Forge-Profile werden zu Enhanced übernommen.
+Live-Logs und Startdiagnose sind direkt im Starter, über das Taskleistensymbol und den Startmenüeintrag erreichbar. Erneutes Öffnen des Starters zeigt die laufende Diagnose. Eine freiwillige 30-Sekunden-Aufnahme erfasst Prozesszustand und mehrere technische JVM-Aufnahmen, auch nach gemeldeter Loginbereitschaft. Unabhängiger Downloadfortschritt verdeckt keine blockierte Ressourcenabhängigkeit mehr. Speichern und Senden enthalten denselben begrenzten Diagnoseumfang; Rohlogs und Anmeldedaten werden nicht übertragen. Profile, Spielversion 1002133 und bisherige Fixes bleiben erhalten. Bestehende Forge-Profile werden zu Enhanced übernommen.
 
-[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.14.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md) · [Ladebildschirm und Wiederherstellung](ALPHA14-STARTUP-RECOVERY.md)
+[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.15.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md) · [Live-Logs und Startdiagnose](ALPHA15-STARTUP-DIAGNOSTICS.md)
 
-60 Editionssuiten, sechs Negativkontrollen sowie 109 Installations-, Upgrade- und Reparaturprüfungen bestanden. Die Hängerdiagnose wurde zusätzlich mit echten 45-Sekunden-Prozessprüfungen getestet. Enhanced wurde über Starter 14 mit D3D11 in der Sandbox gestartet; der Nutzer meldet bisher störungsfreien Betrieb. Die konkrete Ursache auf betroffenen Spielerrechnern ist damit noch nicht nachgewiesen. Kamerabhängige Helligkeit, die native Sirius-Absturzursache, eine separate Core-Spielsitzung, andere GPUs, Wine und Langzeittests bleiben offen. [Prüfstand](RELEASE-STATUS-0.2-alpha.14.md). Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
+Prüfumfang und Sandbox-Abnahme stehen im [Release-Prüfstand](RELEASE-STATUS-0.2-alpha.15.md). Das Update verbessert die Erkennung und Nachvollziehbarkeit; die konkrete Ursache aller gemeldeten Ladehänger ist damit nicht bewiesen. Kamerabhängige Helligkeit, die native Sirius-Absturzursache, weitere GPUs, Wine und Langzeittests bleiben offen. Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
 
 ## Ein Blick ins Spiel
 
