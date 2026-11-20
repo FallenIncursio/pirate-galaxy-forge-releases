@@ -1,3 +1,11 @@
+# Gemeinsam neu in alpha.16
+
+Robuste Cacheübernahme beim Update, sichtbare Versionsauswahl bei Updatefehlern
+und Diagnose mit erhaltener Fehlerphase. Beide Editionen nutzen denselben Fix.
+Der 32-Bit-Client besitzt diesen Forge-Updater nicht; es handelt sich um eine
+Forge-Regression und zusätzliche Startdiagnose, keine neue Spielmechanik.
+[Details](ALPHA16-CACHE-UPGRADE.md).
+
 # Gemeinsam neu in alpha.15
 
 Beide Editionen erhalten Live-Logs im Starter, einen Diagnosezugang während des
@@ -17,7 +25,7 @@ Keine neue Gameplay-Funktion; die kumulative Funktionsmatrix bleibt gültig.
 
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core und Enhanced **0.2.0-alpha.15**, Spielversion 1002133 auf Basis Alpha 73 mit bisherigen Forge-Fixes.
+Stand: Core und Enhanced **0.2.0-alpha.16**, Spielversion 1002133 auf Basis Alpha 73 mit bisherigen Forge-Fixes.
 
 **Bekanntes Problem:** Starke kamerabhängige Helligkeitswechsel sind weiterhin gemeldet. Dieses Release behebt sie nicht abschließend; die weitere Analyse folgt separat.
 

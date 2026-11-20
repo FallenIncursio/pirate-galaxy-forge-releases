@@ -1,6 +1,6 @@
 # Installation, Updates und Profile
 
-Core und Enhanced 0.2.0-alpha.15 benötigen Windows 10/11 x64 und .NET Framework 4.8.
+Core und Enhanced 0.2.0-alpha.16 benötigen Windows 10/11 x64 und .NET Framework 4.8.
 Die passende Java-27-Laufzeit lädt der Starter bei Bedarf selbst.
 
 ## Installieren
@@ -127,3 +127,12 @@ Der Installer hat keine Windows-Authenticode-Signatur; Update-Manifeste sind mit
 der bestehenden Forge-RSA-Identität signiert. Bibliotheksquellen, Lizenzhinweise und
 SHA256-Prüfsummen stehen bei beiden Releases. 240 FPS ist ein wählbares Limit,
 keine Leistungszusage. Forge bleibt eine inoffizielle experimentelle Alpha.
+
+## Wenn ein Update nicht abgeschlossen wurde
+
+Ab alpha.16 nennt der Starter die installierte Version und das Updateziel.
+„Update erneut versuchen“ wiederholt den Vorgang. „Vorhandene Version starten“
+ist nur bei vollständig geprüften Dateien und passender Spielbasis verfügbar.
+Bei alter oder unprüfbarer Spielbasis bleibt diese Auswahl gesperrt. „Diagnose
+öffnen“ zeigt den Startverlauf und bietet Export oder freiwilliges Senden.
+Alte Cachedateien und Profile müssen für diesen Fix nicht von Hand gelöscht werden.
