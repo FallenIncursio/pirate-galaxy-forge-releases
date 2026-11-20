@@ -1,8 +1,17 @@
-# Core / Enhanced 0.2.0-alpha.16 – zur Veröffentlichung geprüft
+# Core / Enhanced 0.2.0-alpha.16 – veröffentlicht
 
-Spielversion 1002133; Starter 16; Core-Sequenz 15 / Enhanced-Sequenz 97.
-Die beauftragte Sandbox- und Bedienprüfung ist bestanden. Veröffentlichung
-und Aktualisierung beider Kanäle sind für diese Paketbytes autorisiert.
+Core und Enhanced **0.2.0-alpha.16** veröffentlicht. Alle 14 öffentlichen Downloads,
+RSA-Updatekanäle und README-Installerlinks wurden heruntergeladen und geprüft.
+Sequenzen: Core 15, Enhanced 97. Binärquellencommit: `bfcb46fe154038a77432bf0f3fe4c805c9545366`.
+Beleg: `distribution/tests/editions-0.2-alpha.16-publication.json`. Frühere Releasepakete bleiben unverändert.
+Spielversion 1002133; Starter 16. Der rückwärtskompatible Schema-4-Berichtsdienst ist bereitgestellt.
+
+Die getesteten Paketbytes wurden unverändert veröffentlicht. Alle sieben Assets je
+Edition wurden anonym heruntergeladen und auf Größe, SHA-256 sowie die Manifest-
+Signaturen geprüft. Erst danach wurden die Updatekanäle unter erneuter Prüfung
+des vorherigen Stands umgestellt. Der alte Enhanced-Kanal `channel-alpha` und
+vorherige Releases bleiben unverändert; vorherige Kanalmanifeste sind gesichert.
+Der Quellstand ist auf `main` und `feature/core-enhanced-0.2` gepusht.
 
 ## Änderungen
 
