@@ -1,14 +1,14 @@
-# Gemeinsam neu in alpha.13
+# Gemeinsam neu in alpha.14
 
-Gemeinsam in Core und Enhanced: abgesicherte Ressourcenanfragen, getrennte
-Absturzereignisse und schnellere Updatevorbereitung durch komprimierte Pakete,
-Cache-/Laufzeitübernahme und sichere Downloadfortsetzung. Keine neue
-Gameplay-Funktion; die folgende kumulative Funktionsmatrix bleibt gültig.
-[Details und Originalvergleich](ALPHA13-RELIABILITY-UPDATES.md).
+Core und Enhanced begrenzen Ressourcen-Downloads und abhängige Warteaufträge.
+Der Starter erkennt stockenden Ladefortschritt und bietet lokale Diagnose,
+Warten, Neustart und Reparatur unter Erhalt von Profilen und Anmeldedaten.
+Keine neue Gameplay-Funktion; die kumulative Funktionsmatrix bleibt gültig.
+[Ladebildschirm, Wiederherstellung und 32-Bit-Vergleich](ALPHA14-STARTUP-RECOVERY.md).
 
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core und Enhanced **0.2.0-alpha.13**, Spielversion 1002133 auf Basis Alpha 73 und alpha.12.
+Stand: Core und Enhanced **0.2.0-alpha.14**, Spielversion 1002133 auf Basis Alpha 73 mit bisherigen Forge-Fixes.
 
 **Bekanntes Problem:** Starke kamerabhängige Helligkeitswechsel sind weiterhin gemeldet. Dieses Release behebt sie nicht abschließend; die weitere Analyse folgt separat.
 
@@ -164,3 +164,12 @@ Automatischer Kryonit-Drohnenwechsel bleibt in beiden Editionen entfernt.
 Live-Leistungswerte und Wine-Abnahme müssen mit den konkreten Kandidaten erhoben werden.
 
 Alpha.4-Nachkorrektur: Clan-Ranglisten behalten das Java-8-Datenformat fester Array-Listen. Tab-/Divisionswechsel merken die letzte Auswahl vor; alte Antworten überschreiben sie nicht. Der Spiel-JVM-Zugriff auf java.util ist dafür gezielt freigegeben und mit synthetischen Original-Protokollpaketen geprüft.
+
+## Alpha.14: Startzuverlässigkeit
+
+Core und Enhanced teilen begrenzte Inhaltsdownloads, Fehlerweitergabe der
+Ladekette, Login-Fallback bei lokalen Dateifehlern, Hängerdiagnose vor der
+Anmeldung und eine profilbewahrende Wiederherstellung. Gegenüber dem
+32-Bit-Original werden Warte- und Fehlerpfade korrigiert; kein zusätzlicher
+Spielvorteil und keine aktiven Serverdiagnoseabfragen. Kein Live-Fixnachweis
+für die betroffenen Spieler. Details: [Alpha.14](ALPHA14-STARTUP-RECOVERY.md).

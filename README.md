@@ -2,7 +2,7 @@
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.13/PirateGalaxyForge-0.2.0-alpha.13-Setup.exe)** · **0.2.0-alpha.13** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.13)
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.14/PirateGalaxyForge-0.2.0-alpha.14-Setup.exe)** · **0.2.0-alpha.14** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.14)
 
 [Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
@@ -39,15 +39,15 @@ Alpha 72 ergänzt den optionalen KW-Tracker mit Messung über Szenenwechsel, sta
 
 Alpha 73 korrigiert die Sol-Sonne und die Texturfilterung unter D3D11. Die optionale **Kreis-Zeitanzeige** ersetzt die rechteckigen Aktiv-/Abklingflächen: mit kleineren, mittigen Zahlen, schwarzer Kontur und Zehntelsekunden erst in der letzten Sekunde. Der Wechsel zwischen Aktivzeit und Abklingzeit bleibt lesbar; wiederholte Diagnosemeldungen für unbenutzte Ziffern entfallen. **D3D11 bleibt Standard, D3D9 auswählbar; Profile und Einstellungen bleiben erhalten.** [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.73) · [Kreis-Zeitanzeige einstellen](docs/HILFE.md#komponenten-zeitanzeige)
 
-## Enhanced 0.2.0-alpha.13 und Core 0.2.0-alpha.13
+## Enhanced 0.2.0-alpha.14 und Core 0.2.0-alpha.14
 
 Enhanced führt den bisherigen Forge mit allen Zusatzfunktionen weiter. **[Forge Core](https://github.com/FallenIncursio/pirate-galaxy-forge-core-releases)** enthält die gemeinsame 64-Bit-Technik, allgemeine Korrekturen und begrenzten Komfort mit ursprünglicher Hilfe. Beide Editionen verwenden dieselbe Core-Implementierung.
 
-Core und Enhanced sichern Ressourcenanfragen bei fehlendem Dienst, Verbindungswechsel und Abbruch ab. Die Absturzdiagnose trennt Java-Ereignisse und ergänzt vorhandene native Fehlerdaten. Komprimierte Updatepakete sind rund 63 % kleiner als in alpha.12; sichere Downloadfortsetzung, geprüfte Laufzeit- und Cacheübernahme sowie ein verschiebbares Update mit Fortschrittsanzeige verbessern die Einrichtung. Spielversion 1002133, bisherige Fixes, Profile und Einstellungen bleiben erhalten. Bestehende Forge-Profile werden zu Enhanced übernommen.
+Core und Enhanced begrenzen Ressourcen-Downloads und abhängige Warteaufträge. Fehler optionaler lokaler Anmeldedateien verhindern die Anmeldemaske nicht mehr. Der Starter erkennt ausbleibenden Ladefortschritt und bietet nach 45 Sekunden Warten, Diagnoseexport, Neustart und Reparatur an. Er beendet einen langsamen Start nicht automatisch. Profile, Einstellungen und geschützte Anmeldedaten bleiben erhalten; Spielversion 1002133 und bisherige Fixes sind enthalten. Bestehende Forge-Profile werden zu Enhanced übernommen.
 
-[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.13.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md) · [Ressourcen, Diagnose und Updates](ALPHA13-RELIABILITY-UPDATES.md)
+[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.14.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md) · [Ladebildschirm und Wiederherstellung](ALPHA14-STARTUP-RECOVERY.md)
 
-58 Editionssuiten, sechs Build-Negativkontrollen sowie Diagnose-, Transport-, Installer-, Reparatur- und Profilübernahmeprüfungen bestanden. Der Nutzer bestätigt bisher störungsfreien Betrieb von Enhanced mit D3D11 in der Sandbox. Der konkrete native Sirius-Landeabsturz ist weiterhin nicht nachweislich behoben; die Ressourcenhärtung ist keine Zusage von Absturzfreiheit. Kamerabhängige Helligkeit, eine separate Core-Spielsitzung, andere GPUs, Wine und Langzeittests bleiben offen. Weniger Paketvolumen bedeutet keine entsprechend kürzere gesamte Installation. [Prüfstand](RELEASE-STATUS-0.2-alpha.13.md). Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
+60 Editionssuiten, sechs Negativkontrollen sowie 109 Installations-, Upgrade- und Reparaturprüfungen bestanden. Die Hängerdiagnose wurde zusätzlich mit echten 45-Sekunden-Prozessprüfungen getestet. Enhanced wurde über Starter 14 mit D3D11 in der Sandbox gestartet; der Nutzer meldet bisher störungsfreien Betrieb. Die konkrete Ursache auf betroffenen Spielerrechnern ist damit noch nicht nachgewiesen. Kamerabhängige Helligkeit, die native Sirius-Absturzursache, eine separate Core-Spielsitzung, andere GPUs, Wine und Langzeittests bleiben offen. [Prüfstand](RELEASE-STATUS-0.2-alpha.14.md). Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
 
 ## Ein Blick ins Spiel
 

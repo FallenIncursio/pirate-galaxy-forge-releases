@@ -1,6 +1,6 @@
 # Installation, Updates und Profile
 
-Core und Enhanced 0.2.0-alpha.13 benötigen Windows 10/11 x64 und .NET Framework 4.8.
+Core und Enhanced 0.2.0-alpha.14 benötigen Windows 10/11 x64 und .NET Framework 4.8.
 Die passende Java-27-Laufzeit lädt der Starter bei Bedarf selbst.
 
 ## Installieren
@@ -57,6 +57,18 @@ Updatesequenz. Der feste native Prozesspfad erhält die Windows-Lautstärkezuord
 Deinstallation entfernt Starter und Verknüpfungen; Spielkopien und Profile bleiben
 erhalten. Die ursprüngliche Spielinstallation wird nicht überschrieben.
 
+## Ladebildschirm vor der Anmeldung
+
+Ab alpha.14 bietet der Starter nach 45 Sekunden ohne Ladefortschritt ein eigenes
+Hilfefenster. Bei einem langsamen Start „Weiter warten“ wählen. Für die Fehlersuche
+lässt sich eine begrenzte lokale Diagnose als ZIP speichern; ein Fehlerbericht
+wird nur nach bewusster Bestätigung versandt. „Neustart“ beziehungsweise
+„Reparieren und neu starten“ beendet nur den zugehörigen Spielprozess. Die
+Reparatur legt heruntergeladene Ressourcen beiseite und lädt sie bei Bedarf neu;
+Profile, Einstellungen und geschützte Anmeldedaten bleiben erhalten.
+
+Das Spiel über den Forge-Starter öffnen, damit diese Hilfe verfügbar ist.
+
 ## Startprobleme und Reparatur
 
 Die Startereinstellungen enthalten „Automatisch“, D3D11 und D3D9. Bei einem
@@ -77,10 +89,10 @@ versandt. Ein Java-Ereignis allein belegt keine native Absturzursache.
 
 ## Prüfstand und Grenzen
 
-Die Abnahme jeder Ausgabe ist an deren signierte Paketbytes gebunden. Für alpha.13
-bestanden Neuinstallation, Upgrade von Alpha 73 sowie Core/Enhanced alpha.12,
+Die Abnahme jeder Ausgabe ist an deren signierte Paketbytes gebunden. Für alpha.14
+bestanden Neuinstallation, Upgrade von Alpha 73 sowie Core/Enhanced alpha.13,
 Profilübernahme, Reparatur, Abbruch und Rollback in Sandboxie. Maßgeblich
-ist der [Release-Prüfstand](RELEASE-STATUS-0.2-alpha.13.md).
+ist der [Release-Prüfstand](RELEASE-STATUS-0.2-alpha.14.md).
 Enhanced wurde mit D3D11 im Spiel geprüft; der Nutzer meldet bisher keine Probleme.
 Der konkrete native Sirius-Landeabsturz ist nicht nachweislich behoben und
 kamerabhängige Helligkeitswechsel bleiben offen. OTB-Endauswertung und reale
