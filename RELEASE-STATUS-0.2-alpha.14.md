@@ -1,10 +1,29 @@
-# Core / Enhanced 0.2.0-alpha.14 – zur Veröffentlichung freigegeben
+# Core / Enhanced 0.2.0-alpha.14 – veröffentlicht
 
-Stand: 20.11.2026. Spielbasis 1002133, Starter 14, Core-Sequenz 13 / Enhanced 95.
-Der Nutzer meldet bisher störungsfreien Betrieb und hat die Veröffentlichung
-beider Editionen, den Quell-Push und beide Updatekanäle ausdrücklich beauftragt.
-Die Kanäle werden erst nach erfolgreicher Prüfung der öffentlichen Downloads
-umgestellt. Die getesteten Installer und Pakete werden unverändert verwendet.
+Core und Enhanced **0.2.0-alpha.14** veröffentlicht. Alle 14 öffentlichen Downloads,
+zugehörigen RSA-Updatekanäle und README-Installerlinks wurden heruntergeladen und geprüft.
+Aktualisierte Sequenzen: Core 13, Enhanced 95. Binärquellencommit: `58400a1dab84cce9f61a707af7f24fba7696073f`.
+Beleg: `distribution/tests/editions-0.2-alpha.14-publication.json`. Frühere Releasepakete bleiben unverändert.
+Spielversion 1002133; kamerabhängige Helligkeit und die native Sirius-Absturzursache bleiben offen.
+
+Stand: 20.11.2026. Starter 14. Die getesteten Installer und Spielpakete wurden
+unverändert veröffentlicht. Alle sieben Assets je Edition wurden ohne Anmeldung
+über ihre öffentlichen URLs heruntergeladen und anhand von Größe und SHA-256
+geprüft. Die RSA-Signaturen beider Release-Manifeste sind gültig.
+
+Erst nach diesen Prüfungen wurden beide Updatekanäle unter erneuter Prüfung des
+vorherigen Assetstands umgestellt. Die aktiven Kanalmanifeste wurden erneut über
+ihre normalen URLs geladen und signaturgeprüft. Die vorherigen alpha.13-Manifeste
+sind als Kanal-Assets gesichert; alpha.13-Releases und der alte Enhanced-Kanal
+`channel-alpha` blieben unverändert. Beide öffentlichen README-Installerlinks
+liefern die geprüften alpha.14-Dateien. Quellstand auf `main` und
+`feature/core-enhanced-0.2` gepusht; die Quellrepo bleibt privat.
+
+60 Editionssuiten und sechs Negativkontrollen wurden vor der Veröffentlichung
+erneut für beide Renderer bestanden. 109 Installer-/Upgrade-/Reparaturprüfungen
+sowie die Starter- und 45-Sekunden-Prozessprüfungen gelten für dieselben Paketbytes.
+Die eingebetteten Vorbereitungsnotizen bleiben als Teil der geprüften Pakete
+unverändert; die aktuellen Release-Seiten dokumentieren ihre Veröffentlichung.
 
 ## Änderungen
 

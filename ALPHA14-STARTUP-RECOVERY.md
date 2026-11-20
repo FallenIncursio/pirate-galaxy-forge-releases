@@ -1,7 +1,7 @@
 # Alpha.14: Ladebildschirm, Diagnose und Wiederherstellung
 
-Core und Enhanced, Spielbasis 1002133. Veröffentlichung am 20.11.2026 vom Nutzer
-freigegeben. Enhanced wurde über Starter 14 mit D3D11 in der Sandbox gestartet;
+Core und Enhanced, Spielbasis 1002133. Am 20.11.2026 nach ausdrücklicher Freigabe
+veröffentlicht und die öffentlichen Downloads geprüft. Enhanced wurde über Starter 14 mit D3D11 in der Sandbox gestartet;
 der Nutzer meldet bisher störungsfreien Betrieb. Die getesteten Paketbytes bleiben
 unverändert. Die laufende Sitzung bleibt während der Veröffentlichung geöffnet.
 
