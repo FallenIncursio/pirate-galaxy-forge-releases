@@ -1,9 +1,30 @@
-# Core / Enhanced 0.2.0-alpha.15 – zur Veröffentlichung geprüft
+# Core / Enhanced 0.2.0-alpha.15 – veröffentlicht
 
-Stand: 20.11.2026. Spielversion 1002133; Starter 15; Core-Sequenz 14,
-Enhanced-Sequenz 96. Die vom Nutzer geforderten Sandbox- und Bedienprüfungen
-sind bestanden. Veröffentlichung einschließlich beider Updatekanäle ist
-für diese geprüften Paketbytes autorisiert.
+Core und Enhanced **0.2.0-alpha.15** veröffentlicht. Alle 14 öffentlichen Downloads,
+zugehörigen RSA-Updatekanäle und README-Installerlinks wurden heruntergeladen und geprüft.
+Aktualisierte Sequenzen: Core 14, Enhanced 96. Binärquellencommit: `4682bc65afd1b6a95d5a778fe4257446568f14a2`.
+Beleg: `distribution/tests/editions-0.2-alpha.15-publication.json`. Frühere Releasepakete bleiben unverändert.
+Spielversion 1002133; Starter 15. Der kompatible Schema-3-Berichtsdienst ist bereitgestellt.
+
+Stand: 20.11.2026. Die getesteten Installer und Spielpakete wurden unverändert
+veröffentlicht. Alle sieben Assets je Edition wurden ohne Anmeldung über ihre
+öffentlichen URLs heruntergeladen und anhand von Größe und SHA-256 geprüft.
+Die RSA-Signaturen beider Release-Manifeste sind gültig.
+
+Erst nach diesen Prüfungen wurden beide Updatekanäle unter erneuter Prüfung des
+vorherigen Assetstands umgestellt. Die aktiven Kanalmanifeste wurden auch über
+ihre normalen URLs geladen und signaturgeprüft. Die vorherigen alpha.14-Manifeste
+sind als Kanal-Assets gesichert; alpha.14-Releases und der alte Enhanced-Kanal
+`channel-alpha` bleiben unverändert. Beide öffentlichen README-Installerlinks
+liefern die geprüften alpha.15-Dateien. Der Quellstand ist auf `main` und
+`feature/core-enhanced-0.2` gepusht; die Quellrepo bleibt privat.
+
+Die Sandbox-Prüfung umfasst den tatsächlichen Diagnoseablauf beider Editionen
+mit D3D11, einschließlich sichtbarer Oberfläche vor der Anmeldung, Aufnahme,
+Export und archivierter Sitzung. Die eigenen Testclients wurden regulär beendet.
+Kein echtes Spielerprofil und keine Anmeldung am Spielkonto wurden verwendet.
+Die in den geprüften Paketen eingebetteten Vorbereitungsnotizen bleiben unverändert;
+die aktuellen Release-Seiten dokumentieren die Veröffentlichung.
 
 ## Änderungen
 
