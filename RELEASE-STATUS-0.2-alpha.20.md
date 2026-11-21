@@ -5,6 +5,23 @@
 Downloadprüfung ausdrücklich freigegeben. Spielversion **1002133**, Starter **17**,
 Enhanced-Sequenz **101**. **Core bleibt alpha.17 / Sequenz 16 unverändert.**
 
+## Veröffentlichung geprüft
+
+Enhanced ist öffentlich verfügbar; alle **sieben** Release-Dateien wurden anonym
+heruntergeladen und mit den freigegebenen SHA-256-Prüfsummen abgeglichen.
+RSA-Release- und Kanalmanifest geprüft. Der Enhanced-Kanal wurde erst danach
+auf **Sequenz 101** aktiviert. Auch die normale Kanal-URL und der Installerlink
+in der README wurden unabhängig heruntergeladen und geprüft.
+
+Core-Repository, Core-Kanal alpha.17 / Sequenz 16 und sämtliche Core-Releaseassets
+sind unverändert; auch die früheren Enhanced-alpha.19-Dateien und der alte
+Migrationskanal wurden erhalten. Der Quellstand ist auf main und dem bestehenden
+Entwicklungszweig gepusht. Es wurden keine Profile, Rohlogs oder privaten
+Schlüssel veröffentlicht; der laufende Nutzerclient wurde nicht geschlossen.
+
+Binärquellencommit: `24d047152dd00b6e54436de06a63e4fe1d980144`.
+Beleg: `distribution/tests/editions-0.2-alpha.20-publication.json` im Quellrepository.
+
 ## Inhalt und Abnahme
 
 - Suche, Status, Sortierung, System und zur Hauptkategorie passende Bereiche im
@@ -39,7 +56,7 @@ bleiben im lokalen Startbeleg dokumentiert. Der Nutzerclient bleibt geöffnet.
   **24** Installer-UI-Prüfungen bestanden. Installierte Spiel-JARs entsprechen
   exakt dem bestätigten Sandbox-Spielbuild; Testprofile waren künstliche Fixtures.
 - Signatur, vollständiges Paket-Inventar und Bibliotheksquellen geprüft.
-  Der endgültige Veröffentlichungsbeleg folgt nach der öffentlichen Downloadprüfung.
+  Die öffentliche Download- und Kanalprüfung ist im Veröffentlichungsbeleg dokumentiert.
 
 Belege im Quellrepository:
 `distribution/tests/achievements-alpha20-refinement-readiness.json`,
@@ -51,7 +68,7 @@ Spiel-JAR Enhanced:
 `821802c4ddc0dbb80f1e31a27dcd1654889baffe16ac110ca33b058a54e4d00f`.
 Ausgangscommit: `11089f0efe2ddb2b51bfe3e9649a1c07be4b4c46`.
 Buildbelege binden die tatsächlichen Dateien über SHA-256; der finale Quellcommit
-wird im Veröffentlichungsbeleg festgehalten.
+ist im Veröffentlichungsbeleg festgehalten.
 
 ## Grenzen
 

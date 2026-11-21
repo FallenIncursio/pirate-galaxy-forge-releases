@@ -2,8 +2,8 @@
 
 Enhanced-Update, Spielversion **1002133**, Starter **17**, Sequenz **101**.
 Neue Funktion ausschließlich für Enhanced. Core bleibt alpha.17 / Sequenz 16.
-Der Nutzer hat den nachgebesserten D3D11-Sandbox-Test bestätigt und die
-Veröffentlichung freigegeben. Profil, Einstellungen und gespeicherte Anmeldung
+Nach bestätigtem D3D11-Sandbox-Test veröffentlicht; alle sieben öffentlichen
+Downloads, RSA-Manifest, Updatekanal und README-Installerlink sind geprüft. Profil, Einstellungen und gespeicherte Anmeldung
 wurden beim Test übernommen. Die Zeilenvorlagen verwenden die ursprüngliche
 Ermittlung der Archivgruppe; native Prüfungen geben diese nicht künstlich vor.
 
