@@ -2,7 +2,8 @@
 
 Enhanced-Update auf Spielbasis **1002133**, ausgehend von alpha.18.
 Der Nutzer hat den D3D11-Sandbox-Test am 21.11.2026 bestätigt und die
-Veröffentlichung beauftragt. Enhanced-Kanal: Sequenz 100; Core bleibt alpha.17.
+Veröffentlichung freigegeben. Enhanced alpha.19 ist veröffentlicht; Kanal:
+Sequenz 100. Core bleibt unverändert alpha.17.
 
 ## Anzeige und Bedienung
 
