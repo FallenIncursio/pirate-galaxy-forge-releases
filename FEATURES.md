@@ -1,3 +1,11 @@
+# Privat vorbereitet in Enhanced alpha.19
+
+Blaue, von rechts abnehmende Umhüllung des Staffel-Lebensbalkens aus empfangenen
+Schild-/Schutzpunkten. Optionale Prozentwerte je Effekt, genaue Punkte im Tooltip
+und drei Anzeigemodi. Keine zusätzliche Spielserverabfrage; unbekannte Kapazität
+wird nicht geschätzt. Core bleibt unverändert alpha.17.
+[Bedienung, Werteauswertung und Prüfgrenzen](ALPHA19-SQUAD-SHIELD.md).
+
 # Neu in Enhanced alpha.18
 
 Optionale Anzeige möglicher Bauplan-Drops im originalen Scanfenster mit
@@ -58,7 +66,7 @@ Keine neue Gameplay-Funktion; die kumulative Funktionsmatrix bleibt gültig.
 
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core **0.2.0-alpha.17**, Enhanced **0.2.0-alpha.18**, Spielversion 1002133 auf Basis Alpha 73 mit bisherigen Forge-Fixes.
+Stand: Core **0.2.0-alpha.17**, Enhanced **0.2.0-alpha.19**, Spielversion 1002133 auf Basis Alpha 73 mit bisherigen Forge-Fixes.
 
 **Bekanntes Problem:** Starke kamerabhängige Helligkeitswechsel sind weiterhin gemeldet. Dieses Release behebt sie nicht abschließend; die weitere Analyse folgt separat.
 
