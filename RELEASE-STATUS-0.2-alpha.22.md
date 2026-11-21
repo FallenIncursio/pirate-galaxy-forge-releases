@@ -10,7 +10,18 @@ Keine zusätzlichen Tooltips oder Änderungen am Scanfenster.
 
 Der Nutzer bestätigt den D3D11-Sandbox-Test und autorisiert Veröffentlichung,
 Quellpush und Enhanced-Kanalwechsel. Signierte Installationspakete und öffentliche
-Downloads werden vor der Kanalaktivierung geprüft. Der laufende Client bleibt offen.
+Downloads wurden vor der Kanalaktivierung geprüft. Der laufende Client bleibt offen.
+
+## Veröffentlichung geprüft
+
+Enhanced **0.2.0-alpha.22 / Sequenz 103** ist veröffentlicht. Alle sieben
+öffentlichen Downloads, RSA-Release-/Kanalmanifest und README-Installerlink sind
+geprüft. Erst danach wurde der Enhanced-Updatekanal aktiviert. Core bleibt
+alpha.17 / Sequenz 16: Repository, Kanal, Assets und lokale Core-Dateien unverändert.
+Vorherige Enhanced-alpha.21-Dateien und der alte Migrationskanal bleiben erhalten.
+
+Binärquellencommit: `e7fc01f8231123b7fbf60f53bb12ebe27eb152a8`; Beleg: `distribution/tests/editions-0.2-alpha.22-publication.json`.
+Der Nutzerclient blieb geöffnet.
 
 ## Signierte Releasepakete geprüft
 
@@ -30,7 +41,7 @@ Die signierten Releasepakete wurden dabei nicht verändert; der Fehlbeleg bleibt
 RSA-Signaturen, Paket-Inventar und 8.772 Bibliotheksquellendateien geprüft.
 Normalisierte Update-JARs enthalten exakt die Klassen und Ressourcen des vom
 Nutzer bestätigten Teststands. Keine privaten Profile, Rohlogs oder Spielcaches.
-Die öffentliche Downloadprüfung folgt vor der Enhanced-Kanalaktivierung.
+Die öffentliche Downloadprüfung vor der Kanalaktivierung ist im Publikationsbeleg dokumentiert.
 Beleg: `distribution/tests/editions-0.2-alpha.22-release-candidates.json`.
 
 ## Weitere bekannte Grenzen

@@ -1,7 +1,7 @@
 # Enhanced alpha.22: Bauplan-Zuordnungen und Scannerdiagnose
 
 Enhanced alpha.22 für Spielversion 1002133, nach bestätigtem D3D11-Sandbox-Test
-zur Veröffentlichung freigegeben. Core bleibt alpha.17 / Sequenz 16.
+veröffentlicht; signierte Pakete und öffentliche Downloads geprüft. Core bleibt alpha.17 / Sequenz 16.
 
 ## Korrekturen
 
