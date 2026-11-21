@@ -1,3 +1,11 @@
+# Neu in Enhanced alpha.18
+
+Optionale Anzeige möglicher Bauplan-Drops im originalen Scanfenster mit
+vorhandenen Teilen und Filter für fehlende Baupläne. Normale Gegner nach
+Planet, Rang und nativer Kennung; Sirius nach Gegnerklasse und aktuellem
+Planetenangebot. Giza, Soris und Amarna ausgeschlossen. Core bleibt unverändert.
+[Umfang, Datenquellen und Grenzen](ALPHA18-SCAN-DROPS.md).
+
 # Gemeinsam neu in alpha.17
 
 Unabhängige Lebens-/Schildbalken, Schutz vor Updates geschlossener Zielanzeigen
@@ -50,7 +58,7 @@ Keine neue Gameplay-Funktion; die kumulative Funktionsmatrix bleibt gültig.
 
 # Funktionen und Vergleich zur 32-Bit-Basis
 
-Stand: Core und Enhanced **0.2.0-alpha.17 (privat)**, Spielversion 1002133 auf Basis Alpha 73 mit bisherigen Forge-Fixes.
+Stand: Core **0.2.0-alpha.17**, Enhanced **0.2.0-alpha.18**, Spielversion 1002133 auf Basis Alpha 73 mit bisherigen Forge-Fixes.
 
 **Bekanntes Problem:** Starke kamerabhängige Helligkeitswechsel sind weiterhin gemeldet. Dieses Release behebt sie nicht abschließend; die weitere Analyse folgt separat.
 

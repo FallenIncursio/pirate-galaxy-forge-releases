@@ -2,7 +2,7 @@
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.17/PirateGalaxyForge-0.2.0-alpha.17-Setup.exe)** · **0.2.0-alpha.17** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.17)
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.18/PirateGalaxyForge-0.2.0-alpha.18-Setup.exe)** · **0.2.0-alpha.18** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.18)
 
 [Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
@@ -39,15 +39,15 @@ Alpha 72 ergänzt den optionalen KW-Tracker mit Messung über Szenenwechsel, sta
 
 Alpha 73 korrigiert die Sol-Sonne und die Texturfilterung unter D3D11. Die optionale **Kreis-Zeitanzeige** ersetzt die rechteckigen Aktiv-/Abklingflächen: mit kleineren, mittigen Zahlen, schwarzer Kontur und Zehntelsekunden erst in der letzten Sekunde. Der Wechsel zwischen Aktivzeit und Abklingzeit bleibt lesbar; wiederholte Diagnosemeldungen für unbenutzte Ziffern entfallen. **D3D11 bleibt Standard, D3D9 auswählbar; Profile und Einstellungen bleiben erhalten.** [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.73) · [Kreis-Zeitanzeige einstellen](docs/HILFE.md#komponenten-zeitanzeige)
 
-## Enhanced 0.2.0-alpha.17 und Core 0.2.0-alpha.17
+## Enhanced 0.2.0-alpha.18 und Core 0.2.0-alpha.17
 
 Enhanced führt den bisherigen Forge mit allen Zusatzfunktionen weiter. **[Forge Core](https://github.com/FallenIncursio/pirate-galaxy-forge-core-releases)** enthält die gemeinsame 64-Bit-Technik, allgemeine Korrekturen und begrenzten Komfort mit ursprünglicher Hilfe. Beide Editionen verwenden dieselbe Core-Implementierung.
 
-Core und Enhanced korrigieren die Initialisierung von Schiffsnamen und Symbolen sowie unabhängige Lebens-/Schildbalken. Begrenzte UI- und Audio-Diagnose erleichtert die Fehlersuche, ohne automatische Berichte oder zusätzliche Spielserverabfragen. Enhanced ergänzt lokale OTB-Aktivitätswerte, einen Warn-Countdown und eine beschriftete Testvorschau unter Forge → Anzeige → Widgets. Die Serverwertung bleibt ausdrücklich unbekannt; die lokale Warnung ist keine Zusage einer Belohnung oder Sperrfreiheit. Bestehende Forge-Profile werden zu Enhanced übernommen.
+Enhanced zeigt nach einem NPC-Scan mögliche Baupläne und den eigenen Sammelstand im vorhandenen Scanfenster. Die Zuordnung berücksichtigt Planet, Gegnertyp und Rang sowie auf Sirius Klasse und Planetenangebot. Giza, Soris und Amarna sind ausgeschlossen. Vollständige Namen werden passend umgebrochen; kurze und einzelne Einträge beginnen direkt unter der Überschrift und nutzen die volle Breite. Anzeige und Filter sind unter Forge → Anzeige → HUD & Grafik einstellbar. Core bleibt bei alpha.17; Spielversion 1002133, Starter 17 und bisherige Fixes bleiben erhalten. Bestehende Forge-Profile werden zu Enhanced übernommen.
 
-[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.17.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md) · [OTB-Widget und Grenzen](ALPHA17-LOCAL-OTB.md) · [Zielanzeigen und Diagnose](ALPHA17-TARGET-UI-AUDIO.md)
+[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.18.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md) · [Scanner-Baupläne und Einstellungen](ALPHA18-SCAN-DROPS.md)
 
-Build-, Installations- und Sandbox-Prüfungen stehen im [Release-Prüfstand](RELEASE-STATUS-0.2-alpha.17.md). Vollständige OTB-Matchabläufe, weitere GPUs, Wine/macOS und Langzeittests sind separat zu prüfen. Kamerabhängige Helligkeit, die native Sirius-Absturzursache und ein reproduzierter D3D11-Materialfehler bleiben offen. Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
+Die Anzeige nennt mögliche Drops ohne Dropchance oder Garantie. Unbekannter Besitz bleibt gekennzeichnet. Normale Scans und Teilezahlen sind im Enhanced-D3D11-Spieltest sichtbar; die abschließende Anordnung ist mit nativen D3D9-/D3D11-Tests geprüft. Die vollständige Sirius-Abnahme und unklare Sonderrollen bleiben offen. Prüfungen und bekannte Grafik-/Stabilitätsgrenzen stehen im [Release-Prüfstand](RELEASE-STATUS-0.2-alpha.18.md). Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
 
 ## Ein Blick ins Spiel
 
