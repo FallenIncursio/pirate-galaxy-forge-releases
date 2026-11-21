@@ -1,4 +1,14 @@
-# Privat vorbereitet in Enhanced alpha.19
+# Neu in Enhanced alpha.20
+
+Suche, Status-/System-/Bereichsfilter und Sortierung im Pilotenprofil → Errungenschaften.
+Alle Kategorien, gespeicherte lokale Ansichtspräferenzen, native Zeilen mit
+vollständigen Namen, Fortschritt und Detailhinweisen. Keine zusätzlichen
+Spielserverabfragen; Sichtbarkeitsregeln und Belohnungen bleiben erhalten.
+Goldene Abschlussmedaillen und Datumszeile; Ein-/Ausschalter der erweiterten
+Ansicht unter Forge → Anzeige → HUD & Grafik, mit Rückkehr zur Originalansicht.
+Core bleibt alpha.17. [Bedienung und Testgrenzen](ALPHA20-ACHIEVEMENTS.md).
+
+# Neu in Enhanced alpha.19
 
 Blaue, von rechts abnehmende Umhüllung des Staffel-Lebensbalkens aus empfangenen
 Schild-/Schutzpunkten. Optionale Prozentwerte je Effekt, genaue Punkte im Tooltip
