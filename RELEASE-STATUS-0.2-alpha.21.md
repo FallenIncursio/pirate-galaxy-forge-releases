@@ -5,8 +5,21 @@ und beauftragt Veröffentlichung, Quell-Push, Updatekanal und Downloadprüfung.
 Die folgenden Vorbereitungs- und Startbelege bleiben an ihre geprüften Bytes gebunden.
 Der Lesbarkeitsstand wurde vor der Freigabe auf Nutzerauftrag mit D3D11 gestartet;
 Startbeleg und Grenzen stehen unten.
-Enhanced alpha.21 / reservierte Sequenz **102**; Spielversion **1002133**, Starter **17**.
+Enhanced alpha.21 / aktive Sequenz **102**; Spielversion **1002133**, Starter **17**.
 Core bleibt **alpha.17 / Sequenz 16**. Keine neuen nativen Dateien.
+
+## Veröffentlichung geprüft
+
+Enhanced **0.2.0-alpha.21 / Sequenz 102** ist veröffentlicht. Alle sieben
+öffentlichen Downloads, RSA-Release-/Kanalmanifest und README-Installerlink sind
+geprüft. Der Kanal wurde erst nach erfolgreicher Downloadprüfung aktualisiert.
+Core bleibt alpha.17 / Sequenz 16: Repository, Kanal und Releaseassets unverändert.
+Auch die vorherigen Enhanced-alpha.20-Dateien und der alte Migrationskanal bleiben erhalten.
+
+Binärquellencommit: `25ac729514c20b203d9d143f462d26154436daf7`.
+Beleg: `distribution/tests/editions-0.2-alpha.21-publication.json` im Quellrepository.
+Die Bibliotheksquellen und alle normalisierten Spielklassen blieben gegenüber
+dem signierten und installierten Kandidaten unverändert. Der Nutzerclient blieb geöffnet.
 
 ## Signierte Releasepakete geprüft
 
@@ -31,7 +44,7 @@ Signaturen, vollständiges Paketinventar und Bibliotheksquellen sind geprüft.
 Klassen und Ressourcen in den normalisierten Update-JARs stimmen bytegenau mit
 dem vom Nutzer bestätigten Sandbox-Build überein; nur die ZIP-Verpackung wird
 für reproduzierbare Patches normalisiert. Private Profile, Rohlogs und Spielcaches
-sind ausgeschlossen. Die öffentliche Downloadprüfung folgt nach dem Upload.
+sind ausgeschlossen. Die öffentliche Downloadprüfung ist im Veröffentlichungsbeleg festgehalten.
 Beleg: `distribution/tests/editions-0.2-alpha.21-release-candidates.json`.
 
 ## Inhalt
@@ -84,19 +97,23 @@ frischen Lauf unter `C:\PGF21T2` mit unveränderten Spielbytes. Der sperrende
 Prozess ist nicht ermittelt; dies belegt keine allgemeine Behebung von Windows-
 Dateisperren. CoreStore und der produktive Einstellungsablauf bleiben unverändert.
 
-## Dateien und Bindung
+## Dateien und Bindung der privaten Vorbereitung
 
 Build: `D:\PGF21\readability-build`; Testbelege: `C:\PGF21T2`.
 Privates Paket: `D:\PGF21\readability-packages\Pirate-Galaxy-Forge-Enhanced-0.2.0-alpha.21`.
-Quell-Ausgangspunkt: `6b3fe5102ee3470f93fa2f956ec5d0e068091286`; Änderungen noch
-nicht committet. Quelleninventar, einzelne Eingabehashes und der Paketbeleg binden
-stattdessen den tatsächlichen Arbeitsstand. Keine alten Belege auf neue Bytes übertragen.
+Quell-Ausgangspunkt der Vorbereitung: `6b3fe5102ee3470f93fa2f956ec5d0e068091286`.
+Die damals noch nicht committeten Änderungen wurden durch Quelleninventar,
+einzelne Eingabehashes und Paketbeleg gebunden. Der veröffentlichte Stand ist
+oben mit seinem Binärquellencommit und dem separaten Releasebeleg dokumentiert.
+Keine alten Belege auf neue Bytes übertragen.
 
 Enhanced-Spiel-JAR: `594fe74e0b35fe705b16277932b78fe316e10c3728b5f62fbddb6e419feef14b`.
 Core-Spiel-JAR: `918093c4e935e8f8af3eab689b956736843c73573332a574e82752eda0612310`.
 Beleg nach Paketprüfung: `distribution/tests/graviton-drop-alpha21-readability-readiness.json`.
-Private Manifeste verbieten Veröffentlichung und Updates. Keine Profile oder
-Anmeldedaten wurden in die Pakete übernommen. Öffentliche Kanäle bleiben unberührt.
+Die privaten Testmanifeste verbieten weiterhin Veröffentlichung und Updates.
+Die Veröffentlichung verwendet separat signierte Releasepakete. Keine Profile
+oder Anmeldedaten wurden in die Pakete übernommen. Bei der damaligen privaten
+Vorbereitung blieben öffentliche Kanäle unberührt.
 
 ## Historischer Sandbox-Start vor dem Lesbarkeitsfix
 
@@ -111,9 +128,9 @@ geprüft. Angemeldeter Orbit und Serververbindungen beobachtet. Spiel-Startlog
 ohne ERROR/FATAL, Verify- oder Linkfehler; generische MyGUI-Widget-Lookups
 im Beleg dokumentiert. Normale Installation und ursprüngliche Profile erhalten.
 Beleg: `distribution/tests/graviton-drop-alpha21-launch.json`.
-Dieser Beleg gilt ausschließlich für die vorherigen Spielbytes. Der neue
-Lesbarkeitsstand wurde noch nicht als Nutzerclient gestartet; seine nativen
-UI-Prüfungen liefen in isolierten Prozessen mit Beispieldaten.
+Dieser Beleg gilt ausschließlich für die vorherigen Spielbytes. Zum Zeitpunkt
+dieses historischen Belegs war der Lesbarkeitsstand noch nicht als Nutzerclient
+gestartet; seine nativen UI-Prüfungen liefen isoliert mit Beispieldaten.
 
 ## Sandbox-Start des Lesbarkeitsstands
 
@@ -127,7 +144,8 @@ Zyklen, 55 geladene Dateihashes, D3D11 und Sandboxie geprüft. Windows-Mixer
 Spiel-Startlog ohne ERROR/FATAL-, Verify- oder Linkfehler; 20 generische MyGUI-
 Widget-Lookups dokumentiert. Originalinstallation und gesicherte Quellen erhalten.
 Beleg: `distribution/tests/graviton-drop-alpha21-readability-launch.json`.
-Client bleibt für die Gravitonen-Abnahme offen. Keine Veröffentlichung.
+Der Client blieb für die Gravitonen-Abnahme offen; dieser Startauftrag enthielt
+keine Veröffentlichung. Die spätere Nutzerfreigabe und Veröffentlichung sind oben dokumentiert.
 
 ## Noch offen
 
@@ -137,6 +155,6 @@ mit `~` markierte lokale Schätzung ab Einsammeln. Ein sichtbarer Drop bestätig
 keinen persönlichen Besitz. Andere Sitzungen können die Schätzung überholen.
 Die native UI-Abnahme verwendet echte Widgets mit synthetischen Daten; sie ist
 kein Server-/Spieltest. Wine, macOS und weitere GPU-/Treiberkombinationen ungetestet.
-Die gestartete Testsitzung bleibt geöffnet. Die Veröffentlichung ist für Enhanced
-freigegeben; Core bleibt unverändert. Installations- und öffentliche Downloadprüfungen
-werden gesondert dokumentiert.
+Die gestartete Testsitzung bleibt geöffnet. Enhanced ist veröffentlicht;
+Core bleibt unverändert. Installations- und öffentliche Downloadprüfungen sind
+an ihre jeweiligen Paketbytes gebunden dokumentiert.
