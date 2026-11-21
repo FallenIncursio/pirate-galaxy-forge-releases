@@ -1,5 +1,17 @@
 # Release-Prüfstand: Enhanced 0.2.0-alpha.18
 
+## Veröffentlichung geprüft
+
+Enhanced **0.2.0-alpha.18** veröffentlicht. Alle 7 öffentlichen Downloads,
+zugehörigen RSA-Updatekanäle und README-Installerlinks wurden heruntergeladen und geprüft.
+Aktualisierte Sequenzen: Enhanced 99. Binärquellencommit: `320d89b5336d4ff7fb2ed70bdb73e3bd22f6c78e`.
+Beleg: `distribution/tests/editions-0.2-alpha.18-publication.json`. Frühere Releasepakete bleiben unverändert.
+Core bleibt unverändert auf 0.2.0-alpha.17, Sequenz 16.
+
+Abschließende Releaseprüfungen: 59 Neuinstallations-/Alpha-73-Prüfungen, 64 Upgrade-/Reparaturprüfungen und 24 Installer-Oberflächenprüfungen bestanden. Die Belege binden die geprüften Kandidaten über ihre SHA-256-Werte.
+
+## Historischer Vorbereitungs- und Diagnosestand
+
 21.11.2026. BP-Drop-Anzeige für Enhanced, Spielversion **1002133**.
 Core bleibt **0.2.0-alpha.17**. Veröffentlichung, Quell-Push und Downloadprüfung
 am 21.11.2026 beauftragt. Enhanced-Sequenz 99; Core-Kanal bleibt auf Sequenz 16.
