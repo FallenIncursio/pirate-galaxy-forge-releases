@@ -16,7 +16,7 @@ Bildschirmtest ist bestanden; für die neue Calon-Abnahme ist kein manueller
 Präsentationsparameter erforderlich. Wasserupdates und die Diagnose wurden
 gezielt ergänzt; siehe [Code und Nachweise](ALPHA9-CALON-FIXES.md).
 
-Grundlage: [bestätigte Calon-Aufnahme und Messgrenzen](CALON-MOTION-ANALYSIS.md).
+Weiterführende Calon-Messung: [Schriftatlas-/LOD-Prüfung und Messgrenzen](ALPHA9-ATLAS-LOD-LIVE-ANALYSIS.md).
 Die bisherigen Messungen belegen einzelne lange Frames und den Copy/GDI-Ausgabepfad.
 Die Folgeaufnahme belegt drei GC-Pausen und weitere Update-Spitzen; ihre vollständige
 Zuordnung und die Wirksamkeit der neuen Wasserbegrenzung bleiben zu messen.
