@@ -1,3 +1,19 @@
+# Neu in Enhanced alpha.21: Gravitonen-Dropstatus
+
+Status im sechsten Gravitonen-Slot: gesichteter Drop mit Originalsymbol und Name
+im Tooltip, geschätzte Restzeit, geschätzte Bereitschaft oder unbekannte Zeitbasis.
+Einzeiliger Countdown (`~6h` / `~45m`) mit kräftiger weißer Schrift und deckendem
+dunklem Hintergrund; Stunden und Minuten bleiben im Tooltip sichtbar.
+Unter Forge → Anzeige → Widgets abschaltbar; vier Zustände in einer separaten
+Testvorschau. Bereinigte, begrenzte Gravitonen-Diagnose im lokalen Bericht.
+Keine zusätzlichen Serverabfragen. Zeitbasis ab lokalem Einsammeln ist mit `~`
+gekennzeichnet; das vorhandene Serverfeld ist noch nicht verifiziert.
+Enhanced 0.2.0-alpha.21 / Sequenz 102 nach bestätigtem D3D11-Sandbox-Test. Core alpha.17 / 16,
+Spielversion 1002133, Starter 17 und native Bibliotheken bleiben unverändert.
+Die Zeit ist eine lokale Schätzung ohne Dropgarantie oder Serverbestätigung.
+[Bedienung und Grenzen](ALPHA21-GRAVITON-DROP.md) ·
+[Prüfstand](RELEASE-STATUS-0.2-alpha.21.md).
+
 # Neu in Enhanced alpha.20
 
 Suche, Status-/System-/Bereichsfilter und Sortierung im Pilotenprofil → Errungenschaften.
