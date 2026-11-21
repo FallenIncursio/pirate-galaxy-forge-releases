@@ -2,7 +2,7 @@
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.21/PirateGalaxyForge-0.2.0-alpha.21-Setup.exe)** · **0.2.0-alpha.21** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.21)
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.22/PirateGalaxyForge-0.2.0-alpha.22-Setup.exe)** · **0.2.0-alpha.22** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.22)
 
 [Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
@@ -39,15 +39,15 @@ Alpha 72 ergänzt den optionalen KW-Tracker mit Messung über Szenenwechsel, sta
 
 Alpha 73 korrigiert die Sol-Sonne und die Texturfilterung unter D3D11. Die optionale **Kreis-Zeitanzeige** ersetzt die rechteckigen Aktiv-/Abklingflächen: mit kleineren, mittigen Zahlen, schwarzer Kontur und Zehntelsekunden erst in der letzten Sekunde. Der Wechsel zwischen Aktivzeit und Abklingzeit bleibt lesbar; wiederholte Diagnosemeldungen für unbenutzte Ziffern entfallen. **D3D11 bleibt Standard, D3D9 auswählbar; Profile und Einstellungen bleiben erhalten.** [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.73) · [Kreis-Zeitanzeige einstellen](docs/HILFE.md#komponenten-zeitanzeige)
 
-## Enhanced 0.2.0-alpha.21 und Core 0.2.0-alpha.17
+## Enhanced 0.2.0-alpha.22 und Core 0.2.0-alpha.17
 
 Enhanced führt den bisherigen Forge mit allen Zusatzfunktionen weiter. **[Forge Core](https://github.com/FallenIncursio/pirate-galaxy-forge-core-releases)** enthält die gemeinsame 64-Bit-Technik, allgemeine Korrekturen und begrenzten Komfort mit ursprünglicher Hilfe. Beide Editionen verwenden dieselbe Core-Implementierung.
 
-Enhanced ergänzt den Gravitonen-Dropstatus im sechsten Slot: gesichtete Gravitonen mit Originalsymbol, eine einzeilige geschätzte Restzeit oder einen ausdrücklich unbekannten Zustand. Weiße fette Schrift auf dunklem Hintergrund und Details im Tooltip erleichtern das Ablesen. Unter Forge → Anzeige → Widgets abschaltbar, mit eigener Testvorschau und begrenzter Diagnose. Keine zusätzlichen Spielserverabfragen oder automatischen Spielaktionen. Core bleibt alpha.17; Spielversion 1002133, Starter 17 und bisherige Fixes bleiben erhalten. Bestehende Forge-Profile werden zu Enhanced übernommen.
+Enhanced korrigiert die Bauplanzuordnung über alle Gebiete: kombinierte Gegnerlisten, Fraktionen, Planetentitel und geprüfte Gegneridentitäten. 195 zusätzliche Regeln für 35 weitere Baupläne sowie getrennte seltene Gegnervarianten. Die begrenzte Scannerdiagnose ergänzt den bestehenden bereinigten Bericht. Scanfenster, Einstellungen und Profile bleiben erhalten; keine neuen Tooltips oder Spielserverabfragen. Core bleibt alpha.17; Spielversion 1002133, Starter 17 und bisherige Fixes bleiben erhalten. Bestehende Forge-Profile werden zu Enhanced übernommen.
 
-[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.21.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md) · [Gravitonen-Anzeige und Einstellungen](ALPHA21-GRAVITON-DROP.md)
+[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.22.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md) · [BP-Zuordnung und Grenzen](ALPHA22-SCAN-MAPPING.md)
 
-Der Nutzer bestätigt den Enhanced-D3D11-Sandbox-Test. 100 Gravitonenprüfungen und je 2854 native Enhanced-UI-Prüfungen auf D3D9/D3D11 bei 100/115/150/200 % HUD-Größe bestanden. Die mit ~ markierte Zeit ist eine lokale Sechs-Stunden-Schätzung ab erkanntem eigenen Einsammeln; sie garantiert keinen Drop und keine serverseitige Berechtigung. Vollständiger Live-Dropablauf, Serverzeitbasis, weitere GPUs, Wine/macOS und Langzeittests bleiben gesondert. Installationsprüfungen und bekannte Grenzen stehen im [Release-Prüfstand](RELEASE-STATUS-0.2-alpha.21.md). Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
+Der Nutzer bestätigt den Enhanced-D3D11-Sandbox-Test. 9267 Scanner-Checks, 18 Diagnosechecks, 8 Importtestfälle und native D3D9-/D3D11-Prüfungen bestanden. Unbestätigte DS-, Missions-, Landeplatz- und Kostümbedingungen bleiben ausgeschlossen; ebenso Giza, Soris und Amarna. Keine Dropchancen oder vollständige serverseitige Abdeckung. Installationsprüfungen und bekannte Grafik-/Stabilitätsgrenzen stehen im [Release-Prüfstand](RELEASE-STATUS-0.2-alpha.22.md). Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
 
 ## Ein Blick ins Spiel
 

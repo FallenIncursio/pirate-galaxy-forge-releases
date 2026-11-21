@@ -1,3 +1,9 @@
+# Neu in Enhanced alpha.22 – BP-Zuordnungen
+
+Systemweiter Importfix, native seltene Gegnervarianten und begrenzte
+Scannerdiagnose im bereinigten Export. Gleiche Anzeige ohne zusätzliche Tooltips.
+Core unverändert. [Umfang und offene Bedingungen](ALPHA22-SCAN-MAPPING.md).
+
 # Neu in Enhanced alpha.21: Gravitonen-Dropstatus
 
 Status im sechsten Gravitonen-Slot: gesichteter Drop mit Originalsymbol und Name
