@@ -1,8 +1,9 @@
 # Enhanced 0.2.0-alpha.23 – Release-Prüfstand
 
 Sirius-Quarc-Anzeige und gelbe BP-Teilezahlen für Spielversion 1002133.
-Enhanced-Sequenz 104 zur Veröffentlichung freigegeben nach bestätigtem
-D3D11-Sandbox-Test. Die öffentlichen Downloads werden vor Kanalaktivierung geprüft.
+Enhanced-Sequenz 104 ist aktiv nach bestätigtem D3D11-Sandbox-Test.
+Alle sieben öffentlichen Downloads, Prüfsummen, RSA-Manifest und README-Installerlink
+sind geprüft. Der Kanal wurde erst nach erfolgreicher Downloadprüfung aktiviert.
 Core bleibt alpha.17 / Sequenz 16, der bisherige Nutzerclient bleibt geöffnet.
 
 ## Korrigiert
@@ -49,3 +50,6 @@ Vollständige Clanmissionsabläufe und Zustandswechsel durch andere Mitglieder
 sind damit nicht vollständig abgedeckt. Fehlende Schlüssel
 bleiben bis zur bestätigten Bedeutung ausdrücklich unbekannt.
 [Bedienung, Diagnose und Abnahmeschritte](ALPHA23-SIRIUS-QUARC.md).
+
+Binärquellencommit: `f3a6d61eafcc4e60a5a31698e4819a0f6d1d07e1`. Veröffentlichung und unveränderter Core-Stand
+sind im Quellrepository unter `distribution/tests/editions-0.2-alpha.23-publication.json` dokumentiert.
