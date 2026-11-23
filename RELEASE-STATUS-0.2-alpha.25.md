@@ -1,11 +1,12 @@
-# Enhanced 0.2.0-alpha.25 – Veröffentlichung autorisiert
+# Enhanced 0.2.0-alpha.25 – veröffentlicht
 
-Der Nutzer bestätigt den D3D11-CSV-Test und hat die Veröffentlichung freigegeben.
-Enhanced-Kanal Sequenz 106 wird nach Prüfung der öffentlichen Downloads aktiviert.
-Core alpha.17 / Sequenz 16 bleibt unverändert; Nutzerclient bleibt geöffnet.
-Spielversion 1002133, Starter 17. Sechs unabhängige Starteränderungen ausgeschlossen.
-Anmeldung, drei Profile, 21 Zustandsdateien und Windows-Lautstärke wurden beim
-Sandbox-Start übernommen. Die öffentliche Ausgabe enthält keine Nutzerdaten.
+Enhanced **0.2.0-alpha.25** ist veröffentlicht, Updatekanal Sequenz 106 aktiv.
+Alle sieben öffentlichen Downloads, RSA-Manifest, normaler Updatekanal und
+README-Installerlink geprüft. Core alpha.17 / Sequenz 16, dessen Repository,
+Kanal und Downloadassets bleiben unverändert. Spielversion 1002133, Starter 17.
+Binärquellencommit: `8d73f76fa87f685bf930644112750186a9911017`. Beleg: `distribution/tests/editions-0.2-alpha.25-publication.json`.
+
+Der Nutzer bestätigt den D3D11-CSV-Test. Sein Client blieb während der Veröffentlichung geöffnet.
 
 ## Prüfung
 
@@ -34,8 +35,21 @@ Der erste Zwischenbuild ist kein Startkandidat. Build-/Test-Hashes und Editionen
 werden bei der privaten Paketierung erneut abgeglichen.
 
 Ingame-Test vom Nutzer bestätigt. Excel-/LibreOffice-Liveimport und Wine bleiben
-separate, nicht belegte Prüfungen. Die finalen signierten Pakete bestanden
+separate, nicht belegte Prüfungen.
+
 59 Neuinstallations-/Alpha-73-Prüfungen, 64 Upgrade-/Reparatur-/Rollbackprüfungen
-ab alpha.24 und 24 Installer-UI-Prüfungen auf isoliertem Desktop. Keine echten
-Nutzerprofile verwendet. Spiel-JAR-Einträge bytegleich zum bestätigten Sandbox-Test.
-Die öffentlichen Downloads werden vor der Kanalaktivierung erneut geprüft.
+ab 0.2.0-alpha.24 und 24 Installer-UI-Prüfungen auf isoliertem Desktop bestanden.
+Nur künstliche Profile in eigenen Test-Sandboxes verwendet. Die einzelnen JAR-
+Einträge sind bytegleich zum bestätigten Sandbox-Test; ZIP-Normalisierung geprüft.
+
+Alle sieben Releaseassets wurden ohne Anmeldung über öffentliche URLs geladen,
+Größen und SHA-256 geprüft und das RSA-Manifest verifiziert. Erst danach wurde
+der Enhanced-Kanal aktiviert und sein Manifest erneut heruntergeladen/geprüft.
+Der normale Updateabruf und der README-Installerlink liefern 0.2.0-alpha.25.
+Vorherige Releaseassets sowie der ältere Enhanced-Kanal bleiben unverändert.
+Quellstand auf main und feature/core-enhanced-0.2 gepusht; Quellrepo bleibt privat.
+Keine Profile, Rohlogs, Originalspielarchive oder privaten Schlüssel hochgeladen.
+
+
+- `distribution/tests/editions-0.2-alpha.25-publication.json`
+- `distribution/tests/editions-0.2-alpha.25-release-candidates.json`
