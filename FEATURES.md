@@ -1,3 +1,12 @@
+# Neu in Enhanced alpha.24 – Remnant-Bossleisten
+
+Zentrierter Name und bekannte Itemklasse, blaue Schutzumhüllung mit optionalen
+Prozentwerten, getrennte XC-/SC-Farben und abschaltbare Randanimation.
+Bestätigter Landeschutz verwendet das gewählte goldene PG-Schildsymbol.
+Name oder Lebensleiste anklicken, um den angezeigten Boss anzuvisieren.
+Unter Forge → Anzeige → Bossleisten anpassbar; begrenzte lokale Diagnose.
+Core unverändert. [Bedienung und Grenzen](ALPHA24-BOSS-HUD.md).
+
 # Neu in Enhanced alpha.23 – Sirius-Karte und Bauplanfortschritt
 
 Bekannte Quarc-Freigaben, unbekannter Status bei fehlenden Daten und Teilezahlen
@@ -156,13 +165,13 @@ Einzelausreißer bleiben. Kein neuer kontrollierter Original32-Flugvergleich.
 | Statuszeile | Passiver TCP-Ping; einfache FPS optional | Erweiterte Status-/Diagnoseanzeige | Keine eigenen Ping-Pakete |
 | Discord | Optional, neues Core-Profil: aus | Vorhandene Option; neuer Standard: Spiel | Separater externer Datenfluss bei Aktivierung |
 | Zieleliste | Missionsabhängiger Remnant-Filter | identisch | Filter bestehender Einträge, keine Erkennung unbekannter Einheiten |
-| Sirius-Baupläne | Farben nach eigenem bekannten Fortschritt | zusätzlich bekannte Teilezahlen an gelben Einträgen (alpha.23-Teststand), Katalog/Planung | Keine erfundenen Besitzstände |
+| Sirius-Baupläne | Farben nach eigenem bekannten Fortschritt | zusätzlich bekannte Teilezahlen an gelben Einträgen (alpha.23), Katalog/Planung | Keine erfundenen Besitzstände |
 | Kryonit | Menge am vorhandenen Zieleintrag | zusätzlich Statistik/Export | Keine Sammelautomatik |
 | OTB-Aktivitätsprüfung | nicht enthalten | Systemzähler, beide Signalalter, Warn-Countdown (Aus/60/90/120 s), Vorwarnung und Testvorschau; Diagnose bis 512 KiB | Seit lokalem Messbeginn; Serverwertung immer unbekannt, keine zusätzlichen Serverabfragen und keine Punkte-/Sperrprognose |
 | Wiederbelebungsdialog | Fehlende oder späte Cooldowns sicher lesen; unbekannte Restzeit als `…` | identisch | Behebt Nullzugriff im geerbten Originaldialog; keine Änderung serverseitiger Wiederbelebungsregeln |
 | Hilfe/Einstellungen | Originale Hilfe; native Einstellungserweiterung | F-/Forge-Einstieg, acht Bereiche | Unterschiedliche Bedienoberfläche |
 | Orbitalschläge | Originaldarstellung | Konturen, Füllung, bekannte Countdown-Varianten | Lokale Zusatzinformation; Schätzwerte sind keine Servergarantie |
-| Bosse | Originaldarstellung | Remnant, Queen, Sirius: HP, Effekte, Quellen, bekannte Zeiten | Zusätzliche Darstellung empfangener Daten |
+| Bosse | Originaldarstellung | Remnant, Queen, Sirius: HP, Effekte, Quellen, bekannte Zeiten; alpha.24: Schutzumhüllung, bekannte Remnant-Itemklasse, XC/SC-Stil, PG-Schutzsymbol und Zielauswahl per Klick | Empfangene Daten; ausdrücklicher Klick nutzt die normale Zielauswahl |
 | Bossauftritt | Original | Name, Bildschirmränder, optionale Musik; Remnants nur XC/SC, MN/DL ohne Auftritt | Lokale Präsentation; alpha.6 begrenzt auch den Ersatzimpuls |
 | Staffel | Original | Erweiterte HP-/Effektanzeigen | Zusätzliche Übersicht |
 | Komponententimer | Original | Zahlen, transparente/radiale Anzeigen, letzte Sekunden | Lokale Darstellung vorhandener Zustände |
@@ -173,7 +182,7 @@ Einzelausreißer bleiben. Kein neuer kontrollierter Original32-Flugvergleich.
 | Remnant-Informationen | Filter | Beutekarten, Kategorien, Wartezeiten | Zusätzliche lokale Aufbereitung |
 | Statistik | Einfache FPS | Kryonit, KW, Exporte, große Energiekugel | Erweiterte lokale Auswertung |
 | Drohnen | Allgemeine Hangarkorrekturen | Zusätzlich Levelzeitschätzungen und Meldungen | Schätzungen bleiben gekennzeichnet |
-| Navigation | Original | Positionsmerker, Sirius-Prognosen, Quarc-Freigaben (alpha.23-Teststand), Reiseerinnerungen | Lokale Planung |
+| Navigation | Original | Positionsmerker, Sirius-Prognosen, Quarc-Freigaben (alpha.23), Reiseerinnerungen | Lokale Planung |
 | Eigene Sounds/Musik | Originale Inhalte mit allgemeinen Audiofixes | Import, Zuschnitt, Einzelpegel, Live-Übernahme | Zusätzliche lokale Medien |
 | Antriebsspuren | Original | Lokale Vorschau und dauerhafte Spuren für Schiff/Drohnen | Keine Änderung fremder Clients |
 | Farben/Meldungen/Namen | Original | Statuspaletten, Meldungsfilter, lokale Namen wie „Lörres“ | Enhanced-spezifische Darstellung |
