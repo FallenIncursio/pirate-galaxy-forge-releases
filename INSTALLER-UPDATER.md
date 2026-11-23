@@ -1,6 +1,6 @@
 # Installation, Updates und Profile
 
-Core 0.2.0-alpha.17 und Enhanced 0.2.0-alpha.26 benötigen Windows 10/11 x64 und .NET Framework 4.8.
+Core 0.2.0-alpha.17 und Enhanced 0.2.0-alpha.27 benötigen Windows 10/11 x64 und .NET Framework 4.8.
 Die passende Java-27-Laufzeit lädt der Starter bei Bedarf selbst.
 
 ## Installieren
