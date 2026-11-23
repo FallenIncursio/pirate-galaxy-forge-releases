@@ -1,3 +1,10 @@
+# Neu in Enhanced alpha.25 – Bauplan-CSV
+
+Forge → Baupläne exportiert alle gefilterten Treffer in aktueller Reihenfolge
+als CSV, einschließlich Merkliste und getrennten Teilezahlen. Lokaler Export mit
+Erfolgsmeldung und Ordnerknopf; keine Zusatzabfragen. Unbekannte Mengen bleiben leer.
+Core bleibt alpha.17. [Bedienung und Grenzen](ALPHA25-BLUEPRINT-CSV.md).
+
 # Neu in Enhanced alpha.24 – Remnant-Bossleisten
 
 Zentrierter Name und bekannte Itemklasse, blaue Schutzumhüllung mit optionalen
