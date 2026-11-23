@@ -1,8 +1,7 @@
 # Enhanced alpha.26 – Bauplan-Fundorte
 
-Bestätigter Enhanced-D3D11-Sandbox-Test (R4), Spielversion 1002133.
-Veröffentlichung freigegeben; Core bleibt alpha.17 / Sequenz 16.
-Der laufende Nutzerclient bleibt geöffnet.
+Veröffentlicht nach bestätigtem Enhanced-D3D11-Sandbox-Test (R4), Spielversion 1002133.
+Core bleibt alpha.17 / Sequenz 16. Der laufende Nutzerclient blieb geöffnet.
 
 Bauplan-Fundorte mit Planet, Sternsystem, Gegner, Level und Sammelstand. Ein
 vorgemerktes Suchziel erscheint auf der nativen Planetenkarte; Gegnericons und

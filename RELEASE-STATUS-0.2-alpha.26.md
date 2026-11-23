@@ -1,22 +1,31 @@
-# Enhanced alpha.26 – Release-Prüfstand
+# Enhanced 0.2.0-alpha.26 – veröffentlicht
 
-Enhanced-Sequenz 107 zur Veröffentlichung freigegeben. Core alpha.17 / Sequenz 16,
-Spielversion 1002133 und Starter 17 bleiben erhalten. Der Nutzer bestätigt den
-D3D11-Fundorttest R4; sein laufender Client bleibt geöffnet.
+Enhanced **0.2.0-alpha.26** ist veröffentlicht, Updatekanal Sequenz 107 aktiv.
+Alle sieben öffentlichen Downloads, RSA-Manifest, normaler Updatekanal und
+README-Installerlink geprüft. Core alpha.17 / Sequenz 16, dessen Repository,
+Kanal und Downloadassets bleiben unverändert. Spielversion 1002133, Starter 17.
+Binärquellencommit: `ed61cadda90ac62befd9b0fe0fef3084b4452bed`. Beleg: `distribution/tests/editions-0.2-alpha.26-publication.json`.
 
-62 Editionsgates, 22 Negativkontrollen, 48 Python-Tests und 5.082 Fundortprüfungen
-bestanden. Je 3.348 native Enhanced-UI-Prüfungen mit D3D9 und D3D11 testen reale
-Mausbedienung, HUD-Skalierung, Kartenaktionen und nicht verfügbare Bilder.
-R3 scheitert ohne fremdes Systemarchiv; R4 besteht die gleiche Gegenprobe.
-Core-Spielbytes und native Inputs sind unverändert. Keine zusätzlichen Serverabfragen.
+Der Nutzer bestätigt den D3D11-Fundorttest R4. Sein Client blieb während der Veröffentlichung geöffnet.
 
 ## Prüfung
 
-Fundortansicht R4 vom Nutzer im D3D11-Sandbox-Test bestätigt. Die finalen
-signierten Pakete bestanden Neuinstallation, Alpha-73-/alpha.25-Upgrade, Reparatur,
-Rollback, Profilübernahme und Installer-UI-Prüfung. Nur künstliche Testprofile
-verwendet. JAR-Einträge bytegleich zum bestätigten R4-Spielstand.
-Die öffentlichen Downloads werden vor der Kanalaktivierung erneut geprüft.
+Fundortansicht R4 vom Nutzer im D3D11-Sandbox-Test bestätigt. Vollständige
+räumliche Live-Abnahme aller Referenzbereiche und weiterer Hardware bleibt offen.
+
+59 Neuinstallations-/Alpha-73-Prüfungen, 64 Upgrade-/Reparatur-/Rollbackprüfungen
+ab 0.2.0-alpha.25 und 24 Installer-UI-Prüfungen auf isoliertem Desktop bestanden.
+Nur künstliche Profile in eigenen Test-Sandboxes verwendet. Die einzelnen JAR-
+Einträge sind bytegleich zum bestätigten Sandbox-Test; ZIP-Normalisierung geprüft.
+
+Alle sieben Releaseassets wurden ohne Anmeldung über öffentliche URLs geladen,
+Größen und SHA-256 geprüft und das RSA-Manifest verifiziert. Erst danach wurde
+der Enhanced-Kanal aktiviert und sein Manifest erneut heruntergeladen/geprüft.
+Der normale Updateabruf und der README-Installerlink liefern 0.2.0-alpha.26.
+Vorherige Releaseassets sowie der ältere Enhanced-Kanal bleiben unverändert.
+Quellstand auf main und feature/core-enhanced-0.2 gepusht; Quellrepo bleibt privat.
+Keine Profile, Rohlogs, Originalspielarchive oder privaten Schlüssel hochgeladen.
+
 59 Neuinstallations-/Alpha-73-Prüfungen, 64 Upgrade-/Reparatur-/Rollbackprüfungen
 und 24 Installer-UI-Prüfungen auf isoliertem Desktop bestanden.
 Die unabhängige Starter-Bereinigung ist nicht enthalten.
@@ -32,3 +41,6 @@ Bekannte Terrainhelligkeits-, Material- und native Absturzfragen bleiben offen.
 
 [Bedienung und Prüfungen](ALPHA26-BLUEPRINT-LOCATIONS.md) ·
 [Referenzdaten](ALPHA26-REFERENCE-DATA.md).
+
+- `distribution/tests/editions-0.2-alpha.26-publication.json`
+- `distribution/tests/editions-0.2-alpha.26-release-candidates.json`
