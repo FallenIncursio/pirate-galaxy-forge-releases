@@ -1,9 +1,10 @@
-# Enhanced 0.2.0-alpha.24 – bestätigter Releasestand
+# Enhanced 0.2.0-alpha.24 – veröffentlicht
 
-Der Nutzer hat den R3-Test mit D3D11 am 23.11.2026 bestätigt und Veröffentlichung,
-Quell-Push, Enhanced-Updatekanal und Downloadprüfung autorisiert. Enhanced-Sequenz
-105 ist vorbereitet. Core alpha.17 / Sequenz 16 bleibt unverändert und wird
-nicht erneut veröffentlicht. Spielversion 1002133, Starterrevision 17.
+Enhanced **0.2.0-alpha.24** ist veröffentlicht, Updatekanal Sequenz 105 aktiv.
+Alle sieben öffentlichen Downloads, RSA-Manifest, normaler Updatekanal und
+README-Installerlink geprüft. Core alpha.17 / Sequenz 16, dessen Repository,
+Kanal und Downloadassets bleiben unverändert. Spielversion 1002133, Starter 17.
+Binärquellencommit: `fcb2e2c0c9a12ff260dea926f2cd07bbf35e85b1`. Beleg: `distribution/tests/editions-0.2-alpha.24-publication.json`.
 
 ## Änderungen
 
@@ -30,10 +31,18 @@ zum bestätigten Sandbox-Stand bleiben; die ZIP-Normalisierung wird separat gepr
 
 Der Nutzer bestätigt den allgemeinen Sandbox-Test; nicht jeder Effektzustand
 und jede XC-/SC-Klasse wurde ausdrücklich einzeln als live geprüft bestätigt.
-Die finalen Pakete bestanden 59 Neuinstallations-/Alpha-73-Prüfungen, 64 Upgrade-,
-Reparatur- und Rollbackprüfungen ab alpha.23 sowie 24 Installer-UI-Prüfungen auf
-isoliertem Desktop. Die öffentliche Downloadprüfung folgt nach Upload und vor
-Kanalaktivierung; ihr Ergebnis wird anschließend hier dokumentiert.
+59 Neuinstallations-/Alpha-73-Prüfungen, 64 Upgrade-/Reparatur-/Rollbackprüfungen
+ab alpha.23 und 24 Installer-UI-Prüfungen auf einem isolierten Desktop bestanden.
+Nur künstliche Profile in eigenen Test-Sandboxes verwendet. Die einzelnen JAR-
+Einträge sind bytegleich zum bestätigten R3-Test; ZIP-Normalisierung ist geprüft.
+
+Alle sieben Releaseassets wurden ohne Anmeldung über öffentliche URLs geladen,
+Größen und SHA-256 geprüft und das RSA-Manifest verifiziert. Erst danach wurde
+der Enhanced-Kanal aktiviert und sein Manifest erneut heruntergeladen/geprüft.
+Der normale Updateabruf und der README-Installerlink liefern alpha.24.
+Vorherige Releaseassets sowie der ältere Enhanced-Kanal bleiben unverändert.
+Quellstand auf main und feature/core-enhanced-0.2 gepusht; Quellrepo bleibt privat.
+Keine Profile, Rohlogs, Originalspielarchive oder privaten Schlüssel hochgeladen.
 
 ## Grenzen und Erhaltung
 
@@ -54,3 +63,6 @@ Der laufende Nutzerclient, seine Profile und Anmeldedaten bleiben erhalten.
 - `distribution/tests/boss-hud-alpha24-r3-staging.json`
 - `distribution/tests/boss-hud-alpha24-r3-launch.json`
 - [Bedienung und Datenvertrag](ALPHA24-BOSS-HUD.md)
+
+- `distribution/tests/editions-0.2-alpha.24-publication.json`
+- `distribution/tests/editions-0.2-alpha.24-release-candidates.json`

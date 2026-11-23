@@ -1,8 +1,8 @@
 # Enhanced alpha.24 – Remnant-Bossleisten
 
-Bestätigter Enhanced-Sandbox-Test, Spielversion 1002133. Veröffentlichung vom
-Nutzer freigegeben. Core bleibt alpha.17 / Sequenz 16. Der laufende Nutzerclient
-bleibt bei der Veröffentlichung geöffnet.
+Veröffentlicht nach bestätigtem Enhanced-Sandbox-Test, Spielversion 1002133.
+Core bleibt alpha.17 / Sequenz 16. Der laufende Nutzerclient blieb bei der
+Veröffentlichung geöffnet.
 
 ## Darstellung und Einstellungen
 
