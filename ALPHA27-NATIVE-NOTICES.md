@@ -1,8 +1,7 @@
 # Enhanced alpha.27 – Forge-Meldungen in der PG-Leiste
 
-Bestätigter Enhanced-D3D11-Sandbox-Test, Spielversion 1002133.
-Veröffentlichung freigegeben; Core bleibt alpha.17 / Sequenz 16.
-Der laufende Nutzerclient bleibt geöffnet.
+Privater Sandbox-Teststand für Spielversion 1002133, nicht veröffentlicht.
+Core bleibt bei alpha.17 / Sequenz 16. Enhanced-Sequenz 108 ist nur reserviert.
 
 ## Bedienung
 
@@ -59,8 +58,7 @@ mit fremder Meldung; native D3D9-/D3D11-Karten, Einstellungen, Fokus, Klickdurch
 und Auflösungen 1024×768, 1920×1080 und 3440×1440 bei 100/150/200 % HUD-Größe.
 Native Layoutfixtures ersetzen keine verbundene Spielsitzung.
 
-Der Nutzer hat den Sandbox-Test bestätigt; die folgende vollständige Checkliste
-ist dadurch nicht automatisch einzeln abgenommen:
+Nach separatem Startauftrag im Sandbox-Client prüfen:
 
 1. Testmeldung bei offenem und geschlossenem Forge, im Orbit und auf einem Planeten.
 2. Fundorte vormerken und Merkliste ändern; mehrfach klicken, ohne Meldungsflut.
@@ -71,5 +69,5 @@ ist dadurch nicht automatisch einzeln abgenommen:
 6. Bei langer Fehlermeldung Detailansicht öffnen/schließen; nach Szenen-/Pilotenwechsel
    keine alten Exportmeldungen und keine verwaisten Widgets.
 
-Der bestehende Benutzerclient bleibt während der Veröffentlichung geöffnet.
-Staging-, Start- und Releasebelege binden die Prüfung an die jeweiligen Paketbytes.
+Der bestehende Benutzerclient wird bei der Vorbereitung nicht beendet oder verändert.
+Prüfergebnisse und Paketpfad stehen im privaten Staging-Beleg, sobald alle Gates bestehen.

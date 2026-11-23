@@ -1,14 +1,31 @@
-# Enhanced alpha.27 – Veröffentlichung freigegeben
+# Enhanced 0.2.0-alpha.27 – veröffentlicht
 
-Stand: 23.11.2026. Spielversion 1002133. Enhanced-Sequenz 108 autorisiert; Core unverändert.
+Enhanced **0.2.0-alpha.27** ist veröffentlicht, Updatekanal Sequenz 108 aktiv.
+Alle sieben öffentlichen Downloads, RSA-Manifest, normaler Updatekanal und
+README-Installerlink geprüft. Core alpha.17 / Sequenz 16, dessen Repository,
+Kanal und Downloadassets bleiben unverändert. Spielversion 1002133, Starter 17.
+Binärquellencommit: `9c5c00ff76bcb5de9745feb8faefaf82ab55bec3`. Beleg: `distribution/tests/editions-0.2-alpha.27-publication.json`.
+
+Der Nutzer bestätigt die nativen Forge-Meldungen im D3D11-Sandbox-Test. Der laufende Client bleibt während der Veröffentlichung geöffnet.
 
 ## Prüfung
 
-Native Forge-Meldungen vom Nutzer im D3D11-Sandbox-Test bestätigt. Die finalen
-signierten Pakete bestanden Neuinstallation, Alpha-73-/alpha.26-Upgrade, Reparatur,
-Rollback, Profilübernahme und Installer-UI-Prüfung (59/64/24 Checks).
-Nur künstliche Testprofile verwendet. JAR-Einträge bytegleich zum bestätigten
-Spielstand. Öffentliche Downloads werden vor der Kanalaktivierung geprüft.
+Native Forge-Meldungen vom Nutzer im D3D11-Sandbox-Test bestätigt. Die vollständige
+Einzelabnahme aller Spielfunktionen und weiterer Hardware bleibt offen.
+
+59 Neuinstallations-/Alpha-73-Prüfungen, 64 Upgrade-/Reparatur-/Rollbackprüfungen
+ab 0.2.0-alpha.26 und 24 Installer-UI-Prüfungen auf isoliertem Desktop bestanden.
+Nur künstliche Profile in eigenen Test-Sandboxes verwendet. Die einzelnen JAR-
+Einträge sind bytegleich zum bestätigten Sandbox-Test; ZIP-Normalisierung geprüft.
+
+Alle sieben Releaseassets wurden ohne Anmeldung über öffentliche URLs geladen,
+Größen und SHA-256 geprüft und das RSA-Manifest verifiziert. Erst danach wurde
+der Enhanced-Kanal aktiviert und sein Manifest erneut heruntergeladen/geprüft.
+Der normale Updateabruf und der README-Installerlink liefern 0.2.0-alpha.27.
+Vorherige Releaseassets sowie der ältere Enhanced-Kanal bleiben unverändert.
+Quellstand auf main und feature/core-enhanced-0.2 gepusht; Quellrepo bleibt privat.
+Keine Profile, Rohlogs, Originalspielarchive oder privaten Schlüssel hochgeladen.
+
 
 - Build: `C:/PGFWork/forge-notices-alpha27/candidate-build`.
 - Vollständige Gates: `C:/PGFWork/forge-notices-alpha27/candidate-tests`.
@@ -45,3 +62,6 @@ die Basis. Nur Enhanced wird nach Paket- und Downloadprüfung veröffentlicht.
 Verbindlicher Paket-/Quellen-/Testbeleg:
 `distribution/tests/forge-notices-alpha27-staging.json`.
 Bedienung und Testplan: [Native Forge-Meldungen](ALPHA27-NATIVE-NOTICES.md).
+
+- `distribution/tests/editions-0.2-alpha.27-publication.json`
+- `distribution/tests/editions-0.2-alpha.27-release-candidates.json`

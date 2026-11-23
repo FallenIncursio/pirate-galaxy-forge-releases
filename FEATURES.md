@@ -1,6 +1,6 @@
-> Vorbereitet: Enhanced alpha.27 – Forge-Meldungen in der nativen PG-Leiste,
+> Veröffentlicht: Enhanced alpha.27 – Forge-Meldungen in der nativen PG-Leiste,
 > „Alle / Nur wichtige“, Testmeldung, begrenzte Warteschlange und lokale Diagnose.
-> Privater Sandbox-Stand; Core unverändert. [Details](ALPHA27-NATIVE-NOTICES.md).
+> D3D11-Sandbox-Test bestätigt; Core unverändert. [Details](ALPHA27-NATIVE-NOTICES.md).
 
 > Neu in Enhanced alpha.26: Bauplan-Fundorte mit Planet/System/Gegner/Level,
 > gemeinsamem Hier-erhältlich-Filter für Liste/CSV und vorgemerkten nativen Kartenbereichen.
