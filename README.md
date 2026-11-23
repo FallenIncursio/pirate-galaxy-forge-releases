@@ -2,7 +2,7 @@
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.26/PirateGalaxyForge-0.2.0-alpha.26-Setup.exe)** · **0.2.0-alpha.26** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.26)
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.27/PirateGalaxyForge-0.2.0-alpha.27-Setup.exe)** · **0.2.0-alpha.27** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.27)
 
 [Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
@@ -39,15 +39,15 @@ Alpha 72 ergänzt den optionalen KW-Tracker mit Messung über Szenenwechsel, sta
 
 Alpha 73 korrigiert die Sol-Sonne und die Texturfilterung unter D3D11. Die optionale **Kreis-Zeitanzeige** ersetzt die rechteckigen Aktiv-/Abklingflächen: mit kleineren, mittigen Zahlen, schwarzer Kontur und Zehntelsekunden erst in der letzten Sekunde. Der Wechsel zwischen Aktivzeit und Abklingzeit bleibt lesbar; wiederholte Diagnosemeldungen für unbenutzte Ziffern entfallen. **D3D11 bleibt Standard, D3D9 auswählbar; Profile und Einstellungen bleiben erhalten.** [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.73) · [Kreis-Zeitanzeige einstellen](docs/HILFE.md#komponenten-zeitanzeige)
 
-## Enhanced 0.2.0-alpha.26 und Core 0.2.0-alpha.17
+## Enhanced 0.2.0-alpha.27 und Core 0.2.0-alpha.17
 
 Enhanced führt den bisherigen Forge mit allen Zusatzfunktionen weiter. **[Forge Core](https://github.com/FallenIncursio/pirate-galaxy-forge-core-releases)** enthält die gemeinsame 64-Bit-Technik, allgemeine Korrekturen und begrenzten Komfort mit ursprünglicher Hilfe. Beide Editionen verwenden dieselbe Core-Implementierung.
 
-Enhanced ergänzt Fundorte in der Bauplanliste: Planet, Sternsystem, Gegner, bekannte Level und Sammelstand. Der Hier-erhältlich-Filter lässt sich mit Suche, Merkliste und CSV kombinieren. Ein vorgemerktes Suchziel erscheint mit Gegnerbildern auf der nativen Planetenkarte. 1.333 Baupläne im Fundortindex, 1.387 Referenzbereiche auf 18 Karten für 664 Baupläne. Planeten- und Systemicons werden lokal mitgeliefert; fehlende Bilder blockieren keine Fundorttexte oder Kartenaktionen. Die begrenzte Diagnose hilft bei Anzeigefehlern. Kurze Windows-Dateisperren beim Übernehmen von Enhanced-Anzeigeeinstellungen werden erneut versucht. Keine zusätzlichen Serverabfragen. Core alpha.17, Spielversion 1002133 und Starter 17 bleiben erhalten. Bestehende Forge-Profile werden zu Enhanced übernommen.
+Diese Ausgabe korrigiert Piloten-/Clanranglisten und Divisionswechsel, die gespeicherte HUD-Größe, die D3D11-Kantenglättung sowie wiederholte Antriebsspur-Vorschauen im Shop. Enhanced korrigiert zusätzlich die Energiekugelmarkierung. Die bisherigen Diagnose-, Grafikstart-, Reparatur-, Calon- und Erebos-Korrekturen bleiben enthalten. Vorhandene Einstellungen und Profile bleiben erhalten. Bestehende Forge-Profile werden zu Enhanced übernommen.
 
-[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.26.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md) · [Fundorte und Kartenanzeige](ALPHA26-BLUEPRINT-LOCATIONS.md) · [Referenzdaten](ALPHA26-REFERENCE-DATA.md)
+[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.27.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md)
 
-Der Nutzer bestätigt den Enhanced-D3D11-Sandbox-Test R4. 5.082 Fundortprüfungen, 48 Python-Tests und je 3.348 native Enhanced-UI-Prüfungen auf D3D9/D3D11 bestanden, einschließlich nicht geladener Systemarchive und fehlender Bilder. Referenzbereiche zeigen bekannte Fundstellen, keine live erkannten Gegner oder garantierten Drops. Widersprüchliche Quellen, fehlende Karten und dynamische Sirius-Fundstellen bleiben unbekannt. Kartenlevel sind von expliziten Drop-Leveln getrennt. Weitere GPUs, Wine/macOS und Langzeittests bleiben separat; bekannte Grafik- und Absturzfragen sind nicht Teil dieser Ausgabe. [Prüfstand](RELEASE-STATUS-0.2-alpha.26.md). Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
+Die exakten Paketbytes bestanden 40 Java-/UI-Suiten, 56 Installations-/Upgrade-/Reparaturprüfungen ab alpha.3 und 24 Installer-UI-Prüfungen. Enhanced wurde mit D3D11 bis zur verbundenen Spielsitzung gestartet und vom Nutzer nach dem Ranglistentest bestätigt. Eine gesonderte Core-Spielsitzung, vollständige Funktionsabnahme, längere Sitzungen, weitere GPUs/Treiber und Wine bleiben offen. 240 FPS ist eine Obergrenze, keine Leistungszusage. Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
 
 ## Ein Blick ins Spiel
 
