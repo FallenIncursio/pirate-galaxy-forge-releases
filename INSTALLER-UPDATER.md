@@ -1,6 +1,6 @@
 # Installation, Updates und Profile
 
-Core 0.2.0-alpha.17 und Enhanced 0.2.0-alpha.24 benötigen Windows 10/11 x64 und .NET Framework 4.8.
+Core 0.2.0-alpha.17 und Enhanced 0.2.0-alpha.26 benötigen Windows 10/11 x64 und .NET Framework 4.8.
 Die passende Java-27-Laufzeit lädt der Starter bei Bedarf selbst.
 
 ## Installieren
@@ -107,11 +107,13 @@ versandt. Ein Java-Ereignis allein belegt keine native Absturzursache.
 
 ## Prüfstand und Grenzen
 
-Die Abnahme jeder Ausgabe ist an deren signierte Paketbytes gebunden. Für alpha.14
-bestanden Neuinstallation, Upgrade von Alpha 73 sowie Core/Enhanced alpha.13,
-Profilübernahme, Reparatur, Abbruch und Rollback in Sandboxie. Maßgeblich
-ist der [Release-Prüfstand](RELEASE-STATUS-0.2-alpha.14.md).
-Enhanced wurde mit D3D11 im Spiel geprüft; der Nutzer meldet bisher keine Probleme.
+Die Abnahme jeder Ausgabe ist an deren signierte Paketbytes gebunden. Für Enhanced
+alpha.26 bestanden 59 Neuinstallations-/Alpha-73-Prüfungen, 64 Upgrade-/Reparatur-/
+Rollbackprüfungen ab alpha.25 sowie 24 Installer-UI-Prüfungen in isolierten
+Testumgebungen. Profile, Einstellungen, Anmeldungen und Rendererwahl bleiben erhalten.
+Maßgeblich ist der [Enhanced-Release-Prüfstand](RELEASE-STATUS-0.2-alpha.26.md).
+Der Nutzer bestätigt die neue Fundortansicht mit D3D11 im Spiel. Core bleibt
+auf [alpha.17](RELEASE-STATUS-0.2-alpha.17.md) unverändert.
 Der konkrete native Sirius-Landeabsturz ist nicht nachweislich behoben und
 kamerabhängige Helligkeitswechsel bleiben offen. OTB-Endauswertung und reale
 Wiederbelebung sind weiterhin separat zu prüfen; das OTB-Widget garantiert weder
