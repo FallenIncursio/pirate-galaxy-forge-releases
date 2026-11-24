@@ -2,21 +2,21 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.32/PirateGalaxyForge-0.2.0-alpha.32-Setup.exe)** · **0.2.0-alpha.32**
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.33/PirateGalaxyForge-0.2.0-alpha.33-Setup.exe)** · **0.2.0-alpha.33**
 
 Die gemeinsame Core-Technik mit zusätzlichen Forge-Anzeigen: Baupläne mit Fundorten und CSV, Boss-/Staffelleisten, Errungenschaftenfilter, OTB-/Gravitonen-Widgets und anpassbare Effekte.
 
 [Installation](docs/user/INSTALLATION.md) · [Funktionen und 32-Bit-Vergleich](docs/user/FUNKTIONEN.md) · [Bedienung](docs/user/HILFE.md) · [Diagnose](docs/user/DIAGNOSE.md) · [Quellen](docs/sources/QUELLEN.md)
 
-## Neu in 0.2.0-alpha.32
+## Neu in 0.2.0-alpha.33
 
-Baupläne: Merkliste und Bereiche. [Änderungen und Prüfstand](docs/releases/0.2.0-alpha.32.md) · [Alle Versionen](CHANGELOG.md).
+Reisekosten-Vorschau beim Hypersprung. [Änderungen und Prüfstand](docs/releases/0.2.0-alpha.33.md) · [Alle Versionen](CHANGELOG.md).
 
 ## Core und Enhanced
 
 | Core | Enhanced |
 | --- | --- |
-| [0.2.0-alpha.17](https://github.com/FallenIncursio/pirate-galaxy-forge-core-releases) | [0.2.0-alpha.32](https://github.com/FallenIncursio/pirate-galaxy-forge-releases) |
+| [0.2.0-alpha.17](https://github.com/FallenIncursio/pirate-galaxy-forge-core-releases) | [0.2.0-alpha.33](https://github.com/FallenIncursio/pirate-galaxy-forge-releases) |
 | Gemeinsame Technik und ausgewählter Komfort | Core plus zusätzliche Forge-Funktionen |
 
 Getrennte Installationen und Updatekanäle; eine gemeinsame Core-Implementierung.

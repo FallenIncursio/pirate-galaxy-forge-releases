@@ -20,6 +20,15 @@ Unter **Anzeige → Komponenten** lassen sich Aktiv- und Abklingzeiten als Zahle
 Kreis oder Kreis mit Zahlen darstellen. Eigene Belegungen stehen unter **Forge → Tasten**.
 Chat und Texteingaben behalten Vorrang vor Komponententasten.
 
+## Reisekosten-Vorschau
+
+Während eines interplanetaren Flugs zeigt die zusätzliche Zeile neben dem
+Energiepreis den nächsten niedrigeren Hypersprungpreis und die verbleibende
+Wartezeit. Gültige Mitgliedschaftsrabatte werden berücksichtigt. Bei kostenlosen
+Sprüngen oder fehlender Zeitbasis wird die Zeile ausgeblendet.
+**Forge → Anzeige → HUD & Grafik → Reisekosten-Vorschau** schaltet sie ein oder aus.
+Der Hypersprung wird weiterhin ausschließlich über den ursprünglichen Knopf ausgelöst.
+
 ## Baupläne, Fundorte und CSV
 
 **Forge → Baupläne** bietet Suche, Typ-, Bereichs- und Fortschrittsfilter sowie eine

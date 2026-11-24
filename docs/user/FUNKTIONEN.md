@@ -2,7 +2,7 @@
 
 [Übersicht](../../README.md) · [Bedienung](HILFE.md) · [Änderungen](../../CHANGELOG.md)
 
-Stand: **Core 0.2.0-alpha.17 · Enhanced 0.2.0-alpha.32 · Spielversion 1002133**.
+Stand: **Core 0.2.0-alpha.17 · Enhanced 0.2.0-alpha.33 · Spielversion 1002133**.
 
 Core enthält die gemeinsame 64-Bit-Technik, allgemeine Fehlerkorrekturen und
 begrenzten Komfort. Enhanced ergänzt dieselbe Grundlage um die Forge-Oberflächen.
@@ -47,6 +47,7 @@ Fehler in jeder Version des 32-Bit-Originals.
 | Remnants | Beutekarten und Variantenbestände, ergänzte Warte-/HP-Anzeigen, lokale Kampfberichte | Remnant-Anzeige / Forge |
 | OTB | Lokale Aktivitätswerte und Warn-Countdown mit Testvorschau | Forge → Anzeige → Widgets |
 | Gravitonen | Beobachteter Drop oder geschätzter Countdown im sechsten Slot | Forge → Anzeige → Widgets |
+| Reisekosten | Nächster niedrigerer Hypersprungpreis mit Countdown und gültigem Mitgliedschaftsrabatt | Reisefenster; Forge → Anzeige → HUD & Grafik |
 | Sammeln | Große Energiekugel markieren, Kryonitstatistik, Drohnen-Levelzeitschätzung | Forge → Anzeige → Widgets |
 | Kriegswertung | KW-Tracker, letzte Gutschriften, Kategorien, Verlauf und CSV | Forge → Anzeige → Widgets |
 | Updates | Lokale Releasehistorie mit Datum, Versionsreihen und Seitenwechsel; leuchtendes F und einmalige PG-Meldung bei ungelesenen Neuigkeiten | Forge → Updates; Anzeige → Meldungen & Discord |

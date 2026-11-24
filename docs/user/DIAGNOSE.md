@@ -29,6 +29,10 @@ Enhanced bietet zusätzlich **Forge → Diagnose** im Spiel. Ein einzelner hoher
 Heapwert oder ein Java-Fehlereintrag belegt noch keine Ursache für einen FPS-Abfall
 oder einen nativen Absturz. Screenshots und Aufnahmen ergänzen den Bericht.
 
+Für die Enhanced-Reisekosten-Vorschau enthält der Export zusätzlich eine begrenzte
+Historie von Preis, Reisezeit, Mitgliedschaftsfaktor und ausgeblendeten Zuständen.
+Es werden dafür keine zusätzlichen Serveranfragen ausgelöst und keine Kontodaten erfasst.
+
 ## Grenzen und Daten
 
 Berichte werden nicht allein durch das Aufzeichnen versandt. Der Startbericht
