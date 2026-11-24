@@ -1,303 +1,54 @@
-> Enhanced alpha.28: Reparaturfelder für Spieler/PvE getrennt, neue Stufe Leicht reduziert.
-> D3D11-Sandbox-Test bestätigt; Core unverändert. [Details](ALPHA28-REPAIR-FIELDS.md).
+# Dokumentation verschoben
 
-> Veröffentlicht: Enhanced alpha.27 – Forge-Meldungen in der nativen PG-Leiste,
-> „Alle / Nur wichtige“, Testmeldung, begrenzte Warteschlange und lokale Diagnose.
-> D3D11-Sandbox-Test bestätigt; Core unverändert. [Details](ALPHA27-NATIVE-NOTICES.md).
+[Die aktuelle Seite öffnen](docs/user/FUNKTIONEN.md).
 
-> Neu in Enhanced alpha.26: Bauplan-Fundorte mit Planet/System/Gegner/Level,
-> gemeinsamem Hier-erhältlich-Filter für Liste/CSV und vorgemerkten nativen Kartenbereichen.
-> 1.387 geprüfte Referenzbereiche auf 18 Planeten für 664 Baupläne, mit Gegnerbildern und Leveln.
-> Eigene Planetensymbole, originale Systembilder und getrennt bezeichnete Kartenlevel.
-> Fehlende oder widersprüchliche Quellen bleiben offen; keine Live-Spawnanzeige.
-> Core bleibt unverändert. [Details](ALPHA26-BLUEPRINT-LOCATIONS.md).
+<a id="alpha14-startzuverlässigkeit"></a>
+[Aktuelle Anleitung](docs/user/FUNKTIONEN.md).
 
-# Neu in Enhanced alpha.25 – Bauplan-CSV
+<a id="daten-und-anfragen"></a>
+[Aktuelle Anleitung](docs/user/FUNKTIONEN.md).
 
-Forge → Baupläne exportiert alle gefilterten Treffer in aktueller Reihenfolge
-als CSV, einschließlich Merkliste und getrennten Teilezahlen. Lokaler Export mit
-Erfolgsmeldung und Ordnerknopf; keine Zusatzabfragen. Unbekannte Mengen bleiben leer.
-Core bleibt alpha.17. [Bedienung und Grenzen](ALPHA25-BLUEPRINT-CSV.md).
+<a id="funktionen-und-vergleich-zur-32-bit-basis"></a>
+[Aktuelle Anleitung](docs/user/FUNKTIONEN.md).
 
-# Neu in Enhanced alpha.24 – Remnant-Bossleisten
+<a id="gemeinsam-neu-in-alpha14"></a>
+[Aktuelle Anleitung](docs/user/FUNKTIONEN.md).
 
-Zentrierter Name und bekannte Itemklasse, blaue Schutzumhüllung mit optionalen
-Prozentwerten, getrennte XC-/SC-Farben und abschaltbare Randanimation.
-Bestätigter Landeschutz verwendet das gewählte goldene PG-Schildsymbol.
-Name oder Lebensleiste anklicken, um den angezeigten Boss anzuvisieren.
-Unter Forge → Anzeige → Bossleisten anpassbar; begrenzte lokale Diagnose.
-Core unverändert. [Bedienung und Grenzen](ALPHA24-BOSS-HUD.md).
+<a id="gemeinsam-neu-in-alpha15"></a>
+[Aktuelle Anleitung](docs/user/FUNKTIONEN.md).
 
-# Neu in Enhanced alpha.23 – Sirius-Karte und Bauplanfortschritt
+<a id="gemeinsam-neu-in-alpha16"></a>
+[Aktuelle Anleitung](docs/user/FUNKTIONEN.md).
 
-Bekannte Quarc-Freigaben, unbekannter Status bei fehlenden Daten und Teilezahlen
-an gelben Sirius-Bauplänen in Karte/Orbit. Sortierung und Merkliste bleiben
-bestehen. Abschaltbar unter Forge → Anzeige → HUD & Grafik; begrenzte lokale
-Diagnose ohne Zusatzabfragen. Core unverändert.
-[Bedienung und Grenzen](ALPHA23-SIRIUS-QUARC.md).
+<a id="gemeinsam-neu-in-alpha17"></a>
+[Aktuelle Anleitung](docs/user/FUNKTIONEN.md).
 
-# Neu in Enhanced alpha.22 – BP-Zuordnungen
+<a id="gemeinsame-fehlerkorrekturen"></a>
+[Aktuelle Anleitung](docs/user/FUNKTIONEN.md).
 
-Systemweiter Importfix, native seltene Gegnervarianten und begrenzte
-Scannerdiagnose im bereinigten Export. Gleiche Anzeige ohne zusätzliche Tooltips.
-Core unverändert. [Umfang und offene Bedingungen](ALPHA22-SCAN-MAPPING.md).
+<a id="neu-in-enhanced-alpha18"></a>
+[Aktuelle Anleitung](docs/user/FUNKTIONEN.md).
 
-# Neu in Enhanced alpha.21: Gravitonen-Dropstatus
+<a id="neu-in-enhanced-alpha19"></a>
+[Aktuelle Anleitung](docs/user/FUNKTIONEN.md).
 
-Status im sechsten Gravitonen-Slot: gesichteter Drop mit Originalsymbol und Name
-im Tooltip, geschätzte Restzeit, geschätzte Bereitschaft oder unbekannte Zeitbasis.
-Einzeiliger Countdown (`~6h` / `~45m`) mit kräftiger weißer Schrift und deckendem
-dunklem Hintergrund; Stunden und Minuten bleiben im Tooltip sichtbar.
-Unter Forge → Anzeige → Widgets abschaltbar; vier Zustände in einer separaten
-Testvorschau. Bereinigte, begrenzte Gravitonen-Diagnose im lokalen Bericht.
-Keine zusätzlichen Serverabfragen. Zeitbasis ab lokalem Einsammeln ist mit `~`
-gekennzeichnet; das vorhandene Serverfeld ist noch nicht verifiziert.
-Enhanced 0.2.0-alpha.21 / Sequenz 102 nach bestätigtem D3D11-Sandbox-Test. Core alpha.17 / 16,
-Spielversion 1002133, Starter 17 und native Bibliotheken bleiben unverändert.
-Die Zeit ist eine lokale Schätzung ohne Dropgarantie oder Serverbestätigung.
-[Bedienung und Grenzen](ALPHA21-GRAVITON-DROP.md) ·
-[Prüfstand](RELEASE-STATUS-0.2-alpha.21.md).
+<a id="neu-in-enhanced-alpha20"></a>
+[Aktuelle Anleitung](docs/user/FUNKTIONEN.md).
 
-# Neu in Enhanced alpha.20
+<a id="neu-in-enhanced-alpha21-gravitonen-dropstatus"></a>
+[Aktuelle Anleitung](docs/user/FUNKTIONEN.md).
 
-Suche, Status-/System-/Bereichsfilter und Sortierung im Pilotenprofil → Errungenschaften.
-Alle Kategorien, gespeicherte lokale Ansichtspräferenzen, native Zeilen mit
-vollständigen Namen, Fortschritt und Detailhinweisen. Keine zusätzlichen
-Spielserverabfragen; Sichtbarkeitsregeln und Belohnungen bleiben erhalten.
-Goldene Abschlussmedaillen und Datumszeile; Ein-/Ausschalter der erweiterten
-Ansicht unter Forge → Anzeige → HUD & Grafik, mit Rückkehr zur Originalansicht.
-Core bleibt alpha.17. [Bedienung und Testgrenzen](ALPHA20-ACHIEVEMENTS.md).
+<a id="neu-in-enhanced-alpha22--bp-zuordnungen"></a>
+[Aktuelle Anleitung](docs/user/FUNKTIONEN.md).
 
-# Neu in Enhanced alpha.19
+<a id="neu-in-enhanced-alpha23--sirius-karte-und-bauplanfortschritt"></a>
+[Aktuelle Anleitung](docs/user/FUNKTIONEN.md).
 
-Blaue, von rechts abnehmende Umhüllung des Staffel-Lebensbalkens aus empfangenen
-Schild-/Schutzpunkten. Optionale Prozentwerte je Effekt, genaue Punkte im Tooltip
-und drei Anzeigemodi. Keine zusätzliche Spielserverabfrage; unbekannte Kapazität
-wird nicht geschätzt. Core bleibt unverändert alpha.17.
-[Bedienung, Werteauswertung und Prüfgrenzen](ALPHA19-SQUAD-SHIELD.md).
+<a id="neu-in-enhanced-alpha24--remnant-bossleisten"></a>
+[Aktuelle Anleitung](docs/user/FUNKTIONEN.md).
 
-# Neu in Enhanced alpha.18
+<a id="neu-in-enhanced-alpha25--bauplan-csv"></a>
+[Aktuelle Anleitung](docs/user/FUNKTIONEN.md).
 
-Optionale Anzeige möglicher Bauplan-Drops im originalen Scanfenster mit
-vorhandenen Teilen und Filter für fehlende Baupläne. Normale Gegner nach
-Planet, Rang und nativer Kennung; Sirius nach Gegnerklasse und aktuellem
-Planetenangebot. Giza, Soris und Amarna ausgeschlossen. Core bleibt unverändert.
-[Umfang, Datenquellen und Grenzen](ALPHA18-SCAN-DROPS.md).
-
-# Gemeinsam neu in alpha.17
-
-Unabhängige Lebens-/Schildbalken, Schutz vor Updates geschlossener Zielanzeigen
-und begrenzte UI-/Audio-Diagnose in beiden Editionen. Der reproduzierte
-Nullzugriff bei den Balken ist auch im unveränderten Code der 32-Bit-Spielbasis 1002133
-enthalten. Die neuen Diagnosezähler sind eine Forge-Erweiterung ohne zusätzliche
-Spielserverabfragen. Materialprüfung mit getrennt dokumentierten offenen
-Befunden. [Details](ALPHA17-TARGET-UI-AUDIO.md).
-
-Die zusätzlich entdeckte Namens-/Symbolregression war dagegen durch die erste
-private alpha.17-Schutzprüfung verursacht. Der Nachfix erhält anfängliche
-Statusmeldungen für alle Schiffsbeschriftungen. Beide Editionen nutzen dieselbe
-Korrektur. Der Nutzer bestätigt den Enhanced-Sandbox-Stand; eine vollständige
-Prüfung aller Namens-/Beziehungszustände ist damit nicht belegt.
-
-## Zusätzlich in Enhanced alpha.17
-
-Lokale OTB-System-/Bewegungserkennung mit abschaltbarer Frühwarnung nach
-60/90/120 Sekunden ohne Signal. Serverwertung bleibt immer unbekannt.
-Passive Anzeige mit Systemzähler seit Messbeginn, beiden Signalaltern und
-Warn-Countdown. Gelbe Vorwarnung, orange Warnanzeige und eine gekennzeichnete
-Fünf-Sekunden-Testvorschau in den Einstellungen. Getrennte lokale Diagnose,
-ohne zusätzliche Serverabfragen.
-[Funktionsweise und Grenzen](ALPHA17-LOCAL-OTB.md).
-
-# Gemeinsam neu in alpha.16
-
-Robuste Cacheübernahme beim Update, sichtbare Versionsauswahl bei Updatefehlern
-und Diagnose mit erhaltener Fehlerphase. Beide Editionen nutzen denselben Fix.
-Der 32-Bit-Client besitzt diesen Forge-Updater nicht; es handelt sich um eine
-Forge-Regression und zusätzliche Startdiagnose, keine neue Spielmechanik.
-[Details](ALPHA16-CACHE-UPGRADE.md).
-
-# Gemeinsam neu in alpha.15
-
-Beide Editionen erhalten Live-Logs im Starter, einen Diagnosezugang während des
-Spiels und nach seinem Ende sowie eine freiwillige 30-Sekunden-Aufnahme.
-Blockierte Ressourcenaufträge werden getrennt von fremdem Downloadfortschritt
-erkannt. Export und Versand verwenden dieselben begrenzten technischen Daten.
-Diese Forge-Zusatzdiagnose verändert keine Spielmechanik oder Serverabfrage.
-[Bedienung, Datenschutz und Grenzen](ALPHA15-STARTUP-DIAGNOSTICS.md).
-
-# Gemeinsam neu in alpha.14
-
-Core und Enhanced begrenzen Ressourcen-Downloads und abhängige Warteaufträge.
-Der Starter erkennt stockenden Ladefortschritt und bietet lokale Diagnose,
-Warten, Neustart und Reparatur unter Erhalt von Profilen und Anmeldedaten.
-Keine neue Gameplay-Funktion; die kumulative Funktionsmatrix bleibt gültig.
-[Ladebildschirm, Wiederherstellung und 32-Bit-Vergleich](ALPHA14-STARTUP-RECOVERY.md).
-
-# Funktionen und Vergleich zur 32-Bit-Basis
-
-Stand: Core **0.2.0-alpha.17**, Enhanced **0.2.0-alpha.19**, Spielversion 1002133 auf Basis Alpha 73 mit bisherigen Forge-Fixes.
-
-**Bekanntes Problem:** Starke kamerabhängige Helligkeitswechsel sind weiterhin gemeldet. Dieses Release behebt sie nicht abschließend; die weitere Analyse folgt separat.
-
-alpha.12 stellt den ursprünglichen Tastaturfokus normaler Spielfenster wieder her,
-für Core/Enhanced und beide Renderer. Textfelder und modale Dialoge behalten ihren
-Eingabeschutz. [Fokuskorrektur und Prüfungen](ALPHA12-WINDOW-FOCUS.md).
-
-Enhanced enthält sämtliche Core-Funktionen. Original bezeichnet die gepinnte
-32-Bit-Spielbasis, keine Aussage über künftige Herstellerupdates oder Freigaben.
-
-alpha.11 rekonstruiert die ursprüngliche Terrain-Normalenberechnung und ergänzt eine
-begrenzte gemeinsame Grafikdiagnose. [Details](ALPHA11-TERRAIN-NORMALS.md).
-
-Beide Editionen verwenden jetzt die offizielle Spielbasis 1002133, einschließlich
-der neuen Schiffsinformationen und passenden Ressourcen. Die historischen
-Forge-Patches und die alpha.11-Terrain-DLLs bleiben erhalten.
-[Spielbasis und Prüfungen](GAME-BASIS-1002133.md).
-
-Der übernommene alpha.10-Stand sichert den ursprünglichen Wiederbelebungsdialog gegen fehlende Cooldowns ab.
-Enhanced erhält eine kompakte Anzeige für fehlende OTB-Daten, getrennte Aktualität
-je Zähler und eine begrenzte lokale Diagnose. [Details](ALPHA10-OTB-RESURRECTION.md).
-
-Der übernommene alpha.9-Stand ergänzt begrenzte Schriftatlas-/Layoutcaches, ZGC, vorbereitete manuelle
-Vegetations-LODs, gestuften Seitenaufbau, weniger D3D11-Readbacks, zeitliche
-Wasserupdates, AWT-kompatiblen Grafikstart und freiwillige lokale Rucklerdiagnose.
-Die Calon-Verbesserung ist gemessen und vom Nutzer für dieses Update akzeptiert;
-Einzelausreißer bleiben. Kein neuer kontrollierter Original32-Flugvergleich.
-[Livebefund](ALPHA9-ATLAS-LOD-LIVE-ANALYSIS.md) · [Prüfstand](RELEASE-STATUS-0.2-alpha.9.md).
-
-| Bereich | Core | Enhanced | Gegenüber der 32-Bit-Basis |
-|---|---|---|---|
-| Architektur | Windows x64, Java 27 | identisch | Größerer adressierbarer Speicher; keine RAM-Verbrauchsgarantie |
-| Bibliotheken | Modernisierte Laufzeit, Logging, Netzwerk, Archiv-/Bilddecoder | identisch | Gepinnte modernisierte Komponenten aus Alpha 73 |
-| Renderer | D3D11, D3D9 separat startbar | identisch | Port mit Alpha-73-Sonnen-, Filter-, Transparenz- und UI-Korrekturen |
-| Materialbereinigung | D3D11-Lebensdauerprüfung vor dem Entfernen von Shader-Bindungen | identisch | Behebt einen nachgestellten OGRE-14-Portierungsfehler; keine neue Serverlast oder Spielmechanik |
-| Partikel-/Schiffsmaterialien | D3D11: spätes Laden, Neuerzeugung und Materialidentität beim Klonen korrigiert | identisch | alpha.6 stellt den alten Ladevertrag wieder her; keine Ersatztexturen oder neuen Spielwerte |
-| Terrain/Beleuchtung | Originale SplitScreenHeightField-Normalen; bestehende D3D11-LOD-/COLOR-/Texturkorrekturen | identisch | alpha.11: 16.644 Normalen-Komponenten und 216 Ansichten gegen Original32 geprüft; Kamerabhängige Helligkeitsprobleme weiterhin offen. Frühere Molikar-Abnahme gehört zu alpha.5 |
-| Grafikstart | Automatische Geräteprüfung, begrenzter D3D9-Fallback, bestätigte Grafikauswahl | identisch | Neue Forge-Startlogik; keine allgemeine Treiber-Kompatibilitätszusage |
-| Installation/Reparatur | Einfaches Setup, geprüfte Neuaufbereitung derselben Version mit Profilübernahme | identisch | Neue Forge-Verteilung; keine Änderung der offiziellen Installation |
-| Fehlerberichte | Live-Logs, jederzeit erreichbare Startdiagnose, 30-Sekunden-Aufnahme und freiwilliger strukturierter Bericht | identisch | Neue Forge-Diagnose zusätzlich zur 32-Bit-Basis; keine zusätzlichen Spielserverabfragen oder automatische Übermittlung von Rohlogs |
-| Speicher/Leistung | Weniger temporäre Objekte, begrenzte Caches, Ressourcenlebensdauer | identisch | Optimierte Pfade; keine pauschale FPS-/Prozentzusage |
-| Laden | Lokale Szenen-/Terrainvorbereitung, insbesondere Erebos, mit Fallback | identisch | Weniger Arbeit im betreffenden Szenenaufbau; kein globales Vorladen aller Planeten |
-| FPS/VSync | Limit 30–240; VSync nach Neustart | identisch | Zusätzliche lokale Optionen; Limit ist keine garantierte Bildrate |
-| Oberfläche | Native HUD-Skalierung | identisch | Skalierung statt ausschließlich höherer Auflösung |
-| Chat | Optionale lokale Uhrzeit | identisch | Ergänzung vorhandener Nachrichten |
-| Komponenten | Lokales Verschieben, passende Tastenbelegung | identisch | Visuelle Reihenfolge; Server-Slotreihenfolge bleibt erhalten |
-| Statuszeile | Passiver TCP-Ping; einfache FPS optional | Erweiterte Status-/Diagnoseanzeige | Keine eigenen Ping-Pakete |
-| Discord | Optional, neues Core-Profil: aus | Vorhandene Option; neuer Standard: Spiel | Separater externer Datenfluss bei Aktivierung |
-| Zieleliste | Missionsabhängiger Remnant-Filter | identisch | Filter bestehender Einträge, keine Erkennung unbekannter Einheiten |
-| Sirius-Baupläne | Farben nach eigenem bekannten Fortschritt | zusätzlich bekannte Teilezahlen an gelben Einträgen (alpha.23), Katalog/Planung | Keine erfundenen Besitzstände |
-| Kryonit | Menge am vorhandenen Zieleintrag | zusätzlich Statistik/Export | Keine Sammelautomatik |
-| OTB-Aktivitätsprüfung | nicht enthalten | Systemzähler, beide Signalalter, Warn-Countdown (Aus/60/90/120 s), Vorwarnung und Testvorschau; Diagnose bis 512 KiB | Seit lokalem Messbeginn; Serverwertung immer unbekannt, keine zusätzlichen Serverabfragen und keine Punkte-/Sperrprognose |
-| Wiederbelebungsdialog | Fehlende oder späte Cooldowns sicher lesen; unbekannte Restzeit als `…` | identisch | Behebt Nullzugriff im geerbten Originaldialog; keine Änderung serverseitiger Wiederbelebungsregeln |
-| Hilfe/Einstellungen | Originale Hilfe; native Einstellungserweiterung | F-/Forge-Einstieg, acht Bereiche | Unterschiedliche Bedienoberfläche |
-| Orbitalschläge | Originaldarstellung | Konturen, Füllung, bekannte Countdown-Varianten | Lokale Zusatzinformation; Schätzwerte sind keine Servergarantie |
-| Bosse | Originaldarstellung | Remnant, Queen, Sirius: HP, Effekte, Quellen, bekannte Zeiten; alpha.24: Schutzumhüllung, bekannte Remnant-Itemklasse, XC/SC-Stil, PG-Schutzsymbol und Zielauswahl per Klick | Empfangene Daten; ausdrücklicher Klick nutzt die normale Zielauswahl |
-| Bossauftritt | Original | Name, Bildschirmränder, optionale Musik; Remnants nur XC/SC, MN/DL ohne Auftritt | Lokale Präsentation; alpha.6 begrenzt auch den Ersatzimpuls |
-| Staffel | Original | Erweiterte HP-/Effektanzeigen | Zusätzliche Übersicht |
-| Komponententimer | Original | Zahlen, transparente/radiale Anzeigen, letzte Sekunden | Lokale Darstellung vorhandener Zustände |
-| Reichweiten | Original | Ziel-, Blitzketten- und Quantensprung-Anzeigen | Zusätzliche Visualisierung |
-| Quantensprung-Zielhaltung | Original | Eingeschränkte Regel außerhalb feindlichem/unklarem PvP | Feindliche und unbekannte Spielerbeziehungen behalten Originalreset |
-| Reparatur-/HP-Darstellung | Original | Spieler-/PvE-Felder getrennt: Original, leicht/stark reduziert, Kontur; HP-Warnung | Zusätzliche lokale Darstellungsoptionen |
-| Baupläne/Ausrüstung | Eigener Sirius-Fortschritt | Katalog, Suche, Merkliste, Referenzen, Vergleich, Einkaufsplan | Erweiterte Planungsoberfläche |
-| Remnant-Informationen | Filter | Beutekarten, Kategorien, Wartezeiten | Zusätzliche lokale Aufbereitung |
-| Statistik | Einfache FPS | Kryonit, KW, Exporte, große Energiekugel | Erweiterte lokale Auswertung |
-| Drohnen | Allgemeine Hangarkorrekturen | Zusätzlich Levelzeitschätzungen und Meldungen | Schätzungen bleiben gekennzeichnet |
-| Navigation | Original | Positionsmerker, Sirius-Prognosen, Quarc-Freigaben (alpha.23), Reiseerinnerungen | Lokale Planung |
-| Eigene Sounds/Musik | Originale Inhalte mit allgemeinen Audiofixes | Import, Zuschnitt, Einzelpegel, Live-Übernahme | Zusätzliche lokale Medien |
-| Antriebsspuren | Original | Lokale Vorschau und dauerhafte Spuren für Schiff/Drohnen | Keine Änderung fremder Clients |
-| Farben/Meldungen/Namen | Original | Statuspaletten, Meldungsfilter, lokale Namen wie „Lörres“ | Enhanced-spezifische Darstellung |
-| Kampfberichte | Keine zusätzliche Aufzeichnung | Lokale Remnant-Berichte | Keine automatische Veröffentlichung |
-| Wine | Geerbte Kompatibilitätsarbeit | identisch | Vorschau; diese 0.2-Pakete nicht unter Wine geprüft |
-
-## Gemeinsame Fehlerkorrekturen
-
-- Neu in alpha.7: Entfernte oder ersetzte Render-Passes werden bei der späteren
-  Shader-Bereinigung nicht mehr über ungültige Zeiger angesprochen. 800 gezielte
-  Zyklen bestanden; fünf Fälle reproduzieren den Absturz in alpha.5 und alpha.6.
-  Enhanced-Nutzer berichtet bisher keine weiteren Abstürze; genaue frühere
-  Ingame-Operation und eine separate Core-Spielsitzung sind nicht nachgewiesen.
-
-- Lokaler Kandidat alpha.4: Piloten-/Clan-Rangliste öffnet ihre Oberfläche vor den
-  Abfragen; nur die gewählte Kategorie wird geladen. Zeitüberschreitungen und
-  ungültige Antworten beenden den Ladezustand. Keine zusätzliche Statusfußzeile;
-  originale Fenster-/Listenfläche. Vollständige Live-Server-Abnahme offen.
-- Lokaler Kandidat alpha.4: HUD-Skalierung unter D3D11 behält nach einem Wechsel
-  des Renderfensters die korrekte Fensterzuordnung und Größenbegrenzung.
-- Lokaler Kandidat alpha.4: D3D11 erkennt die angebotenen MSAA-Stufen über `FSAA`;
-  die bestehende Kantenglättungsoption kann damit wieder wirksam sein. Keine
-  erzwungene Profiländerung oder Zusage identischer Darstellung zum 32-Bit-Client.
-- Lokaler Kandidat alpha.4: ursprüngliche Antriebsspur-Shopvorschau bewegt ihre
-  Schiff-/Kameraspuren; alte Auswahlantworten überschreiben keine neuere Vorschau.
-  Artikelwechsel bereinigen alte Präsentationsanimationen einschließlich Zuständen.
-  Diese gemeinsame Shopkorrektur ist von Enhanced-eigenen Antriebsspuren getrennt.
-
-- Neu in alpha.2: D3D11-Himmelsgradienten auch für Calons Reflexionskamera;
-  neutrales Verhalten bei ungebundenen optionalen Wassertexturen. Die gelbe
-  Darstellung war eine Portierungsregression, kein belegter Fehler des 32-Bit-Clients.
-- Neu in alpha.2: Ressourcenabmeldung vor Freigabe und fortschreitende
-  Shaderbereinigung verhindern den reproduzierten D3D11-Hänger mit veralteten
-  Schiffsmaterialien. Keine Zusage, dass sämtliche Hänger dieselbe Ursache haben.
-
-- Komponentenaktivierung: Nach ausdrücklicher Ablehnung wird der lokale Aktivzustand
-  korrigiert und der tatsächliche Cooldown begrenzt abgeglichen. Kein erneutes
-  `useItem`, keine Interpretation unbekannter Antworten als Cooldown null.
-- Missionsannahme/Bestätigungsdialoge: konkurrierende Dialoge, zurückbleibende
-  Klickzustände und blockierte Missionstafelelemente.
-- Scan-Details bei schneller Auswahl; verspätete Antworten und Lebensdauer von
-  Ziel-, Profil- und Clanvorschauen.
-- Drohnenslots nach Schiff-/Konfigurationswechsel, verspätete Containerdaten und
-  Listener-Lebensdauer im Hangar.
-- Weiße oder texturlose Zielvorschauen; Materialidentitäten; Planetenpreview,
-  Armene-Clipping und Commerce-Central-LOD-/Texturpfade.
-- Wolken-/Landepfade, Schattenprojektion, Fenster-/HUD-Geometrie und Fokus der Zieleliste.
-- Audio-Streaming, Puffer-/Objektlebensdauer, Gerätewiederanlauf und allgemeine
-  Übergangspfade; eigene Medien bleiben Enhanced.
-- Gespeicherte Pilotenauswahl; Java-27-Serialisierung, Legacy-Login-Kompatibilität,
-  UI-/Ressourcenlebensdauer, begrenzte Dekompression und geschützter lokaler Login-Speicher.
-- D3D11-Portkorrekturen aus Alpha 71–73 einschließlich Sonne, Filtervererbung,
-  Sternkarte, Ressourcen und optionalen Glyphen.
-- D3D11-HUD-Texturen bleiben während ihrer Verwendung gebunden. Das verhindert
-  fortlaufendes Nachladen nach Ressourcenbereinigung; der Erebos-/Orbit-Test wurde
-  als verbessert bestätigt. Es liegt keine quantitative Langzeitmessung vor.
-
-Ein Teil dieser Fehler war eine Portierungsregression. Die Liste behauptet nicht,
-dass jeder Punkt ein Fehler des offiziellen 32-Bit-Clients war. Korrekturen an
-Orbital-, Boss-, KW- oder anderen Zusatzfunktionen bleiben Enhanced.
-Die neue Core-Statusanzeige platziert FPS und Ping auch mit Spielleiste und Minimap
-unten rechts. Enhanced erhält die korrekte Mouse-Up-Weiterleitung zum Forge-Dialog;
-das ist eine Korrektur seiner zusätzlichen Oberfläche.
-Neu in alpha.2 sind außerdem vollständige D3D11-Shader für Enhanced-Energiekugel-
-Markierung und Quantensprungkreis. Das korrigiert den Port dieser Zusatzanzeigen;
-der 32-Bit-Originalclient enthält diese Forge-Funktionen nicht.
-Alpha.4 ergänzt für Enhanced verspätete Energiekugel-Renderinstanzen, begrenzte
-Wiederholungsversuche und die Bereinigung unvollständiger D3D11-Markermaterialien.
-
-## Daten und Anfragen
-
-Die Darstellung lokaler Daten und die spielerische Wirkung sind getrennte Fragen.
-Zusätzliche Anzeigen können die Wahrnehmung verändern. Es gibt keine pauschale
-Zusicherung „keine zusätzliche Serverlast“:
-
-- Sirius-/Planetendetails können `getAllAvatarBlueprints` zum eigenen Fortschritt nachladen.
-- Die offene Enhanced-Bauplanansicht aktualisiert ihren Profilstand nach dem
-  bisherigen, begrenzten Aktualisierungspfad (fünf Sekunden nach Abschluss).
-- Aktivierungsablehnung: höchstens ein laufender `getShipCooldown`-Abgleich,
-  maximal drei Versuche pro Ablehnung; kein erneutes Aktivieren der Komponente.
-- Ping liest den TCP-RTT der bestehenden Spielverbindung passiv.
-- Discord ist optional. Der lokale Sandbox-Launcher enthält weder Aktivitätszähler,
-  automatische Fehlerberichte noch einen Update-Client.
-
-Automatischer Kryonit-Drohnenwechsel bleibt in beiden Editionen entfernt.
-Live-Leistungswerte und Wine-Abnahme müssen mit den konkreten Kandidaten erhoben werden.
-
-Alpha.4-Nachkorrektur: Clan-Ranglisten behalten das Java-8-Datenformat fester Array-Listen. Tab-/Divisionswechsel merken die letzte Auswahl vor; alte Antworten überschreiben sie nicht. Der Spiel-JVM-Zugriff auf java.util ist dafür gezielt freigegeben und mit synthetischen Original-Protokollpaketen geprüft.
-
-## Alpha.14: Startzuverlässigkeit
-
-Core und Enhanced teilen begrenzte Inhaltsdownloads, Fehlerweitergabe der
-Ladekette, Login-Fallback bei lokalen Dateifehlern, Hängerdiagnose vor der
-Anmeldung und eine profilbewahrende Wiederherstellung. Gegenüber dem
-32-Bit-Original werden Warte- und Fehlerpfade korrigiert; kein zusätzlicher
-Spielvorteil und keine aktiven Serverdiagnoseabfragen. Kein Live-Fixnachweis
-für die betroffenen Spieler. Details: [Alpha.14](ALPHA14-STARTUP-RECOVERY.md).
+<a id="zusätzlich-in-enhanced-alpha17"></a>
+[Aktuelle Anleitung](docs/user/FUNKTIONEN.md).

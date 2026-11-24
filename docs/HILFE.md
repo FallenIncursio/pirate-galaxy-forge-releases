@@ -1,132 +1,57 @@
-# Installation, Updates und Hilfe
+# Dokumentation verschoben
 
-[Zurück zur Übersicht](../README.md)
+[Die aktuelle Seite öffnen](user/HILFE.md).
 
-[Alle Funktionen im Vergleich](FUNKTIONEN.md) · [Bildergalerie](BILDER.md)
+<a id="aktualisieren"></a>
+[Aktuelle Anleitung](user/HILFE.md).
 
-## Forge erstmals starten
+<a id="antriebsspuren-ausprobieren"></a>
+[Aktuelle Anleitung](user/HILFE.md).
 
-Forge lädt die Spielbasis für Version **1002132** direkt von Splitscreen und Java x64 direkt von Azul. Der Starter prüft die Downloads und öffnet Forge automatisch. Die Spieldateien und Forge-Einstellungen liegen unter `%LOCALAPPDATA%\PirateGalaxyForge`.
+<a id="anzeige-einstellen"></a>
+[Aktuelle Anleitung](user/HILFE.md).
 
-## Aktualisieren
+<a id="discord-und-medal"></a>
+[Aktuelle Anleitung](user/HILFE.md).
 
-Beim Start prüft Forge den signierten Updatekanal. Neue Versionen werden vollständig heruntergeladen und geprüft, bevor sie aktiviert werden. Bei einem fehlgeschlagenen Update bleibt die vorhandene Version erhalten. Ein späterer Spielabsturz löst keinen automatischen Versionswechsel aus.
+<a id="einstellungen-und-deinstallation"></a>
+[Aktuelle Anleitung](user/HILFE.md).
 
-Wenn der alte Starter einen Originalordner verlangt, die Updateprüfung scheitert oder die alte Starterversion keine Selbstaktualisierung unterstützt, Forge regulär beenden und das aktuelle Setup über die vorhandene Installation ausführen. Forge übernimmt die vorhandenen Spieleinstellungen und Daten. [Aktuelles Setup](../README.md)
+<a id="forge-erstmals-starten"></a>
+[Aktuelle Anleitung](user/HILFE.md).
 
-Seit Alpha 53 versucht der Starter bei vorübergehenden Downloadfehlern zusätzlich einen alternativen GitHub-Zugriff. Die Signatur- und Prüfsummenprüfung bleibt dabei erhalten. Ein erfolgreicher Browserdownload allein schließt eine programmspezifische Blockade nicht aus.
+<a id="grenzen-der-alpha"></a>
+[Aktuelle Anleitung](user/HILFE.md).
 
-Die Linux-Vorschau nutzt denselben signierten Spielupdate-Kanal. Für ein Update der Linux-Startdateien das neue ZIP entpacken und `python3 forge_wine.py install` erneut mit demselben Profilpfad ausführen. [Linux-Download und Installation](../README.md#linux-vorschau-wine)
+<a id="installation-updates-und-hilfe"></a>
+[Aktuelle Anleitung](user/HILFE.md).
 
-## Startfehler und Abstürze
+<a id="komponenten-zeitanzeige"></a>
+[Aktuelle Anleitung](user/HILFE.md).
 
-Für eine Fehlermeldung sind diese Angaben hilfreich:
+<a id="kritische-lebenspunkte"></a>
+[Aktuelle Anleitung](user/HILFE.md).
 
-- Forge-Version und genauer Wortlaut beziehungsweise Fehlercode.
-- Zeitpunkt: Updateprüfung, Download, Login oder Laden eines Planeten.
-- Bei Grafikproblemen: Planet, Grafikkarte und Grafikqualität.
-- Falls vorhanden: die konkrete Meldung der Sicherheitssoftware.
+<a id="kryonit-und-drohnen"></a>
+[Aktuelle Anleitung](user/HILFE.md).
 
-Nach einem unerwarteten Spielende kann der Forge-Absturzdialog einen freiwilligen Bericht senden. Beschreibe möglichst kurz, was unmittelbar davor passiert ist. Ein Speicherabbild wird nur nach gesonderter Zustimmung angehängt; [Details zu den übertragenen Daten](DATENSCHUTZ.md).
+<a id="kw-tracker"></a>
+[Aktuelle Anleitung](user/HILFE.md).
 
-Das Setup ist derzeit nicht Authenticode-signiert. SHA256-Prüfsummen stehen beim jeweiligen Release. Eine Antivirus-Meldung sollte anhand ihres konkreten Fundes geprüft werden; die Schutzsoftware muss für Forge nicht pauschal deaktiviert werden.
+<a id="orbitalschläge"></a>
+[Aktuelle Anleitung](user/HILFE.md).
 
-## Einstellungen und Deinstallation
+<a id="remnant-kampfbericht-vorschau"></a>
+[Aktuelle Anleitung](user/HILFE.md).
 
-Forge-Spieldaten und Einstellungen liegen standardmäßig unter `%LOCALAPPDATA%\PirateGalaxyForge`. Gespeicherte Anmeldedaten sind an das Windows-Benutzerkonto gebunden. Der feste Spielprozesspfad hält den Windows-Mixerpegel über Updates hinweg stabil.
+<a id="remnant-trägertabelle"></a>
+[Aktuelle Anleitung](user/HILFE.md).
 
-Die Deinstallation entfernt die Startanwendung und Verknüpfungen. Heruntergeladene Spielkopien und Einstellungen bleiben erhalten.
+<a id="reparaturfelder"></a>
+[Aktuelle Anleitung](user/HILFE.md#reparaturfelder).
 
-## Anzeige einstellen
+<a id="spielerstatus-einfärben"></a>
+[Aktuelle Anleitung](user/HILFE.md).
 
-Öffne **Forge** über den **F-Knopf** in der oberen Menüleiste. Andere Fenster und Aktionen außerhalb bleiben bedienbar. Der F-Knopf oder das Kreuz schließt Forge.
-
-Unter **Forge → Anzeige** findest du die folgenden Gruppen. Halte den Mauszeiger kurz über die Beschriftung oder das Bedienelement einer Option, um ihre Erklärung einzublenden.
-
-- **HUD & Grafik** – Oberflächengröße, FPS-Limit, VSync und Leistungsanzeige.
-- **Komponenten** – Slot-Timer, Quantensprung-Reichweite, Zielhaltung außerhalb von PvP und Reichweiten-Markierungen.
-- **Kampf & Effekte:** Staffel, Bossleisten, Reparaturfelder und Orbitalschläge. Bossleisten lassen sich auf Aus, Remnants, Königin oder Alle stellen. Die Königin benötigt keine Remnant-Jagd; eine bisher ausgeschaltete Bossanzeige bleibt ausgeschaltet.
-- **Widgets:** Kryonit, Positionssperre, Energiekugel-Markierung und Drohnen-Levelzeit.
-- **Meldungen & Discord:** Seltene Mantis, Discord-Spielstatus und Uhrzeit im Chat.
-
-**Übernehmen** speichert alle Gruppen und bestätigt dies kurz neben den Aktionen. **Verwerfen** oder Schließen verwirft ungespeicherte Auswahlen; beim Seitenwechsel bleiben sie erhalten. VSync wird nach einem Neustart wirksam. Die ursprünglichen Spieleinstellungen enthalten weiterhin Sprache, Auflösung, Grafikqualität und Lautstärke.
-
-Der Ping steht unten rechts. Die optionale Leistungsanzeige erscheint links daneben.
-
-Mit **Uhrzeit im Chat** erscheinen Nachrichten mit `[HH:mm]` in deiner lokalen Zeitzone. Der Schalter gilt für Kommunikationsfenster und kleinen HUD-Chat; **Übernehmen** aktualisiert auch bereits angezeigte Zeilen.
-
-Springt dein anvisiertes Ziel per Quantensprung, kann **Zielhaltung außerhalb von PvP** die Auswahl bei NPCs und nicht feindlichen Spielern erhalten, solange sie auswählbar bleiben. Bei feindlichen Spielern greift ab Alpha 63 die normale Abwahl des Spiels. Die Option ist standardmäßig an. Bewusste Zielwechsel und Abwahl haben Vorrang.
-
-## Komponenten-Zeitanzeige
-
-Unter **Forge → Anzeige → Komponenten → Komponenten-Zeitanzeige** wählst du:
-
-- **Zahlen:** die bisherige Zahlenanzeige.
-- **Kreis:** eine radiale Restzeitfläche ohne zusätzliche Zahl.
-- **Kreis + Zahlen:** dieselbe Fläche mit mittigen, schwarz umrandeten Ziffern.
-
-In den Kreismodi ersetzt die radiale Fläche die alten rechteckigen Aktiv-/Abklingflächen. Aktivzeit erscheint grün, Abklingzeit mit hellen Ziffern. Ab einer Sekunde stehen ganze Sekunden; erst darunter erscheinen Zehntelsekunden wie **0.9**. **Kreis-Darstellung → Normal / Kräftig** regelt den Farbkontrast. **Aktive Laufzeit im Slot** und **Abklingzeit im Slot** bleiben getrennt schaltbar. Mit **Übernehmen** speichern; ein Neustart ist nicht nötig. Die Darstellung verändert keine Wirk- oder Abklingzeiten.
-
-## KW-Tracker
-
-Unter **Forge → Anzeige → Widgets** den **KW-Tracker** aktivieren. **KW/h-Zeitraum** wählt die Messung seit Beginn oder über die letzten 15 beziehungsweise 60 Minuten. **KW-Messung zurücksetzen** bestimmt, ob bei Client-/Pilotenwechsel, nur manuell oder bei jedem Szenenwechsel eine neue Messung beginnt. Mit **Übernehmen** speichern.
-
-Das Widget zeigt die letzten drei bestätigten Gutschriften und einen einzelnen Countdown bis zum nächsten Abgleich. **Details** öffnet Kategorien, Tagesverlauf, Pause, neue Messung und CSV-Export. Ein Serverabgleich kann mehrere Aktionen zusammenfassen; die Anzeige ordnet dann keine erfundene Einzelaktion zu.
-
-## Spielerstatus einfärben
-
-Im eigenen **Pilotenprofil** rechts neben dem Status auf den unterstrichenen **A-Knopf** klicken. Markiere einen Textabschnitt und wähle eine Farbe. Ohne Markierung gilt die Farbe für den ganzen Status; in einem leeren Feld für die nächste Eingabe. **Standard** stellt die normale Schriftfarbe wieder her.
-
-Die Vorschau aktualisiert sich direkt. **Speichern** oder Enter übernimmt den Entwurf, **Abbrechen** oder Esc verwirft ihn. Strg+Z macht Text- und Farbänderungen rückgängig; Strg+Y stellt sie wieder her. Bereits vorhandene Farben bleiben beim Öffnen erhalten. Beim Schließen oder Wechseln des Profils wird ein ungespeicherter Entwurf verworfen.
-
-## Antriebsspuren ausprobieren
-
-Unter **Forge → Antrieb** stehen Uni-, Zwillings- und Tristar-Spuren in je neun Farben sowie der Schiffsstandard. Mit Typ- und Farbfilter grenzt du die Liste ein.
-
-Im Modus **Vorschau** erscheint die Auswahl sofort an deinem Schiff. Du kannst weiterfliegen und mit **Vor/Zurück** die gefilterten Spuren vergleichen. **Normal**, Schließen oder ein Tab-, Schiffs- oder Szenenwechsel beendet die Vorschau. Deine tatsächliche Ausrüstung bleibt erhalten; andere Spieler sehen weiterhin diese. Die Vorschau wird nicht über einen Neustart gespeichert.
-
-Mit **Dauerhaft lokal** speicherst du die ausgewählte Spur pro Pilot. Sie bleibt auch nach dem Schließen, Landen und erneuten Anmelden aktiv. **Eigene Drohnen** schaltet die angepasste Drohnenspur separat. **Normal** stellt die ausgerüstete Spur wieder her. Auch die dauerhafte Auswahl bleibt ausschließlich für dich sichtbar.
-
-## Orbitalschläge
-
-Unter **Forge → Anzeige → Kampf & Effekte → Orbitalschläge** wählst du **Aus**, **Nur Kontur** oder **Zeit + Füllung**. Mit **Übernehmen** wirkt die Auswahl sofort und bleibt gespeichert. Aus entfernt sämtliche zusätzlichen Forge-Markierungen; die ursprünglichen Spieleffekte bleiben sichtbar.
-
-Die Anzeige erkennt stationäre rote NPC-Warnkörper, auch bei den aufgezeichneten Gazica-Angriffen. Dadurch können Konturen auch außerhalb von Remnant-Kämpfen erscheinen. Nur bekannte Varianten mit auswertbaren Zeitdaten bekommen einen Countdown; unbekannte Varianten erhalten eine Kontur. Je nach bekannter Variante beträgt die geschätzte Vorwarnzeit etwa 5, 6,25 oder 12,25 Sekunden. Countdown und Füllung verwenden dieselbe Zeit. Zeiten und Grenzen bleiben Schätzungen; ein Einschlag kann früher erfolgen.
-
-## Reparaturfelder
-
-Unter **Forge → Anzeige → Kampf & Effekte → Reparaturfelder** kannst du die Darstellung einstellen. **Reduziert** dämpft standardmäßig das Leuchten überlappender Felder und erhält ihre Animation. **Original** zeigt die gewohnte Darstellung; **Nur Kontur** ersetzt die große Aura durch eine Außenlinie. **Übernehmen** wirkt sofort und speichert die Auswahl.
-
-## Discord und Medal
-
-Den Discord-Spielstatus stellst du unter **Forge → Anzeige → Meldungen & Discord** ein. Discord muss geöffnet sein und die Anzeige deiner Aktivitäten erlauben. Für das Overlay den laufenden Client unter **Discord → Registrierte Spiele** hinzufügen und das Overlay einschalten. Veraltete Forge-Einträge gegebenenfalls vorher entfernen.
-
-Medal kann den 64-Bit-Client aufnehmen. Wird er nicht erkannt, das laufende Spiel über **Add New Game** hinzufügen. Die offizielle Kategorie „Pirate Galaxy“ wird noch nicht zuverlässig zugeordnet; „Requested“ kann trotz funktionierender Aufnahme stehen bleiben. Clips und Aufnahmeoptionen verwaltest du in Medal.
-
-## Grenzen der Alpha
-
-Einzelne Grafik-, Musik- und Performanceprobleme sowie native Abstürze werden weiter untersucht. Hohe FPS unter jeder Last und die Erkennung durch Discord oder Medal sind nicht zugesichert. Den Umfang einzelner Korrekturen beschreiben die [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases).
-
-## Kritische Lebenspunkte
-
-Unter **Forge → Anzeige → Kampf & Effekte** stellt der Regler die Warnschwelle von **5 bis 50 %** ein. Standard sind **25 %**. Der vorhandene Warnsound und die roten Bildschirmränder richten sich nach dieser Grenze. **Rote Bildschirmränder** lassen sich unabhängig abschalten. Mit **Übernehmen** speichern; ein Neustart ist nicht nötig.
-
-## Remnant-Trägertabelle
-
-Klicke auf die bekannte Beutekategorie, um mögliche Baupläne mit Icons und deinem Bestand zu sehen. Komponenten sind nach Familie zusammengefasst; Normal, Schnell, Stark und Lang haben getrennte Bestände. Nur tatsächlich vorhandene Varianten werden angezeigt. Große Kategorien haben mehrere Seiten.
-
-Bestände wie 8/6 bleiben erhalten und aktualisieren sich nach Verbrauch. „Nicht im Profil“ steht für einen unbekannten Bestand, nicht automatisch für null Teile. Die Anzeige verändert keine Baupläne und sagt keinen konkreten Drop voraus.
-
-Neue Träger zeigen zunächst die geschätzte Wartezeit bis zur Systemmeldung. Planet und Beute erscheinen erst nach ihrer Bekanntgabe; bekannte Lebenspunkte stehen als Prozentzahl im Balken. Der ursprüngliche Abflugtimer bleibt erhalten.
-
-## Remnant-Kampfbericht (Vorschau)
-
-1. Vor dem Kampf **F → Diagnose → Remnant-Aufnahme starten** wählen.
-2. Nach dem Kampf **Remnant-Bericht öffnen** wählen. Forge beendet die Aufnahme und speichert die lokale Browserdatei.
-3. Im Bericht zwischen **Piloten** und **Staffeln** wechseln. Unter Wine kann `python3 forge_wine.py report` die Datei im Linux-Browser öffnen.
-
-Der Bericht berücksichtigt den beobachteten Kampfausschnitt. Die Schadensanteile beziehen sich auf den erfassten Trägerschaden einschließlich Treffern ohne Pilotenquelle. Heil-LP sind dem Empfänger zugeordnet. Die Zielstichproben zeigen das im Client beobachtete Ziel des Trägers. Für andere Staffeln bleibt die Mitgliedschaft offen, sofern der Client sie nicht belegt.
-
-## Kryonit und Drohnen
-
-Ab Alpha 63 schaltest du die Kryonitdrohne über die normale Drohnensteuerung des Spiels. Kryonitstatistik und Drohnen-Levelzeiten findest du unter **Forge → Anzeige → Widgets**.
+<a id="startfehler-und-abstürze"></a>
+[Aktuelle Anleitung](user/HILFE.md).
