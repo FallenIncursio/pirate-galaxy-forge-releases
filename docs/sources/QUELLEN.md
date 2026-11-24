@@ -17,8 +17,8 @@ GitHub angebotene Repository-Quellcode ist daher die Dokumentation dieses Repos.
 
 ## Bibliotheksquellen und Lizenzen
 
-Die zu **Pirate Galaxy Forge Enhanced 0.2.0-alpha.31** gehörenden [Bibliotheksquellen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.31/PirateGalaxyForge-0.2.0-alpha.31-library-sources.zip),
-[Lizenzhinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.31/PirateGalaxyForge-0.2.0-alpha.31-third-party-notices.zip) und [Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.31/SHA256SUMS.txt) sind getrennte
+Die zu **Pirate Galaxy Forge Enhanced 0.2.0-alpha.32** gehörenden [Bibliotheksquellen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.32/PirateGalaxyForge-0.2.0-alpha.32-library-sources.zip),
+[Lizenzhinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.32/PirateGalaxyForge-0.2.0-alpha.32-third-party-notices.zip) und [Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.32/SHA256SUMS.txt) sind getrennte
 Release-Downloads. Das Quellenarchiv enthält gepinnte Bibliotheksquellen,
 Build-/Patchanleitungen und ausgewählte Quellnachweise. Es ist kein vollständiges
 Archiv des proprietären Spiels und enthält keine Profile, Anmeldedaten oder privaten Schlüssel.

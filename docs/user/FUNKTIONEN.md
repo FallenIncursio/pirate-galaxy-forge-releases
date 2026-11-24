@@ -2,7 +2,7 @@
 
 [Übersicht](../../README.md) · [Bedienung](HILFE.md) · [Änderungen](../../CHANGELOG.md)
 
-Stand: **Core 0.2.0-alpha.17 · Enhanced 0.2.0-alpha.31 · Spielversion 1002133**.
+Stand: **Core 0.2.0-alpha.17 · Enhanced 0.2.0-alpha.32 · Spielversion 1002133**.
 
 Core enthält die gemeinsame 64-Bit-Technik, allgemeine Fehlerkorrekturen und
 begrenzten Komfort. Enhanced ergänzt dieselbe Grundlage um die Forge-Oberflächen.
@@ -32,8 +32,8 @@ Fehler in jeder Version des 32-Bit-Originals.
 
 | Bereich | Ergänzung | Einstellung / Einstieg |
 | --- | --- | --- |
-| Bauplanliste | Suche, Typ-/System-/Fortschrittsfilter, Merkliste, Vergleich und Einkaufsplan | Forge → Baupläne / Ausrüstung |
-| Bauplanexport | CSV aller gefilterten Treffer, einschließlich Teilezahlen | Forge → Baupläne → CSV exportieren |
+| Bauplanliste | Suche, Typ-/Bereichs-/Fortschrittsfilter mit originalen Spielbezeichnungen, eigene Bereiche für Events und RDX/Parsec, optionales automatisches Abhaken vollständiger BPs; stabile Seiten beim Markieren, Vergleich und Einkaufsplan | Forge → Baupläne / Ausrüstung; Anzeige → HUD & Grafik |
+| Bauplanexport | CSV aller gefilterten Treffer, einschließlich Teilezahlen, System und Bereich | Forge → Baupläne → CSV exportieren |
 | Bauplan-Fundorte | Planet/System, Gegner, bekannte Level und Kartenbereiche mit Gegnerbildern | Forge → Baupläne → Fundorte |
 | Scanfenster | Mögliche blaue/goldene Baupläne mit eigenem Bestand, einschließlich Sirius-Zuordnung; gemeinsame geprüfte Dropdaten mit der Fundortsuche | Forge → Anzeige; Giza/Soris/Amarna ausgeschlossen |
 | Sirius | Bekannte Quarc-Freigabe und Teilezahlen gelber Baupläne; Sortierung und Merkliste | Forge → Anzeige → HUD & Grafik |

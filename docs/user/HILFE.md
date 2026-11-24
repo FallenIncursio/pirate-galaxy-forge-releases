@@ -22,13 +22,25 @@ Chat und Texteingaben behalten Vorrang vor Komponententasten.
 
 ## Baupläne, Fundorte und CSV
 
-**Forge → Baupläne** bietet Suche, Typ-, System- und Fortschrittsfilter sowie eine
-Merkliste. **Fundorte** zeigt zugeordnete Planeten, Systeme, Gegner und bekannte Level.
+**Forge → Baupläne** bietet Suche, Typ-, Bereichs- und Fortschrittsfilter sowie eine
+Merkliste. Typen verwenden die Originalbezeichnungen des Spiels; bisherige Begriffe
+wie Nanitenwolke sowie Angriffsbuff bleiben als Suchbegriffe verfügbar.
+**Alle Bereiche** enthält die Systeme, **Events**, **RDX / Parsec** und
+**Remnant**. Beim Markieren oder Aktualisieren bleiben Seite und Auswahl erhalten;
+eine neue Suche oder Filterauswahl beginnt auf der ersten passenden Seite.
+**Fundorte** zeigt zugeordnete Planeten, Systeme, Gegner und bekannte Level.
 Auf dem passenden Planeten lässt sich ein Suchziel auf der Karte vormerken.
 **Hier erhältlich** kombiniert den aktuellen Ort mit den übrigen Filtern.
 
+Bestätigte vollständige Baupläne werden bei der vorhandenen Profilaktualisierung
+automatisch von der Merkliste entfernt. **Anzeige → HUD & Grafik → Vollständige BPs
+automatisch abhaken** schaltet dies aus oder ein. Ungeklärte Sammelstände bleiben
+markiert, der Einkaufsplan bleibt erhalten. Bei wiederholt sammelbaren Bauplänen
+zählt der aktuelle vollständige Teilesatz, nicht eine frühere Herstellung.
+
 **CSV exportieren** exportiert alle passenden Treffer über sämtliche Seiten in
-derselben Reihenfolge. Gesammelte, benötigte und fehlende Teile stehen getrennt;
+derselben Reihenfolge. Gesammelte, benötigte und fehlende Teile sowie System und
+Bereich stehen getrennt;
 unbekannte Werte bleiben leer. Die Ergebnisanzeige bietet den Exportordner an.
 In einer Sandbox bezieht sich dieser Pfad auf deren Dateisicht.
 
