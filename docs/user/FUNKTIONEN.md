@@ -2,7 +2,7 @@
 
 [Übersicht](../../README.md) · [Bedienung](HILFE.md) · [Änderungen](../../CHANGELOG.md)
 
-Stand: **Core 0.2.0-alpha.17 · Enhanced 0.2.0-alpha.28 · Spielversion 1002133**.
+Stand: **Core 0.2.0-alpha.17 · Enhanced 0.2.0-alpha.29 · Spielversion 1002133**.
 
 Core enthält die gemeinsame 64-Bit-Technik, allgemeine Fehlerkorrekturen und
 begrenzten Komfort. Enhanced ergänzt dieselbe Grundlage um die Forge-Oberflächen.
@@ -35,7 +35,7 @@ Fehler in jeder Version des 32-Bit-Originals.
 | Bauplanliste | Suche, Typ-/System-/Fortschrittsfilter, Merkliste, Vergleich und Einkaufsplan | Forge → Baupläne / Ausrüstung |
 | Bauplanexport | CSV aller gefilterten Treffer, einschließlich Teilezahlen | Forge → Baupläne → CSV exportieren |
 | Bauplan-Fundorte | Planet/System, Gegner, bekannte Level und Kartenbereiche mit Gegnerbildern | Forge → Baupläne → Fundorte |
-| Scanfenster | Mögliche blaue/goldene Baupläne mit eigenem Bestand, einschließlich Sirius-Zuordnung | Forge → Anzeige; Giza/Soris/Amarna ausgeschlossen |
+| Scanfenster | Mögliche blaue/goldene Baupläne mit eigenem Bestand, einschließlich Sirius-Zuordnung; gemeinsame geprüfte Dropdaten mit der Fundortsuche | Forge → Anzeige; Giza/Soris/Amarna ausgeschlossen |
 | Sirius | Bekannte Quarc-Freigabe und Teilezahlen gelber Baupläne; Sortierung und Merkliste | Forge → Anzeige → HUD & Grafik |
 | Errungenschaften | Suche, Status-/System-/Bereichsfilter und Sortierung; goldene Abschlussanzeige | Pilotenprofil → Errungenschaften; unter Anzeige abschaltbar |
 | Bossleisten | HP, Effekte, bekannte Itemklasse, Schild-/Schutzreserve, Zielwahl per Klick | Forge → Anzeige → Bossleisten |
