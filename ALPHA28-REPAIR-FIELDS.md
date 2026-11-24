@@ -1,8 +1,7 @@
 # Enhanced alpha.28 – Reparaturfelder nach Herkunft
 
-Bestätigter Enhanced-D3D11-Sandbox-Test für Spielversion 1002133.
-Veröffentlichung freigegeben; Core bleibt alpha.17 / Sequenz 16.
-Der laufende Nutzerclient bleibt geöffnet.
+Veröffentlicht nach bestätigtem Enhanced-D3D11-Sandbox-Test für Spielversion 1002133.
+Core bleibt alpha.17 / Sequenz 16. Der laufende Nutzerclient blieb geöffnet.
 
 ## Bedienung
 
