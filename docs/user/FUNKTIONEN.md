@@ -2,7 +2,7 @@
 
 [Übersicht](../../README.md) · [Bedienung](HILFE.md) · [Änderungen](../../CHANGELOG.md)
 
-Stand: **Core 0.2.0-alpha.17 · Enhanced 0.2.0-alpha.30 · Spielversion 1002133**.
+Stand: **Core 0.2.0-alpha.17 · Enhanced 0.2.0-alpha.31 · Spielversion 1002133**.
 
 Core enthält die gemeinsame 64-Bit-Technik, allgemeine Fehlerkorrekturen und
 begrenzten Komfort. Enhanced ergänzt dieselbe Grundlage um die Forge-Oberflächen.
@@ -49,7 +49,7 @@ Fehler in jeder Version des 32-Bit-Originals.
 | Gravitonen | Beobachteter Drop oder geschätzter Countdown im sechsten Slot | Forge → Anzeige → Widgets |
 | Sammeln | Große Energiekugel markieren, Kryonitstatistik, Drohnen-Levelzeitschätzung | Forge → Anzeige → Widgets |
 | Kriegswertung | KW-Tracker, letzte Gutschriften, Kategorien, Verlauf und CSV | Forge → Anzeige → Widgets |
-| Updates | Kurze Releasehistorie mit Datum, Versionsreihen und Seitenwechsel; vollständig lokal | Forge → Updates |
+| Updates | Lokale Releasehistorie mit Datum, Versionsreihen und Seitenwechsel; leuchtendes F und einmalige PG-Meldung bei ungelesenen Neuigkeiten | Forge → Updates; Anzeige → Meldungen & Discord |
 | Meldungen | Native PG-Leiste, Alle / Nur wichtige, Testmeldung | Forge → Anzeige → Meldungen & Discord |
 | Anpassung | Statusfarben, eigene Sounds/Musik und lokale Antriebsspuren | Forge → Anzeige / Audio / Antrieb |
 

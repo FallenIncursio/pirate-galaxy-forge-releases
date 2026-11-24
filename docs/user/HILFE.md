@@ -94,9 +94,17 @@ Drohnen-Levelzeiten.
 **Updates** steht ganz rechts neben **Antrieb**. Jede Karte zeigt Version, Datum
 und eine kurze Beschreibung. **Neuer**, **Älter** und die Auswahl der Versionsreihe
 erschließen die gesamte Historie. **Installiert** markiert den aktuellen Client;
-**Neu** am Tab verschwindet nach dem Öffnen. Historische Daten sind
+**Neu** am Tab verschwindet, sobald der aktuelle Eintrag angezeigt wurde. Historische Daten sind
 Veröffentlichungsdaten, **Stand** bezeichnet einen noch vorbereiteten Eintrag.
 Die Anzeige benötigt keine Internetabfrage.
+
+Bei ungelesenen Neuigkeiten leuchtet und glitzert das **F**. Ein Klick öffnet
+direkt den aktuellen Updateeintrag. Zusätzlich erscheint einmal je Version die
+native Meldung „Sepp, was steht in den Pirate Galaxy News?“. Unter
+**Anzeige → Meldungen & Discord → Updatehinweise** stehen **Leuchten und Meldung**,
+**Nur Leuchten** und **Aus** bereit. **Updatehinweis testen** zeigt eine kurze
+Vorschau, ohne den Gelesen-Status oder deine Einstellungen zu verändern.
+**Nur wichtige** bei Forge-Meldungen unterdrückt die automatische Update-Meldung.
 
 Der frühere Reise-Tab entfällt; gespeicherte Positionsmerker werden nicht gelöscht.
 Sirius-Karte, Quarc-Status und Bauplan-Fundorte bleiben separat verfügbar.

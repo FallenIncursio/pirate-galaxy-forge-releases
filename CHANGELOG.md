@@ -6,6 +6,7 @@ Jede Versionsseite beschreibt nur ihre Änderungen. Vollständige frühere Beric
 
 | Version | Änderung |
 | --- | --- |
+| [0.2.0-alpha.31](docs/releases/0.2.0-alpha.31.md) | Updatehinweise am Forge-Knopf |
 | [0.2.0-alpha.30](docs/releases/0.2.0-alpha.30.md) | Updatehistorie direkt in Forge |
 | [0.2.0-alpha.29](docs/releases/0.2.0-alpha.29.md) | Vollständigere Bauplanzuordnung im Scanner |
 | [0.2.0-alpha.28](docs/releases/0.2.0-alpha.28.md) | Reparaturfelder getrennt für Spieler und PvE |
