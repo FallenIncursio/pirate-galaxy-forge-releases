@@ -6,6 +6,7 @@ Jede Versionsseite beschreibt nur ihre Änderungen. Vollständige frühere Beric
 
 | Version | Änderung |
 | --- | --- |
+| [0.2.0-alpha.34](docs/releases/0.2.0-alpha.34.md) | Eigene PvP-Reparaturfeldanzeige |
 | [0.2.0-alpha.33](docs/releases/0.2.0-alpha.33.md) | Reisekosten-Vorschau beim Hypersprung |
 | [0.2.0-alpha.32](docs/releases/0.2.0-alpha.32.md) | Baupläne: Merkliste und Bereiche |
 | [0.2.0-alpha.31](docs/releases/0.2.0-alpha.31.md) | Updatehinweise am Forge-Knopf |

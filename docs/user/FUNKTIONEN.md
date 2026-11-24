@@ -2,7 +2,7 @@
 
 [Übersicht](../../README.md) · [Bedienung](HILFE.md) · [Änderungen](../../CHANGELOG.md)
 
-Stand: **Core 0.2.0-alpha.17 · Enhanced 0.2.0-alpha.33 · Spielversion 1002133**.
+Stand: **Core 0.2.0-alpha.17 · Enhanced 0.2.0-alpha.34 · Spielversion 1002133**.
 
 Core enthält die gemeinsame 64-Bit-Technik, allgemeine Fehlerkorrekturen und
 begrenzten Komfort. Enhanced ergänzt dieselbe Grundlage um die Forge-Oberflächen.
@@ -41,7 +41,7 @@ Fehler in jeder Version des 32-Bit-Originals.
 | Bossleisten | HP, Effekte, bekannte Itemklasse, Schild-/Schutzreserve, Zielwahl per Klick | Forge → Anzeige → Bossleisten |
 | Bossauftritte | Namen und optionale Musik; Remnants nur XC/SC, außerdem Königin und Sirius-Bosse | Forge → Anzeige → Kampf & Effekte |
 | Staffel | Erweiterte HP-/Effektanzeige und Schild-/Schutzreserve mit optionalen Prozentwerten | Forge → Anzeige → Kampf & Effekte |
-| Reparaturfelder | Spieler und PvE getrennt: Original, leicht/stark reduziert, Kontur | Forge → Anzeige → Kampf & Effekte |
+| Reparaturfelder | Spieler, PvE und feindliche Spieler getrennt: Original, leicht/stark reduziert, Kontur; PvP-Felder optional rot | Forge → Anzeige → Kampf & Effekte |
 | Komponenten | Eigene Tasten, Reichweitenmarkierungen, Zahlen-/Kreis-Zeitanzeige | Forge → Anzeige → Komponenten / Forge → Tasten |
 | Kampfansicht | Orbitalschlaghinweise, HP-Warnschwelle, rote Bildschirmränder | Forge → Anzeige → Kampf & Effekte |
 | Remnants | Beutekarten und Variantenbestände, ergänzte Warte-/HP-Anzeigen, lokale Kampfberichte | Remnant-Anzeige / Forge |

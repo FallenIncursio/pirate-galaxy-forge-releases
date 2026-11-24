@@ -33,6 +33,11 @@ Für die Enhanced-Reisekosten-Vorschau enthält der Export zusätzlich eine begr
 Historie von Preis, Reisezeit, Mitgliedschaftsfaktor und ausgeblendeten Zuständen.
 Es werden dafür keine zusätzlichen Serveranfragen ausgelöst und keine Kontodaten erfasst.
 
+Bei Enhanced-Reparaturfeldern erfasst der Export die drei Darstellungsstufen,
+die Rotmarkierung sowie Zähler für Spieler, PvE, PvP und unbekannte Absender.
+Damit lässt sich zwischen fehlender Spielerzuordnung und Darstellungsfehlern
+unterscheiden. Spielernamen und Spielerkennungen werden dabei nicht gespeichert.
+
 ## Grenzen und Daten
 
 Berichte werden nicht allein durch das Aufzeichnen versandt. Der Startbericht

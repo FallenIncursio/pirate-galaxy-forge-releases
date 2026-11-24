@@ -81,14 +81,19 @@ Die Einstellungen stehen unter **Anzeige → Kampf & Effekte / Bossleisten**.
 
 ## Reparaturfelder
 
-Unter **Anzeige → Kampf & Effekte** gibt es getrennte Auswahlen für **Spieler**
-und **PvE-Gegner**. Beide bieten **Original**, **Leicht reduziert**, **Stark reduziert**
+Unter **Anzeige → Kampf & Effekte** gibt es getrennte Auswahlen für **Spieler**,
+**PvE-Gegner** und **PvP-Gegner**. Alle bieten **Original**, **Leicht reduziert**, **Stark reduziert**
 und **Nur Kontur**. Stark reduziert entspricht dem früheren Reduziert.
 
-Eine vorhandene gespeicherte Auswahl wird zunächst für beide Gruppen übernommen.
-Neue Profile verwenden Spieler Original und PvE Stark reduziert. Bekannte
-Spielertürme werden ihrer Herkunft zugeordnet; unbekannte Herkunft bleibt original
-sichtbar. Die Einstellung ändert weder Heilung noch Reichweite.
+**PvP-Felder rot markieren** färbt Felder feindlicher Spieler optional rot,
+auch bei voller Effektstärke mit **Original**. Spieler umfasst die eigenen,
+freundlichen und neutralen Felder. Die Einteilung folgt der PG-Spielerbeziehung.
+
+Die neue PvP-Auswahl übernimmt zunächst deine bisherige Spielerstufe; die
+Rotmarkierung ist anfangs aus. Neue Profile verwenden Spieler/PvP Original und
+PvE Stark reduziert. Bekannte Spielertürme werden ihrem Besitzer zugeordnet.
+Bei unbekannter Spielerbeziehung wird kein Rot erzwungen; bei völlig unbekannter
+Herkunft bleibt die Darstellung original. Heilung und Reichweite bleiben gleich.
 
 ## OTB und Gravitonen
 
