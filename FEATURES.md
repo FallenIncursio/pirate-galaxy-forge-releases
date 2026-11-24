@@ -1,3 +1,6 @@
+> Enhanced alpha.28: Reparaturfelder für Spieler/PvE getrennt, neue Stufe Leicht reduziert.
+> D3D11-Sandbox-Test bestätigt; Core unverändert. [Details](ALPHA28-REPAIR-FIELDS.md).
+
 > Veröffentlicht: Enhanced alpha.27 – Forge-Meldungen in der nativen PG-Leiste,
 > „Alle / Nur wichtige“, Testmeldung, begrenzte Warteschlange und lokale Diagnose.
 > D3D11-Sandbox-Test bestätigt; Core unverändert. [Details](ALPHA27-NATIVE-NOTICES.md).
@@ -195,7 +198,7 @@ Einzelausreißer bleiben. Kein neuer kontrollierter Original32-Flugvergleich.
 | Komponententimer | Original | Zahlen, transparente/radiale Anzeigen, letzte Sekunden | Lokale Darstellung vorhandener Zustände |
 | Reichweiten | Original | Ziel-, Blitzketten- und Quantensprung-Anzeigen | Zusätzliche Visualisierung |
 | Quantensprung-Zielhaltung | Original | Eingeschränkte Regel außerhalb feindlichem/unklarem PvP | Feindliche und unbekannte Spielerbeziehungen behalten Originalreset |
-| Reparatur-/HP-Darstellung | Original | Reduzierte Felder/Konturen, HP-Warnung | Zusätzliche lokale Darstellungsoptionen |
+| Reparatur-/HP-Darstellung | Original | Spieler-/PvE-Felder getrennt: Original, leicht/stark reduziert, Kontur; HP-Warnung | Zusätzliche lokale Darstellungsoptionen |
 | Baupläne/Ausrüstung | Eigener Sirius-Fortschritt | Katalog, Suche, Merkliste, Referenzen, Vergleich, Einkaufsplan | Erweiterte Planungsoberfläche |
 | Remnant-Informationen | Filter | Beutekarten, Kategorien, Wartezeiten | Zusätzliche lokale Aufbereitung |
 | Statistik | Einfache FPS | Kryonit, KW, Exporte, große Energiekugel | Erweiterte lokale Auswertung |

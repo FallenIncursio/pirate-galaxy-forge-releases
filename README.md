@@ -2,7 +2,7 @@
 
 Inoffizieller **64-Bit-Communityclient für Pirate Galaxy** – mit zusätzlichen Spielanzeigen, anpassbarem HUD, eigenen Sounds und gezielten Performance- und Fehlerkorrekturen.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.27/PirateGalaxyForge-0.2.0-alpha.27-Setup.exe)** · **0.2.0-alpha.27** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.27)
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.28/PirateGalaxyForge-0.2.0-alpha.28-Setup.exe)** · **0.2.0-alpha.28** · [Releasehinweise und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.28)
 
 [Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Bildergalerie](docs/BILDER.md) · [Installation und Hilfe](docs/HILFE.md)
 
@@ -39,15 +39,21 @@ Alpha 72 ergänzt den optionalen KW-Tracker mit Messung über Szenenwechsel, sta
 
 Alpha 73 korrigiert die Sol-Sonne und die Texturfilterung unter D3D11. Die optionale **Kreis-Zeitanzeige** ersetzt die rechteckigen Aktiv-/Abklingflächen: mit kleineren, mittigen Zahlen, schwarzer Kontur und Zehntelsekunden erst in der letzten Sekunde. Der Wechsel zwischen Aktivzeit und Abklingzeit bleibt lesbar; wiederholte Diagnosemeldungen für unbenutzte Ziffern entfallen. **D3D11 bleibt Standard, D3D9 auswählbar; Profile und Einstellungen bleiben erhalten.** [Releasehinweise](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.1.0-alpha.73) · [Kreis-Zeitanzeige einstellen](docs/HILFE.md#komponenten-zeitanzeige)
 
-## Enhanced 0.2.0-alpha.27 und Core 0.2.0-alpha.17
+## Enhanced 0.2.0-alpha.28 und Core 0.2.0-alpha.17
 
-Enhanced führt den bisherigen Forge mit allen Zusatzfunktionen weiter. **[Forge Core](https://github.com/FallenIncursio/pirate-galaxy-forge-core-releases)** enthält die gemeinsame 64-Bit-Technik, allgemeine Korrekturen und begrenzten Komfort mit ursprünglicher Hilfe. Beide Editionen verwenden dieselbe Core-Implementierung.
+Reparaturfelder für Spieler und PvE-Gegner getrennt einstellen: Original,
+Leicht reduziert, Stark reduziert und Nur Kontur. Bestehende Einstellungen bleiben
+erhalten; unbekannte Herkunft bleibt original sichtbar. Keine zusätzlichen Serverabfragen.
 
-Diese Ausgabe korrigiert Piloten-/Clanranglisten und Divisionswechsel, die gespeicherte HUD-Größe, die D3D11-Kantenglättung sowie wiederholte Antriebsspur-Vorschauen im Shop. Enhanced korrigiert zusätzlich die Energiekugelmarkierung. Die bisherigen Diagnose-, Grafikstart-, Reparatur-, Calon- und Erebos-Korrekturen bleiben enthalten. Vorhandene Einstellungen und Profile bleiben erhalten. Bestehende Forge-Profile werden zu Enhanced übernommen.
+Unter **Forge → Anzeige → Kampf & Effekte**. Das bisherige Reduziert heißt jetzt
+Stark reduziert; Spielerfelder einschließlich eigener Türme lassen sich unabhängig
+von PvE wählen. Profile und gespeicherte Einstellungen bleiben erhalten.
 
-[Core / Enhanced und 32-Bit-Vergleich](FEATURES.md) · [Änderungen dieser Ausgabe](0.2.0-alpha.27.md) · [Installation und Profilübernahme](INSTALLER-UPDATER.md)
+[Änderungen dieser Ausgabe](0.2.0-alpha.28.md) · [Reparaturfelder](ALPHA28-REPAIR-FIELDS.md) · [Prüfstand](RELEASE-STATUS-0.2-alpha.28.md)
 
-Die exakten Paketbytes bestanden 40 Java-/UI-Suiten, 56 Installations-/Upgrade-/Reparaturprüfungen ab alpha.3 und 24 Installer-UI-Prüfungen. Enhanced wurde mit D3D11 bis zur verbundenen Spielsitzung gestartet und vom Nutzer nach dem Ranglistentest bestätigt. Eine gesonderte Core-Spielsitzung, vollständige Funktionsabnahme, längere Sitzungen, weitere GPUs/Treiber und Wine bleiben offen. 240 FPS ist eine Obergrenze, keine Leistungszusage. Die frühere Wine-Vorschau ist kein geprüfter Download dieser Ausgabe.
+Der Nutzer bestätigt den D3D11-Sandbox-Test. Automatisierte D3D9-/D3D11-Prüfungen
+bestanden; weitere Feldquellen, GPUs, Wine/macOS und Langzeittests bleiben gesondert.
+Core alpha.17, Spielversion 1002133 und Starter 17 bleiben erhalten.
 
 ## Ein Blick ins Spiel
 
@@ -99,7 +105,7 @@ Die Spielwelt, Missionen, Gegenstände, Originalgrafiken und Grundfunktionen sta
 
 ## Installation
 
-Voraussetzungen sind **Windows 10/11 (64 Bit), .NET Framework 4.8 oder neuer und Internetzugang**. Forge unterstützt den Spielstand **1002132**.
+Voraussetzungen sind **Windows 10/11 (64 Bit), .NET Framework 4.8 oder neuer und Internetzugang**. Forge unterstützt den Spielstand **1002133**.
 
 1. Den Forge-Installer ausführen und **Pirate Galaxy Forge** starten.
 2. Forge lädt und prüft die Spielbasis von Splitscreen und Java von Azul. Sobald das Spielfenster erscheint, im Spiel anmelden.
