@@ -81,7 +81,7 @@ Zustand oder eine geschätzte einzeilige Restzeit. Details stehen im Tooltip.
 Ein vor der Beobachtung gesammelter Drop wird nicht rückwirkend erraten.
 Einstellung und Vorschau stehen ebenfalls unter **Widgets**.
 
-## Meldungen, Statistik und Reise
+## Meldungen, Statistik und Updates
 
 Forge-Meldungen erscheinen über der Komponentenleiste im PG-Stil. Unter
 **Anzeige → Meldungen & Discord** stehen **Alle / Nur wichtige** und eine Testmeldung.
@@ -89,7 +89,17 @@ Fehler haben Vorrang; wiederholte Rückmeldungen werden zusammengefasst.
 
 Der KW-Tracker zeigt beobachtete Gutschriften, Kategorien, Verlauf und CSV-Export.
 Weitere Widgets bieten Kryonitstatistik, Energiekugelmarkierung und geschätzte
-Drohnen-Levelzeiten. **Reise** enthält Positionsmerker und lokale Reiseplanung.
+Drohnen-Levelzeiten.
+
+**Updates** steht ganz rechts neben **Antrieb**. Jede Karte zeigt Version, Datum
+und eine kurze Beschreibung. **Neuer**, **Älter** und die Auswahl der Versionsreihe
+erschließen die gesamte Historie. **Installiert** markiert den aktuellen Client;
+**Neu** am Tab verschwindet nach dem Öffnen. Historische Daten sind
+Veröffentlichungsdaten, **Stand** bezeichnet einen noch vorbereiteten Eintrag.
+Die Anzeige benötigt keine Internetabfrage.
+
+Der frühere Reise-Tab entfällt; gespeicherte Positionsmerker werden nicht gelöscht.
+Sirius-Karte, Quarc-Status und Bauplan-Fundorte bleiben separat verfügbar.
 Schätzungen und Referenzen sind keine zusätzlichen Serverbestätigungen.
 
 ## Eigene Sounds und Antriebsspuren
