@@ -61,15 +61,15 @@ Core alpha.17, Spielversion 1002133 und Starter 17 bleiben erhalten.
 
 **Bossleisten mit HP-Prozent und aktiven Effekten**
 
-[![Remnant SC-Tyme mit Bossleiste, 40,3 Prozent HP und vier Effektsymbolen](../../bilder/bossleiste.png)](docs/BILDER.md#bossleiste)
+[![Remnant SC-Tyme mit Bossleiste, 40,3 Prozent HP und vier Effektsymbolen](../../bilder/bossleiste.png)](../user/BILDER.md#bossleiste)
 
 **Mögliche Remnant-Beute direkt mit dem eigenen Bauplanbestand vergleichen**
 
-[![Remnant-Trägertabelle mit Beutekarten und getrennten Beständen für normale, schnelle, starke und lange Varianten](../../bilder/remnant-beute.png)](docs/BILDER.md#remnant-beute)
+[![Remnant-Trägertabelle mit Beutekarten und getrennten Beständen für normale, schnelle, starke und lange Varianten](../../bilder/remnant-beute.png)](../user/BILDER.md#remnant-beute)
 
 **Baupläne durchsuchen, Fortschritt filtern und eine Merkliste führen**
 
-[![Forge-Bauplanübersicht mit Tau-Ceti-Filter, Suchfeld und gesammelten Teilen](../../bilder/bauplaene.png)](docs/BILDER.md#bauplaene)
+[![Forge-Bauplanübersicht mit Tau-Ceti-Filter, Suchfeld und gesammelten Teilen](../../bilder/bauplaene.png)](../user/BILDER.md#bauplaene)
 
 [Weitere Bilder: Audio, Antriebsvorschau, HUD-Größe und Komponenten-Timer →](../user/BILDER.md)
 

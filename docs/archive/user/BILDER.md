@@ -14,7 +14,7 @@ Spielaufnahmen aus Forge, bereitgestellt am **8. November 2026**. Alle Bilder la
 
 Name, HP-Prozent und aktive Effekte direkt über dem Kampf. Die zusätzliche Bossleiste unterstützt Remnant-Träger und das Mutterschiff der Königin. Bekannte Laufzeiten stehen am Icon; weitere Effekte lassen sich über +N öffnen.
 
-[![Bossleiste von SC-Tyme mit 40,3 Prozent HP, Effektlaufzeit und weiteren aktiven Effekten](../../bilder/bossleiste.png)](bilder/bossleiste.png)
+[![Bossleiste von SC-Tyme mit 40,3 Prozent HP, Effektlaufzeit und weiteren aktiven Effekten](../../bilder/bossleiste.png)](../../bilder/bossleiste.png)
 
 <a id="remnant-beute"></a>
 
@@ -22,7 +22,7 @@ Name, HP-Prozent und aktive Effekte direkt über dem Kampf. Die zusätzliche Bos
 
 Die Original-Trägertabelle bleibt erhalten. Forge ergänzt HP-Prozent und Beutekarten mit Icons und Beständen je Variante. „Nicht im Profil“ bedeutet, dass kein gesicherter Bestand vorliegt.
 
-[![SC-Taune: Beutekarten für Angriffsfeldturm, Haftbombe, Mine und Reparaturfeldturm neben der Trägertabelle](../../bilder/remnant-beute.png)](bilder/remnant-beute.png)
+[![SC-Taune: Beutekarten für Angriffsfeldturm, Haftbombe, Mine und Reparaturfeldturm neben der Trägertabelle](../../bilder/remnant-beute.png)](../../bilder/remnant-beute.png)
 
 <a id="bauplaene"></a>
 
@@ -30,7 +30,7 @@ Die Original-Trägertabelle bleibt erhalten. Forge ergänzt HP-Prozent und Beute
 
 Im Beispiel ist Tau Ceti ausgewählt. Suche, Typ-/Fortschrittsfilter und Merkliste ergänzen das persönliche Bauplanprofil; die Teilezahlen bleiben direkt lesbar.
 
-[![Bauplanübersicht mit Tau-Ceti-Filter und farblich unterschiedenem Sammelfortschritt](../../bilder/bauplaene.png)](bilder/bauplaene.png)
+[![Bauplanübersicht mit Tau-Ceti-Filter und farblich unterschiedenem Sammelfortschritt](../../bilder/bauplaene.png)](../../bilder/bauplaene.png)
 
 <a id="audio"></a>
 
@@ -38,7 +38,7 @@ Im Beispiel ist Tau Ceti ausgewählt. Suche, Typ-/Fortschrittsfilter und Merklis
 
 Ein Reparatur-Dauereffekt mit ausgewählter eigener Datei und 125 % Lautstärke. Ausschnitt, automatische Kürzung und Original-/Eigenvorschau stehen in derselben Ansicht. **Übernehmen** aktiviert die Änderung ohne Neustart; „Bereit zum Übernehmen“ kennzeichnet hier noch den Entwurf.
 
-[![Audio-Tab mit eigener Reparaturdrohnen-Datei, Ausschnittwahl, Vorschau und Lautstärke](../../bilder/audio.png)](bilder/audio.png)
+[![Audio-Tab mit eigener Reparaturdrohnen-Datei, Ausschnittwahl, Vorschau und Lautstärke](../../bilder/audio.png)](../../bilder/audio.png)
 
 <a id="antrieb"></a>
 
@@ -46,11 +46,11 @@ Ein Reparatur-Dauereffekt mit ausgewählter eigener Datei und 125 % Lautstärke.
 
 **Normal:** Das Schiff zeigt seine tatsächlich ausgerüstete Spur, auch wenn in der Liste bereits eine andere Variante ausgewählt ist.
 
-[![Antrieb-Tab im Normalmodus mit der ausgerüsteten violetten Spur am Schiff](../../bilder/antrieb-normal.png)](bilder/antrieb-normal.png)
+[![Antrieb-Tab im Normalmodus mit der ausgerüsteten violetten Spur am Schiff](../../bilder/antrieb-normal.png)](../../bilder/antrieb-normal.png)
 
 **Vorschau:** Die ausgewählten grünen Tristar-Spuren erscheinen lokal am eigenen Schiff. Die tatsächliche Ausrüstung und die Ansicht anderer Spieler bleiben erhalten.
 
-[![Antrieb-Tab im Vorschaumodus mit grünen Tristar-Spuren am eigenen Schiff](../../bilder/antrieb-vorschau.png)](bilder/antrieb-vorschau.png)
+[![Antrieb-Tab im Vorschaumodus mit grünen Tristar-Spuren am eigenen Schiff](../../bilder/antrieb-vorschau.png)](../../bilder/antrieb-vorschau.png)
 
 <a id="hud"></a>
 
@@ -58,14 +58,14 @@ Ein Reparatur-Dauereffekt mit ausgewählter eigener Datei und 125 % Lautstärke.
 
 Die globale Skalierung gilt für Forge und native Spielfenster. Im folgenden Beispiel sind **130 %** gewählt. Oben ist auch der F-Knopf sichtbar. FPS-Limit, VSync und Leistungsanzeige liegen in derselben Einstellungsgruppe.
 
-[![Forge-Anzeigegruppe HUD und Grafik mit 130 Prozent Oberflächengröße und dem F-Menüknopf](../../bilder/hud-130.png)](bilder/hud-130.png)
+[![Forge-Anzeigegruppe HUD und Grafik mit 130 Prozent Oberflächengröße und dem F-Menüknopf](../../bilder/hud-130.png)](../../bilder/hud-130.png)
 
 <details>
 <summary>Zusätzliche Aufnahme mit 100 % anzeigen</summary>
 
 Die beiden Aufnahmen haben unterschiedliche Bildausschnitte. Zum Prüfen der Textgröße jeweils das Originalbild öffnen; die Einpassung auf dieser Seite ist kein maßstabsgetreuer Direktvergleich.
 
-[![Dieselbe Einstellungsgruppe mit 100 Prozent Oberflächengröße](../../bilder/hud-100.png)](bilder/hud-100.png)
+[![Dieselbe Einstellungsgruppe mit 100 Prozent Oberflächengröße](../../bilder/hud-100.png)](../../bilder/hud-100.png)
 
 </details>
 
@@ -75,6 +75,6 @@ Die beiden Aufnahmen haben unterschiedliche Bildausschnitte. Zum Prüfen der Tex
 
 Die Aufnahme zeigt die klassische Zahlenanzeige: Grün steht für aktive Restzeit, Weiß für Abklingzeit. Beide Anzeigen lassen sich getrennt schalten. Seit Alpha 73 sind zusätzlich **Kreis** und **Kreis + Zahlen** verfügbar; diese neueren Modi sind auf dem historischen Bild nicht dargestellt. [Zeitanzeige einstellen](HILFE.md#komponenten-zeitanzeige)
 
-[![Komponentenleiste mit weißer Abklingzeit und grünen Aktivzeit-Timern](../../bilder/slot-timer.png)](bilder/slot-timer.png)
+[![Komponentenleiste mit weißer Abklingzeit und grünen Aktivzeit-Timern](../../bilder/slot-timer.png)](../../bilder/slot-timer.png)
 
 Weitere Funktionen wie Staffel-Effekte, Chat-Uhrzeit und Sirius-Zeitfenster sind in der [Funktionsübersicht](FUNKTIONEN.md) beschrieben.
