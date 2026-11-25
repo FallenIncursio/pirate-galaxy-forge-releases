@@ -2,7 +2,7 @@
 
 [Übersicht](../../README.md) · [Bedienung](HILFE.md) · [Änderungen](../../CHANGELOG.md)
 
-Stand: **Core 0.2.0-alpha.35 · Enhanced 0.2.0-alpha.35 · Spielversion 1002133**.
+Stand: **Core 0.2.0-alpha.36 · Enhanced 0.2.0-alpha.36 · Spielversion 1002133**.
 
 Core enthält die gemeinsame 64-Bit-Technik, allgemeine Fehlerkorrekturen und
 begrenzten Komfort. Enhanced ergänzt dieselbe Grundlage um die Forge-Oberflächen.
