@@ -20,6 +20,15 @@ Unter **Anzeige → Komponenten** lassen sich Aktiv- und Abklingzeiten als Zahle
 Kreis oder Kreis mit Zahlen darstellen. Eigene Belegungen stehen unter **Forge → Tasten**.
 Chat und Texteingaben behalten Vorrang vor Komponententasten.
 
+## Clankasse und Sperrfrist
+
+Zuweisungen von Schädeln, Gravitonen und Kryonit bestätigen Empfänger und Menge.
+Unter der Mitgliederauswahl erscheint die verbleibende 14-Tage-Sperrfrist, sofern
+der Beitrittszeitpunkt vorliegt. „Keine Zeitangabe“ bedeutet, dass dem Client diese
+Information fehlt. „Sperrfrist abgelaufen“ ersetzt keine Serverfreigabe; Wochenlimit,
+Bestand und Berechtigung gelten weiterhin. Bei unbekanntem Zuweisungsergebnis zuerst
+den Bestand prüfen und nicht sofort erneut zuweisen.
+
 ## Reisekosten-Vorschau
 
 Während eines interplanetaren Flugs zeigt die zusätzliche Zeile neben dem
