@@ -73,7 +73,11 @@ unbekannt. Gelbe Bauplaneinträge ergänzen bekannte Teilezahlen, etwa **2/6**.
 Die Sirius-Erweiterung lässt sich unter **Anzeige → HUD & Grafik** abschalten.
 
 Im **Pilotenprofil → Errungenschaften** stehen Suche, Status-, System- und
-Bereichsfilter sowie Sortierung bereit. Abgeschlossene Einträge behalten die goldene
+Bereichsfilter sowie Sortierung bereit. **Filter** klappt die Auswahlfelder ein und
+aus; die Zahl am Knopf zeigt aktive Einschränkungen. Die Listenposition bleibt
+dabei erhalten. **Zurücksetzen** entfernt die Filter und stellt die Standardsortierung
+her, während Suche und Kategorie bleiben. Die Ansicht wird lokal pro Pilot gemerkt.
+Abgeschlossene Einträge behalten die goldene
 Medaille. Unter **Forge → Anzeige** lässt sich die Originalansicht wiederherstellen.
 
 ## Bossleisten und Staffel

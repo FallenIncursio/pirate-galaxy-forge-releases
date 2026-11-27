@@ -6,6 +6,7 @@ Jede Versionsseite beschreibt nur ihre Änderungen. Vollständige frühere Beric
 
 | Version | Änderung |
 | --- | --- |
+| [0.2.0-alpha.41](docs/releases/0.2.0-alpha.41.md) | Platzsparende Errungenschaften-Filter |
 | [0.2.0-alpha.40](docs/releases/0.2.0-alpha.40.md) | Hangar-Favoriten und Drohnenlisten verbessert |
 | [0.2.0-alpha.39](docs/releases/0.2.0-alpha.39.md) | Hangar-Suche und Favoriten |
 | [0.2.0-alpha.38](docs/releases/0.2.0-alpha.38.md) | Sirius-Markierungen unter Spielfenstern |
