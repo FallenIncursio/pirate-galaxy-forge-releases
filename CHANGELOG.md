@@ -6,6 +6,7 @@ Jede Versionsseite beschreibt nur ihre Änderungen. Vollständige frühere Beric
 
 | Version | Änderung |
 | --- | --- |
+| [0.2.0-alpha.43](docs/releases/0.2.0-alpha.43.md) | Normale Blasterschüsse zuverlässig sichtbar |
 | [0.2.0-alpha.42](docs/releases/0.2.0-alpha.42.md) | Magnetfallen-Symbol in der Bossleiste |
 | [0.2.0-alpha.41](docs/releases/0.2.0-alpha.41.md) | Platzsparende Errungenschaften-Filter |
 | [0.2.0-alpha.40](docs/releases/0.2.0-alpha.40.md) | Hangar-Favoriten und Drohnenlisten verbessert |

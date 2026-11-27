@@ -2,7 +2,7 @@
 
 [Übersicht](../../README.md) · [Bedienung](HILFE.md) · [Änderungen](../../CHANGELOG.md)
 
-Stand: **Core 0.2.0-alpha.37 · Enhanced 0.2.0-alpha.42 · Spielversion 1002133**.
+Stand: **Core 0.2.0-alpha.43 · Enhanced 0.2.0-alpha.43 · Spielversion 1002133**.
 
 Core enthält die gemeinsame 64-Bit-Technik, allgemeine Fehlerkorrekturen und
 begrenzten Komfort. Enhanced ergänzt dieselbe Grundlage um die Forge-Oberflächen.
@@ -24,7 +24,8 @@ Die Tabelle beschreibt den veröffentlichten Umfang, keine verworfenen Versuche.
 Gezielte gemeinsame Korrekturen betreffen unter anderem Komponentenstatus,
 Missionsdialoge, schnelle Scans, Drohnenslots, Zielvorschauen, Namen und Statusbalken,
 Ranglisten/Divisionswechsel, Shop-Vorschauen, HUD-Skalierung, Eingabefokus,
-Calon-Reflexionen sowie Ressourcen- und Materiallebensdauer. Die Arbeiten an
+Calon-Reflexionen, die Sichtbarkeit normaler Blasterschüsse entlang ihrer Flugbahn, nach Sichtpausen und bei Wiederverwendung
+sowie Ressourcen- und Materiallebensdauer. Die Arbeiten an
 Schriftatlas, LOD und Vegetation reduzieren wiederholte Arbeit auf Calon.
 Ein Teil betrifft Portierungsregressionen; die Liste behauptet keine entsprechenden
 Fehler in jeder Version des 32-Bit-Originals.
