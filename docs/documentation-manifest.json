@@ -167,7 +167,8 @@
     "docs/user/FUNKTIONEN.md": "e7e41a01f3d599c2d34cbb2161b557bae85a7387b6277f17a7582fee7de18be9",
     "docs/user/HILFE.md": "d16ec8f769bc092d661099bebbebb11991b04d687c759d60af329acda00c5f65",
     "docs/user/INSTALLATION.md": "9432dac1cd5e5e676a565c0e3d43268ac805c1931f89fdfba4dd2c13d199926f",
-    "docs/user/MAC.md": "89dcb622ac5a7921db520de6f3901246548e61e300c6fcfddeac6d0738f98835"
+    "docs/user/MAC.md": "89dcb622ac5a7921db520de6f3901246548e61e300c6fcfddeac6d0738f98835",
+    "docs/releases/0.2.0-alpha.42.md": "78b6f5721333de0351b138b46f9febf827dc2ccc5e5750c8c9df2e53e2df92ef"
   },
   "game_build": "1002133",
   "legacy_snapshot_commit": "3fead6732226665fad24b776a8f6f90546e438cb",
