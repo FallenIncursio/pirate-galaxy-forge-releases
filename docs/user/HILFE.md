@@ -148,17 +148,28 @@ Schätzungen und Referenzen sind keine zusätzlichen Serverbestätigungen.
 ## Hangar durchsuchen
 
 Die Lagerlisten für eigene **Schiffe** und **Drohnen** haben ein Suchfeld. Bei
-Schiffen findet es sowohl deinen eigenen Namen als auch die Modellbezeichnung.
-**Filter** öffnet Klasse und Baureihe; bei Drohnen stattdessen Wirkung und
-**Noch levelbar**. Mehrfach wirkende Drohnen passen zu jeder ihrer Wirkungen.
+Schiffen findet es deinen eigenen Namen und die Modellbezeichnung. **Filter**
+öffnet Klasse und **Technologiestufe** nach dem aktuell angezeigten Hangarlevel:
+Vega, Antares, Gemini, Mizar, Sol (46–55), Sol (56–60), Draconis, Sirius und Tau Ceti.
+Die Familiennamen Parsec, RDX und ne0n bleiben über die Suche auffindbar.
 
-Der Stern links neben dem Verkaufssymbol merkt dieses Exemplar vor. Der Stern neben dem Suchfeld
-zeigt nur Favoriten. Eindeutig zuordenbare Favoriten und Filter bleiben pro Pilot
-gespeichert; identische Duplikate nur für die aktuelle Anmeldung. **×**
-leert die Suche. Unbekannte Modelle findest du unter **Alle** oder **Sonstige**.
+Der Stern links neben dem Verkauf markiert bei Schiffen das **gesamte Modell**:
+alle Konfigurationen und weitere eigene Exemplare desselben Modells. Bei Drohnen
+bleibt er eine Markierung des Exemplars. Eindeutig zuordenbare Drohnenfavoriten
+bleiben pro Pilot gespeichert, auch bei verschiedenen Leveln desselben Modells.
+Identische Duplikate werden beim Hangarwechsel getrennt wiedererkannt; ohne
+dauerhafte Kennung gilt ihre Markierung weiterhin nur für diese Anmeldung.
+Der Stern neben der Suche zeigt nur Favoriten; **×** leert die Suche.
+
+Drohnen lassen sich nach Wirkung sowie **Noch levelbar** oder **Vollgelevelt**
+filtern. **Energie** umfasst Sammelbonus und Kapazität; Mehrfachwirkungen passen
+zu jeder betreffenden Kategorie. Unbekannte Level zählen zu keinem der beiden
+Levelfilter. Nach dem Installieren bleibt die Liste möglichst beim bisher
+sichtbaren Eintrag; am neuen Listenende wird die Position entsprechend begrenzt.
+
 Unter **Anzeige → HUD & Grafik → Hangar: Suche, Filter und Favoriten** lässt sich
-die ursprüngliche Ansicht wiederherstellen. Es werden keine zusätzlichen
-Schiffe geladen oder automatisch gewechselt.
+die ursprüngliche Ansicht wiederherstellen. Unbekannte Modelle bleiben in
+**Alle** und **Sonstige** sichtbar. Es gibt keine zusätzlichen Serverabfragen.
 
 ## Eigene Sounds und Antriebsspuren
 

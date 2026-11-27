@@ -2,7 +2,7 @@
 
 [Übersicht](../../README.md) · [Bedienung](HILFE.md) · [Änderungen](../../CHANGELOG.md)
 
-Stand: **Core 0.2.0-alpha.37 · Enhanced 0.2.0-alpha.39 · Spielversion 1002133**.
+Stand: **Core 0.2.0-alpha.37 · Enhanced 0.2.0-alpha.40 · Spielversion 1002133**.
 
 Core enthält die gemeinsame 64-Bit-Technik, allgemeine Fehlerkorrekturen und
 begrenzten Komfort. Enhanced ergänzt dieselbe Grundlage um die Forge-Oberflächen.
@@ -39,7 +39,7 @@ Fehler in jeder Version des 32-Bit-Originals.
 | Scanfenster | Mögliche blaue/goldene Baupläne mit eigenem Bestand, einschließlich Sirius-Zuordnung; gemeinsame geprüfte Dropdaten mit der Fundortsuche | Forge → Anzeige; Giza/Soris/Amarna ausgeschlossen |
 | Sirius | Bekannte Quarc-Freigabe und Teilezahlen gelber Baupläne; Sortierung und Merkliste | Forge → Anzeige → HUD & Grafik |
 | Errungenschaften | Suche, Status-/System-/Bereichsfilter und Sortierung; goldene Abschlussanzeige | Pilotenprofil → Errungenschaften; unter Anzeige abschaltbar |
-| Hangar | Eigene Schiffe und Drohnen suchen, nach Klasse/Baureihe beziehungsweise Wirkung/Level filtern und pro Exemplar favorisieren | Hangarlager; Forge → Anzeige → HUD & Grafik |
+| Hangar | Eigene Schiffe und Drohnen suchen, nach Klasse/Technologiestufe beziehungsweise Wirkung/Level filtern; Schiffsfavoriten für alle Konfigurationen desselben Modells, Drohnenfavoriten pro Exemplar | Hangarlager; Forge → Anzeige → HUD & Grafik |
 | Bossleisten | HP, Effekte, bekannte Itemklasse, Schild-/Schutzreserve, Zielwahl per Klick | Forge → Anzeige → Bossleisten |
 | Bossauftritte | Namen und optionale Musik; Remnants nur XC/SC, außerdem Königin und Sirius-Bosse | Forge → Anzeige → Kampf & Effekte |
 | Staffel | Erweiterte HP-/Effektanzeige und Schild-/Schutzreserve mit optionalen Prozentwerten | Forge → Anzeige → Kampf & Effekte |

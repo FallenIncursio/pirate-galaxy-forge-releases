@@ -2,14 +2,14 @@
 
 [Übersicht und Download](../../README.md) · [Diagnose](DIAGNOSE.md) · [Bedienung](HILFE.md)
 
-**Pirate Galaxy Forge Enhanced 0.2.0-alpha.39 · Spielversion 1002133**
+**Pirate Galaxy Forge Enhanced 0.2.0-alpha.40 · Spielversion 1002133**
 
 ## Installieren
 
 Voraussetzungen: Windows 10/11 x64, .NET Framework 4.8 und Internetzugang.
 Die passende Java-Laufzeit lädt der Starter selbst.
 
-1. Den [Windows-Installer](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.39/PirateGalaxyForge-0.2.0-alpha.39-Setup.exe) herunterladen und ausführen.
+1. Den [Windows-Installer](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.40/PirateGalaxyForge-0.2.0-alpha.40-Setup.exe) herunterladen und ausführen.
 2. Forge über die angelegte Verknüpfung starten. Der vorgeschlagene Installationsort genügt.
 3. Der Starter lädt die geprüfte Spielbasis, Laufzeit und Forge-Dateien. Anschließend im Spiel anmelden.
 
@@ -61,7 +61,7 @@ höchste bereits gesehene Updatesequenz.
 
 ## Prüfsummen und Plattformen
 
-[Release und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.39) · [Bibliotheksquellen](../sources/QUELLEN.md)
+[Release und Prüfsummen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/tag/v0.2.0-alpha.40) · [Bibliotheksquellen](../sources/QUELLEN.md)
 
 Update-Manifeste sind RSA-signiert. Der Windows-Installer besitzt keine
 Authenticode-Signatur. Eine Sicherheitssoftwaremeldung anhand des konkreten Fundes
