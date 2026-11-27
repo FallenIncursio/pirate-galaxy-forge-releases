@@ -145,6 +145,21 @@ Der frühere Reise-Tab entfällt; gespeicherte Positionsmerker werden nicht gel�
 Sirius-Karte, Quarc-Status und Bauplan-Fundorte bleiben separat verfügbar.
 Schätzungen und Referenzen sind keine zusätzlichen Serverbestätigungen.
 
+## Hangar durchsuchen
+
+Die Lagerlisten für eigene **Schiffe** und **Drohnen** haben ein Suchfeld. Bei
+Schiffen findet es sowohl deinen eigenen Namen als auch die Modellbezeichnung.
+**Filter** öffnet Klasse und Baureihe; bei Drohnen stattdessen Wirkung und
+**Noch levelbar**. Mehrfach wirkende Drohnen passen zu jeder ihrer Wirkungen.
+
+Der Stern links neben dem Verkaufssymbol merkt dieses Exemplar vor. Der Stern neben dem Suchfeld
+zeigt nur Favoriten. Eindeutig zuordenbare Favoriten und Filter bleiben pro Pilot
+gespeichert; identische Duplikate nur für die aktuelle Anmeldung. **×**
+leert die Suche. Unbekannte Modelle findest du unter **Alle** oder **Sonstige**.
+Unter **Anzeige → HUD & Grafik → Hangar: Suche, Filter und Favoriten** lässt sich
+die ursprüngliche Ansicht wiederherstellen. Es werden keine zusätzlichen
+Schiffe geladen oder automatisch gewechselt.
+
 ## Eigene Sounds und Antriebsspuren
 
 Unter **Audio** lassen sich unterstützte eigene Ogg-Vorbis-/WAV-Dateien importieren,

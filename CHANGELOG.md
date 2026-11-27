@@ -6,6 +6,7 @@ Jede Versionsseite beschreibt nur ihre Änderungen. Vollständige frühere Beric
 
 | Version | Änderung |
 | --- | --- |
+| [0.2.0-alpha.39](docs/releases/0.2.0-alpha.39.md) | Hangar-Suche und Favoriten |
 | [0.2.0-alpha.38](docs/releases/0.2.0-alpha.38.md) | Sirius-Markierungen unter Spielfenstern |
 | [0.2.0-alpha.37](docs/releases/0.2.0-alpha.37.md) | Sichere Clankassen-Zuweisung |
 | [0.2.0-alpha.36](docs/releases/0.2.0-alpha.36.md) | Mac-Starter und gemeinsame Laufzeitkorrekturen |
