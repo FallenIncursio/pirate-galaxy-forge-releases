@@ -2,7 +2,7 @@
 
 [Übersicht](../../README.md) · [Bedienung](HILFE.md) · [Änderungen](../../CHANGELOG.md)
 
-Stand: **Core 0.2.0-alpha.43 · Enhanced 0.2.0-alpha.43 · Spielversion 1002133**.
+Stand: **Core 0.2.0-alpha.44 · Enhanced 0.2.0-alpha.44 · Spielversion 1002133**.
 
 Core enthält die gemeinsame 64-Bit-Technik, allgemeine Fehlerkorrekturen und
 begrenzten Komfort. Enhanced ergänzt dieselbe Grundlage um die Forge-Oberflächen.
@@ -20,6 +20,7 @@ Die Tabelle beschreibt den veröffentlichten Umfang, keine verworfenen Versuche.
 | Ziele | Remnant-Filter, Sirius-Bauplanfarben, Kryonitmenge | Ergänzung vorhandener Zielinformationen |
 | Einrichtung | Eigener Starter, geprüfte Updates, Reparatur, Profilübernahme innerhalb der Edition | Getrennte Spielkopie mit eigenen Updatekanälen |
 | Diagnose | Live-Logs, Start-/Laufzeithängerdiagnose, gezielter Neustart und freiwilliger Bericht | Zusätzliche lokale Fehlersuche |
+| Audio | Keine nachgeholten verdrängten Einmaleffekte, begrenzte Startverzögerung und prioritätsgerechte Kanalvergabe | Gezielte Korrektur bei ausgeschöpften Audiokanälen |
 
 Gezielte gemeinsame Korrekturen betreffen unter anderem Komponentenstatus,
 Missionsdialoge, schnelle Scans, Drohnenslots, Zielvorschauen, Namen und Statusbalken,

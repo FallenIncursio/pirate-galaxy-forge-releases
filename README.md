@@ -2,23 +2,23 @@
 
 Inoffizieller 64-Bit-Communityclient für Pirate Galaxy.
 
-**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.43/PirateGalaxyForge-0.2.0-alpha.43-Setup.exe)** · **0.2.0-alpha.43**
+**[Windows-Installer herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.44/PirateGalaxyForge-0.2.0-alpha.44-Setup.exe)** · **0.2.0-alpha.44**
 
 Die gemeinsame Core-Technik mit zusätzlichen Forge-Anzeigen: Baupläne mit Fundorten und CSV, Boss-/Staffelleisten, Errungenschaftenfilter, OTB-/Gravitonen-Widgets und anpassbare Effekte.
 
 [Installation](docs/user/INSTALLATION.md) · [Funktionen und 32-Bit-Vergleich](docs/user/FUNKTIONEN.md) · [Bedienung](docs/user/HILFE.md) · [Diagnose](docs/user/DIAGNOSE.md) · [Quellen](docs/sources/QUELLEN.md)
 
-**[Mac-Starter herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.43/PirateGalaxyForge-Enhanced-0.2.0-alpha.43-macOS.zip)** · [Apple-Silicon-Anleitung](docs/user/MAC.md) · CrossOver separat erforderlich; Mac-App noch nicht notarisiert.
+**[Mac-Starter herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.44/PirateGalaxyForge-Enhanced-0.2.0-alpha.44-macOS.zip)** · [Apple-Silicon-Anleitung](docs/user/MAC.md) · CrossOver separat erforderlich; Mac-App noch nicht notarisiert.
 
-## Neu in 0.2.0-alpha.43
+## Neu in 0.2.0-alpha.44
 
-Normale Blasterschüsse zuverlässig sichtbar. [Änderungen und Prüfstand](docs/releases/0.2.0-alpha.43.md) · [Alle Versionen](CHANGELOG.md).
+Keine nachgeholten Schussgeräusche bei vollen Audiokanälen. [Änderungen und Prüfstand](docs/releases/0.2.0-alpha.44.md) · [Alle Versionen](CHANGELOG.md).
 
 ## Core und Enhanced
 
 | Core | Enhanced |
 | --- | --- |
-| [0.2.0-alpha.43](https://github.com/FallenIncursio/pirate-galaxy-forge-core-releases) | [0.2.0-alpha.43](https://github.com/FallenIncursio/pirate-galaxy-forge-releases) |
+| [0.2.0-alpha.44](https://github.com/FallenIncursio/pirate-galaxy-forge-core-releases) | [0.2.0-alpha.44](https://github.com/FallenIncursio/pirate-galaxy-forge-releases) |
 | Gemeinsame Technik und ausgewählter Komfort | Core plus zusätzliche Forge-Funktionen |
 
 Getrennte Installationen und Updatekanäle; eine gemeinsame Core-Implementierung.

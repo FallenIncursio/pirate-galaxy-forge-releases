@@ -47,6 +47,14 @@ normaler Blasterschüsse: Größe, Richtung, Sichtbarkeitsgrenzen und letzte Üb
 an den Renderer. Das belegt noch keine tatsächlich sichtbaren Bildpunkte.
 Die Aufnahme erzeugt keine zusätzlichen Renderdurchläufe oder Serveranfragen.
 
+Bei verspäteten oder mehrfach gehörten Schussgeräuschen nimmt die gemeinsame
+30-Sekunden-Rucklerdiagnose zusätzlich begrenzte Audiowerte in `audio.json` auf.
+Enhanced erfasst dieselben Werte auch in der normalen Diagnoseaufnahme.
+Nach einigen Schüssen eine kurze Schusspause einlegen. Gemessen werden belegte
+Kanäle, verdrängte oder verworfene Effekte und wartende Fortsetzungen.
+Das ist keine Tonaufnahme und kein Beleg dafür, welches Geräusch tatsächlich
+zu hören war; es werden keine zusätzlichen Serverabfragen ausgelöst.
+
 Für die Enhanced-Reisekosten-Vorschau enthält der Export zusätzlich eine begrenzte
 Historie von Preis, Reisezeit, Mitgliedschaftsfaktor und ausgeblendeten Zuständen.
 Es werden dafür keine zusätzlichen Serveranfragen ausgelöst und keine Kontodaten erfasst.
