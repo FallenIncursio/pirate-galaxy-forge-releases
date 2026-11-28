@@ -64,6 +64,13 @@ die Rotmarkierung sowie Zähler für Spieler, PvE, PvP und unbekannte Absender.
 Damit lässt sich zwischen fehlender Spielerzuordnung und Darstellungsfehlern
 unterscheiden. Spielernamen und Spielerkennungen werden dabei nicht gespeichert.
 
+Bei fehlenden Enhanced-Bossleisten den Gegner nach Möglichkeit anvisieren und
+den Bericht exportieren. `bossbar.json` enthält bis zu 32 letzte Zustände der
+Erkennung, einschließlich Anzeigemodus, Namensquelle und Ablehnungsgrund.
+Diese bleiben innerhalb der Sitzung auch nach einem Despawn erhalten. Nur
+bekannte interne Spielkennungen werden übernommen, keine Spielernamen,
+Objektkennungen oder zusätzlichen Serverabfragen.
+
 Bei aktivierter OTB-Anzeige und OTB-Diagnose zeichnet Enhanced außerdem Phasenwechsel,
 die letzten Countdown-Sekunden und das Ende der lokalen Zuordnung auf. Verwendet
 werden bereits empfangene Modelle, keine zusätzlichen Serverabfragen. Die

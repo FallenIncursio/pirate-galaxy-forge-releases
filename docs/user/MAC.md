@@ -2,7 +2,7 @@
 
 [Übersicht](../../README.md) · [Diagnose](DIAGNOSE.md)
 
-**[Mac-Starter herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.44/PirateGalaxyForge-Enhanced-0.2.0-alpha.44-macOS.zip)** · [Kurzanleitung als HTML](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.44/Mac-Kurzanleitung.html)
+**[Mac-Starter herunterladen](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.45/PirateGalaxyForge-Enhanced-0.2.0-alpha.45-macOS.zip)** · [Kurzanleitung als HTML](https://github.com/FallenIncursio/pirate-galaxy-forge-releases/releases/download/v0.2.0-alpha.45/Mac-Kurzanleitung.html)
 
 Der Starter richtet den gemeinsamen Windows-x64-Client von Enhanced unter
 CrossOver ein. Spielupdates kommen aus demselben signierten Enhanced-Kanal.
